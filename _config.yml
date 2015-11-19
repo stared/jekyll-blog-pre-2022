@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Piotr Migdał - blog
+email: pmigdal@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Piotr Migdał - a data science freelancer, with PhD in quantum physics, based in Warsaw, Poland.
+  Active in gifted education, developing a Quantum Game.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: pmigdal
+github_username:  stared
+
+# Build settings
+markdown: kramdown
