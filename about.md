@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-See below. Right now my main homepage is: [migdal.wikidot.com/](http://migdal.wikidot.com/).
+Right now my main homepage is: [migdal.wikidot.com](http://migdal.wikidot.com/).
+
+Also: see below.
