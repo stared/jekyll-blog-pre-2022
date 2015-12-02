@@ -14,14 +14,14 @@ I decided to start a blog. I am not new to writing things - just this time I wan
 
 ## Why Jekyll?
 
-[Jekyll](https://jekyllrb.com/) is a static page generator. It's supported by GitHub, so there is no extra effort in starting, or maintaining it.
+[Jekyll](https://jekyllrb.com/) is a static page generator. It's supported by GitHub, so there is no extra effort in starting or maintaining it. And:
 
 * I like [Markdown](https://en.wikipedia.org/wiki/Markdown).
 * I like [GitHub](https://github.com/stared).
 * I like simplicity. (And I don't need fancy features.)
 * Yet, I want to configure some stuff.
 * I use LaTeX and I want to be able to use any HTML code (SVG diagrams, [D3.js](http://d3js.org/) visualizations...).
-* I am concerned about achieving things in plain formats.
+* I am concerned about archiving things in plain formats.
 * I want to avoid distractions. (By editing in a text editor - [Atom](https://atom.io/).)
 * Git commits gamify my efforts. (Seriously!)
 
