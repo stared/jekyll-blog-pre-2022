@@ -64,7 +64,7 @@ Freelancing is a perpendicular dimension. And some people love it, some hate and
 
 ## Empowering the readers
 
-There are a few follow-ups I consider:
+There are a few follow-ups I'm considering:
 
 * How did I learn about data science?
 * How to transition from academia to data science? (mostly practical links)
