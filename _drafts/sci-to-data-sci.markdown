@@ -6,7 +6,8 @@ tags:   [data science, academia]
 description: "Data science freelancing (vs academia): freedom, impact, meritocracy, fast pace, money."
 ---
 
-> TODO: picture "before" and "after"
+![Science to Data Science (goofy)]({site.url}}/imgs/2015-12-10-science-data-science-goofy.png)
+
 > TODO: linking some things
 
 (Just a bit of my background: I did undergraduate studies in physics and mathematics at the University of Warsaw, and PhD studies in theoretical quantum optics and information at ICFO - The Institute of Photonic Science. I really like science, but my experience with academic system was mixed.)
