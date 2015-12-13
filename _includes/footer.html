@@ -25,6 +25,20 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+
+          <li>
+            {% if site.linkedin_username %}
+              <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="fa fa-linkedin-square" style="color:#828282"></span></a>
+            {% endif %}
+
+            {% if site.stackexchange_username %}
+              <a href="https://stackexchange.com/users/{{ site.stackexchange_username }}"><span class="fa fa-stack-overflow" style="color:#828282"></span></a>
+            {% endif %}
+
+            {% if site.delicious_username %}
+              <a href="https://delicious.com/{{ site.delicious_username }}"><span class="fa fa-delicious" style="color:#828282"></span></a>
+            {% endif %}
+          </li>
         </ul>
       </div>
 

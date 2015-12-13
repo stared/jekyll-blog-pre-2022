@@ -15,6 +15,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "p.migdal.pl" # the base hostname & protocol for your site
 twitter_username: pmigdal
 github_username:  stared
+linkedin_username: piotrmigdal
+stackexchange_username: 506817/piotr-migdal
+delicious_username: stared
 
 # Build settings
 markdown: kramdown
