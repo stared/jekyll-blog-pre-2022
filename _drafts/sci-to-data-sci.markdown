@@ -8,8 +8,6 @@ description: "Data science freelancing (vs academia): freedom, impact, meritocra
 
 ![Science to Data Science (goofy)]({site.url}}/imgs/2015-12-10-science-data-science-goofy.png)
 
-> TODO: linking some things
-
 **tl;dr** After finishing my PhD in quantum information, I turned to data science. I couldn't be happier about this transition! Compared with academia, data science world looks to me like a wonderland.
 
 When meeting acquaintances, the typical conversation goes as follows:
@@ -21,7 +19,7 @@ When meeting acquaintances, the typical conversation goes as follows:
 * acq: _Oh, I see... [and an awkward silence]"_
 * me: _But it's legal!_
 
-I do data science freelancing. That is, I take contracts related to machine learning (predicting things, e.g. user growth of a company), data visualization (custom charts in D3.js), preparing and conducting trainings in data analysis, and other data expertise tasks (e.g. merging data from various source). It's rather a consulting-like service than being a code-monkey.
+I do data science freelancing. That is, I take contracts related to machine learning (predicting things, e.g. user growth of a company), data visualization (custom charts in D3.js), preparing and conducting trainings in data analysis (e.g. in [scikit-learn and Spark](http://workshops.deepsense.io/)), and other data expertise tasks (e.g. merging data from various source). It's rather a consulting-like service than being a code-monkey.
 
 I aim at short projects - I like energy, deadlines (sic!), and novelty. Typically I run 2-3 projects simultaneously.
 Some projects are purely commercial, some are academic or for NGOs (but still with grant money), some are my personal side-projects.
@@ -42,7 +40,7 @@ Right now, I love it! Here is why:
 * No politics - as a freelancer I can avoid it almost completely.
 * Projects are fast - if sometimes does not work, instead of getting more and more frustrated over the course of years, we change approach .
 * Much more $; while I was never too greedy, it has a direct consequence:
-  * I can buy a lot of time for my own projects (read: Quantum Game, teaching students).
+  * I can buy a lot of time for my own projects (e.g. [Quantum Game](http://quantumgame.io/)).
   * I am the chooser - all projects I accepted in the last year where ones I really enjoyed!
 * I interact with various people (IT, marketing, management and scientists) rather than only with fellow scientists.
 * I still travel a lot (mostly to lead my trainings).
@@ -53,7 +51,7 @@ I was afraid that the escape from academia would burn bridges, especially as I w
 
 Very often I am being asked by academics how to make the transition from physics or mathematics to data science or programming. I do my best to give as detailed, personal and practical answers as possible. When I get such emails, it's flattering when it comes from undergraduate students, I feel sympathetic when it's from PhD students, and it is sad - when from people, who have invested in academia a number of years after their PhDs. Especially ones that love academia with its quirks, but have family to support and cannot bear the lack of security and constant move.
 
-I have never regretted my transition. Instead of asking myself [why I am doing this](http://www.phdcomics.com/comics/archive.php?comicid=3) I am happy.
+I have never regretted my transition. Instead of asking myself *[why I am doing this](http://www.phdcomics.com/comics/archive.php?comicid=3)* I am happy.
 
 ## Caveat
 
@@ -75,8 +73,8 @@ There are a few follow-ups I'm considering:
 
 If you like to hear about one of these topics, mail me! :)
 
-I would like to thank Michał Kotowski and Marta Czarnocka-Cieciura for comments on the draft. This blog post started as an email o Artem Kaznatcheev entitled "what I do" I wrote when flying from Dublin to NYC.
+I would like to thank [Michał Kotowski](http://www.math.toronto.edu/~michal/), [Marta Czarnocka-Cieciura](http://martaczc.deviantart.com/) and [Jacek Migdał](http://jacek.migdal.pl/) for comments on the draft. This blog post started as an email to [Artem Kaznatcheev](https://plus.google.com/101780559173703781847) entitled *"what I do"* I wrote when flying from Dublin to NYC.
 
 [^1]: Sometimes I say that *freelancing is a way to monetize one's narcissism*: advertising oneself is a part of this job.
 [^2]: To be absolutely fair, I did apply to a single postdoc. But even then I collected notes in a file entitled [Stockholm syndrome](https://en.wikipedia.org/wiki/Stockholm_syndrome).
-[^3]: I still volunteer for Polish Children's Fund. I already created from scratch and conducted a one-week intensive introduction to data analysis in Python for social scientists (it would be hard to have such freedom as a young lecturer).
+[^3]: I still volunteer for the [Polish Children's Fund](https://en.wikipedia.org/wiki/Polish_Children%27s_Fund) - not less compared to when I was in academia. I already created from scratch and conducted a one-week intensive introduction to data analysis in Python for social scientists ([github.com/DELabUW/szkola-letnia-2015](https://github.com/DELabUW/szkola-letnia-2015), in Polish). It would be hard to have such freedom as a young lecturer.
