@@ -6,10 +6,10 @@ tags:
   - data science
   - academia
 description: 'Data science freelancing (vs academia): freedom, impact, meritocracy, fast pace, money.'
-image: {{site.url}}/imgs/2015-12-10-science-data-science-goofy.png
+image: http://p.migdal.pl/imgs/2015-12-10-science-data-science-goofy.png
 ---
 
-![Science to Data Science (goofy)]({{site.url}}/imgs/2015-12-10-science-data-science-goofy.png)
+![Science to Data Science (goofy)](http://p.migdal.pl/imgs/2015-12-10-science-data-science-goofy.png)
 
 **tl;dr** After finishing my PhD in quantum information, I turned to data science. I couldn't be happier about this transition! Compared with academia, data science world looks to me like a wonderland.
 
