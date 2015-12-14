@@ -62,7 +62,7 @@ Don't try to treat it as an unconditional recommendation of data science freelan
 
 Data science is great, but you need to enjoy programming, dealing with real & dirty data and with "good enough" solutions. (But no, you don't need to work in adverts or finance.)
 
-Freelancing is a perpendicular dimension (the "normal way" to do data science is via full-time works). Some people love it, some hate - it boils down to your psychological traits and whether you are able to get clients. As I like to say:
+Freelancing is a perpendicular dimension (the "normal way" to do data science is via full-time works). Whether you love or hate freelancing boils down to your psychological traits and whether you are able to get clients. As I like to say:
 
 > Freelancing is something exactly between having holidays and deadlines all the time.
 

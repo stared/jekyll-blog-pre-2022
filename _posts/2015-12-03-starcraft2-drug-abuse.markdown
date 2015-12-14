@@ -21,8 +21,8 @@ Then they go back to a shop, sell their stuff and buy flasks of booze - so they 
 
 (**Wings of Liberty**) Jim, an alcoholic, is visited by his old friend, Tychus, who went out of a prison. The ex-convict suggests a plan of stealing some ancient art. Jim want to spend this money on saving his ex-almost-girfriend Sarah from a devastating addiction. Just after doing so Tychus hears voices to kill her.
 
-(**Heart of the Swarm**) Sarah was once left to herself during a bad trip, by Artus. Her body is visibly changed by substance abuse ([Krokodil](http://time.com/3398086/the-worlds-deadliest-drug-inside-a-krokodil-cookhouse/)?), and she becomes a self-proclaimed queen of ants.
-Briefly freed from her addiction, as Jim goes to jail, she dives into in again and seeks nothing by vengeance on Artus.
+(**Heart of the Swarm**) Sarah was once left to herself during a bad trip, by Arcturus. Her body is visibly changed by substance abuse ([Krokodil](http://time.com/3398086/the-worlds-deadliest-drug-inside-a-krokodil-cookhouse/)?), and she becomes a self-proclaimed queen of ants.
+Briefly freed from her addiction, as Jim goes to jail, she dives into in again and seeks nothing by vengeance on Arcturus.
 
 (**Legacy of the Void**) Artanis, Zeratul and Selendis want to reclaim a meadow from the ants (look at their names, they are not sane even when sober). However, they should have been more careful about choosing shrooms: they become possessed by an evil god.
 They side with a homeless and burn her shelter, as it's infested.
@@ -30,7 +30,7 @@ They use machines to scorch ants.
 They help a mobster (an evil, but the only sane, person) to kill his boss in a duel.
 Group self-mutilation, friends killing each other while under influence - seriously, this trip goes horribly wrong!
 
-And the epilogue - Sarah takes a golden shot to meet god and make him pay. Two years latter Jim drinks to death.
+And the epilogue - Sarah takes a golden shot to meet god and make him pay. Two years later Jim drinks to death.
 
 ## Take home message
 
