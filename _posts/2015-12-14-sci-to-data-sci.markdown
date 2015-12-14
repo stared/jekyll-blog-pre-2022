@@ -71,7 +71,7 @@ Freelancing is a perpendicular dimension (the "normal way" to do data science is
 There are a few follow-ups I'm considering:
 
 * How did I learn about data science?
-* How to transition from academia to data science? (mostly practical links)
+* How to move from academia to data science? (mostly: practical links)
 * Why I got disappointed by academia?
 
 If you like to hear about one of these topics, mail me! :)
