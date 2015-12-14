@@ -54,7 +54,7 @@ I was afraid that the escape from academia would burn bridges, especially as I w
 
 Very often I am being asked by academics how to make the transition from physics or mathematics to data science or programming. I do my best to give as detailed, personal and practical answers as possible. When I get such emails, it's flattering when it comes from undergraduate students, I feel sympathetic when it's from PhD students, and it is sad - when from people, who have invested in academia a number of years after their PhDs. Especially ones that love academia with its quirks, but have family to support and cannot bear the lack of security and constant move.
 
-I have never regretted my transition. Instead of asking myself *[why I am doing this](http://www.phdcomics.com/comics/archive.php?comicid=3)* I am happy.
+I have never regretted my transition. Instead of asking myself *"[why I am doing this](http://www.phdcomics.com/comics/archive.php?comicid=3)"* I am happy.
 
 ## Caveat
 
@@ -76,7 +76,7 @@ There are a few follow-ups I'm considering:
 
 If you like to hear about one of these topics, mail me! :)
 
-I would like to thank [Michał Kotowski](http://www.math.toronto.edu/~michal/), [Marta Czarnocka-Cieciura](http://martaczc.deviantart.com/) and [Jacek Migdał](http://jacek.migdal.pl/) for comments on the draft. This blog post started as an email to [Artem Kaznatcheev](https://plus.google.com/101780559173703781847) entitled *"what I do"* I wrote when flying from Dublin to NYC.
+I would like to thank [Michał Kotowski](http://www.math.toronto.edu/~michal/), [Marta Czarnocka-Cieciura](http://martaczc.deviantart.com/) and [Jacek Migdał](http://jacek.migdal.pl/) for comments on the draft. This blog post started as an email to [Artem Kaznatcheev](https://plus.google.com/101780559173703781847) entitled *"what I do"* I wrote when flying from Dublin to NYC. Credit for the doge PhD picture goes to [Ryszard Paweł Kostecki](http://www.fuw.edu.pl/~kostecki/).
 
 [^1]: Sometimes I say that *freelancing is a way to monetize one's narcissism*: advertising oneself is a part of this job.
 [^2]: To be absolutely fair, I did apply to a single postdoc. But even then I collected notes in a file entitled [Stockholm syndrome](https://en.wikipedia.org/wiki/Stockholm_syndrome).
