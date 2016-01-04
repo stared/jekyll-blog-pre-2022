@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The first post"
+title:  "The first post: why Jekyll?"
 date:   2015-12-02 16:45:00 +0100
 author: Piotr Migdał
 tags:   [meta, jekyll]
