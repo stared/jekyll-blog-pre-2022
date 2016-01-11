@@ -26,4 +26,25 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+  <h1 class="page-heading">My talks and workshops (upcoming and recent)</h1>
+
+  <ul class="event-list">
+  {% for event in site.data.events %}
+    <li>
+      <span class="post-meta">
+        {{ event.date | date: "%-d %b %Y" }}
+        •
+        {{ event.place}}
+        •
+        {% for tag in event.tags %}
+          <span>[{{ tag }}]</span>
+        {% endfor %}
+      </span>
+      <br>
+      <a href="{{ event.href }}">{{ event.talk }}</a>
+      <span class="post-meta">@ {{ event.event}}</span>
+    </li>
+  {% endfor %}
+  </ul>
+
 </div>
