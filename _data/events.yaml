@@ -9,12 +9,19 @@
   event: 10. spotkanie Data Science Warsaw
   href:  http://www.meetup.com/Data-Science-Warsaw/events/228027529/
   place: Warsaw (Poland)
-  date:  2015-01-19
+  date:  2016-01-19
   tags:  [meetup]
 
 - talk:  Interaktywna wizualizacja danych w D3.js
   event: warsztaty KFnrD w ICM UW
   href:  http://fundusz.org/program/warsztaty-i-obozy/516-oferta-zajec-w-tym-roku-szkolnym
   place: Warsaw (Poland)
-  date:  2015-01-24
+  date:  2016-01-24
   tags:  [workshop, gifted-education]
+
+- talk:  Hands-on Machine Learning in Python & Spark
+  event: deepsense.io workshop
+  href:  http://workshops.deepsense.io/workshops/new-york-usa-feb-18th-19th-2016/
+  place: New York (USA)
+  date:  2016-02-18
+  tags:  [workshop]
