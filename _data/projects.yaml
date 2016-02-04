@@ -1,0 +1,20 @@
+- title:  Ritu-Blah-Blau (Global Game Jam)
+  desc:   Like posts, add friends and watch your step! PolyJam honourable mention for innovation.
+  href:   http://globalgamejam.org/2016/games/ritu-blah-blau
+  date:   2016-01-31
+  tags:   [game]
+  status: done
+
+- title:  Quantum Game
+  desc:   Play with photons, superposition and entanglement. With true quantum mechanics underneath.
+  href:   http://quantumgame.io/
+  date:
+  tags:   [game, physics]
+  status: in progress
+
+- title:  7.5 kadencji
+  desc:   Sankey plot of Polish parliament flows in the last 26 years
+  href:   https://github.com/mikolajjj/7kadencji
+  date:
+  tags:   [game]
+  status: in progress
