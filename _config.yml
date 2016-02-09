@@ -21,3 +21,13 @@ delicious_username: stared
 
 # Build settings
 markdown: kramdown
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+      mathjax:  false

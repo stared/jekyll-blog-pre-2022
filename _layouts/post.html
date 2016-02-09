@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 {% if page.mathjax %}
@@ -26,5 +27,9 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {% if page.comments %}
+    {% include disqus-comments.html %}
+  {% endif %}
 
 </article>
