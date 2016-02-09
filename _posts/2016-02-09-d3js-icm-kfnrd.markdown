@@ -1,7 +1,7 @@
 ---
 layout: post
 title: D3.js workshop at ICM for KFnrD
-date: '2016-02-09 01:05'
+date: '2016-02-08 12:00'
 author: Piotr Migdał
 tags:
   - kfnrd
