@@ -1,14 +1,15 @@
 ---
 layout: post
-title: D3.js workshop at ICM for KFnrD
-date:  2016-02-09 01:14:00 +0100
+title:  D3.js workshop at ICM for KFnrD
+date:   2016-02-09 01:14:00 +0100
 author: Piotr Migdał
 tags:
   - kfnrd
   - data-science
   - d3js
 mathjax: false
-description: 'KFnrD workshop: Interactive data visualization.'
+description: 'Interactive data visualization for high-school students of KFnrD (24-29 Feb 2016) - materials, results.'
+image: /imgs/2016-02-09-work.jpg
 ---
 
 24-29 Feb 2016 I had a workshop for gifted high-school students of Polish Children's Fund ([Krajowy Fundusz na rzecz Dzieci](http://fundusz.org/)) entitled *Interactive Data Visualization*. It was a part of workshops in practical computer science, at [ICM, University of Warsaw](http://www.icm.edu.pl/web/guest), organized by [@bolikowski](https://twitter.com/bolikowski).
