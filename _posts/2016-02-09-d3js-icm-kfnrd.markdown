@@ -1,7 +1,7 @@
 ---
 layout: post
 title: D3.js workshop at ICM for KFnrD
-date: '2016-02-08 12:00'
+date:  2016-02-09 01:14:00 +0100
 author: Piotr Migdał
 tags:
   - kfnrd
@@ -13,7 +13,7 @@ description: 'KFnrD workshop: Interactive data visualization.'
 
 24-29 Feb 2016 I had a workshop for gifted high-school students of Polish Children's Fund ([Krajowy Fundusz na rzecz Dzieci](http://fundusz.org/)) entitled *Interactive Data Visualization*. It was a part of workshops in practical computer science, at [ICM, University of Warsaw](http://www.icm.edu.pl/web/guest), organized by [@bolikowski](https://twitter.com/bolikowski).
 
-![](/imgs/kfnrd_icm_work.jpg)
+![Students working in a lab](/imgs/2016-02-09-kfnrd_icm_work.jpg)
 
 My intent was to show data visualization so they can start with getting data, and end up with a publicly-accessible data visualization.
 
@@ -64,7 +64,7 @@ I had 5 participants (3 girls, 2 boys), who had background mostly in algorithms,
   * [The Fallen of World War 2](http://www.fallen.io/ww2/)
   * [Bootstrap](http://getbootstrap.com/)
 
-![](/imgs/kfnrd_icm_girls.jpg)
+![Women can code better](/imgs/2016-02-09-kfnrd_icm_girls.jpg)
 
 ## Fruits
 
@@ -89,4 +89,4 @@ Some projects required data wrangling, which they did in C++, C# and Perl. I was
 Force-directed graph is a black hole - once I showed it, all of the participants wanted to use it.
 I have mixed feelings about it - I love them (TagOverflow, Themes of Polish Books, etc), but it is more high-level than the core D3.js API. And projects were not as diverse as they might have been.
 
-![](/imgs/kfnrd_icm_floor.jpg)
+![Informal talks in the corridor](/imgs/2016-02-09-kfnrd_icm_floor.jpg)
