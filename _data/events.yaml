@@ -25,3 +25,10 @@
   place: New York (USA)
   date:  2016-02-18
   tags:  [workshop]
+
+- talk:  Interaktywna wizualizacja danych (wykład) + D3.js (warsztaty)
+  event: Studencki Festiwal Informatyczny
+  href:  http://sfi.org.pl/agenda/
+  place: Kraków (Poland)
+  date:  2016-03-11
+  tags:  [talk, workshop]
