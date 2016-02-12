@@ -12,15 +12,13 @@ order:  1
   {% for article in articles_sorted reversed %}
     <li>
       <span class="post-meta">
-        {{ article.date | date: "%-d %b %Y" }}
+        {{ article.date | date: "%Y" }}
         •
-        {% for tag in article.tags %}
-          <span>[{{ tag }}]</span>
-        {% endfor %}
       </span>
-      <br>
       <a href="{{ article.href }}">{{ article.title }}</a>
-      <span class="post-meta">@ {{ article.at }}</span>
+      <span class="post-meta">
+        @ {{ article.at }}
+      </span>
     </li>
   {% endfor %}
   </ul>
