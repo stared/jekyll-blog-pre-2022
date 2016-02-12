@@ -6,7 +6,7 @@ order:  1
 
 <div class="home">
 
-  <h1 class="page-heading">External articles, posts, write-ups, etc</h1>
+  <h1 class="page-heading">External articles, posts, write-ups, etc (excluding research papers)</h1>
   <ul class="event-list">
   {% assign articles_sorted = site.data.articles | sort: "date" %}
   {% for article in articles_sorted reversed %}
@@ -19,7 +19,7 @@ order:  1
         {% endfor %}
       </span>
       <br>
-      <a href="{{ event.href }}">{{ article.title }}</a>
+      <a href="{{ article.href }}">{{ article.title }}</a>
       <span class="post-meta">@ {{ article.at }}</span>
     </li>
   {% endfor %}
