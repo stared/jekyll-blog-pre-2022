@@ -16,6 +16,12 @@
   date:  2012-08-31
   tags:  [external-post]
 
+- title: Open Science and Science 2.0
+  at:    Offtopicarium
+  href:  http://offtopicarium.wikidot.com/v1:open-science-2-0
+  date:  2012-08-11
+  tags:  [external-post]
+
 - title: "answer to: Why are papers without code but with results accepted?"
   at:    Academia Stack Exchange
   href:  http://academia.stackexchange.com/a/23238
@@ -31,7 +37,7 @@
 - title: "answer to: What is the role of the logarithm in Shannon entropy?"
   at:    Cross Validated Stack Exchange
   href:  http://stats.stackexchange.com/a/87194
-  date:  2015-15-25
+  date:  2015-03-25
   tags:  [stackexchange]
 
 - title: "answer to: Why use version control systems for writing a paper?"
