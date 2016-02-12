@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+order: 999
 ---
 
 Piotr Migdał, PhD - freelancing in data analysis, processing and interactive visualization (a "data scientist", to put it fashionably).
