@@ -63,7 +63,7 @@
   status: ongoing, but not in charge
 
 - title:  256 Tags of Stack Overflow, Stack Exchange network
-  desc:   Static coincidence graphs ofr Stack Exchange
+  desc:   Static coincidence graphs for Stack Exchange Q&A sites.
   href:   https://github.com/stared/tag-graph-map-of-stackexchange/wiki
   dateStart:   2012-10-28
   dateEnd:     2012-12-13
