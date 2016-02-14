@@ -1,20 +1,78 @@
-- title:  Ritu-Blah-Blau (Global Game Jam)
-  desc:   Like posts, add friends and watch your step! PolyJam honourable mention for innovation.
-  href:   http://globalgamejam.org/2016/games/ritu-blah-blau
-  date:   2016-01-31
-  tags:   [game]
-  status: done
-
 - title:  Quantum Game
   desc:   Play with photons, superposition and entanglement. With true quantum mechanics underneath.
   href:   http://quantumgame.io/
-  date:
+  dateStart: 2014-07-20
+  dateEnd:
   tags:   [game, physics]
-  status: in progress
+  status: in progress (active!)
+
+- title:  Ritu-Blah-Blau (Global Game Jam)
+  desc:   Like posts, add friends and watch your step! PolyJam honourable mention for innovation.
+  href:   http://globalgamejam.org/2016/games/ritu-blah-blau
+  dateStart: 2016-01-29
+  dateEnd:   2016-01-31
+  tags:   [game]
+  status: done
 
 - title:  7.5 kadencji
-  desc:   Sankey plot of Polish parliament flows in the last 26 years
+  desc:   Sankey plot of Polish parliament flows in the last 26 years.
   href:   https://github.com/mikolajjj/7kadencji
-  date:
-  tags:   [game]
-  status: in progress
+  dateStart:   2015-10-31
+  dateEnd:
+  tags:   [visualization]
+  status: in progress (sort of)
+
+- title:  Analiza i wizualizacja danych maturalnych, DELab UW
+  desc:   Polish high school final exams - analysis (in Polish).
+  href:   https://github.com/stared/delab-matury
+  dateStart:   2015-03-25
+  dateEnd:     2015-10-22
+  tags:   [visualization, data-science]
+  status: done
+
+- title:  Szkoła letnia analizy danych 2015, DELab UW
+  desc:   Materials from Summer School of Data Analysis for Sociologists (IPython Notebooks, in Polish).
+  href:   https://github.com/DELabUW/szkola-letnia-2015
+  dateStart:   2015-05-11
+  dateEnd:     2015-07-20
+  tags:   [data-science, course]
+  status: done
+
+- title:  TagOverflow
+  desc:   Interactive graph of Stack Exchange tag coincidence.
+  href:   http://p.migdal.pl/tagoverflow
+  dateStart:   2013-09-29
+  dateEnd:     2015-03-01
+  tags:   [visualization]
+  status: done
+
+- title:  Offtopicarium
+  desc:   An unconference - all participants are speakers and there are not off-topics.
+  href:   http://offtopicarium.wikidot.com/
+  dateStart:   2012-08-10
+  dateEnd:
+  tags:   [event]
+  status: ongoing, but not in charge
+
+- title:  Wakacyjne Warsztaty Wielodyscyplinarne
+  desc:   A summer camp math/phys/cs camp for high schools students.
+  href:   http://warsztatywww.pl/
+  dateStart:   2007-09-09
+  dateEnd:
+  tags:   [event]
+  status: ongoing, but not in charge
+
+- title:  256 Tags of Stack Overflow, Stack Exchange network
+  desc:   Static coincidence graphs ofr Stack Exchange
+  href:   https://github.com/stared/tag-graph-map-of-stackexchange/wiki
+  dateStart:   2012-10-28
+  dateEnd:     2012-12-13
+  tags:   [visualization]
+  status: done
+
+# SKFiz
+# OSKNF
+# KFnrD Viz
+# Wolne Lektury
+# Flaszki
+# Qubism QuTiP

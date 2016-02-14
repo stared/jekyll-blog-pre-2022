@@ -2,7 +2,7 @@
 layout: page
 title: Resume
 permalink: /resume/
-order: 2
+order: 998
 ---
 
 My public CV/Resume:

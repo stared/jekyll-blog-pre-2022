@@ -1,0 +1,29 @@
+---
+layout: page
+title:  Projects
+order:  1
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Repos, events I organized, etc</h1>
+  <ul class="event-list">
+  {% for project in site.data.projects %}
+    <li>
+      <a href="{{ project.href }}">{{ project.title }}</a>
+      <span class="post-meta">
+      {% for tag in project.tags %}
+        <span>[{{ tag }}]</span>
+      {% endfor %}
+      •
+      started: {{ project.dateStart | date: "%Y" }}
+      •
+      {{ project.status}}
+      </span>
+      </br>
+      {{ project.desc }}
+    </li>
+  {% endfor %}
+  </ul>
+
+</div>
