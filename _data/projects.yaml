@@ -46,6 +46,38 @@
   tags:   [visualization]
   status: done
 
+- title:  Fellows and alumni of the Polish Children's Fund
+  desc:   Map of Poland with locations and interests of KFnrD fellows.
+  href:   http://p.migdal.pl/kfnrd_viz/mapa.html
+  dateStart:   2014-06-18
+  dateEnd:     2014-07-20
+  tags:   [visualization]
+  status: done
+
+- title:  Qubism in QuTiP
+  desc:   Self-similar visualization of many-body wavefunctions in a quantum Python package.
+  href:   http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/blob/master/examples/example-qubism-and-schmidt-plots.ipynb
+  dateStart:   2014-03-01  # approx
+  dateEnd:     2014-04-01
+  tags:   [visualization, physics]
+  status: done
+
+- title:  Themes and colors of Wolne Lektury books
+  desc:   Visualizations of metadata from a public domain set of Polish books.
+  href:   https://github.com/stared/wizualizacja-wolnych-lektur
+  dateStart:   2013-02-17
+  dateEnd:     2013-03-19
+  tags:   [visualization]
+  status: done
+
+- title:  256 Tags of Stack Overflow, Stack Exchange network
+  desc:   Static coincidence graphs for Stack Exchange Q&A sites.
+  href:   https://github.com/stared/tag-graph-map-of-stackexchange/wiki
+  dateStart:   2012-10-28
+  dateEnd:     2012-12-13
+  tags:   [visualization]
+  status: done
+
 - title:  Offtopicarium
   desc:   An unconference - all participants are speakers and there are not off-topics.
   href:   http://offtopicarium.wikidot.com/
@@ -62,17 +94,6 @@
   tags:   [event]
   status: ongoing, but not in charge
 
-- title:  256 Tags of Stack Overflow, Stack Exchange network
-  desc:   Static coincidence graphs for Stack Exchange Q&A sites.
-  href:   https://github.com/stared/tag-graph-map-of-stackexchange/wiki
-  dateStart:   2012-10-28
-  dateEnd:     2012-12-13
-  tags:   [visualization]
-  status: done
-
 # SKFiz
 # OSKNF
-# KFnrD Viz
-# Wolne Lektury
 # Flaszki
-# Qubism QuTiP
