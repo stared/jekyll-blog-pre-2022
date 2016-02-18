@@ -12,7 +12,7 @@ description: 'Interactive data visualization for high-school students of KFnrD (
 image: /imgs/2016-02-09-work.jpg
 ---
 
-24-29 Jan 2016 I had a workshop for gifted high-school students of Polish Children's Fund ([Krajowy Fundusz na rzecz Dzieci](http://fundusz.org/)) entitled *Interactive Data Visualization*. It was a part of workshops in practical computer science, at [ICM, University of Warsaw](http://www.icm.edu.pl/web/guest), organized by [@bolikowski](https://twitter.com/bolikowski).
+24-29 Jan 2016 I had a workshop for gifted high-school students of the [Polish Children's Fund](https://en.wikipedia.org/wiki/Polish_Children%27s_Fund) ([Krajowy Fundusz na rzecz Dzieci](http://fundusz.org/)) entitled *Interactive Data Visualization*. It was a part of workshops in practical computer science, at [ICM, University of Warsaw](http://www.icm.edu.pl/web/guest), organized by [@bolikowski](https://twitter.com/bolikowski).
 
 ![Students working in a lab](/imgs/2016-02-09-kfnrd_icm_work.jpg)
 
