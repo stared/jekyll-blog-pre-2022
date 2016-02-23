@@ -32,3 +32,17 @@
   place: Kraków (Poland)
   date:  2016-03-11
   tags:  [talk, workshop]
+
+- talk:  Python in Data Science
+  event: free deepsense.io workshop at Campus London
+  href:  http://workshops.deepsense.io/workshops/python-in-data-science-hands-on-workshops/
+  place: London (UK)
+  date:  2016-03-22
+  tags:  [workshop]
+
+- talk:  Machine Learning (Python) and Spark
+  event: deepsense.io workshop
+  href:  http://workshops.deepsense.io/workshops/machine-learning-and-spark-workshops-london-uk-march-24th-25th-2016/
+  place: London (UK)
+  date:  2016-03-24
+  tags:  [workshop]
