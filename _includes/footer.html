@@ -2,18 +2,17 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
+
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li>website: <a href="https://migdal.wikidot.com">migdal.wikidot.com</a></li>
-          <li>qg: <a href="http://quantumgame.io/">quantumgame.io</a></li>
-        </ul>
+        <img src="{{ site.url }}/imgs/global/piotr_migdal_2013_mit_300sq.jpg" alt="Piotr Migdał - as of 2013" width="150px" height="150px" />
       </div>
 
       <div class="footer-col footer-col-2">
+        <ul class="contact-list">
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="{{ site.url }}">{{ site.url }}</a></li>
+        </ul>
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -40,11 +39,13 @@
               <a href="https://delicious.com/{{ site.delicious_username }}"><span class="fa fa-delicious" style="color:#828282"></span></a>
             {% endif %}
           </li>
+          <li><a href="http://quantumgame.io">quantumgame.io</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
+        <p>Python (+ ε of R) for data analysis and machine learning, JavaScript for data visualization.</p>
       </div>
     </div>
 
