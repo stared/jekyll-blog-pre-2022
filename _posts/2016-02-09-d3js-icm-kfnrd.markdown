@@ -85,7 +85,7 @@ I was not sure if starting with JavaScript syntax was enough. But it turned abou
 
 I had a few data pieces in mind, but let them to choose their topic. It introduced some initial chaos, but I wanted to makes sure they have data they like and they are able to pick a sensible dataset.
 
-Some projects required data wrangling, which they did in C++, C# and Perl. I was tempted to show Python but it was not enough time. I only showed [one Python script (Jupter Notebook) to scrape Stack Overflow Jobs data](https://github.com/stared/Jobs-on-Stack-Visualisation/blob/master/careers%20data%20downloading.ipynb) and explained it step by step.
+Some projects required data wrangling, which they did in C++, C# and Perl. I was tempted to show Python but it was not enough time. I only showed [one Python script (Jupyter Notebook) to scrape Stack Overflow Jobs data](https://github.com/stared/Jobs-on-Stack-Visualisation/blob/master/careers%20data%20downloading.ipynb) and explained it step by step.
 
 Force-directed graph is a black hole - once I showed it, all of the participants wanted to use it.
 I have mixed feelings about it - I love them (TagOverflow, Themes of Polish Books, etc), but it is more high-level than the core D3.js API. And projects were not as diverse as they might have been.
