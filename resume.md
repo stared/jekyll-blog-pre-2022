@@ -5,9 +5,9 @@ permalink: /resume/
 order: 998
 ---
 
-My public CV/Resume:
+My public Resume/CV:
 
-* [data science / programming resume](https://github.com/stared/cv-resume/blob/master/piotr_migdal_cv_prog.pdf?raw=true)
+* [data science / programming resume](https://github.com/stared/cv-resume/blob/master/piotr_migdal_resume_data_sci.pdf?raw=true)
 * [academic CV](https://github.com/stared/cv-resume/blob/master/piotr_migdal_cv_sci.pdf?raw=true)
 
 For the most recent version - contact me.
