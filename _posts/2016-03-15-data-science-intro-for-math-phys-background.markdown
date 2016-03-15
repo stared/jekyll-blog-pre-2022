@@ -14,7 +14,7 @@ image: /imgs/2016-03-15-dark-side-of-science-meme.jpg
 
 ![(meme) Welcome to dark side of science - data science](/imgs/2016-03-15-dark-side-of-science-meme.jpg)
 
-After posting [What I do or: science to data science]({site.url}/2015/12/14/sci-to-data-sci.html) I got a lot of emails on how to make this transition.
+After posting [What I do or: science to data science]({{site.url}}/2015/12/14/sci-to-data-sci.html) I got a lot of emails on how to make this transition.
 
 In this post I try to summarize my advice. I don't intend to write a complete *walkthrough*, but to provide a starting point, with links to further materials. I target it at people with academic, quantitative background (e.g. physics, mathematics, statistics), regardless if they are undergraduate students, PhDs or after a few postdocs. Some points may be valid for other backgrounds[^1] (but then - use it at your own risk).
 
@@ -209,7 +209,7 @@ Often you will need to install something, collaborate with others and do other t
   * e.g. [The Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro)
 * HTML (and JavaScript may be a plus)
   * [Introduction to HTML - MDN ](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
-  * my post: [D3.js workshop at ICM for KFnrD]({site.url}/2016/02/09/d3js-icm-kfnrd.html)
+  * my post: [D3.js workshop at ICM for KFnrD]({{site.url}}/2016/02/09/d3js-icm-kfnrd.html)
 
 Don't be afraid of new technologies (e.g. *this data is in [MongoDB](https://docs.mongodb.org/getting-started/python/introduction/), a NoSQL database; can you fetch it?*) - often you can learn basics in a day.
 Most technologies, from the user's perspective, are easy (at least comparing to algebraic geometry or quantum field theory).
@@ -238,7 +238,7 @@ It can be an IPython Notebook, or a website, or even a just a plot (but then be 
 
 So, once again, be sure to get a [GitHub](https://github.com) account (for hosting code, [notebooks](https://github.com/blog/1995-github-jupyter-notebooks-3) and [websites](https://pages.github.com/)). Mine looks like that: [github.com/stared](https://github.com/stared).
 And don’t be afraid to put premature code: if it is not good yet then no-one will notice (or care) anyway.
-Also, some people like writing about problems they have just learnt (e.g. [How gzip uses Huffman coding - Julia Evans](http://jvns.ca/blog/2015/02/22/how-gzip-uses-huffman-coding/)). If it is your thing - just do it (see [my post on Jekyll]({site.url}/2015/12/02/first-post.html))!
+Also, some people like writing about problems they have just learnt (e.g. [How gzip uses Huffman coding - Julia Evans](http://jvns.ca/blog/2015/02/22/how-gzip-uses-huffman-coding/)). If it is your thing - just do it (see [my post on Jekyll]({{site.url}}/2015/12/02/first-post.html))!
 
 
 ## Data science boot camps
