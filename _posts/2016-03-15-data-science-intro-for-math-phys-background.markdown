@@ -18,7 +18,7 @@ After posting [What I do or: science to data science]({{site.url}}/2015/12/14/sc
 
 In this post I try to summarize my advice. I don't intend to write a complete *walkthrough*, but to provide a starting point, with links to further materials. I target it at people with academic, quantitative background (e.g. physics, mathematics, statistics), regardless if they are undergraduate students, PhDs or after a few postdocs. Some points may be valid for other backgrounds[^1] (but then - use it at your own risk).
 
-Here and everywhere else: please don't take approach of *learn book[s] then play* - start with playing.
+Here and everywhere else: please don't take approach of *learn book[s] then play* - start with playing!
 
 
 ## My story
@@ -50,8 +50,8 @@ From my perspective the whole process looks that way:
 * interpret and use results (being able to understand the above)
 * present results (a report, plot, interactive data visualization)
 
-And everything done in a reproducible way - so other can interact with your code, or even run it on a server. Depending on the job, there may be more emphasis or one part or the other.
-Or even look at [this tweet](https://twitter.com/JennyBryan/status/688866722980364289) - while humorous, showing a balanced list of typical skills and activities of a data scientist:
+And everything needs to be done in a reproducible way - so others can interact with your code, or even run it on a server. Depending on the job, there may be more emphasis on one part or the other.
+Or even look at [this tweet](https://twitter.com/JennyBryan/status/688866722980364289) - while humorous, it shows a balanced list of typical skills and activities of a data scientist:
 
 ![a data scientist should be able to (by Joel Grus)](/imgs/2016-03-15-a-data-scientist-should.png)
 
@@ -71,7 +71,7 @@ When you have some academic title, no-one will question your intelligence. But t
 
 Most data science things are simple and at the point that you are able to use R or Python you can start working, gradually increasing your knowledge and experience. That is, after a few months you should be ready to start an entry-level job.
 
-I was afraid that it is a problem that I lack 10+ years of experience with C++ and Java; so how can I compete with serious software engineers, who did their computer science major? But it turned out that most of my commercial projects are for IT companies - they have wonderful programmers but often no-one proficient at dealing with real data. So (from *Academia to Industry* linked below):
+Initially, I was afraid that it is a problem that I lack 10+ years of experience with C++ and Java. So how could I compete with serious software engineers, who did their computer science major? But it turned out that most of my commercial projects are for IT companies - they have wonderful programmers but often no-one proficient at dealing with real data. So (from *Academia to Industry* linked below):
 
 > While having a strong coding ability is important, data science isn’t all about software engineering (in fact, have a good familiarity with Python and you’re good to go). Data scientists live at the intersection of coding, statistics, and critical thinking.
 
@@ -87,7 +87,7 @@ In academia, you are allowed to cherry-pick an artificial problem and work on it
 
 In industry, you should solve a given problem end-to-end. Things need to work, and there is little difference if it is based on an academic paper, usage of an existing library, your own code or an impromptu hack. The solution needs to be on time, even if just *good enough* and based on shady and poorly understood assumptions.
 
-So, contrary to its name, it's rarely 'science'[^2]. That is, in data science the emphasis is on practical results (like in engineering) - not proofs, mathematical purity or rigor characteristic to academic science.
+So, contrary to its name, it's rarely *science*[^2]. That is, in data science the emphasis is on practical results (like in engineering) - not proofs, mathematical purity or rigor characteristic to academic science.
 
 
 ### Resume vs academic CV
@@ -98,7 +98,7 @@ To see the difference, compare and contrast [my data science resume](https://git
 
 ### Interviews
 
-Applying for a job involves being asked technical questions - on the phone or Skype. For software engineering it involves both conceptual and whiteboard coding; for data science it may vary. In any case, look at:
+Applying for a job involves being asked technical questions - on the phone or Skype. For software engineering it involves both conceptual questions and whiteboard coding; for data science it may vary. In any case, take a look at:
 
 * [Data Science Interviews - Trey Causey](http://treycausey.com/data_science_interviews.html)
 
@@ -108,7 +108,7 @@ If you need learn basic algorithms and data structures, I recommend this classic
 
 If you get no technical questions, it may be a red flag.
 If you get only software engineering questions, it may be a sign that they want to hire a programmer, not - a data scientist (no matter what their job calling says);
-and iven you background you want to be a Type A Data scientist, according to [this taxonomy](https://www.quora.com/What-is-a-data-scientist-3/answer/Michael-Hochster).
+and given you background you want to be a Type A Data scientist (i.e. more a statistician than a regular programmer), according to [this taxonomy](https://www.quora.com/What-is-a-data-scientist-3/answer/Michael-Hochster).
 
 
 ## Programming languages
@@ -158,7 +158,7 @@ Some R pearls:
 
 Python is a much better general-purpose language (with pros and cons on not being statistics-oriented).
 
-For Python, I would suggest installing it (Python 3) through [Anaconda](https://www.continuum.io/downloads), and using [Jupyter Notebook](http://jupyter.org/). Main packages are [NumPy](http://www.numpy.org/), [SciPy](http://www.scipy.org/) (numerics), [Pandas](http://pandas.pydata.org/) (like R dataframes), [matplotlib](http://matplotlib.org/) (plots, but not as nice as ggplot2) and [scikit-learn](http://scikit-learn.org/) (for machine learning). Learn to be comfortable with Python (installing packages, loading, saving and transforming data, etc).
+For Python, I would suggest installing it (Python 3) through [Anaconda](https://www.continuum.io/downloads), and using [Jupyter Notebook](http://jupyter.org/). Main packages are [NumPy](http://www.numpy.org/), [SciPy](http://www.scipy.org/) (numerics), [Pandas](http://pandas.pydata.org/) (like R dataframes), [matplotlib](http://matplotlib.org/) (plots, but not as nice as ggplot2) and [scikit-learn](http://scikit-learn.org/) (for machine learning). Learn to be comfortable with Python (installing packages, loading, saving and transforming data, etc) - links below may help:
 
 * [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html)
 * [Pandas Visualization](http://pandas.pydata.org/pandas-docs/stable/visualization.html)
@@ -169,7 +169,7 @@ For Python, I would suggest installing it (Python 3) through [Anaconda](https://
 
 ## Statistics and Machine Learning
 
-Before, you need some basic linear algebra (vectors, matrices, SVD, ...), calculus (exp, log, differentiation, integration, ...) probability (independence, conditional probability, ...), but if you are from natural science background, you already know that.
+You need some basic linear algebra (vectors, matrices, SVD, ...), calculus (exp, log, differentiation, integration, ...) probability (independence, conditional probability, ...), but if you are from natural science background, you already know that.
 It does not mean that you know all - it just means that right now you have mathematical skills sufficient to be an employable data scientists and you are able to read about other methods, algorithms, etc.
 
 * [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
@@ -211,7 +211,7 @@ Often you will need to install something, collaborate with others and do other t
   * [Introduction to HTML - MDN ](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
   * my post: [D3.js workshop at ICM for KFnrD]({{site.url}}/2016/02/09/d3js-icm-kfnrd.html)
 
-Don't be afraid of new technologies (e.g. *this data is in [MongoDB](https://docs.mongodb.org/getting-started/python/introduction/), a NoSQL database; can you fetch it?*) - often you can learn basics in a day.
+Don't be afraid of learning new technologies (e.g. *this data is in [MongoDB](https://docs.mongodb.org/getting-started/python/introduction/), a NoSQL database; can you fetch it?*) - often you can get the basics in a day.
 Most technologies, from the user's perspective, are easy (at least comparing to algebraic geometry or quantum field theory).
 
 
