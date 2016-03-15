@@ -1,76 +1,116 @@
 ---
 layout: "post"
 title: "Data science intro for math/phys background"
-date: "2016-03-02 21:03"
+date: "2016-03-15 13:00"
 author: Piotr Migdał
 tags:   [data-science,python,r]
 mathjax: false
-description: "Learn Python (or R), machine learning and other stuff."
+description: "Academia to data science? Learn Python (or R), machine learning and other stuff."
 ---
+
+![(meme) Welcome to dark side of science - data science](/imgs/2016-03-15-dark-side-of-science-meme.jpg)
 
 After posting [What I do or: science to data science]({site.url}/2015/12/14/sci-to-data-sci.html) I got a lot of emails on how to make this transition.
 
-In this post I try to summarize my advice. I don't intend to write a complete *walkthrough*, but to provide a starting point, with links to further materials. I target it at people with quantitative background (e.g. physics, mathematics, statistics), regardless if they are undergraduate students, PhDs or after a few postdocs. Some points may be valid for other backgrounds (but then - use it at your own risk).
+In this post I try to summarize my advice. I don't intend to write a complete *walkthrough*, but to provide a starting point, with links to further materials. I target it at people with academic, quantitative background (e.g. physics, mathematics, statistics), regardless if they are undergraduate students, PhDs or after a few postdocs. Some points may be valid for other backgrounds[^1] (but then - use it at your own risk).
 
 Here and everywhere else: please don't take approach of *learn book[s] then play* - start with playing.
 
 
-## My background
+## My story
 
 In short:
 
-* I had a lot of background in physics, signal analysis and academic programming; and none in practical programming.
-* After the 1st year of my PhD studies I started learning Python (for web scraping and plotting).
-* 6 months later I participated in a 1-month data science school (Big Dive in Turin).
-* 6 months later I went to a summer internship in data science in San Francisco (for 4 months).
+* I had a strong background in physics and interest in complex system; I did a lot of academic programming and none of - practical.
+* After the 1st year of my PhD studies I started learning Python (for web scraping and plotting) on my own time.
+* 9 months later I participated in a 1-month data science school (Big Dive in Turin).
+* 8 months later I went to a summer internship in data science in San Francisco (for 4 months).
 * I started part-time freelancing (as I was finishing my PhD).
+* After finishing PhD I made it may main activity.
 
-Most data science things are simple and at the point that you are able to use R or Python you can start, gradually increasing your knowledge and experience. All projects required me to learn something new.
+All projects required me to learn something new - be it a library, a machine learning model or a software tool.
 
 
 ## What is data science?
 
+Analyzing real, and often - dirty, data using a mixture of programming and statistics. Or, [as Josh Wills put it](https://www.quora.com/What-is-the-difference-between-a-data-scientist-and-a-statistician):
+
 > Data scientist is a person who is better at statistics than any programmer and better at programming than any statistician.
 
-* [The State of Data Science - RJMetrics Report](https://rjmetrics.com/resources/reports/the-state-of-data-science/) - especially plots *top 20 skills of a data scientist* and *top 20 backgrounds of data scientists*; corollary: you don't have to know all
-* [Doing Data Science at Twitter - Robert Chang](https://medium.com/@rchang/my-two-year-journey-as-a-data-scientist-at-twitter-f0c13298aee6) - you want to be a Type A Data Scientist, according to its taxonomy
-* [Advice and insights from 25 amazing data scientists](http://www.thedatasciencehandbook.com/) - interviews with practitioners holding various positions, having various backgrounds
+From my perspective the whole process looks that way:
 
-Contrary to its name, it's rarely 'science'. That is, in data science the emphasis is on practical results (like in engineering) - not proofs, mathematical purity or rigor characteristic to academic science. Things need to work, and there is little difference if it is based on an academic paper, usage of an existing library, your own code or an impromptu hack.
+* ask question that is relevant to the project
+* get data (CSV, SQL, plain text)
+* process it (joining, cleaning, supplementing it)
+* run analysis (statistical tests or machine learning)
+* interpret and use results (being able to understand the above)
+* present results (a report, plot, interactive data visualization)
+
+And everything done in a reproducible way - so other can interact with your code, or even run it on a server. Depending on the job, there may be more emphasis or one part or the other.
+Or even look at [this tweet](https://twitter.com/JennyBryan/status/688866722980364289) - while humorous, showing a balanced list of typical skills and activities of a data scientist:
+
+![a data scientist should be able to (by Joel Grus)](/imgs/2016-03-15-a-data-scientist-should.png)
+
+If you want to learn more about what is data science, look at the following links:
+
+* [The State of Data Science - RJMetrics Report](https://rjmetrics.com/resources/reports/the-state-of-data-science/) - especially plots *top 20 skills of a data scientist* and *top 20 backgrounds of data scientists*; corollary: you don't have to know everything
+* [Doing Data Science at Twitter - Robert Chang](https://medium.com/@rchang/my-two-year-journey-as-a-data-scientist-at-twitter-f0c13298aee6)
+* [Advice and insights from 25 amazing data scientists](http://www.thedatasciencehandbook.com/) - interviews with practitioners holding various positions, having various backgrounds
 
 
 ## On the transition
 
-When you have some academic title, no-one will question your intelligence. But they may question your practical skills. From my experience, you need to fulfill two requirements:
+When you have some academic title, no-one will question your intelligence. But they are justified to question your practical skills. From my experience, you need to fulfill two requirements:
 
 * have minimal skills so that you are useful starting from day 1 (e.g. you can get data and present summary statistics; they don’t want to start with teaching you Python and Git),
 * be able and eager to learn (in general, their technologies, be self-driven to discover and solve new problems even without being explicitly guided).
 
-I was afraid that it is a problem that I lack 10+ years of experience with C++ and Java; so how can I compete with serious software engineers, who did their computer science major? And well, most of my projects are for IT companies - they have wonderful software engineers but often no-one proficient at dealing with real data.
+Most data science things are simple and at the point that you are able to use R or Python you can start working, gradually increasing your knowledge and experience. That is, after a few months you should be ready to start an entry-level job.
 
-> While having a strong coding ability is important, data science isn’t all about software engineering (in fact, have a good familiarity with python and you’re good to go). Data scientists live at the intersection of coding, statistics, and critical thinking.
+I was afraid that it is a problem that I lack 10+ years of experience with C++ and Java; so how can I compete with serious software engineers, who did their computer science major? But it turned out that most of my commercial projects are for IT companies - they have wonderful programmers but often no-one proficient at dealing with real data. So (from *Academia to Industry* linked below):
+
+> While having a strong coding ability is important, data science isn’t all about software engineering (in fact, have a good familiarity with Python and you’re good to go). Data scientists live at the intersection of coding, statistics, and critical thinking.
+
+See also:
 
 * [How to leave academia - Chris Stucchio](https://www.chrisstucchio.com/blog/2012/leaving_academia.html) - getting practical skills, interviews, salary negotiations
 * [Academia to Industry: Data Science Myths and Truths - Emily Thompson](http://www.insightdatascience.com/blog/academia_to_industry_data_science_myths_and_truths.html) - so: no, you don't have to do adverts or finance
-
-
-### Resume vs academic CV
-
-In the software industry resume plays a different role than CV in academia. Rather than being a complete record or all positions, awards and publication, it is a short (typically 1 page) summary of the main skills and the most important positions/accomplishments. It is used screen candidates, not as the final judgement.
-To see the difference, compare and contrast [my data science resume](https://github.com/stared/cv-resume/blob/master/piotr_migdal_resume_data_sci.pdf) with [my academic CV](https://github.com/stared/cv-resume/blob/master/piotr_migdal_cv_sci.pdf).
 
 
 ### Priorities
 
 In academia, you are allowed to cherry-pick an artificial problem and work on it for 2 years. The result needs to be novel, and you need to research previous and similar solutions. The solution needs to be perfect, even if not on time.
 
-In industry, you should solve a given problem end-to-end. It does not matter if you read the solution somewhere or you discovered it by yourself. The solution needs to be on time, even if just *good enough* and based on shady and poorly understood assumptions.
+In industry, you should solve a given problem end-to-end. Things need to work, and there is little difference if it is based on an academic paper, usage of an existing library, your own code or an impromptu hack. The solution needs to be on time, even if just *good enough* and based on shady and poorly understood assumptions.
+
+So, contrary to its name, it's rarely 'science'[^2]. That is, in data science the emphasis is on practical results (like in engineering) - not proofs, mathematical purity or rigor characteristic to academic science.
+
+
+### Resume vs academic CV
+
+In the software industry resume plays a different role than CV in academia. Rather than being a complete record or all positions, awards and publication, it is a short (typically 1 page) summary of the main skills and the most important positions/accomplishments. It is used to screen candidates, not as the final judgement.
+To see the difference, compare and contrast [my data science resume](https://github.com/stared/cv-resume/blob/master/piotr_migdal_resume_data_sci.pdf) with [my academic CV](https://github.com/stared/cv-resume/blob/master/piotr_migdal_cv_sci.pdf).
+
+
+### Interviews
+
+Applying for a job involves being asked technical questions - on the phone or Skype. For software engineering it involves both conceptual and whiteboard coding; for data science it may vary. In any case:
+
+* [Data Science Interviews - Trey Causey](http://treycausey.com/data_science_interviews.html)
+
+If you need learn basic algorithms and data structures, I recommend:
+
+* [Cormen et al, Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
+
+If you get no technical questions, it may be a red flag.
+If you get only software engineering questions, it may be a sign that they hire a programmer, not - a data scientist (no matter what they job calling says).
+Given you background you want to be a Type A Data scientist, according to [this taxonomy](https://www.quora.com/What-is-a-data-scientist-3/answer/Michael-Hochster).
 
 
 ## Programming languages
 
 Most likely practical programming is the main skill you are missing.
-For general data science, the standard tools are [Python](https://www.python.org/r) and [R](https://www.r-project.org/). If you already know some other languages it will help, still - learn one of the above.
+For general data science, the standard tools are [Python](https://www.python.org/) and [R](https://www.r-project.org/). If you already know some other languages it will help, still - learn one of the above.
 
 > But... Python or R? There are some crazy fights, right?
 
@@ -83,9 +123,9 @@ tl;dr: both are good choices. Pick one you prefer for any reason; two really goo
 * *This thing is great! I want to apply it [some other data]. Oh, it is in [a language]!*
 * Having a community of people from whom you can learn.
 
-I mean, there are specific use cases when one is better than the other. But in majority of tasks both are fine. And well (some may disagree), but they are tools, not religions (no need of fighting, not need of using exclusively one).
+I mean, there are use cases when one is better than the other. But in the majority of tasks both are fine. And well (some may disagree), but they are tools, not religions (no need of fighting, not need of using exclusively one).
 
-I won't point to a general tutorials (there many - just Google one you like). When I provide links - it is usually web materials rather than classical books. And it is for a reason:
+I won't point to a general tutorials (there are many and I don't know cannonical ones - just Google one you like). When I provide links - it is usually web materials rather than classical books. And it is for a reason:
 
 * things change fast; a 2-year old book on a programming language may be well out-of-date,
 * it is important how much you use in practice; dry-reading won't teach you a thing.
@@ -93,7 +133,7 @@ I won't point to a general tutorials (there many - just Google one you like). Wh
 
 ### R
 
-R is a tool for statistics turned into a language. The standard way of using it is via [RStudio](https://www.rstudio.com/).
+R is a tool for statistics turned into a language. The standard way of using it is via [RStudio](https://www.rstudio.com/) (though, [you can use Jupyter](https://try.jupyter.org/)).
 Be sure to learn basics of [dplyr](https://cran.r-project.org/web/packages/dplyr/vignettes/introduction.html) and [ggplot2](http://ggplot2.org/) (I almost always load them by default; especially dplyr, which makes operations on dataframes much easier, faster and more readable). Then everything else depends on the problems you are solving.
 
 If you go the R way, at least:
@@ -116,26 +156,29 @@ Python is a much better general-purpose language (with pros and cons on not bein
 
 For Python, I would suggest installing it (Python 3) through [Anaconda](https://www.continuum.io/downloads), and using [Jupyter Notebook](http://jupyter.org/). Main packages are [NumPy](http://www.numpy.org/), [SciPy](http://www.scipy.org/) (numerics), [Pandas](http://pandas.pydata.org/) (like R dataframes), [matplotlib](http://matplotlib.org/) (plots, but not as nice as ggplot2) and [scikit-learn](http://scikit-learn.org/) (for machine learning). Learn to be comfortable with Python (installing packages, loading, saving and transforming data, etc).
 
-* [A modern guide to getting started with Data Science and Python](http://twiecki.github.io/blog/2014/11/18/python-for-data-science/)
 * [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html)
 * [Pandas Visualization](http://pandas.pydata.org/pandas-docs/stable/visualization.html)
-* [Scipy Lecture Notes - One document to learn numerics, science, and data with Python](http://www.scipy-lectures.org/)
 * [Web Scraping - It’s Your Civic Duty](http://pbpython.com/web-scraping-mn-budget.html)
+* [Scipy Lecture Notes - One document to learn numerics, science, and data with Python](http://www.scipy-lectures.org/)
 * [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
 
 
 ## Statistics and Machine Learning
 
 Before, you need some basic linear algebra (vectors, matrices, SVD, ...), calculus (exp, log, differentiation, integration, ...) probability (independence, conditional probability, ...), but if you are from natural science background, you already know that.
-It does not mean that you you know all - it just means that right now you have mathematical skills sufficient to be an employable data scientists and you are able to read about other methods, algorithms, etc.
+It does not mean that you know all - it just means that right now you have mathematical skills sufficient to be an employable data scientists and you are able to read about other methods, algorithms, etc.
 
 * [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 * [Dive into Machine Learning with Jupyter notebook, Python, and scikit-learn](http://hangtwenty.github.io/dive-into-machine-learning/)
 * [PyCon 2015 Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_pycon2015)
 
-For statistics, screw learning by heart various statistical distributions and tests - you can easily look them up later. What is crucial, is to understand the idea of tests, cross validation, bootstrapping and Bayesian inference. For the later I recommend:
+If you need to get a real dataset suitable for working with a given machine learning algorithm,
 
-* [David MacKay, Information Theory, Inference, and Learning Algorithms](http://www.inference.phy.cam.ac.uk/itila/book.html) - doing the Bayesian Interference and Machine Learning track
+* [UCI Machine Learning Repository: Data Sets](http://archive.ics.uci.edu/ml/datasets.html)
+
+For statistics, screw learning by heart various statistical distributions and tests - you can easily look them up later. What is crucial, is to understand the idea of tests, cross validation, bootstrapping and Bayesian inference. For the latter I recommend:
+
+* [David MacKay, Information Theory, Inference, and Learning Algorithms](http://www.inference.phy.cam.ac.uk/itila/book.html) - doing the Bayesian Inference and Machine Learning track
 
 It's a fast changing field - I am constantly tracking new libraries and updates to ones I am using. I read a lot of academic papers - not just to stretch my intellectual muscles, but solve a particular problem.
 
@@ -144,12 +187,13 @@ It's a fast changing field - I am constantly tracking new libraries and updates 
 
 Often you will need to install something, collaborate with others and do other tasks. The crucial point so to know what is possible - especially not to reinvent the wheel.
 
-* basics of bash/shell (`cd`, `ls`, `pwd`)
+* basics of bash/shell (`cd`, `ls`, `pwd`, `head`, `wc`, `wget`)
 * CSV, [JSON](https://en.wikipedia.org/wiki/JSON)
 * git for version control - see [Why use version control systems for writing a paper?](http://academia.stackexchange.com/a/5286/49)
   * [tryGit - Got 15 minutes and want to learn Git?](https://try.github.io/)
-  * [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
   * [SourceTree](https://www.sourcetreeapp.com/) - graphical interface for git (Win, OSX)
+  * [Learn Git Branching](http://pcottle.github.io/learnGitBranching/) - for bigger projects and collaborations
+  * [https://github.com/](GitHub) - just create an account there
 * regex[p]
   * [Learn regular expressions in about 55 minutes - Sam Hughes](http://qntm.org/files/re/re.html)
   * [RegExr](http://regexr.com/)
@@ -157,25 +201,29 @@ Often you will need to install something, collaborate with others and do other t
 * basics of SQL
   * [SQL Cheet Sheet](http://www.sql-tutorial.net/sql-cheat-sheet.pdf)
   * [An Introductory SQL Tutorial: How to Write Simple Queries](http://blog.hubspot.com/marketing/sql-tutorial-introduction)
+* working with REST APIs
+  * e.g. [The Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro)
 * HTML (and JavaScript may be a plus)
   * [Introduction to HTML - MDN ](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
   * my post: [D3.js workshop at ICM for KFnrD]({site.url}/2016/02/09/d3js-icm-kfnrd.html)
 
-Don't be afraid of new technologies (e.g. *this data is in MongoDB, a NoSQL database; can you fetch it?*) - often you can learn basics in a day.
-Most technologies are easy, at least from the user's perspective (at least comparing to algebraic geometry or quantum field theory).
+Don't be afraid of new technologies (e.g. *this data is in [MongoDB](https://docs.mongodb.org/getting-started/python/introduction/), a NoSQL database; can you fetch it?*) - often you can learn basics in a day.
+Most technologies, from the user's perspective, are easy (at least comparing to algebraic geometry or quantum field theory).
 
 
 ## Practicing and building a showcase
 
-Some people recommend [Kaggle](https://www.kaggle.com) as a starting point but I wouldn't for the same reasons as in [5 Reasons Kaggle Projects Won't Help Your Data Science Resume](http://datascienceresume.com/advice/5-reasons-why-doing-kaggle-projects-won-t-help-you-create-a-stand-out-data-science-resume). That is, some nice tutorials and posts, but competitions are difficult and test only a subset of data science - tweaking performance of machine learning. Beware that industrial problems rarely look like that (e.g. in all mine data cleaning was a big thing, and in none 1% score improvement mattered). See also: [Machine learning isn't Kaggle competitions](http://jvns.ca/blog/2014/06/19/machine-learning-isnt-kaggle-competitions/).
+Some people recommend [Kaggle](https://www.kaggle.com) as a starting point but I wouldn't for the same reasons as in [5 Reasons Kaggle Projects Won't Help Your Data Science Resume](http://datascienceresume.com/advice/5-reasons-why-doing-kaggle-projects-won-t-help-you-create-a-stand-out-data-science-resume). Competitions are difficult and test only a subset of data science - tweaking performance of machine learning.
+Beware that industrial problems rarely look like that (e.g. in all mine data cleaning was a big thing, and in none 1% score improvement mattered). See also: [Machine learning isn't Kaggle competitions](http://jvns.ca/blog/2014/06/19/machine-learning-isnt-kaggle-competitions/).
 
-For playing with machine learning [UCI Machine Learning Repository: Data Sets](http://archive.ics.uci.edu/ml/datasets.html) is a great source for datasets you can play with.
-But personally I enjoy the most working on data I care about or find genuinely interesting. Making results public is a great room for both feedback and building a showcase.
-It can be an IPython Notebook, or a website, or even a just a plot (but then be sure to sign it - it it goes viral you want to get recognition!). E.g. some mine:
+Personally, I enjoy the most working on data I care about and find genuinely interesting.
+
+Making results public is a great room for both feedback and building a showcase.
+It can be an IPython Notebook, or a website, or even a just a plot (but then be sure to sign it - it it goes viral you want to get recognition!). E.g. some mine (see also ({site.url}/projects)[Projects]):
 
 * [Polish Book Themes](http://p.migdal.pl/wizualizacja-wolnych-lektur/polish_books_themes.html)
-* [TagOverflow](http://p.migdal.pl/tagoverflow/)
-* [Analysis of 2010-2014 matura exams](https://github.com/stared/delab-matury) (in Polish)
+* [TagOverflow](http://p.migdal.pl/tagoverflow/) - graph of tags from Stack Exchange sites
+* [Analysis of 2010-2014 matura exams](https://github.com/stared/delab-matury) (in Polish).
 
 Be sure to get a [GitHub](https://github.com) account! Mine looks like that: [github.com/stared](https://github.com/stared).
 And don’t be afraid to put premature code: if it is not good yet then no-one will notice (or care) anyway.
@@ -184,28 +232,26 @@ Also, some people like writing about problems they have just learnt (e.g. [How g
 
 ## Data science boot camps
 
-It’s totally fine to learn things on your own. But doing on a boot camp may be a huge boosts - motivational, with access to tutors/experts, with job opportunities.
+It’s totally fine to learn things on your own. But doing on a boot camp may be a huge boosts - motivational, with access to tutors/experts, with job opportunities. Here are some camps I am aware of:
 
 * [BIG DIVE](http://www.bigdive.eu/) - *Development, Visualization and Data Science*
   * [BIG DIVE, czyli o dawaniu nura w dane](http://smarterpoland.pl/index.php/2013/05/big-dive-czyli-o-nurkowaniu-w-danych/) (in Polish) - I participated in the 1st edition!
   * [Big Dive review - alkamid](http://alkamid.com/big-dive-review-1/)
 * [Insight Data Science Fellows Program](http://insightdatascience.com/) - *an intensive seven week post-doctoral training fellowship bridging the gap between academia and data science*
-* [S2DS London](http://www.s2ds.org/)
+* [S2DS London](http://www.s2ds.org/) - *Science to Data Science summer school*
 * [Recurse Center (aka Hacker School)](https://www.recurse.com/) - *a free, self-directed, educational retreat for people who want to get better at programming, whether they've been coding for three decades or three months*
   * [its manual](https://www.recurse.com/manual) is a nice resource on good environment for learning
 
 
 ## Internships
 
-If you are still a student - doing an internship may be a great way to get a lot of experience, feedback, confidence and contacts. I did mine during my PhD studies (in Europe it is not common to take a break, and a lot of people in academia dissuaded me, but I consider it a wonderful, life-changing experience).
+If you are still a student - doing an internship may be a great way to get a lot of experience, feedback, confidence and contacts. I did mine during my PhD studies (in Europe it is not common to take a break, and a lot of people in academia dissuaded me, but I consider it a wonderful, life-changing experience)[^3].
 
 To search for offers try googling `data science/scientists intern/internship`, visit some job listings (e.g. [Indeed]( http://www.indeed.com/jobs?q=data+science+intern&l=)).
 Sometimes it makes sense to mail a company even if they don't use words `intern` or `internship` - especially smaller ones may be flexible.
 Some bigger tech companies (Facebook, Google, IBM, Microsoft) offer internships, see:
 
 * [What companies have data science internships? - Quora](https://www.quora.com/What-companies-have-data-science-internships)
-
-Beware that data science has various meaning - some companies search for software engineers that just happen to work with data.
 
 In the [San Francisco] Bay Area (i.e. north of Silicon Valley) there are plenty opportunities to learn data science - it should be your primary destination.
 To work in US you need to get J-1 visa (of course, after they want you), but it's relatively easy (but takes ~2-3 months).
@@ -221,8 +267,9 @@ I think the easiest way is to look for various meeting. Especially via [Meetups]
 
 Never stop learning. Some feeds:
 
-* [Hacker News](https://news.ycombinator.com/) - startups, tech; data science is one of its topics
+* [Hacker News](https://news.ycombinator.com/)[^5] - startups, tech; data science is one of its topics
 * [DataTau](http://www.datatau.com/)
+* [reddit.com/r/MachineLearning](www.reddit.com/r/MachineLearning/)
 
 And if you have a question, a good place to ask (and search for answers) is:
 
@@ -235,14 +282,20 @@ Since you are in maths, it may be possible for you to make a shortcut and get in
 
 * [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization)
 * [A Word is Worth a Thousand Vectors - Chris Moody](http://multithreaded.stitchfix.com/blog/2015/03/11/word-is-worth-a-thousand-vectors/)
+* [Sense2vec with spaCy and Gensim - Matthew Honnibal](https://spacy.io/blog/sense2vec-with-spacy)
 * [Probabilistic Programming & Bayesian Methods for Hackers - Cam Davidson-Pilon](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
 * [The Unreasonable Effectiveness of Recurrent Neural Networks - Andrej Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 * [TensorFlow Tutorials](https://www.tensorflow.org/versions/master/tutorials/index.html) - an introduction to neural networks and deep learning
-* [Sense2vec with spaCy and Gensim - Matthew Honnibal](https://spacy.io/blog/sense2vec-with-spacy)
 
 
 ## What's next?
 
-Thanks to: Guillaume Carbajal
+Thanks to: Guillaume Carbajal, [Adam Goliński](https://www.linkedin.com/in/adamgol/en), [Robert Bogucki](http://deepsense.io/author/robert-bogucki/), Sebastian Jaszczur and [Kasia Kulma](https://www.linkedin.com/in/kasia-kulma-7695b923).
 
-* Example for projects.
+I would love yo hear your feedback. Did you find it useful?
+
+[^1]: For instance, if you don't have a quantitative background, you need to focus on it (and it may be the hardest part). Since it was not my path, I can't help.
+[^2]: But if you come from a non-academic background (e.g. web dev), then from your perspective data science is science. It is engineering, but more like designing new engines, than building a house.
+[^3]: Great thanks to Adam Zadrożny for showing me this possibility (he interned at Facebook while doing PhD in gravity waves) and to [Jacek Migdał](http://jacek.migdal.pl/) for convincing me to apply to the Bay Area, rather than somewhere else.
+[^4]: If you have
+[^5]: [Hacker News](http://news.ycombinator.com/) my best general-purpose non-personal feed, along with [The Economist](http://www.economist.com/).

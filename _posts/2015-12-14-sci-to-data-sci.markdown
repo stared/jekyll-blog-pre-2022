@@ -72,6 +72,7 @@ There are a few follow-ups I'm considering:
 
 * How did I learn about data science?
 * How to move from academia to data science? (mostly: practical links)
+  * EDIT: [Data science intro for math/phys background]({site.url}/2016/03/15/data-science-intro-for-math-phys-background.html)
 * Why I got disappointed by academia?
 
 If you like to hear about one of these topics, mail me! :)
