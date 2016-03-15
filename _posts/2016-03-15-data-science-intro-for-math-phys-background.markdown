@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data science intro for math/phys background
-date: '2016-03-15 15:58'
+date: 2016-03-15 15:58 +0100
 author: Piotr Migdał
 tags:
   - data-science
