@@ -30,7 +30,7 @@ In short:
 * 9 months later I participated in a 1-month data science school (Big Dive in Turin).
 * 8 months later I went to a summer internship in data science in San Francisco (for 4 months).
 * I started part-time freelancing (as I was finishing my PhD).
-* After finishing PhD I made it may main activity.
+* After finishing PhD I made it my main activity.
 
 All projects required me to learn something new - be it a library, a machine learning model or a software tool.
 
@@ -129,7 +129,7 @@ tl;dr: both are good choices. Pick one you prefer for any reason; two really goo
 
 I mean, there are use cases when one is better than the other. But in the majority of tasks both are fine. And well (some may disagree), but they are tools, not religions (no need of fighting, not need of using exclusively one).
 
-I won't point to a general tutorials (there are tons of it and preferences very; I tired to link only to things I recommend myself). When I provide links - it is usually web materials rather than classical books. And it is for a reason:
+I won't point to a general tutorials (there are tons of it and preferences vary; I tired to link only to things I recommend myself). When I provide links - it is usually web materials rather than classical books. And it is for a reason:
 
 * things change fast; a 2-year old book on a programming language may be well out-of-date,
 * it is important how much you use in practice; dry-reading won't teach you a thing.
