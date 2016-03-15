@@ -14,39 +14,32 @@
           <li><a href="{{ site.url }}">{{ site.url }}</a></li>
         </ul>
         <ul class="social-media-list">
-          {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include icon-github.html username=site.usernames.github %}
           </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-twitter.html username=site.usernames.twitter %}
           </li>
-          {% endif %}
-
           <li>
-            {% if site.linkedin_username %}
-              <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="fa fa-linkedin-square" style="color:#828282"></span></a>
-            {% endif %}
-
-            {% if site.stackexchange_username %}
-              <a href="https://stackexchange.com/users/{{ site.stackexchange_username }}"><span class="fa fa-stack-overflow" style="color:#828282"></span></a>
-            {% endif %}
-
-            {% if site.delicious_username %}
-              <a href="https://delicious.com/{{ site.delicious_username }}"><span class="fa fa-delicious" style="color:#828282"></span></a>
-            {% endif %}
+            <a href="https://pinboard.in/u:{{ site.usernames.pinboard }}/">
+              <span class="icon icon--pinboard">{% include icon-pinboard.svg %}</span>
+            </a>
+            <a href="https://linkedin.com/in/{{ site.usernames.linkedin }}">
+              <span class="fa fa-linkedin-square" style="color:#828282"></span>
+            </a>
+            <a href="https://stackexchange.com/users/{{ site.usernames.stackexchange }}">
+              <span class="fa fa-stack-overflow" style="color:#828282"></span>
+            </a>
           </li>
-          <li><a href="http://quantumgame.io">quantumgame.io</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
         <p>Python (+ ε of R) for data analysis and machine learning, JavaScript for data visualization.</p>
+        <p><a href="http://quantumgame.io">quantumgame.io</a></p>
       </div>
+
     </div>
 
   </div>

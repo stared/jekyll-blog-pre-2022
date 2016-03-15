@@ -13,11 +13,13 @@ description: > # this means to ignore newlines until "baseurl:"
   Active in gifted education, developing a Quantum Game.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://p.migdal.pl" # the base hostname & protocol for your site
-twitter_username: pmigdal
-github_username:  stared
-linkedin_username: piotrmigdal
-stackexchange_username: 506817/piotr-migdal
-delicious_username: stared
+usernames:
+  twitter: pmigdal
+  github:  stared
+  linkedin: piotrmigdal
+  stackexchange: 506817/piotr-migdal
+  delicious: stared
+  pinboard: pmigdal
 
 # Build settings
 markdown: kramdown
