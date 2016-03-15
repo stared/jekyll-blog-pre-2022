@@ -1,11 +1,15 @@
 ---
-layout: "post"
-title: "Data science intro for math/phys background"
-date: "2016-03-15 13:00"
+layout: post
+title: Data science intro for math/phys background
+date: '2016-03-15 15:58'
 author: Piotr Migdał
-tags:   [data-science,python,r]
+tags:
+  - data-science
+  - python
+  - r
 mathjax: false
-description: "Academia to data science? Learn Python (or R), machine learning and other stuff."
+description: 'Academia to data science? Learn Python (or R), machine learning and other stuff.'
+image: /imgs/2016-03-15-dark-side-of-science-meme.jpg
 ---
 
 ![(meme) Welcome to dark side of science - data science](/imgs/2016-03-15-dark-side-of-science-meme.jpg)
@@ -94,17 +98,17 @@ To see the difference, compare and contrast [my data science resume](https://git
 
 ### Interviews
 
-Applying for a job involves being asked technical questions - on the phone or Skype. For software engineering it involves both conceptual and whiteboard coding; for data science it may vary. In any case:
+Applying for a job involves being asked technical questions - on the phone or Skype. For software engineering it involves both conceptual and whiteboard coding; for data science it may vary. In any case, look at:
 
 * [Data Science Interviews - Trey Causey](http://treycausey.com/data_science_interviews.html)
 
-If you need learn basic algorithms and data structures, I recommend:
+If you need learn basic algorithms and data structures, I recommend this classical book:
 
 * [Cormen et al, Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
 
 If you get no technical questions, it may be a red flag.
-If you get only software engineering questions, it may be a sign that they hire a programmer, not - a data scientist (no matter what they job calling says).
-Given you background you want to be a Type A Data scientist, according to [this taxonomy](https://www.quora.com/What-is-a-data-scientist-3/answer/Michael-Hochster).
+If you get only software engineering questions, it may be a sign that they want to hire a programmer, not - a data scientist (no matter what their job calling says);
+and iven you background you want to be a Type A Data scientist, according to [this taxonomy](https://www.quora.com/What-is-a-data-scientist-3/answer/Michael-Hochster).
 
 
 ## Programming languages
@@ -125,7 +129,7 @@ tl;dr: both are good choices. Pick one you prefer for any reason; two really goo
 
 I mean, there are use cases when one is better than the other. But in the majority of tasks both are fine. And well (some may disagree), but they are tools, not religions (no need of fighting, not need of using exclusively one).
 
-I won't point to a general tutorials (there are many and I don't know cannonical ones - just Google one you like). When I provide links - it is usually web materials rather than classical books. And it is for a reason:
+I won't point to a general tutorials (there are tons of it and preferences very; I tired to link only to things I recommend myself). When I provide links - it is usually web materials rather than classical books. And it is for a reason:
 
 * things change fast; a 2-year old book on a programming language may be well out-of-date,
 * it is important how much you use in practice; dry-reading won't teach you a thing.
@@ -172,7 +176,7 @@ It does not mean that you know all - it just means that right now you have mathe
 * [Dive into Machine Learning with Jupyter notebook, Python, and scikit-learn](http://hangtwenty.github.io/dive-into-machine-learning/)
 * [PyCon 2015 Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_pycon2015)
 
-If you need to get a real dataset suitable for working with a given machine learning algorithm,
+If you need to get a real dataset suitable for working with a given machine learning algorithm, there is a wonderful collection:
 
 * [UCI Machine Learning Repository: Data Sets](http://archive.ics.uci.edu/ml/datasets.html)
 
@@ -193,7 +197,7 @@ Often you will need to install something, collaborate with others and do other t
   * [tryGit - Got 15 minutes and want to learn Git?](https://try.github.io/)
   * [SourceTree](https://www.sourcetreeapp.com/) - graphical interface for git (Win, OSX)
   * [Learn Git Branching](http://pcottle.github.io/learnGitBranching/) - for bigger projects and collaborations
-  * [https://github.com/](GitHub) - just create an account there
+  * [GitHub](https://github.com/) - just create an account there
 * regex[p]
   * [Learn regular expressions in about 55 minutes - Sam Hughes](http://qntm.org/files/re/re.html)
   * [RegExr](http://regexr.com/)
@@ -213,19 +217,26 @@ Most technologies, from the user's perspective, are easy (at least comparing to 
 
 ## Practicing and building a showcase
 
-Some people recommend [Kaggle](https://www.kaggle.com) as a starting point but I wouldn't for the same reasons as in [5 Reasons Kaggle Projects Won't Help Your Data Science Resume](http://datascienceresume.com/advice/5-reasons-why-doing-kaggle-projects-won-t-help-you-create-a-stand-out-data-science-resume). Competitions are difficult and test only a subset of data science - tweaking performance of machine learning.
-Beware that industrial problems rarely look like that (e.g. in all mine data cleaning was a big thing, and in none 1% score improvement mattered). See also: [Machine learning isn't Kaggle competitions](http://jvns.ca/blog/2014/06/19/machine-learning-isnt-kaggle-competitions/).
+Some people recommend [Kaggle](https://www.kaggle.com) as a starting point but I would take it with a grain of salt.
+Don't get me wrong - there are great resources, it provides feedback (otherwise it is hard to tell if your solution is good) and some people find it really engaging.
+But if you start with a goal of winning - you will end up disappointed, with neither fame nor gold (prized competitions are not beginner-level).
+Moreover, beware that industrial problems rarely look like that (e.g. in all mine data cleaning was a big thing, and in none 5% score improvement mattered). More on that:
+
+* [5 Reasons Kaggle Projects Won't Help Your Data Science Resume](http://datascienceresume.com/advice/5-reasons-why-doing-kaggle-projects-won-t-help-you-create-a-stand-out-data-science-resume)
+* [Machine learning isn't Kaggle competitions - Julia Evans](http://jvns.ca/blog/2014/06/19/machine-learning-isnt-kaggle-competitions/)
+
 
 Personally, I enjoy the most working on data I care about and find genuinely interesting.
+It drives my motivation much more than any competition could. Also, this way it is a complete data science - from asking questions and getting data to presenting the results in a meaningful form.
 
-Making results public is a great room for both feedback and building a showcase.
-It can be an IPython Notebook, or a website, or even a just a plot (but then be sure to sign it - it it goes viral you want to get recognition!). E.g. some mine (see also ({site.url}/projects)[Projects]):
+Making results public, including code, is a great room for both feedback and building a showcase.
+It can be an IPython Notebook, or a website, or even a just a plot (but then be sure to sign it - it it goes viral you want to get due recognition!). E.g. some mine (see also ({site.url}/projects)[Projects]):
 
 * [Polish Book Themes](http://p.migdal.pl/wizualizacja-wolnych-lektur/polish_books_themes.html)
 * [TagOverflow](http://p.migdal.pl/tagoverflow/) - graph of tags from Stack Exchange sites
 * [Analysis of 2010-2014 matura exams](https://github.com/stared/delab-matury) (in Polish).
 
-Be sure to get a [GitHub](https://github.com) account! Mine looks like that: [github.com/stared](https://github.com/stared).
+So, once again, be sure to get a [GitHub](https://github.com) account (for hosting code, [notebooks](https://github.com/blog/1995-github-jupyter-notebooks-3) and [websites](https://pages.github.com/)). Mine looks like that: [github.com/stared](https://github.com/stared).
 And don’t be afraid to put premature code: if it is not good yet then no-one will notice (or care) anyway.
 Also, some people like writing about problems they have just learnt (e.g. [How gzip uses Huffman coding - Julia Evans](http://jvns.ca/blog/2015/02/22/how-gzip-uses-huffman-coding/)). If it is your thing - just do it (see [my post on Jekyll]({site.url}/2015/12/02/first-post.html))!
 
@@ -247,20 +258,22 @@ It’s totally fine to learn things on your own. But doing on a boot camp may be
 
 If you are still a student - doing an internship may be a great way to get a lot of experience, feedback, confidence and contacts. I did mine during my PhD studies (in Europe it is not common to take a break, and a lot of people in academia dissuaded me, but I consider it a wonderful, life-changing experience)[^3].
 
-To search for offers try googling `data science/scientists intern/internship`, visit some job listings (e.g. [Indeed]( http://www.indeed.com/jobs?q=data+science+intern&l=)).
+To search for offers try googling `data science/scientists intern/internship` and visit some job listings (e.g. [Indeed]( http://www.indeed.com/jobs?q=data+science+intern&l=)).
 Sometimes it makes sense to mail a company even if they don't use words `intern` or `internship` - especially smaller ones may be flexible.
-Some bigger tech companies (Facebook, Google, IBM, Microsoft) offer internships, see:
+Some bigger tech companies (Facebook, Google, IBM, Microsoft) offer internships[^4], see:
 
 * [What companies have data science internships? - Quora](https://www.quora.com/What-companies-have-data-science-internships)
 
+Aim at tech companies (to actually work in data science).
 In the [San Francisco] Bay Area (i.e. north of Silicon Valley) there are plenty opportunities to learn data science - it should be your primary destination.
 To work in US you need to get J-1 visa (of course, after they want you), but it's relatively easy (but takes ~2-3 months).
 
-I think the easiest way is to look for various meeting. Especially via [Meetups](http://www.meetup.com/) - look for anything that may fit (data science, R communities, big data etc) and try to start visiting a lot of them (e.g. 3/week) and only afterward you will see which are the most useful. In the Bay Area it is an advantage to be "bold". Don't be afraid to asking about or for anything, starting talking to people etc - on the average it will be much better than taking a passive posture. See also:
+Once on-site, start look for various meeting and hackathons, especially via [Meetups](http://www.meetup.com/). Search for anything that may fit (data science, R communities, big data etc) and try to visit a lot of events. In the Bay Area it is an advantage to be "bold". So don't be afraid to asking about or for anything, starting talking to people etc - on the average it will be much better than taking a passive posture. See also:
 
 * [A brief guide to tech internships](http://alexeymk.com/a-brief-guide-to-tech-internships/)
 * [How to intern in Silicon Valley with a J1 visa](http://web.archive.org/web/20150413000314/http://blog.sendtoinc.com/2013/12/11/silicon-valley-internship-j1-visa/)
-* [An Intern's Guide to a Summer in the Bay Area](http://alexeymk.com/an-interns-guide-to-a-summer-in-the-bay-area/) (from 2011, so now renting prices are higher)
+* [An Intern's Guide to a Summer in the Bay Area](http://alexeymk.com/an-interns-guide-to-a-summer-in-the-bay-area/) (from 2011, so now renting prices are ~30% higher)
+
 
 
 ## Feed
@@ -278,7 +291,7 @@ And if you have a question, a good place to ask (and search for answers) is:
 
 ## Advanced stuff
 
-Since you are in maths, it may be possible for you to make a shortcut and get into advanced topics:
+Since you are in maths, it may be possible for you to make a shortcut and get into advanced topics. Here is a random list of starting points I consider interesting:
 
 * [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization)
 * [A Word is Worth a Thousand Vectors - Chris Moody](http://multithreaded.stitchfix.com/blog/2015/03/11/word-is-worth-a-thousand-vectors/)
@@ -288,14 +301,19 @@ Since you are in maths, it may be possible for you to make a shortcut and get in
 * [TensorFlow Tutorials](https://www.tensorflow.org/versions/master/tutorials/index.html) - an introduction to neural networks and deep learning
 
 
-## What's next?
+## About
 
-Thanks to: Guillaume Carbajal, [Adam Goliński](https://www.linkedin.com/in/adamgol/en), [Robert Bogucki](http://deepsense.io/author/robert-bogucki/), Sebastian Jaszczur and [Kasia Kulma](https://www.linkedin.com/in/kasia-kulma-7695b923).
+This blog post started as emails, and went through a stage of an extract of emails (shared on Google Docs). It took me way more time than I expected to present it in the current form.
 
-I would love yo hear your feedback. Did you find it useful?
+There are many people who helped me with this post, at its various stages (starting from asking me questions!). But I would like to especially thank to: Adam Goliński, Sebastian Jaszczur, Kasia Kulma and [Robert Bogucki](http://deepsense.io/author/robert-bogucki/) for their remarks on the final version.
+
+I would love to hear your feedback! Did you find it useful? Or maybe you would recommend some other strategy? Or links? There is a Disqus forum below!
+
+Or maybe your company needs a data science training? I would be happy to provide it! See [workshops.deepsense.io](http://workshops.deepsense.io/) for the menu (but we are happy to make custom workshops) and fill the form or contact me directly.
+
 
 [^1]: For instance, if you don't have a quantitative background, you need to focus on it (and it may be the hardest part). Since it was not my path, I can't help.
-[^2]: But if you come from a non-academic background (e.g. web dev), then from your perspective data science is science. It is engineering, but more like designing new engines, than building a house.
-[^3]: Great thanks to Adam Zadrożny for showing me this possibility (he interned at Facebook while doing PhD in gravity waves) and to [Jacek Migdał](http://jacek.migdal.pl/) for convincing me to apply to the Bay Area, rather than somewhere else.
-[^4]: If you have
-[^5]: [Hacker News](http://news.ycombinator.com/) my best general-purpose non-personal feed, along with [The Economist](http://www.economist.com/).
+[^2]: But if you come from a non-academic background (e.g. web dev), then from your perspective data science is science. Or to make it precise - it is engineering, but more like designing new engines, than building a house.
+[^3]: Great thanks to Adam Zadrożny for showing me this possibility (he interned at Facebook while doing his PhD in gravity waves) and to [Jacek Migdał](http://jacek.migdal.pl/) for convincing me to apply to the Bay Area, rather than somewhere else.
+[^4]: If you have background in computer science, it will be like playing on the easy level (it was not my case, though). It may be possible to apply as a software engineer expressing interest in data - and learn from that point.
+[^5]: [Hacker News](http://news.ycombinator.com/) is my best general-purpose non-personal feed, complemented by [The Economist](http://www.economist.com/).
