@@ -124,7 +124,7 @@ For general data science, the standard tools are [Python](https://www.python.org
 
 tl;dr: both are good choices. Pick one you prefer for any reason; two really good ones are:
 
-* *This thing is great! I want to apply it [some other data]. Oh, it is in [a language]!*
+* *This thing is great! I want to apply it to [some other data]. Oh, it is in [a language]!*
 * Having a community of people from whom you can learn.
 
 I mean, there are use cases when one is better than the other. But in the majority of tasks both are fine. And well (some may disagree), but they are tools, not religions (no need of fighting, not need of using exclusively one).
@@ -147,7 +147,7 @@ If you go the R way, at least:
 * [Data Wrangling with dplyr and tidyr Cheat Sheet](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 * [Quick Introduction to ggplot2b - Edwin Chen](http://blog.echen.me/2012/01/17/quick-introduction-to-ggplot2/)
 * [Graphics, ggplot2](http://r4stats.com/examples/graphics-ggplot2/)
-* [Getting Started with R: Kaggle's Titanic Competition](Getting Started with R: Kaggle's Titanic Competition)
+* [Getting Started with R: Kaggle's Titanic Competition](https://www.kaggle.com/c/titanic/details/new-getting-started-with-r)
 
 Some R pearls:
 
@@ -260,7 +260,7 @@ It’s totally fine to learn things on your own. But doing on a boot camp may be
 
 If you are still a student - doing an internship may be a great way to get a lot of experience, feedback, confidence and contacts. I did mine during my PhD studies (in Europe it is not common to take a break, and a lot of people in academia dissuaded me, but I consider it a wonderful, life-changing experience)[^3].
 
-To search for offers try googling `data science/scientists intern/internship` and visit some job listings (e.g. [Indeed]( http://www.indeed.com/jobs?q=data+science+intern&l=)).
+To search for offers try googling `data science/scientist intern/internship` and visit some job listings (e.g. [Indeed]( http://www.indeed.com/jobs?q=data+science+intern&l=)).
 Sometimes it makes sense to mail a company even if they don't use words `intern` or `internship` - especially smaller ones may be flexible.
 Some bigger tech companies (Facebook, Google, IBM, Microsoft) offer internships[^4], see:
 
