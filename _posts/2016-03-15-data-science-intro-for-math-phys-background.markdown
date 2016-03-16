@@ -206,6 +206,7 @@ Often you will need to install something, collaborate with others and do other t
 * basics of SQL
   * [SQL Cheet Sheet](http://www.sql-tutorial.net/sql-cheat-sheet.pdf)
   * [An Introductory SQL Tutorial: How to Write Simple Queries](http://blog.hubspot.com/marketing/sql-tutorial-introduction)
+  * [Stack Exchange Data](https://data.stackexchange.com/) - see examples, write your own queries
 * working with REST APIs
   * e.g. [The Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro)
 * HTML (and JavaScript may be a plus)
