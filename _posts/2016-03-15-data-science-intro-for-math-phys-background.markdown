@@ -102,9 +102,10 @@ Applying for a job involves being asked technical questions - on the phone or Sk
 
 * [Data Science Interviews - Trey Causey](http://treycausey.com/data_science_interviews.html)
 
-If you need learn basic algorithms and data structures, I recommend this classical book:
+If you need learn basic algorithms and data structures, I recommend:
 
-* [Cormen et al, Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
+* [Algorithms at Coursera by Wayne and Sedgewick](https://www.coursera.org/course/algs4partI) if you like MOOCs
+* [T. Cormen, C. Leiserson, R. Rivest and C. Stein, Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms) - a classical, in-depth book
 
 If you get no technical questions, it may be a red flag.
 If you get only software engineering questions, it may be a sign that they want to hire a programmer, not - a data scientist (no matter what their job calling says);
@@ -174,6 +175,7 @@ You need some basic linear algebra (vectors, matrices, SVD, ...), calculus (exp,
 It does not mean that you know all - it just means that right now you have mathematical skills sufficient to be an employable data scientists and you are able to read about other methods, algorithms, etc.
 
 * [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+* [Machine Learning at Coursera by Andrew Ng](https://www.coursera.org/learn/machine-learning)
 * [Dive into Machine Learning with Jupyter notebook, Python, and scikit-learn](http://hangtwenty.github.io/dive-into-machine-learning/)
 * [PyCon 2015 Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_pycon2015)
 
@@ -311,7 +313,7 @@ There are many people who helped me with this post, at its various stages (start
 
 I would love to hear your feedback! Did you find it useful? Or maybe you would recommend some other strategy? Or links? There is a Disqus forum below!
 
-Or maybe your company needs a data science training? I would be happy to provide it! See [workshops.deepsense.io](http://workshops.deepsense.io/) for the menu (but we are happy to make custom workshops) and fill the form or contact me directly.
+Or maybe your company needs a data science training? I would be happy to provide it! See [workshops.deepsense.io](http://workshops.deepsense.io/) for the menu (and we are happy to make custom workshops) and fill the form or contact me directly!
 
 
 [^1]: For instance, if you don't have a quantitative background, you need to focus on it (and it may be the hardest part). Since it was not my path, I can't help.
