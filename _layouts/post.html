@@ -28,8 +28,19 @@ comments: true
     {{ content }}
   </div>
 
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=262622227112392";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="social">
-    <a href='javascript:window.location=%22http://news.ycombinator.com/submitlink?u=%22+encodeURIComponent(document.location)+%22&amp;t=%22+encodeURIComponent("{{ page.title }}")'>HN Submission/Discussion</a>
+    <a href='javascript:window.location=%22http://news.ycombinator.com/submitlink?u=%22+encodeURIComponent(document.location)+%22&amp;t=%22+encodeURIComponent("{{ page.title }}")'>HN Submission/Discussion</a></br>
+
+    <div class="fb-like" data-href="{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
   </div>
 
   {% if page.comments %}
