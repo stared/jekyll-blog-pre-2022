@@ -30,8 +30,8 @@ I had 5 participants (3 girls, 2 boys), who had background mostly in algorithms,
   * [Data looks better naked](http://darkhorseanalytics.com/blog/data-looks-better-naked)
   * [7 reasons you should use dot graphs](http://www.maartenlambrechts.be/to-the-point-7-reasons-you-should-use-dot-graphs)
   * [Meaning + Beauty in Data Vis and Data Art](http://lisacharlotterost.github.io/2015/12/19/Meaning-and-Beauty-in-Data-Vis/) - *Data vis should be as pretty as possible but not prettier*
-  * [Edward Tufte, The Visual Display of Quantitative Information](http://www.edwardtufte.com/tufte/books_vdqi) - book
-  * [https://archive.org/stream/graphicpresentat00brinrich#page/n0/mode/thumb](Willard C. Brinton, Graphic presentation (1939)) - book, freely accessible on archive.org
+  * [Edward Tufte, The Visual Display of Quantitative Information](http://www.edwardtufte.com/tufte/books_vdqi) - a classic book
+  * [Willard C. Brinton, Graphic presentation)](https://archive.org/stream/graphicpresentat00brinrich#page/n0/mode/thumb) - a book (1939), freely accessible on archive.org
 * JavaScript
   * [Learn X in Y minutes, where X=JavaScript](https://learnxinyminutes.com/docs/javascript/) (telling that they should skip part about prototypes); mostly syntax, but it was enough
   * [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - as a reference
