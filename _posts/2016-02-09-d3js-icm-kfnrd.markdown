@@ -67,6 +67,7 @@ I had 5 participants (3 girls, 2 boys), who had background mostly in algorithms,
   * [Searchable D3.js Gallery (2490 examples!)](http://christopheviau.com/d3list/gallery.html)
   * [The Fallen of World War 2](http://www.fallen.io/ww2/)
   * [Bootstrap](http://getbootstrap.com/)
+  * [reddit.com/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful)
 
 ![Women can code better](/imgs/2016-02-09-kfnrd_icm_girls.jpg)
 
