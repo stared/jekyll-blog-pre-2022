@@ -38,9 +38,14 @@ comments: true
   }(document, 'script', 'facebook-jssdk'));</script>
 
   <div class="social">
-    <a href='javascript:window.location=%22http://news.ycombinator.com/submitlink?u=%22+encodeURIComponent(document.location)+%22&amp;t=%22+encodeURIComponent("{{ page.title }}")'>HN Submission/Discussion</a></br>
+    <a href='javascript:window.location=%22http://news.ycombinator.com/submitlink?u=%22+encodeURIComponent(document.location)+%22&amp;t=%22+encodeURIComponent("{{ page.title }}")'>
+      <span class="icon">
+        <img src="/imgs/global/hn.gif" width="16" height="16">
+      </span>
+      HN Submission/Discussion
+    </a></br></br>
 
-    <div class="fb-like" data-href="{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+    <div class="fb-like" data-href="{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div></br	>
   </div>
 
   {% if page.comments %}
