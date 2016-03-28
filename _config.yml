@@ -33,3 +33,4 @@ defaults:
     values:
       comments: true
       mathjax:  false
+      social:   true

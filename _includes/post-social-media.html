@@ -1,0 +1,29 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=262622227112392";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="social">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{page.title}}" data-via="pmigdal">Tweet</a></br></br>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  <div class="fb-like" data-href="{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div></br></br>
+
+  <a href='javascript:window.location=%22http://news.ycombinator.com/submitlink?u=%22+encodeURIComponent(document.location)+%22&amp;t=%22+encodeURIComponent("{{ page.title }}")'>
+    <span class="icon">
+      <img src="/imgs/global/hn.gif" width="16" height="16">
+    </span>
+    HN Submission/Discussion
+  </a></br></br>
+
+  <a href="http://quantumgame.us9.list-manage.com/subscribe?u=5e3bdb13b61924c4b0ec92fba&id=6c72ded7d2">
+    <span class="icon">
+      <img src="/imgs/global/mailchimp.png" width="16" height="16">
+    </span>
+    Get notified about new posts via email (MailChimp)
+  </a></br></br>
+</div>
