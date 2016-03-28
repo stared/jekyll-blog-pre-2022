@@ -31,6 +31,6 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: true
+      comments: false
       mathjax:  false
       social:   true
