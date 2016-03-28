@@ -51,7 +51,7 @@ From my perspective the whole process looks that way:
 * present results (a report, plot, interactive data visualization)
 
 And everything needs to be done in a reproducible way - so others can interact with your code, or even run it on a server. Depending on the job, there may be more emphasis on one part or the other.
-Or even look at [this tweet](https://twitter.com/JennyBryan/status/688866722980364289) - while humorous, it shows a balanced list of typical skills and activities of a data scientist:
+Or even look at [this tweet](https://twitter.com/JennyBryan/status/688866722980364289) - while humorous[^6], it shows a balanced list of typical skills and activities of a data scientist:
 
 ![a data scientist should be able to (by Joel Grus)](/imgs/2016-03-15-a-data-scientist-should.png)
 
@@ -146,7 +146,7 @@ If you go the R way, at least:
 
 * [Do your "data janitor work" like a boss with dplyr](http://www.r-bloggers.com/do-your-data-janitor-work-like-a-boss-with-dplyr/)
 * [Data Wrangling with dplyr and tidyr Cheat Sheet](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
-* [Quick Introduction to ggplot2b - Edwin Chen](http://blog.echen.me/2012/01/17/quick-introduction-to-ggplot2/)
+* [Quick Introduction to ggplot2 - Edwin Chen](http://blog.echen.me/2012/01/17/quick-introduction-to-ggplot2/)
 * [Graphics, ggplot2](http://r4stats.com/examples/graphics-ggplot2/)
 * [Getting Started with R: Kaggle's Titanic Competition](https://www.kaggle.com/c/titanic/details/new-getting-started-with-r)
 
@@ -311,12 +311,13 @@ This blog post started as emails, and went through a stage of an extract of emai
 
 There are many people who helped me with this post, at its various stages (starting from asking me questions!). But I would like to especially thank to: Adam Goliński, Sebastian Jaszczur, Kasia Kulma and [Robert Bogucki](http://deepsense.io/author/robert-bogucki/) for their remarks on the final version.
 
-I would love to hear your feedback! Did you find it useful? Or maybe you would recommend some other strategy? Or links? There is a Disqus forum below!
+I would love to hear your feedback! Did you find it useful? Or maybe you would recommend another learning strategy? Or additional links?
 
 Or maybe your company needs a data science training? I would be happy to provide it! See [workshops.deepsense.io](http://workshops.deepsense.io/) for the menu (and we are happy to make custom workshops) and fill the form or contact me directly!
 
 
 [^1]: For instance, if you don't have a quantitative background, you need to focus on it (and it may be the hardest part). Since it was not my path, I can't help.
+[^6]: In particular, *hacking p-value* is wrong. But you should be aware what is [p-value](https://en.wikipedia.org/wiki/P-value) and why it can be hacked (accidentally or purposefully).
 [^2]: But if you come from a non-academic background (e.g. web dev), then from your perspective data science is science. Or to make it precise - it is engineering, but more like designing new engines, than building a house.
 [^3]: Great thanks to Adam Zadrożny for showing me this possibility (he interned at Facebook while doing his PhD in gravity waves) and to [Jacek Migdał](http://jacek.migdal.pl/) for convincing me to apply to the Bay Area, rather than somewhere else.
 [^4]: If you have background in computer science, it will be like playing on the easy level (it was not my case, though). It may be possible to apply as a software engineer expressing interest in data - and learn from that point.
