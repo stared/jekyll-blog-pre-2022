@@ -286,7 +286,7 @@ Never stop learning. Some feeds:
 
 * [Hacker News](https://news.ycombinator.com/)[^5] - startups, tech; data science is one of its topics
 * [DataTau](http://www.datatau.com/)
-* [reddit.com/r/MachineLearning](www.reddit.com/r/MachineLearning/)
+* [reddit.com/r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
 
 And if you have a question, a good place to ask (and search for answers) is:
 
