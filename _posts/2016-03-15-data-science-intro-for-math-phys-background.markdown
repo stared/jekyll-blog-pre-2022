@@ -195,6 +195,8 @@ It's a fast changing field - I am constantly tracking new libraries and updates 
 Often you will need to install something, collaborate with others and do other tasks. The crucial point so to know what is possible - especially not to reinvent the wheel.
 
 * basics of bash/shell (`cd`, `ls`, `pwd`, `head`, `wc`, `wget`)
+  * [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+  * [Basic Unix Shell Commands for the Data Scientist](http://practical-data-science.blogspot.com/2012/09/basic-unix-shell-commands-for-data.html)
 * CSV, [JSON](https://en.wikipedia.org/wiki/JSON)
 * git for version control - see [Why use version control systems for writing a paper?](http://academia.stackexchange.com/a/5286/49)
   * [tryGit - Got 15 minutes and want to learn Git?](https://try.github.io/)
@@ -206,8 +208,8 @@ Often you will need to install something, collaborate with others and do other t
   * [RegExr](http://regexr.com/)
   * [Regular Expressions Cheat Sheet - DaveChild](http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/)
 * basics of SQL
-  * [SQL Cheet Sheet](http://www.sql-tutorial.net/sql-cheat-sheet.pdf)
-  * [An Introductory SQL Tutorial: How to Write Simple Queries](http://blog.hubspot.com/marketing/sql-tutorial-introduction)
+  * [An Introductory SQL Tutorial: How to Write Simple Queries - Rachel Sprung](http://blog.hubspot.com/marketing/sql-tutorial-introduction)
+  * [Learn SQL in stages - SQLZOO](http://sqlzoo.net/)
   * [Stack Exchange Data](https://data.stackexchange.com/) - see examples, write your own queries
 * working with REST APIs
   * e.g. [The Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro)
@@ -287,6 +289,7 @@ Never stop learning. Some feeds:
 * [Hacker News](https://news.ycombinator.com/)[^5] - startups, tech; data science is one of its topics
 * [DataTau](http://www.datatau.com/)
 * [reddit.com/r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
+* [KDnuggets](http://www.kdnuggets.com/)
 
 And if you have a question, a good place to ask (and search for answers) is:
 
