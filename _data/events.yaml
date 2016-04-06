@@ -33,7 +33,14 @@
   date:  2016-03-11
   tags:  [talk, workshop]
 
-- talk:  Registration is open (until 25 Mar 2016)
+- talk:  Jedniodniowe warsztaty z D3.js
+  event: prywatna inicjatywa w DELab UW
+  href:  http://goo.gl/forms/VtC7ffFIlb
+  place: Warsaw (Poland)
+  date:  2016-04-10
+  tags:  [workshop, extra-almonds]
+
+- talk:  Side-projects, ConvNets
   event: 7th Offtopicarium
   href:  http://offtopicarium.wikidot.com/
   place: Słomczyn near Warsaw (Poland)
