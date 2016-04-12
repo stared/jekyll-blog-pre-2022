@@ -21,6 +21,11 @@ comments: true
       {% for tag in page.tags %}
         <span>[{{ tag }}]</span>
       {% endfor %}
+      {% if page.external %}
+      </br>
+      also {{ page.external.status }} <a href="{{ page.external.href }}">{{ page.external.title }}</a>
+      on {{ page.external.date | date: "%-d %b %Y" }}
+      {% endif %}
     </p>
   </header>
 
