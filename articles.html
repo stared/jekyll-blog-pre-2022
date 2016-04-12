@@ -19,6 +19,9 @@ order:  2
       <a href="{{ article.href }}">{{ article.title }}</a>
       <span class="post-meta">
         @ {{ article.at }}
+        {% if article.hn %}
+        • see <a href="{{ article.hn }}">HN discussion</a>
+        {% endif %}
       </span>
     </li>
   {% endfor %}
