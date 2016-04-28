@@ -40,9 +40,16 @@
   date:  2016-04-10
   tags:  [workshop, extra-almonds]
 
-- talk:  Side-projects, ConvNets
+- talk:  Side-projects, part 2
   event: 7th Offtopicarium
   href:  http://offtopicarium.wikidot.com/
   place: Słomczyn near Warsaw (Poland)
   date:  2016-04-15
   tags:  [unconference]
+
+- talk:  Beta-testing the Quantum Game
+  event: quantumgame.io
+  href:  https://www.facebook.com/events/1011251362245151/
+  place: Worldwide
+  date:  2016-05-01
+  tags:  [release]
