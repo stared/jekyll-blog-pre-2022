@@ -51,5 +51,12 @@
   event: quantumgame.io
   href:  https://www.facebook.com/events/1011251362245151/
   place: Worldwide
-  date:  2016-05-01
+  date:  2016-05-08
   tags:  [release]
+
+- talk:  Data science - analiza danych wszelakich
+  event: SKFiz, Wydział Fizyki UW
+  href:  http://skfiz.fuw.edu.pl/
+  place: Warsaw, Poland
+  date:  2016-05-09
+  tags:  [talk]
