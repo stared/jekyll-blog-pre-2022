@@ -42,7 +42,10 @@ layout: default
       </span>
       <br>
       <a class="post-link" href="{{ event.href }}">{{ event.talk }}</a>
-      <span class="post-meta">@ {{ event.event}}</span>
+      {% if event.slides %}
+        (<a href="{{ event.slides }}">slides</a>!)
+      {% endif %}
+      <span class="post-meta">@ {{ event.event }}</span>
     </li>
     {% endif %}
   {% endfor %}

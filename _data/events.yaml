@@ -62,8 +62,9 @@
   tags:  [talk]
 
 - talk:  Teaching machine learning
-  event: PyData Berlin
+  event: PyData Berlin 2016
   href:  http://pydata.org/berlin2016/
   place: Berlin, Germany
   date:  2016-05-20
   tags:  [talk, lightning-talk]
+  slides: https://speakerdeck.com/pmigdal/teaching-machine-learning
