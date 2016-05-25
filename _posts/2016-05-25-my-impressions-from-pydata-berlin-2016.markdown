@@ -7,8 +7,11 @@ tags:
   - python
   - ephemeral
 mathjax: false
-description: 'Was it worth it? (Yes.) Links to the best talks.'
+description: "Was it worth it? (Yes.) Links to the best talks."
+image: "http://pydata.org/berlin2016/static/images/pydata-logo-berlin-2016.png"
 ---
+
+
 
 Last week I attended [PyData Berlin 2016](http://pydata.org/berlin2016/schedule/). It was my first non-academic conference. I was not sure if it was going to be interesting or going beyond things I can see on the Internet anyway. But since I've never been to Berlin, had an open invitation by a friend of mine[^skander], and it's 6.5h by train[^trains] from Warsaw, I decided to go.
 
