@@ -23,7 +23,7 @@ Talks I have found the most interesting:
 * Katharina Rasch, [What every Data Scientist should know about data anonymization](https://github.com/krasch/presentations/blob/master/pydata_Berlin_2016.pdf)
   * anonymization by merging unique rows; sensitive information is culture-dependent
 * Łukasz Czarnecki, [Brand recognition in real-life photos using deep learning](http://www.slideshare.net/ukaszCzarnecki/brand-recognition-in-reallife-photos-using-deep-learning-lukasz-czarnecki-pydata-berlin-2016/)
-  * if you use pre-trained convolutional neural network (like `VGG_S`), not that many samples are needed (~300 per class)
+  * if you use pre-trained convolutional neural network (like VGG_S), not that many samples are needed (~300 per class)
 * Maciej Gryka, Removing Soft Shadows with Hard Data ([research paper](http://www0.cs.ucl.ac.uk/staff/M.Gryka/download/learning-to-remove-soft-shadows.pdf)))
   * custom Random Forest can do wonders, even for problems typically suitable for CNNs (vide [image colorization](http://richzhang.github.io/colorization/))
 * Julia Evans, [How to trick a neural network](http://jvns.ca/blog/2016/05/21/a-few-notes-from-my-pydata-berlin-keynote/)
@@ -57,13 +57,16 @@ I had a lightning talk: [Teaching Machine Learning](https://speakerdeck.com/pmig
 * Many methods are new, so it's crucial to learn them (and how can they be tailored to your tasks); sometimes being an expert with 10-year experience is physically impossible.
 * The number of participants was optimal (200? I hate huge conferences).
 * If other PyData events are of similar quality, it's not my last time there! :)
-* Thanks to the organizers, thank you!
 
 
 # Links
 
 * [PyData Berlin 2016 Materials](https://github.com/deeplook/pydata_berlin2016_materials) (mainly slides)
+* [Notes from my PyData Berlin keynote by Julia Evans](http://jvns.ca/blog/2016/05/21/a-few-notes-from-my-pydata-berlin-keynote/)
+* If your have your own blog post or photo gallery from this event - mail me! :)
 * There will be videos (I will link them once they are out).
+
+Thanks to the organizers!
 
 
 [^skander]: Thanks Skander!
