@@ -21,13 +21,13 @@ td;dr: It was worth my time and I really enjoyed the event.
 Talks I have found the most interesting:
 
 * Katharina Rasch, [What every Data Scientist should know about data anonymization](https://github.com/krasch/presentations/blob/master/pydata_Berlin_2016.pdf)
-  * anonymization by merging unique rows
+  * anonymization by merging unique rows; sensitive information is culture-dependent
 * Łukasz Czarnecki, [Brand recognition in real-life photos using deep learning](http://www.slideshare.net/ukaszCzarnecki/brand-recognition-in-reallife-photos-using-deep-learning-lukasz-czarnecki-pydata-berlin-2016/)
   * if you use pre-trained convolutional neural network (like `VGG_S`), not that many samples are needed (~300 per class)
 * Maciej Gryka, Removing Soft Shadows with Hard Data ([research paper](http://www0.cs.ucl.ac.uk/staff/M.Gryka/download/learning-to-remove-soft-shadows.pdf)))
   * custom Random Forest can do wonders, even for problems typically suitable for CNNs (vide [image colorization](http://richzhang.github.io/colorization/))
 * Julia Evans, [How to trick a neural network](http://jvns.ca/blog/2016/05/21/a-few-notes-from-my-pydata-berlin-keynote/)
-  * periodical reminder that learning by playing (and breaking) is the best way of learning
+  * a periodical reminder that learning by playing (and breaking) is the best way of learning
 * Matthew Honnibal, Designing spaCy: A high-performance natural language processing (NLP) library written in Cython
   * after reading [Sense2vec with spaCy and Gensim](https://spacy.io/blog/sense2vec-with-spacy) it was insightful to hear about the package design philosophy
 
@@ -43,7 +43,7 @@ Also, these were good:
 And talks I missed, but I am sure were great:
 
 * Wes McKinney, [Python Data Ecosystem: Thoughts on Building for the Future](http://www.slideshare.net/wesm/python-data-ecosystem-thoughts-on-building-for-the-future)
-* Lev Konstantinovskiy, [Practical Word2vec in Gensim](https://github.com/RaRe-Technologies/movie-plots-by-genre)
+* Lev Konstantinovskiy, [Practical Word2vec in Gensim](https://github.com/RaRe-Technologies/movie-plots-by-genre) (workshop)
 * Maciej Jaskowski, [Let's play Space Invaders!](http://maciejjaskowski.github.io/2016/03/09/space-invaders.html)
 
 If your beloved talk is not there, don't cry - most likely it was in a parallel session. (Also, in general topic selection and quality of presentation was good.)
