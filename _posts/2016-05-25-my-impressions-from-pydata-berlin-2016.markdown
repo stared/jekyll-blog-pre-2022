@@ -38,7 +38,7 @@ Also, these were good:
 * Katharine Jarmul, [Holy D@t*! How to Deal with Imperfect, Unclean Datasets](https://docs.google.com/presentation/d/1G-lgHKTdrqeeJhcvVmd7C9gOIfTRe429zhBN6lmKKzA/)
 * Ian Ozsvald, [Statistically Solving Sneezes and Sniffles (a work in progress)](http://ianozsvald.com/2016/05/07/statistically-solving-sneezes-and-sniffles-a-work-in-progress-report-at-pydatalondon-2016/)
 * Olivier Grisel, [Evolution of the pydata ecosystem](http://ogrisel.github.io/decks/2016_pydata_berlin/)
-* Delia Rusu, Estimating stock price correlations using Wikipedia
+* Delia Rusu, [Estimating stock price correlations using Wikipedia](https://speakerdeck.com/deliarusu/estimating-stock-price-correlations-using-wikipedia)
 
 And talks I missed, but I am sure were great:
 
