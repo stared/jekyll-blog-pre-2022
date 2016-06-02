@@ -68,3 +68,10 @@
   date:  2016-05-20
   tags:  [talk, lightning-talk]
   slides: https://speakerdeck.com/pmigdal/teaching-machine-learning
+
+- talk:  "Data Viz in D3.js"
+  event: Workshops by deepsense.io
+  href:  https://www.facebook.com/events/545189682349124/
+  place: Warsaw, Poland
+  date:  2016-06-11
+  tags:  [workshop]
