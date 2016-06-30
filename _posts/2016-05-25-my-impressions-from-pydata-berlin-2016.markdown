@@ -64,7 +64,7 @@ I had a lightning talk: [Teaching Machine Learning](https://speakerdeck.com/pmig
 * [PyData Berlin 2016 Materials](https://github.com/deeplook/pydata_berlin2016_materials) (mainly slides)
 * [Notes from my PyData Berlin keynote by Julia Evans](http://jvns.ca/blog/2016/05/21/a-few-notes-from-my-pydata-berlin-keynote/)
 * If your have your own blog post or photo gallery from this event - mail me! :)
-* There will be videos (I will link them once they are out).
+* UPDATE: [There are videos from the talks](https://www.youtube.com/playlist?list=PLGVZCDnMOq0ogEIvRHZyXMNJwkEPHi6Bl)!
 
 Thanks to the organizers!
 
