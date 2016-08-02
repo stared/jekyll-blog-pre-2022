@@ -1,12 +1,15 @@
 ---
 layout: "post"
 title: "Quantum mechanics for high-school students"
-date: "2016-08-01 11:38"
+date: 2016-08-03 14:42 +0100
+tags:
+  - quantum
+  - teaching
+mathjax: false
+description: "Outlines and materials related to my basics courses, with light polarization as the quantum information carrier."
 ---
 
-> Before applying consult with your teacher or professor, as every misused didactic material may result in misunderstanding or discouragement.
-
-A few times I gave introduction to quantum mechanics for talented high-school students. Here I share outlines and materials.
+A few times I gave introduction to quantum mechanics for talented high-school students, in Poland and in ~~Spain~~ Catalonia. Here I share outlines and materials.
 
 One of their consequences is [Quantum Game with Photons](http://quantumgame.io).
 
@@ -25,7 +28,10 @@ And IMHO starting with classical mechanics (continuous variables) is the worst a
 
 # Materials
 
+XXX Format it a bit
+
 * Valerio Scarani, [Six Quantum Pieces: A First Course in Quantum Physics](http://www.amazon.com/Six-Quantum-Pieces-Course-Physics/dp/9814327549)
+  * The first few chapters (it also starts with a single photon and polarization); then it quickly gets too abstracts (optimal cloning).
 * Simon Singh, The Code Book
   * a general intro to cryptography
 * Carl D. Meyer, [Matrix Analysis and Applied Linear Algebra](http://www.matrixanalysis.com/DownloadChapters.html)
@@ -36,8 +42,27 @@ And IMHO starting with classical mechanics (continuous variables) is the worst a
   * You can see the interference, the total internal reflection, the lensing, the Fresnel zone plates, the Doppler effect, the scattering and many, many other phenomena.
 * XXX speakerdeckize http://dl.dropbox.com/u/17968211/polarization-of-light.zip
   * (they work well with actually showing phenomena, I always bring my polarization sheets).
-* XXX Quantum game XXX
-* XXX Azimuth blog post XXX
+* my [Quantum Game with Photons](http://quantumgame.io)
+* my entry [Quantum superposition - Azimuth blog](ttps://johncarlosbaez.wordpress.com/2015/03/13/quantum-superposition/) or why does an electron need to be in two places at once
+* XXX Andrzej Dragan, Niezwykle Szczególna Teoria Względności, chapter on Bell inequality (in Polish)
+* Friedman, Susskind, [Quantum Mechanics: The Theoretical Minimum. What You Need to Know to Start Doing Physics.](http://www.amazon.com/Quantum-Mechanics-Theoretical-Leonard-Susskind/dp/0465062903)
+  * two-level system, though with an electron which is conceptually harder  
+  * also in Polish: [Mechanika kwantowa - teorytyczne minimum](http://www.proszynski.pl/Mechanika_kwantowa__Teoretyczne_minimum-p-33197-.html)
+* Konrad Banaszek, Rafał Demkowicz-Dobrzański, [Quantum information 1/2](http://www.fuw.edu.pl/~demko/Teksty/ik05/2012/qi12.pdf)
+  * lecture notes; it starts with two-level system of polarization of light; it is not incidental - Konrad Banaszek was my MSc advisor and I was raised in this quantum optical environment
+  * also some exercises:  http://www.fuw.edu.pl/~demko/students.html
+* XXX http://www.amazon.com/Lectures-Quantum-Mechanics-Basic-Matters/dp/9812569707
+  * my [first course in QM](http://www.fuw.edu.pl/~dobaczew/kwanty/kwanty.html) by XXX Dobaczewski was based on that
+  * [a poem, as a homework](http://www.fuw.edu.pl/~dobaczew/kwanty/wiersz.html) (in Polish)
+* David Griffiths, [Introduction to Quantum Mechanics](https://archive.org/details/IntroductionToQuantumMechanics_718)
+* R. Shankar, Principles of Quantum Mechanics (też po polsku)
+* I **do not** recommend L.I. Schiff, Quantum mechanics
+  * It is a common introduction, but stuck in the worst classical rut
+* Feynman lectures on Physics, Volume 3 XXX link
+  *  I love the series, but in this case - please use it only as a supplement.
+* Nielsen, Chuang "Quantum Computation and Quantum Information"
+  * so called *the green book*
+  * introduction from the non-physical perspective
 
 # Course outlines
 
@@ -159,6 +184,45 @@ It went wonderful with one participant, but not the other.
 
 ## XXX This later at ICFO
 
-## Serock 2016
+XXX or was it very similar to
 
-https://hackpad.com/Optyka-kwantowa-Serock-2016-1xz8YYy9yBu
+## Serock (2016)
+
+XXX check
+
+* when
+* cross link to the Crastina Text on KFnrD
+* no qualification tasks
+* 2h (3h?) for 3 days
+* 5 participants
+
+### Outline
+
+* Day 1: Waves, complex numbers, polarization of light
+  * [coloring complex numbers](http://nbviewer.jupyter.org/github/empet/Math/blob/master/DomainColoring.ipynb)
+  * or as in my [Qubism in QuTiP](http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/blob/master/examples/example-qubism-and-schmidt-plots.ipynb)
+  * [What is i^i?](http://www.smbc-comics.com/?id=2934)
+  * http://mathematica.stackexchange.com/questions/1987/how-do-i-plot-a-plane-em-wave
+* Day 2: Amplitude and probability, polarizers and projections
+  * [Jones calculus - MathWorld](http://scienceworld.wolfram.com/physics/JonesVector.html)
+  * [Jones calculus - Wikipedia](https://en.wikipedia.org/wiki/Jones_calculus)
+* Day 3: Matrices, eigenvectors and bombs
+  * [Eigenvectors and Eigenvalues - Visually Explained](http://setosa.io/ev/eigenvectors-and-eigenvalues/)
+  * Python (in [Jupyter Notebook](http://jupyter.readthedocs.io)) for calculations and plots, see my blog entry: [Data science intro for math/phys background ](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html) and the paragraph on Python
+
+### After
+
+One person really enjoyed it, for most it was too much of linear algebra.
+
+XXX picture?
+
+# And...?
+
+If you want to use any material - feel free! Though, I would be even happier if you tell me that.
+
+If you have some other materials or references - just send them. Maybe it will inspire me how to do the next course.
+
+I consider writing a simple introduction to quantum mechanics, with interactive simulations. If you consider it a great ideas, consider poking me.
+
+
+> Before applying consult with your teacher or professor, as every misused didactic material may result in misunderstanding or discouragement.
