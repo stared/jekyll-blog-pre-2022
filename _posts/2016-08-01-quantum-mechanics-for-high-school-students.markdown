@@ -6,6 +6,11 @@ date: "2016-08-01 11:38"
 
 > Before applying consult with your teacher or professor, as every misused didactic material may result in misunderstanding or discouragement.
 
+A few times I gave introduction to quantum mechanics for talented high-school students. Here I share outlines and materials.
+
+One of their consequences is [Quantum Game with Photons](http://quantumgame.io).
+
+
 # Philosophy
 
 (but with some experimental footing)
@@ -18,42 +23,30 @@ And IMHO starting with classical mechanics (continuous variables) is the worst a
 - difficult and
 - seeds some wrong intuitions.
 
-## Books
+# Materials
 
-Valerio Scarani, Six Quantum Pieces: A First Course in Quantum Physics
-http://www.amazon.com/Six-Quantum-Pieces-Course-Physics/dp/9814327549
-In my opinion it looks great as an introduction to QM.
-There is one in ICFO, I think in the hands of Alejandra Valencia or or Marta Garcia.
-
-And just in case:
-- Simon Singh, The Code Book (a general intro to cryptography; also at ICFO)
-- Carl D. Meyer, Matrix Analysis and Applied Linear Algebra (a general intro/reference to linear algebra; also here: http://www.matrixanalysis.com/DownloadChapters.html, very simply and didactically written)
-
-## Other materials
-
-1-D Quantum Mechanics
-http://www.falstad.com/qm1d/ (on http://www.falstad.com/mathphysics.html)
-BTW: Play with it (it is nice also for older kids; at least I am in love with it); you can easily create coherent or squeezed states for the harmonic oscillator potential.
-
-From the same site, also Ripple Tank is marvelous:
-http://www.falstad.com/ripple/
-You can see the interference, the total internal reflection, the lensing, the Fresnel zone plates, the Doppler effect, the scattering and many, many other phenomena.
-
-My (humble) slides on the polarization of light:
-http://dl.dropbox.com/u/17968211/polarization-of-light.zip
-(they work well with actually showing phenomena, I always bring my polarization sheets).
-
-QUANTUM GAME
-
+* Valerio Scarani, [Six Quantum Pieces: A First Course in Quantum Physics](http://www.amazon.com/Six-Quantum-Pieces-Course-Physics/dp/9814327549)
+* Simon Singh, The Code Book
+  * a general intro to cryptography
+* Carl D. Meyer, [Matrix Analysis and Applied Linear Algebra](http://www.matrixanalysis.com/DownloadChapters.html)
+  * a general intro/reference to linear algebra, very simply and didactically written
+* [1-D Quantum Mechanics](http://www.falstad.com/qm1d/) (on http://www.falstad.com/mathphysics.html)
+  * Play with it (it is nice also for older kids; at least I am in love with it); you can easily create coherent or squeezed states for the harmonic oscillator potential.
+* From the same site, also [Ripple Tank](http://www.falstad.com/ripple/) is marvelous:
+  * You can see the interference, the total internal reflection, the lensing, the Fresnel zone plates, the Doppler effect, the scattering and many, many other phenomena.
+* XXX speakerdeckize http://dl.dropbox.com/u/17968211/polarization-of-light.zip
+  * (they work well with actually showing phenomena, I always bring my polarization sheets).
+* XXX Quantum game XXX
+* XXX Azimuth blog post XXX
 
 # Course outlines
 
 ## Quantum optics, 7th WWW (2011)
 
-"Quantum optics" on "7th Scientific Summer School" (a camp that I co-organized)
+* "Quantum optics" on "7th Scientific Summer School" (a camp that I co-organized)
+  * XXX [Indie camp for high school geeks]() XXX
 * 8-18 Aug 2011, Olsztyn, Poland
 * http://warsztatywww.wikidot.com/www7:optyka-kwantowa
-
 * 3h x 3 day workshop for talented high-schools students
 * there were difficult qualification tasks both as a strong filter and to teach preliminary materials:
   * complex numbers (including radial representation),
@@ -84,17 +77,17 @@ Notes by one of the participants:
 http://dl.dropbox.com/u/17968211/www7quantum_notes_by_lis.zip
 (beautiful font, nice drawings, ...)
 
-There were ~6 participants. It went _really_ well (though I had a lot of luck to get so outstanding participants).
+It went really well (though I had a lot of luck to get so outstanding participants).
 Also, it can be made a bit simpler, with less mathematics.
 
-## Course (Quantum cryptography, ICFO 2011)
+XXX Photo XXX
 
-"Programma Jonevs y Ciencia"
-15.06-15.07.2011, ICFO, Castelldefels (Barcelona)
+## Quantum cryptography, ICFO (2011)
 
-6h twice a week
-2 participants
-with one it went great, with the other - not so (though he was not even motivated)
+* Programma Jonevs y Ciencia
+* 15.06-15.07.2011, ICFO, Castelldefels (Barcelona)
+* 6h twice a week
+* 2 participants
 
 General idea:
 - Rather involve and inspire than merely give lectures.
@@ -108,7 +101,7 @@ General idea:
 `*` - an additional material that I used
 `**` - an additional material that I didn't use
 
-1. Classical cryptography
+#### 1. Classical cryptography
 
 1.1. Naive letter/word relabeling
 - give some interesting historical examples
@@ -127,12 +120,11 @@ General idea:
 - asymmetric codes, the actual RSA procedure
 - it's hard to break but not impossible (give time estimations with _current_ technology)
 
-2. Quantum cryptography
+#### 2. Quantum cryptography
 
 2.1. Measurement of the (classical) polarization of light
 - `*` introduction to complex numbers
-complex numbers are worth introducing on their own - not difficult, useful, and (geek) kids like it
-I would like to do the Bell theorem so I would need to introduce some probability. I will probably start with polarization of light and then do quantum mechanics with finite-dimensional vectors and matrices, but it depends on what Alex and John do during the week 25-29/06
+  - complex numbers are worth introducing on their own - not difficult, useful, and (geek) kids like it
 - description of polarization with two numbers
 - polarizer, measurement of intensity, cos^2(alpha)
 - rotation of polarization (e.g. with half wave plates)
@@ -160,6 +152,12 @@ I would like to do the Bell theorem so I would need to introduce some probabilit
 - Shannon entropy; when one can compress a file, how to play in "twenty questions" game
 - how to quantize the sent information (quantum or classical), when there is noise in the channel
 - how to check if information is altered and how to fix it (check sum, Hamming codes)
+
+### After
+
+It went wonderful with one participant, but not the other.
+
+## XXX This later at ICFO
 
 ## Serock 2016
 
