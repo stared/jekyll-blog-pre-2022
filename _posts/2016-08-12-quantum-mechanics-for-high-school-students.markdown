@@ -1,15 +1,16 @@
 ---
 layout: "post"
 title: "Quantum mechanics for high-school students"
-date: 2016-08-03 14:42 +0100
+date: 2016-08-12 14:42 +0100
 tags:
   - quantum
   - teaching
 mathjax: true
 description: "Outlines and materials related to my basics courses, with light polarization as the quantum information carrier."
+image: /imgs/2016-08-12-quantum-whiteboard-julia.jpg
 ---
 
-A few times I gave introductions to quantum mechanics for talented high-school students, in Poland (2011, 2016) and in ~~Spain~~ Catalonia (2011, 2012).
+A few times I gave introductions to quantum mechanics for talented high-school students, in Poland (2011, 2016) and in Spain... or rather Catalonia (2011, 2012).
 
 
 Here I share outlines and materials.
@@ -131,6 +132,7 @@ General idea:
 * http://warsztatywww.wikidot.com/www7:optyka-kwantowa
 * 3h x 3 day workshop for talented high-schools students
 
+![Quantum Zeno effect with polarization rotation by Krzysztof Lis](/imgs/2016-08-12-quantum-zeno-lis.jpg)
 
 ### Outline
 
@@ -154,17 +156,6 @@ General idea:
 
   What is that? Why it is the most intuitive approach to more particles? Relation between interference, entanglement and looking at objects.
 
-### After
-
-Notes by one of the participants:
-http://dl.dropbox.com/u/17968211/www7quantum_notes_by_lis.zip
-(beautiful font, nice drawings, ...)
-
-It went really well (though I had a lot of luck to get so outstanding participants).
-Also, it can be made a bit simpler, with less mathematics.
-
-XXX Photo XXX
-
 ## Quantum cryptography, ICFO (2011)
 
 * [Jóvenes y Ciencia](http://www.fundaciocatalunya-lapedrera.com/es/content/j%C3%B3venes-y-ciencia)
@@ -172,6 +163,8 @@ XXX Photo XXX
 * 15.06-15.07.2011
 * 6h twice a week
 * 2 participants
+
+![No-cloning theorem with Júlia Amorós Binefa in 2012](/imgs/2016-08-12-quantum-whiteboard-julia.jpg)
 
 ### Outline
 
@@ -221,7 +214,7 @@ XXX Photo XXX
 2.4. `**` Quantum entanglement
 - Bell pairs, how to deal with them mathematically
 - classical correlations or more
-- Bell inequality (including futile trails to break it )
+- Bell inequality (including futile trails to break it)
 - nonlocal boxes
 - quantum teleportation
 
