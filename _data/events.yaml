@@ -1,3 +1,10 @@
+- talk:  Programming and data analysis in Python for neurobiologists
+  event: 6th International Conference Aspects of Neuroscience
+  href:  http://neuroaspects.org.pl/
+  place: Warsaw (Poland)
+  date:  2016-11-25
+  tags:  [conference, workshop]
+
 - talk:  Jupyter - an interactive environment for data science
   event: Jesienne Spotkanie Entuzjastów R (SER XII)
   href:  https://github.com/mi2-warsaw/SER/tree/master/SER_XII/piotr_migdal_jupyter_notebook
