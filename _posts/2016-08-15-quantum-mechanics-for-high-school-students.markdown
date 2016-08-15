@@ -81,9 +81,9 @@ I did it four times:
 2. Aug 2011, Olsztyn, Poland, [7th edition](http://warsztatywww.wikidot.com/www7-program) of [Wakacyjne Warsztaty Wielodyscyplinarne (Scientific Summer School)](http://warsztatywww.pl/)
   * more on the camp series: [An independent camp for high-school geeks](http://warsztatywww.wikidot.com/en:indie-camp-for-hs-geeks)
 3. Jun-Jul 2012, Castelldefels, Spain, [ICFO](https://www.icfo.eu/) for [Jóvenes y Ciencia](http://www.fundaciocatalunya-lapedrera.com/es/content/j%C3%B3venes-y-ciencia)
-  * co-thought with Jordi Tura, Julia Stasińska, Alejandro Zamora and John Lapeyre
+  * co-taught with Jordi Tura, Julia Stasińska, Alejandro Zamora and John Lapeyre
 4. May 2016, Serock, Poland, [Wielodyscyplinarny Obóz Naukowy](http://fundusz.org/program/warsztaty-i-obozy/321-oboz-w-serocku) of [Krajowy Fundusz na rzecz Dzieci (Polish Children's Fund)](http://fundusz.org/english)
-  * more on the program: [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/)
+  * more on the program: [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) at Scientia Crastina
 
 Since there is a lot of redundancy, I will describe only 1. (3. was similar) and 2. (4. was similar), mentioning some modifications.
 
