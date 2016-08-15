@@ -5,18 +5,18 @@ date: 2016-08-12 14:42 +0100
 tags:
   - quantum
   - teaching
-mathjax: true
+mathjax: false
 description: "Outlines and materials related to my basics courses, with light polarization as the quantum information carrier."
 image: /imgs/2016-08-12-quantum-whiteboard-julia.jpg
 ---
 
 ![No-cloning theorem with Júlia Amorós Binefa in 2012](/imgs/2016-08-12-quantum-whiteboard-julia.jpg)
 
-A few times I gave introductions to quantum mechanics for talented high-school students, in Poland (2011, 2016) and in Spain[^catalonia] (2011, 2012).
+*Beta version. I may do some changes this week. Also: comments and grammar/link/typo fixes are appreciated.*
 
-I have already shared it a few times over the course of years. Now I have found some time[^finding_time] to clean it a bit, hoping that you may find it useful or inspiring for others.
+A few times I gave introductions to quantum mechanics for talented high-school students, in Poland (2011, 2016) and in Spain[^catalonia] (2011, 2012). I have already shared it a few times over the course of years. Now I have found some time[^finding_time] to clean it a bit, hoping that you may find it useful or inspiring.
 
-I certainly keeps inspiring me. First two workshops convinced me that quantum mechanic isn't that hard or bizarre and can be thought to motivated high-school students[^who_can]. Moreover, one of its consequences is [Quantum Game with Photons](http://quantumgame.io) I am developing (but is playable at this stage, and certainly sufficient as a sandbox for interferometers - use `∞` mode).
+It certainly keeps inspiring me! First two workshops convinced me that quantum mechanic isn't that hard or bizarre and can be thought to motivated high-school students[^who_can]. Moreover, one of its consequences is the [Quantum Game with Photons](http://quantumgame.io) I am developing (but is playable at this stage, and certainly sufficient as a sandbox for interferometers - use `∞` mode).
 
 
 ## My approach
@@ -30,17 +30,18 @@ I use light polarization as the prototypical two-level quantum system, starting 
 * is simple and can be visualized geometrically,
 * can be explained classically, with a smooth transition into the quantum world,
 * can be directly demonstrated (e.g. with polarizations sheets, polarization filters, LCD screen, reflections, sugar solutions, [naked eye](https://en.wikipedia.org/wiki/Haidinger%27s_brush)),
-* passes the [Scott Aaronson's Minus-Sign Test](http://www.scottaaronson.com/blog/?p=613) in a simple way[^minus_sign] (crucial!),
+* passes the [Scott Aaronson's Minus-Sign Test](http://www.scottaaronson.com/blog/?p=613) in a simple way (crucial!),
 * directly translates to applications like quantum cryptography.
 
 A classical[^classical] quantum mechanics introduction starts from position (and momentum) of a single particle. Sure, it has valuable pieces like calculating energies and orbitals, and there is the Heisenberg uncertainty principle[^heisenberg]. However, IMHO starting with classical mechanics (continuous variables) is the worst approach, as it is:
 
 * starts with infinitely dimensional Hilbert space,
+* deals with a particular system, giving little insight into general quantum mechanics,
 * requires classical mechanics background,
 * seeds some wrong intuitions due to classical mechanics as the background,
 * it's easy to sink into technicalities of differentiating and integrating.
 
-Working with electrons as the two-state system (spin up, spin down) has the benefit, however:
+Working with electrons as the two-state system (spin up, spin down) has some benefits, however:
 
 * the classical-quantum link is much more complicated,
 * no way to show it directly,
@@ -54,16 +55,15 @@ Moreover, when it comes to the mathematical tools, I try not treating them as a 
 * polarization of light is interesting on its own,
 * linear algebra is useful on its own.
 
-When it comes to delivery:
+When it comes to delivery, I try to:
 
 * rather involve and inspire than merely give lectures,
-* use Python (previously Mathematica) to actually calculate and plot things,
-* don't use more formalism or mathematics than it's necessary,
-* rules, not axioms,
+* use Python within Jupyter Notebook (previously Mathematica) to actually calculate and plot things,
+* don't use more formalism or mathematics than it's necessary (rules, not axioms!),
 * flexibly change the program according to their skills and interests,
-* more in my answer [How to improve myself as a lecturer - Academia Stack Exchange](http://academia.stackexchange.com/questions/5236/how-to-improve-myself-as-a-lecturer/5249#5249).
+* more in my answer to [How to improve myself as a lecturer - Academia Stack Exchange](http://academia.stackexchange.com/questions/5236/how-to-improve-myself-as-a-lecturer/5249#5249).
 
-For experimental stuff, it's crucial to show first, explain later (otherwise you are killing suspension and awe):
+For experimental stuff, it's crucial to show first, explain later - if at all (otherwise you are killing the sense of suspension and awe):
 
 > The researchers' conclusion was that, in the context of strange toys of unknown function, prior explanation does, indeed, inhibit exploration and discovery.
 
@@ -71,63 +71,7 @@ from [When should you teach children, and when should you let them explore? - Th
 
 ![LCD screen + plastic cup + polarizer](/imgs/2016-08-12-quantum-polarization.jpg)
 
-
-## Materials
-
-### Simple books
-
-* Valerio Scarani, [Six Quantum Pieces: A First Course in Quantum Physics](http://www.amazon.com/Six-Quantum-Pieces-Course-Physics/dp/9814327549)
-  * the first few chapters are great (it also starts with a single photon and polarization), but then it quickly gets too abstracts (optimal cloning)
-* Leonard Susskind, Art Friedman, [Quantum Mechanics: The Theoretical Minimum. What You Need to Know to Start Doing Physics.](http://www.amazon.com/Quantum-Mechanics-Theoretical-Leonard-Susskind/dp/0465062903)
-  * two-level system, though with an electron which is conceptually harder  
-  * also in Polish: [Mechanika kwantowa - teorytyczne minimum](http://www.proszynski.pl/Mechanika_kwantowa__Teoretyczne_minimum-p-33197-.html)
-* Konrad Banaszek, Rafał Demkowicz-Dobrzański, [Quantum information 1/2](http://www.fuw.edu.pl/~demko/Teksty/ik05/2012/qi12.pdf)
-  * lecture notes; it starts with two-level system of polarization of light; it is not incidental - Konrad Banaszek was my MSc advisor and I was raised in this quantum optical environment
-  * also some exercises: http://www.fuw.edu.pl/~demko/students.html
-* Andrzej Dragan, [Niezwykle Szczególna Teoria Względności](http://www.fuw.edu.pl/~dragan/Fizyka/Nstw.pdf) (en: *Extraordinarily Special Relativity*)
-  * chapter 5. on Bell inequality
-  * in general this text is so awesome it's pity it's only in Polish
-
-### Interactive stuff
-
-* my [Quantum Game with Photons](http://quantumgame.io)
-  * especially the `∞` where you can freely simulate quantum mechanics of a single photon
-* [Quantum Circuit Simulator: Quirk](http://algorithmicassertions.com/2016/05/22/quirk.html)
-  * direct link: http://www.davyw.com/quantum/
-* [Eigenvectors and Eigenvalues - Visually Explained](http://setosa.io/ev/eigenvectors-and-eigenvalues)
-* [Math and Physics Applets](http://www.falstad.com/mathphysics.html) by Paul Falstad (unfortunately in Java)
-  * [1-D Quantum Mechanics](http://www.falstad.com/qm1d/) - once you are fine with basics of a harmonic oscillator and its eigenstates you can easily create coherent or squeezed states for the harmonic oscillator potential
-  * [Ripple Tank](http://www.falstad.com/ripple/) for wave phenomena - interference, the total internal reflection, the lensing, the Fresnel zone plates, the Doppler effect, the scattering and many, many other phenomena
-* Python (in [Jupyter Notebook](http://jupyter.readthedocs.io)) for calculations and plots
-  * see my blog entry: [Data science intro for math/phys background ](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html) and the paragraph on Python
-  * see [Qubism in QuTiP](http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/blob/master/examples/example-qubism-and-schmidt-plots.ipynb) - in general [QuTiP: Quantum Toolbox in Python](http://qutip.org/)
-
-### Websites
-
-* [Jones calculus - Wikipedia](https://en.wikipedia.org/wiki/Jones_calculus)
-* my entry [Quantum superposition - Azimuth blog](https://johncarlosbaez.wordpress.com/2015/03/13/quantum-superposition/) or why does an electron need to be in two places at once
-* [Visualizing complex-valued functions with Matplotlib and Mayavi - Emilia Petrisor](http://nbviewer.jupyter.org/github/empet/Math/blob/master/DomainColoring.ipynb)
-* [What is i^i? - SMBC so NSFW](http://www.smbc-comics.com/?id=2934)
-* [Third-Polarizing-Filter Experiment Demystified](http://alienryderflex.com/polarizer/) by Darel Rex Finley
-* [Physics - Optics: Polarization (3 of 5) Three Polarizers](https://www.youtube.com/watch?v=r1sZY826Qys) YouTube video by Michel van Biezen
-
-### Textbooks
-
-* Berthold-Georg Englert, [Lectures on Quantum Mechanics - Volume 1: Basic Matters](http://www.amazon.com/Lectures-Quantum-Mechanics-Basic-Matters/dp/9812569707)
-  * a wonderful [course by Jacek Dobaczewski](http://www.fuw.edu.pl/~dobaczew/kwanty/kwanty.html) I had as an introduction to QM was based on that; [a poem, as a homework](http://www.fuw.edu.pl/~dobaczew/kwanty/wiersz.html) (in Polish)
-* David Griffiths, [Introduction to Quantum Mechanics](https://archive.org/details/IntroductionToQuantumMechanics_718)
-  * [an opinion on Quora](https://www.quora.com/Is-it-wise-to-read-Principles-of-Quantum-Mechanics-2nd-Edition-R-Shankar-as-an-introductory-textbook-in-quantum-mechanics)
-* R. Shankar, [Principles of Quantum Mechanics](https://www.amazon.com/Principles-Quantum-Mechanics-2nd-Shankar/dp/0306447908)
-* I **do not** recommend Leonard I. Schiff, [Quantum mechanics](https://archive.org/details/QuantumMechanics_500)
-  * it is a common introduction, but one stuck in the worst classical rut
-* [The Feynman Lectures on Physics, Volume III](http://www.feynmanlectures.caltech.edu/III_toc.html)
-  *  I love the series, but in the case of Vol. III - please use it only as a supplement; there are some unique and insightful things like [chapter 7](http://www.feynmanlectures.caltech.edu/III_07.html) [chapter 10](http://www.feynmanlectures.caltech.edu/III_10.html)
-* Michael A. Nielsen, Isaac L. Chuang, [Quantum Computation and Quantum Information](https://www.amazon.com/Quantum-Computation-Information-10th-Anniversary/dp/1107002176)
-  * so called *the green book*
-  * introduction from the non-physical perspective
-* Carl D. Meyer, [Matrix Analysis and Applied Linear Algebra](http://www.matrixanalysis.com/)
-  * a general intro/reference to linear algebra, very simply and didactically written (relevant chapters: 3, 4, 5)
-
+*An LCD screen + a plastic cup + a camera with a polarizer.*
 
 ## Course outlines
 
@@ -141,7 +85,7 @@ I did it four times:
 4. May 2016, Serock, Poland, [Wielodyscyplinarny Obóz Naukowy](http://fundusz.org/program/warsztaty-i-obozy/321-oboz-w-serocku) of [Krajowy Fundusz na rzecz Dzieci (Polish Children's Fund)](http://fundusz.org/english)
   * more on the program: [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/)
 
-Since there is a lot of redundancy, I will describe only 1. (3. was similar) and 2. (4. was similar).
+Since there is a lot of redundancy, I will describe only 1. (3. was similar) and 2. (4. was similar), mentioning some modifications.
 
 
 ### Quantum optics, 7th Scientific Summer School (2011)
@@ -151,8 +95,6 @@ Since there is a lot of redundancy, I will describe only 1. (3. was similar) and
 * qualification problems as core part - so to prepare with simple, but time-taking parts (unfortunately, in 2016 I couldn't do that what strongly impacted the course)
 * 5 participants
 * 3h x 3 day workshop for talented high-schools students (in 2016: 2.5h x 3)
-
-![Quantum Zeno effect with polarization rotation by Krzysztof Lis](/imgs/2016-08-12-quantum-zeno-lis.jpg)
 
 #### Outline
 
@@ -201,7 +143,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 
 1.2. Perfect XOR
 
-* show that it is perfect encryption
+* show that it is a perfect encryption
 * no difference between the message and the key
 * practice on black&white images
 * and on words (character -> 8 bits -> encoding -> sending -> decoding -> 8 bits -> character)
@@ -219,7 +161,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 
 * `*` introduction to complex numbers
 * description of polarization with two numbers
-* polarizer, measurement of intensity, cos^2(alpha)
+* polarizer, measurement of intensity, projection
 * rotation of polarization (e.g. with half wave plates)
 * 2x2 matrices, how one can describe rotations and measurements with them
 * decomposition of a vector in different bases
@@ -251,13 +193,77 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 * how to check if information is altered and how to fix it (check sum, Hamming codes)
 
 
+![Quantum Zeno effect with polarization rotation - notes by Krzysztof Lis](/imgs/2016-08-12-quantum-zeno-lis.jpg)
+
+*Notes by Krzysztof Lis (2011) - the first historical occurrence of "sugar solution as a mojito drink".*
+
+
+## Materials
+
+### Simple books
+
+* Valerio Scarani, [Six Quantum Pieces: A First Course in Quantum Physics](http://www.amazon.com/Six-Quantum-Pieces-Course-Physics/dp/9814327549)
+  * the first few chapters are great (it also starts with a single photon and polarization), but then it quickly gets too abstracts (optimal cloning)
+* Leonard Susskind, Art Friedman, [Quantum Mechanics: The Theoretical Minimum. What You Need to Know to Start Doing Physics.](http://www.amazon.com/Quantum-Mechanics-Theoretical-Leonard-Susskind/dp/0465062903)
+  * two-level system, though with an electron which is conceptually harder  
+  * also in Polish: [Mechanika kwantowa - teorytyczne minimum](http://www.proszynski.pl/Mechanika_kwantowa__Teoretyczne_minimum-p-33197-.html)
+* Konrad Banaszek, Rafał Demkowicz-Dobrzański, [Quantum information 1/2](http://www.fuw.edu.pl/~demko/Teksty/ik05/2012/qi12.pdf)
+  * lecture notes; it starts with two-level system of polarization of light; it is not incidental - Konrad Banaszek was my MSc advisor and I was raised in this quantum optical environment
+  * also some exercises: [www.fuw.edu.pl/~demko/students.html](http://www.fuw.edu.pl/~demko/students.html)
+* Andrzej Dragan, [Niezwykle Szczególna Teoria Względności](http://www.fuw.edu.pl/~dragan/Fizyka/Nstw.pdf) (en: *Extraordinarily Special Relativity*)
+  * chapter 5. on Bell inequality
+  * in general this text is so awesome it's pity it's only in Polish
+* David Kaiser, [How the Hippies Saved Physics: Science, Counterculture, and the Quantum Revival](http://www.hippiessavedphysics.com/)
+  * a general reading on the beginnings of quantum information (also, why quantum metaphysics is tempting but does not work); bear in mind it overvalues hippies - this field has also different, Russian roots - vide [Holevo's theorem](https://en.wikipedia.org/wiki/Holevo%27s_theorem)
+
+### Interactive stuff
+
+* my [Quantum Game with Photons](http://quantumgame.io)
+  * especially the `∞` where you can freely simulate quantum mechanics of a single photon
+* [Quantum Circuit Simulator: Quirk](http://algorithmicassertions.com/2016/05/22/quirk.html)
+  * direct link: [www.davyw.com/quantum](http://www.davyw.com/quantum/)
+* [Eigenvectors and Eigenvalues - Visually Explained](http://setosa.io/ev/eigenvectors-and-eigenvalues)
+* [Math and Physics Applets](http://www.falstad.com/mathphysics.html) by Paul Falstad (unfortunately in Java)
+  * [1-D Quantum Mechanics](http://www.falstad.com/qm1d/) - once you are fine with basics of a harmonic oscillator and its eigenstates you can easily create coherent or squeezed states for the harmonic oscillator potential
+  * [Ripple Tank](http://www.falstad.com/ripple/) for wave phenomena - interference, the total internal reflection, the lensing, the Fresnel zone plates, the Doppler effect, the scattering and many, many other phenomena
+* Python (in [Jupyter Notebook](http://jupyter.readthedocs.io)) for calculations and plots
+  * see my blog entry: [Data science intro for math/phys background ](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html) and the paragraph on Python
+  * see [Qubism in QuTiP](http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/blob/master/examples/example-qubism-and-schmidt-plots.ipynb) - in general [QuTiP: Quantum Toolbox in Python](http://qutip.org/)
+
+### Websites
+
+* [Jones calculus - Wikipedia](https://en.wikipedia.org/wiki/Jones_calculus)
+* my entry [Quantum superposition - Azimuth blog](https://johncarlosbaez.wordpress.com/2015/03/13/quantum-superposition/) or why does an electron need to be in two places at once
+* [Visualizing complex-valued functions with Matplotlib and Mayavi - Emilia Petrisor](http://nbviewer.jupyter.org/github/empet/Math/blob/master/DomainColoring.ipynb)
+* [What is i^i? - SMBC so NSFW](http://www.smbc-comics.com/?id=2934)
+* [Third-Polarizing-Filter Experiment Demystified](http://alienryderflex.com/polarizer/) by Darel Rex Finley
+* [Physics - Optics: Polarization (3 of 5) Three Polarizers](https://www.youtube.com/watch?v=r1sZY826Qys) YouTube video by Michel van Biezen
+
+### Textbooks
+
+* Berthold-Georg Englert, [Lectures on Quantum Mechanics - Volume 1: Basic Matters](http://www.amazon.com/Lectures-Quantum-Mechanics-Basic-Matters/dp/9812569707)
+  * a wonderful [course by Jacek Dobaczewski](http://www.fuw.edu.pl/~dobaczew/kwanty/kwanty.html) I had as an introduction to QM was based on that; [a poem, as a homework](http://www.fuw.edu.pl/~dobaczew/kwanty/wiersz.html) (in Polish)
+* David Griffiths, [Introduction to Quantum Mechanics](https://archive.org/details/IntroductionToQuantumMechanics_718)
+  * [an opinion on Quora](https://www.quora.com/Is-it-wise-to-read-Principles-of-Quantum-Mechanics-2nd-Edition-R-Shankar-as-an-introductory-textbook-in-quantum-mechanics)
+* R. Shankar, [Principles of Quantum Mechanics](https://www.amazon.com/Principles-Quantum-Mechanics-2nd-Shankar/dp/0306447908)
+* I **do not** recommend Leonard I. Schiff, [Quantum mechanics](https://archive.org/details/QuantumMechanics_500)
+  * it is a common introduction, but one stuck in the worst classical rut
+* [The Feynman Lectures on Physics, Volume III](http://www.feynmanlectures.caltech.edu/III_toc.html)
+  * I love the series, but in the case of Vol. III - please use it only as a supplement; there are some unique and insightful things like [chapter 7](http://www.feynmanlectures.caltech.edu/III_07.html) [chapter 10](http://www.feynmanlectures.caltech.edu/III_10.html)
+* Michael A. Nielsen, Isaac L. Chuang, [Quantum Computation and Quantum Information](https://www.amazon.com/Quantum-Computation-Information-10th-Anniversary/dp/1107002176)
+  * so called *the green book*
+  * introduction from the non-physical perspective
+* Carl D. Meyer, [Matrix Analysis and Applied Linear Algebra](http://www.matrixanalysis.com/)
+  * a general intro/reference to linear algebra, very simply and didactically written (relevant chapters: 3, 4, 5)
+
+
 ## And...?
 
-If you want to use any materials - feel free! Though, I would be even happier if you tell me that.
+If you want to use any materials - feel free! And I would be even happier to hear that.
 
-If you have some other materials or references - just send them. Maybe it will inspire me how to do the next course.
+If you have some other materials or references for an easy introduction you recommend - just send them.
 
-I consider writing a simple introduction to quantum mechanics, with interactive simulations. If you consider it a great ideas, consider poking me. :)
+I consider writing a simple introduction to quantum mechanics, with interactive simulations (very likely with the Quantum Game engine). If you think it is a great idea, consider poking/teasing/tempting me. :)
 
 
 > Before applying consult with your teacher or professor, as every misused didactic material may result in misunderstanding or discouragement.
@@ -265,6 +271,5 @@ I consider writing a simple introduction to quantum mechanics, with interactive 
 [^catalonia]: Or rather: Catalonia!
 [^finding_time]: Read: stolen time from other projects or was doing [white procrastination](http://paulgraham.com/procrastination.html).
 [^who_can]: As a rule of thumb I can explain what is quantum mechanics in 3h, if the other person knows what are matrices.
-[^minus_sign]: $$|\uparrow_z\rangle + |\downarrow_z\rangle \propto |\uparrow_x\rangle$$, vide [relevant Wikipedia section](https://en.wikipedia.org/wiki/Spin_(physics)#Measurement_of_spin_along_the_x-.2C_y-.2C_or_z-axes)
 [^classical]: Nomen omen!
 [^heisenberg]: Though, I have a strong preference in showing it as a Fourier transform property, for which QM is only incidental. Again, it's just a wave phenomenon.
