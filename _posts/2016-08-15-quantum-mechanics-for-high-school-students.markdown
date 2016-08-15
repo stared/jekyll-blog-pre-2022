@@ -1,16 +1,16 @@
 ---
 layout: "post"
 title: "Quantum mechanics for high-school students"
-date: 2016-08-12 14:42 +0100
+date: 2016-08-15 18:30 +0100
 tags:
   - quantum
   - teaching
 mathjax: false
 description: "Outlines and materials related to my basics courses, with light polarization as the quantum information carrier."
-image: /imgs/2016-08-12-quantum-whiteboard-julia.jpg
+image: /imgs/2016-08-15-quantum-whiteboard-julia.jpg
 ---
 
-![No-cloning theorem with Júlia Amorós Binefa in 2012](/imgs/2016-08-12-quantum-whiteboard-julia.jpg)
+![No-cloning theorem with Júlia Amorós Binefa in 2012](/imgs/2016-08-15-quantum-whiteboard-julia.jpg)
 
 *Beta version. I may do some changes this week. Also: comments and grammar/link/typo fixes are appreciated.*
 
@@ -69,7 +69,7 @@ For experimental stuff, it's crucial to show first, explain later - if at all (o
 
 from [When should you teach children, and when should you let them explore? - The Economist](http://www.economist.com/node/18741484).
 
-![LCD screen + plastic cup + polarizer](/imgs/2016-08-12-quantum-polarization.jpg)
+![LCD screen + plastic cup + polarizer](/imgs/2016-08-15-quantum-polarization.jpg)
 
 *An LCD screen + a plastic cup + a camera with a polarizer.*
 
@@ -193,7 +193,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 * how to check if information is altered and how to fix it (check sum, Hamming codes)
 
 
-![Quantum Zeno effect with polarization rotation - notes by Krzysztof Lis](/imgs/2016-08-12-quantum-zeno-lis.jpg)
+![Quantum Zeno effect with polarization rotation - notes by Krzysztof Lis](/imgs/2016-08-15-quantum-zeno-lis.jpg)
 
 *Notes by Krzysztof Lis (2011) - the first historical occurrence of "sugar solution as a mojito drink".*
 
