@@ -212,7 +212,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
   * also some exercises: [www.fuw.edu.pl/~demko/students.html](http://www.fuw.edu.pl/~demko/students.html)
 * Andrzej Dragan, [Niezwykle Szczególna Teoria Względności](http://www.fuw.edu.pl/~dragan/Fizyka/Nstw.pdf) (en: *Extraordinarily Special Relativity*)
   * chapter 5. on Bell inequality
-  * in general this text is so awesome it's pity it's only in Polish
+  * in general this text is so awesome it's pity it's only in Polish; [its author is also a photographer](http://andrzejdragan.com/)
 * David Kaiser, [How the Hippies Saved Physics: Science, Counterculture, and the Quantum Revival](http://www.hippiessavedphysics.com/)
   * a general reading on the beginnings of quantum information (also, why quantum metaphysics is tempting but does not work); bear in mind it overvalues hippies - this field has also different, Russian roots - vide [Holevo's theorem](https://en.wikipedia.org/wiki/Holevo%27s_theorem)
 
