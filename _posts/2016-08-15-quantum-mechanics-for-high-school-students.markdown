@@ -12,16 +12,16 @@ image: /imgs/2016-08-15-quantum-whiteboard-julia.jpg
 
 ![No-cloning theorem with Júlia Amorós Binefa in 2012](/imgs/2016-08-15-quantum-whiteboard-julia.jpg)
 
-*Beta version. I may do some changes this week. Also: comments and grammar/link/typo fixes are appreciated.*
+*Julia Amorós Binefa and the no-cloning theorem - ICFO, 2012.*
 
-A few times I gave introductions to quantum mechanics for talented high-school students, in Poland (2011, 2016) and in Spain[^catalonia] (2011, 2012). I have already shared it a few times over the course of years. Now I have found some time[^finding_time] to clean it a bit, hoping that you may find it useful or inspiring.
+A few times I gave introductions to quantum mechanics for talented high-school students, in Poland (2011, 2016) and in Spain[^catalonia] (2011, 2012). I have been sharing the materials over the course of years. Now I have found some time[^finding_time] to clean it up a bit, hoping that you may find it useful or inspiring.
 
-It certainly keeps inspiring me! First two workshops convinced me that quantum mechanic isn't that hard or bizarre and can be thought to motivated high-school students[^who_can]. Moreover, one of its consequences is the [Quantum Game with Photons](http://quantumgame.io) I am developing (but is playable at this stage, and certainly sufficient as a sandbox for interferometers - use `∞` mode).
+It certainly keeps inspiring me! First two workshops convinced me that quantum mechanics isn't that hard or bizarre and can be explained to motivated high-school students[^who_can]. Moreover, it resulted in the [Quantum Game with Photons](http://quantumgame.io). It's still in development, but already playable at this stage (and certainly sufficient as a sandbox for interferometers - use `∞` mode).
 
 
 ## My approach
 
-Before jumping into actual content, let me explain my approach. Some is my teaching credo (I don't want to argue with others, as it is a matter of taste, not - fact), some are lessons learnt (often the hard way).
+Before jumping into the actual content, let me explain my approach. Some is my teaching credo (I don't want to argue with others, as it is a matter of taste, not - fact), some are lessons learnt (often the hard way).
 
 ### What
 
@@ -30,18 +30,18 @@ I use light polarization as the prototypical two-level quantum system, starting 
 * is simple and can be visualized geometrically,
 * can be explained classically, with a smooth transition into the quantum world,
 * can be directly demonstrated (e.g. with polarizations sheets, polarization filters, LCD screen, reflections, sugar solutions, [naked eye](https://en.wikipedia.org/wiki/Haidinger%27s_brush)),
-* passes the [Scott Aaronson's Minus-Sign Test](http://www.scottaaronson.com/blog/?p=613) in a simple way (crucial!),
+* passes the [Scott Aaronson's Minus-Sign Test](http://www.scottaaronson.com/blog/?p=613) in a simple and convincing way (crucial!),
 * directly translates to applications like quantum cryptography.
 
-A classical[^classical] quantum mechanics introduction starts from position (and momentum) of a single particle. Sure, it has valuable pieces like calculating energies and orbitals, and there is the Heisenberg uncertainty principle[^heisenberg]. However, IMHO starting with classical mechanics (continuous variables) is the worst approach, as it is:
+A classical[^classical] quantum mechanics introduction starts from describing position (and momentum) of a single particle. Sure, it has valuable pieces like calculating energies and orbitals, and there is the Heisenberg uncertainty principle[^heisenberg]. However, IMHO starting with classical mechanics (continuous variables) is the worst approach, as it:
 
-* starts with infinitely dimensional Hilbert space,
+* starts with an infinite dimensional Hilbert space,
 * deals with a particular system, giving little insight into general quantum mechanics,
 * requires classical mechanics background,
 * seeds some wrong intuitions due to classical mechanics as the background,
-* it's easy to sink into technicalities of differentiating and integrating.
+* is easy to sink into technicalities of differentiating and integrating.
 
-Working with electrons as the two-state system (spin up, spin down) has some benefits, however:
+Working with electrons as the two-state system (spin up, spin down) has some benefits (two-level system), however:
 
 * the classical-quantum link is much more complicated,
 * no way to show it directly,
@@ -51,16 +51,16 @@ Working with electrons as the two-state system (spin up, spin down) has some ben
 
 Moreover, when it comes to the mathematical tools, I try not treating them as a necessary evil or means to an end, as:
 
-* complex numbers are interesting on their own,
-* polarization of light is interesting on its own,
-* linear algebra is useful on its own.
+* complex numbers are interesting on their own (fractals, [polynomial roots](http://math.ucr.edu/home/baez/roots/)),
+* polarization of light is interesting on its own (photography, electromagnetism),
+* linear algebra is useful on its own (virtually all physics, deep learning).
 
 When it comes to delivery, I try to:
 
-* rather involve and inspire than merely give lectures,
+* make it interactive rather than merely give lectures,
 * use Python within Jupyter Notebook (previously Mathematica) to actually calculate and plot things,
-* don't use more formalism or mathematics than it's necessary (rules, not axioms!),
-* flexibly change the program according to their skills and interests,
+* don't use more formalism or mathematics than it's necessary,
+* flexibly change the program according to participants skills and interests,
 * more in my answer to [How to improve myself as a lecturer - Academia Stack Exchange](http://academia.stackexchange.com/questions/5236/how-to-improve-myself-as-a-lecturer/5249#5249).
 
 For experimental stuff, it's crucial to show first, explain later - if at all (otherwise you are killing the sense of suspension and awe):
@@ -78,11 +78,11 @@ from [When should you teach children, and when should you let them explore? - Th
 I did it four times:
 
 1. Jun-Jul 2011, Castelldefels, Spain, [ICFO](https://www.icfo.eu/) for [Jóvenes y Ciencia](http://www.fundaciocatalunya-lapedrera.com/es/content/j%C3%B3venes-y-ciencia)
-2. Aug 2011, Olsztyn, Poland, [7th edition](http://warsztatywww.wikidot.com/www7-program) of [Wakacyjne Warsztaty Wielodyscyplinarne (Scientific Summer School)](http://warsztatywww.pl/)
+2. Aug 2011, Olsztyn, Poland, [7th edition](http://warsztatywww.wikidot.com/www7-program) of [Wakacyjne Warsztaty Wielodyscyplinarne](http://warsztatywww.pl/)
   * more on the camp series: [An independent camp for high-school geeks](http://warsztatywww.wikidot.com/en:indie-camp-for-hs-geeks)
 3. Jun-Jul 2012, Castelldefels, Spain, [ICFO](https://www.icfo.eu/) for [Jóvenes y Ciencia](http://www.fundaciocatalunya-lapedrera.com/es/content/j%C3%B3venes-y-ciencia)
   * co-taught with Jordi Tura, Julia Stasińska, Alejandro Zamora and John Lapeyre
-4. May 2016, Serock, Poland, [Wielodyscyplinarny Obóz Naukowy](http://fundusz.org/program/warsztaty-i-obozy/321-oboz-w-serocku) of [Krajowy Fundusz na rzecz Dzieci (Polish Children's Fund)](http://fundusz.org/english)
+4. May 2016, Serock, Poland, [Wielodyscyplinarny Obóz Naukowy](http://fundusz.org/program/warsztaty-i-obozy/321-oboz-w-serocku) of [Krajowy Fundusz na rzecz Dzieci](http://fundusz.org/english)
   * more on the program: [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) at Scientia Crastina
 
 Since there is a lot of redundancy, I will describe only 1. (3. was similar) and 2. (4. was similar), mentioning some modifications.
@@ -92,7 +92,7 @@ Since there is a lot of redundancy, I will describe only 1. (3. was similar) and
 
 * whole camp during: 8-18 Aug 2011, Olsztyn, Poland
 * [Optyka kwantowa - WWW 7](http://warsztatywww.wikidot.com/www7:optyka-kwantowa) (outline and problems, in Polish, but I guess you can read some math)
-* qualification problems as core part - so to prepare with simple, but time-taking parts (unfortunately, in 2016 I couldn't do that what strongly impacted the course)
+* qualification problems as a core part - so as to prepare the students wth simple problems which nevertheless require serious effort (unfortunately, in 2016 I couldn’t do that, which strongly impacted the course)
 * 5 participants
 * 3h x 3 day workshop for talented high-schools students (in 2016: 2.5h x 3)
 
@@ -118,13 +118,11 @@ Since there is a lot of redundancy, I will describe only 1. (3. was similar) and
 
   What is that? Why it is the most intuitive approach to more particles? Relation between interference, entanglement and looking at objects.
 
-In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of preparation (0.) and more interesting parts (3. and 4.) it didn't go as good as the one of 2011 (one of my best educational experiences).
+In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of preparation (0.) and more interesting parts (3. and 4.) it didn't go as well as the one of 2011 (one of my best educational experiences).
 
 ### Quantum cryptography and quantum information, ICFO (2011)
 
-* [Jóvenes y Ciencia](http://www.fundaciocatalunya-lapedrera.com/es/content/j%C3%B3venes-y-ciencia)
-* [ICFO](https://www.icfo.eu/), Castelldefels (Barcelona)
-* 15 Jun - 15 Jul 2011
+* 15 Jun - 15 Jul 2011, [ICFO](https://www.icfo.eu/), Castelldefels (Barcelona)
 * 6h twice a week (in 2012 it was 2-3h daily, which was better)
 * 2 participants
 
@@ -153,7 +151,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 
 * modulo, factorability
 * asymmetric codes, the actual RSA procedure
-* it's hard to break but not impossible (give time estimations with _current_ technology)
+* it's hard to break but not impossible (time estimates with current technology)
 
 `2.` Quantum cryptography
 
@@ -214,7 +212,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
   * chapter 5. on Bell inequality
   * in general this text is so awesome it's pity it's only in Polish; [its author is also a photographer](http://andrzejdragan.com/)
 * David Kaiser, [How the Hippies Saved Physics: Science, Counterculture, and the Quantum Revival](http://www.hippiessavedphysics.com/)
-  * a general reading on the beginnings of quantum information (also, why quantum metaphysics is tempting but does not work); bear in mind it overvalues hippies - this field has also different, Russian roots - vide [Holevo's theorem](https://en.wikipedia.org/wiki/Holevo%27s_theorem)
+  * a general reading on the beginnings of quantum information (also, why quantum metaphysics is tempting but does not work); bear in mind it overvalues hippies - this field has also different, Soviet roots - vide [Holevo's theorem](https://en.wikipedia.org/wiki/Holevo%27s_theorem)
 
 ### Interactive stuff
 
@@ -265,11 +263,12 @@ If you have some other materials or references for an easy introduction you reco
 
 I consider writing a simple introduction to quantum mechanics, with interactive simulations (very likely with the Quantum Game engine). If you think it is a great idea, consider poking/teasing/tempting me. :)
 
+I would like to thank [Marcin Kotowski](https://www.math.toronto.edu/~marcin/) for remarks on this blog post. And, of course, to everyone participating in my quantum mechanics workshops.
 
 > Before applying consult with your teacher or professor, as every misused didactic material may result in misunderstanding or discouragement.
 
 [^catalonia]: Or rather: Catalonia!
 [^finding_time]: Read: stolen time from other projects or was doing [white procrastination](http://paulgraham.com/procrastination.html).
-[^who_can]: As a rule of thumb I can explain what is quantum mechanics in 3h, if the other person knows what are matrices.
+[^who_can]: As a rule of thumb I can explain what quantum mechanics is in 3h, if the other person knows what matrices are. I did it on biologists and they are fine.
 [^classical]: Nomen omen!
-[^heisenberg]: Though, I have a strong preference in showing it as a Fourier transform property, for which QM is only incidental. Again, it's just a wave phenomenon.
+[^heisenberg]: Though, I have a strong preference in showing it as a Fourier transform property, for which QM is only incidental. Again, it's just a wave phenomenon (as interference or tunneling).
