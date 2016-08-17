@@ -262,8 +262,6 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 
 ## And...?
 
-What was crucial,
-
 If you want to use any materials - feel free! And I would be even happier to hear that.
 
 If you have some other materials or references for an easy introduction you recommend - just send them.
