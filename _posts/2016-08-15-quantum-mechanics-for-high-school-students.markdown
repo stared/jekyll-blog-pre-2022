@@ -92,7 +92,10 @@ Since there is a lot of redundancy, I will describe only 1. (3. was similar) and
 
 * whole camp during: 8-18 Aug 2011, Olsztyn, Poland
 * [Optyka kwantowa - WWW 7](http://warsztatywww.wikidot.com/www7:optyka-kwantowa) (outline and problems, in Polish, but I guess you can read some math)
-* qualification problems as a core part - so as to prepare the students wth simple problems which nevertheless require serious effort (unfortunately, in 2016 I couldn’t do that, which strongly impacted the course)
+* qualification problems as a core part
+  * so as to prepare the students wth simple problems which nevertheless require some effort
+  * they served as a common starting level
+  * unfortunately, in 2016 I couldn’t do that, which strongly impacted the course
 * 5 participants
 * 3h x 3 day workshop for talented high-schools students (in 2016: 2.5h x 3)
 
@@ -117,6 +120,8 @@ Since there is a lot of redundancy, I will describe only 1. (3. was similar) and
 `4.` Entanglement
 
   What is that? Why it is the most intuitive approach to more particles? Relation between interference, entanglement and looking at objects.
+
+I was positively surprised that all points were easy and enjoyable for the participants. There was a slight slowdown with the tensor product, but it wasn't a blocker.
 
 In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of preparation (0.) and more interesting parts (3. and 4.) it didn't go as well as the one of 2011 (one of my best educational experiences).
 
@@ -247,7 +252,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 * I **do not** recommend Leonard I. Schiff, [Quantum mechanics](https://archive.org/details/QuantumMechanics_500)
   * it is a common introduction, but one stuck in the worst classical rut
 * [The Feynman Lectures on Physics, Volume III](http://www.feynmanlectures.caltech.edu/III_toc.html)
-  * I love the series, but in the case of Vol. III - please use it only as a supplement; there are some unique and insightful things like [chapter 7](http://www.feynmanlectures.caltech.edu/III_07.html) [chapter 10](http://www.feynmanlectures.caltech.edu/III_10.html)
+  * I love the series, but in the case of Vol. III - please use it only as a supplement; there are some unique and insightful things like [chapter 7](http://www.feynmanlectures.caltech.edu/III_07.html) and [chapter 10](http://www.feynmanlectures.caltech.edu/III_10.html)
 * Michael A. Nielsen, Isaac L. Chuang, [Quantum Computation and Quantum Information](https://www.amazon.com/Quantum-Computation-Information-10th-Anniversary/dp/1107002176)
   * so called *the green book*
   * introduction from the non-physical perspective
@@ -256,6 +261,8 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 
 
 ## And...?
+
+What was crucial,
 
 If you want to use any materials - feel free! And I would be even happier to hear that.
 
@@ -269,6 +276,6 @@ I would like to thank [Marcin Kotowski](https://www.math.toronto.edu/~marcin/) f
 
 [^catalonia]: Or rather: Catalonia!
 [^finding_time]: Read: stolen time from other projects or was doing [white procrastination](http://paulgraham.com/procrastination.html).
-[^who_can]: As a rule of thumb I can explain what quantum mechanics is in 3h, if the other person knows what matrices are. I did it on biologists and they are fine.
+[^who_can]: As a rule of thumb I can explain what quantum mechanics is in 3h, if the other person knows what matrices are. I did it to biologists and they are fine.
 [^classical]: Nomen omen!
 [^heisenberg]: Though, I have a strong preference in showing it as a Fourier transform property, for which QM is only incidental. Again, it's just a wave phenomenon (as interference or tunneling).
