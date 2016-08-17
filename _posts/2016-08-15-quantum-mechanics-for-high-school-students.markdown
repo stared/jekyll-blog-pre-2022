@@ -12,7 +12,7 @@ image: /imgs/2016-08-15-quantum-whiteboard-julia.jpg
 
 ![No-cloning theorem with Júlia Amorós Binefa in 2012](/imgs/2016-08-15-quantum-whiteboard-julia.jpg)
 
-*Julia Amorós Binefa and the no-cloning theorem - ICFO, 2012.*
+*A participant, Julia Amorós Binefa, and the no-cloning theorem - ICFO, 2012.*
 
 A few times I gave introductions to quantum mechanics for talented high-school students, in Poland (2011, 2016) and in Spain[^catalonia] (2011, 2012). I have been sharing the materials over the course of years. Now I have found some time[^finding_time] to clean it up a bit, hoping that you may find it useful or inspiring.
 
@@ -198,7 +198,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 
 ![Quantum Zeno effect with polarization rotation - notes by Krzysztof Lis](/imgs/2016-08-15-quantum-zeno-lis.jpg)
 
-*Notes by Krzysztof Lis (2011) - the first historical occurrence of "sugar solution as a mojito drink".*
+*The first historical drawing of "the light-twisting sugar solution as a mojito drink" - notes by Krzysztof Lis, Olsztyn, 2011.*
 
 
 ## Materials
@@ -222,7 +222,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 ### Interactive stuff
 
 * my [Quantum Game with Photons](http://quantumgame.io)
-  * especially the `∞` where you can freely simulate quantum mechanics of a single photon
+  * especially the `∞` mode, where you can freely simulate quantum mechanics of a single photon
 * [Quantum Circuit Simulator: Quirk](http://algorithmicassertions.com/2016/05/22/quirk.html)
   * direct link: [www.davyw.com/quantum](http://www.davyw.com/quantum/)
 * [Eigenvectors and Eigenvalues - Visually Explained](http://setosa.io/ev/eigenvectors-and-eigenvalues)
@@ -231,7 +231,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
   * [Ripple Tank](http://www.falstad.com/ripple/) for wave phenomena - interference, the total internal reflection, the lensing, the Fresnel zone plates, the Doppler effect, the scattering and many, many other phenomena
 * Python (in [Jupyter Notebook](http://jupyter.readthedocs.io)) for calculations and plots
   * see my blog entry: [Data science intro for math/phys background ](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html) and the paragraph on Python
-  * see [Qubism in QuTiP](http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/blob/master/examples/example-qubism-and-schmidt-plots.ipynb) - in general [QuTiP: Quantum Toolbox in Python](http://qutip.org/)
+  * see [Qubism in QuTiP](http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/blob/master/examples/example-qubism-and-schmidt-plots.ipynb) and in general [QuTiP: Quantum Toolbox in Python](http://qutip.org/)
 
 ### Websites
 
@@ -263,7 +263,6 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 ## And...?
 
 If you want to use any materials - feel free! And I would be even happier to hear that.
-
 If you have some other materials or references for an easy introduction you recommend - just send them.
 
 I consider writing a simple introduction to quantum mechanics, with interactive simulations (very likely with the Quantum Game engine). If you think it is a great idea, consider poking/teasing/tempting me. :)
