@@ -267,7 +267,7 @@ If you have some other materials or references for an easy introduction you reco
 
 I consider writing a simple introduction to quantum mechanics, with interactive simulations (very likely with the Quantum Game engine). If you think it is a great idea, consider poking/teasing/tempting me. :)
 
-I would like to thank [Marcin Kotowski](https://www.math.toronto.edu/~marcin/) for remarks on this blog post. And, of course, to everyone participating in my quantum mechanics workshops.
+I would like to thank [Michał Kotowski](http://www.math.toronto.edu/~michal/) for remarks on this blog post. And, of course, to everyone participating in my quantum mechanics workshops.
 
 > Before applying consult with your teacher or professor, as every misused didactic material may result in misunderstanding or discouragement.
 
