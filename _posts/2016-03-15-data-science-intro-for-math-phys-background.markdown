@@ -135,7 +135,7 @@ tl;dr: both are good choices. Pick one you prefer for any reason; two really goo
 
 I mean, there are use cases when one is better than the other. But in the majority of tasks both are fine. And well (some may disagree), but they are tools, not religions (no need of fighting, not need of using exclusively one).
 
-I won't point to a general tutorials - there are tons of it and personal preferences vary (MOOCs, interactive courses, websites, textbooks, ...) and I tired to link only to things I recommend myself.
+I won't point to a general tutorials - there are tons of it and personal preferences vary (MOOCs, interactive courses, websites, textbooks, ...) and I tried to link only to things I recommend myself.
 When I provide links - it is usually web materials rather than classical books. And it is for a reason:
 
 * things change fast; a 2-year old book on a programming language may be well out-of-date,
@@ -241,7 +241,7 @@ Personally, I enjoy the most working on data I care about and find genuinely int
 It drives my motivation much more than any competition could. Also, this way it is a complete data science - from asking questions and getting data to presenting the results in a meaningful form.
 
 Making results public, including code, is a great room for both feedback and building a showcase.
-It can be an IPython Notebook, or a website, or even a just a plot (but then be sure to sign it - it it goes viral you want to get due recognition!). E.g. some mine (see also [Projects]({{site.url}}/projects)):
+It can be an IPython Notebook, or a website, or even a just a plot (but then be sure to sign it - if it goes viral you want to get due recognition!). E.g. some mine (see also [Projects]({{site.url}}/projects)):
 
 * [Polish Book Themes](http://p.migdal.pl/wizualizacja-wolnych-lektur/polish_books_themes.html)
 * [TagOverflow](http://p.migdal.pl/tagoverflow/) - graph of tags from Stack Exchange sites
