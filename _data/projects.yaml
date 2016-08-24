@@ -1,3 +1,11 @@
+- title:  Nałogi: co dają, czemu zapobiegają - graf słów
+  desc:   Addictions and motivations - a wordcloud-like coicidence graph (in Polish)
+  href:   https://github.com/stared/nalogi-viz
+  dateStart: 2016-07-29
+  dateEnd:   2016-08-23
+  tags:   [visualization]
+  status: done
+
 - title:  Quantum Game
   desc:   Play with photons, superposition and entanglement. With true quantum mechanics underneath.
   href:   http://quantumgame.io/
