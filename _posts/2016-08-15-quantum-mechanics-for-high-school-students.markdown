@@ -224,7 +224,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 * my [Quantum Game with Photons](http://quantumgame.io)
   * especially the `∞` mode, where you can freely simulate quantum mechanics of a single photon
 * [Quantum Circuit Simulator: Quirk](http://algorithmicassertions.com/2016/05/22/quirk.html)
-  * direct link: [www.davyw.com/quantum](http://www.davyw.com/quantum/)
+  * direct link: [algorithmicassertions.com/quirk](http://algorithmicassertions.com/quirk)
 * [Eigenvectors and Eigenvalues - Visually Explained](http://setosa.io/ev/eigenvectors-and-eigenvalues)
 * [Math and Physics Applets](http://www.falstad.com/mathphysics.html) by Paul Falstad (unfortunately in Java)
   * [1-D Quantum Mechanics](http://www.falstad.com/qm1d/) - once you are fine with basics of a harmonic oscillator and its eigenstates you can easily create coherent or squeezed states for the harmonic oscillator potential
