@@ -209,7 +209,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
   * the first few chapters are great (it also starts with a single photon and polarization), but then it quickly gets too abstracts (optimal cloning)
 * Leonard Susskind, Art Friedman, [Quantum Mechanics: The Theoretical Minimum. What You Need to Know to Start Doing Physics.](http://www.amazon.com/Quantum-Mechanics-Theoretical-Leonard-Susskind/dp/0465062903)
   * two-level system, though with an electron which is conceptually harder  
-  * also in Polish: [Mechanika kwantowa - teorytyczne minimum](http://www.proszynski.pl/Mechanika_kwantowa__Teoretyczne_minimum-p-33197-.html)
+  * also in Polish: [Mechanika kwantowa - teoretyczne minimum](http://www.proszynski.pl/Mechanika_kwantowa__Teoretyczne_minimum-p-33197-.html)
 * Konrad Banaszek, Rafał Demkowicz-Dobrzański, [Quantum information 1/2](http://www.fuw.edu.pl/~demko/Teksty/ik05/2012/qi12.pdf)
   * lecture notes; it starts with two-level system of polarization of light; it is not incidental - Konrad Banaszek was my MSc advisor and I was raised in this quantum optical environment
   * also some exercises: [www.fuw.edu.pl/~demko/students.html](http://www.fuw.edu.pl/~demko/students.html)
