@@ -5,26 +5,33 @@
   date:  2016-11-25
   tags:  [conference, workshop]
 
+- talk:  Data science - analiza danych wszelakich
+  event: Uniwersytet Mikołaja Kopernika
+  href:  https://www.fizyka.umk.pl/wfaiis/?q=node/76
+  place: Toruń (Poland)
+  date:  2016-10-13
+  tags:  [talk]
+
 - talk:  Dreams, drugs and ConvNets
   event: Modeling Cognitive System - 5th Peripatetic Conference
   href:  http://cogsys.strony.psych.uw.edu.pl
   place: Zakopane (Poland)
   date:  2016-10-06
-  tags:  [conference]
+  tags:  [conference, talk]
 
 - talk:  Jupyter - an interactive environment for data science
   event: Jesienne Spotkanie Entuzjastów R (SER XII)
   href:  https://github.com/mi2-warsaw/SER/tree/master/SER_XII/piotr_migdal_jupyter_notebook
   place: Warsaw (Poland)
   date:  2015-10-22
-  tags:  [meetup]
+  tags:  [meetup, talk]
 
 - talk:  Jupyter - interaktywne środowisko do analizy danych
   event: 10. spotkanie Data Science Warsaw
   href:  http://www.meetup.com/Data-Science-Warsaw/events/228027529/
   place: Warsaw (Poland)
   date:  2016-01-19
-  tags:  [meetup]
+  tags:  [meetup, talk]
 
 - talk:  Interaktywna wizualizacja danych w D3.js
   event: warsztaty KFnrD w ICM UW
