@@ -1,5 +1,5 @@
-- talk:  Machine & deep learning for software engineers
-  event: Product Tech Stories: Machine Learning
+- talk:  "Machine & deep learning for software engineers"
+  event: Product Tech Stories
   href:  https://www.meetup.com/Product-Tech-Stories/events/235618232/
   place: Warsaw (Poland)
   date:  2016-11-30
@@ -12,7 +12,7 @@
   date:  2016-11-25
   tags:  [conference, workshop]
 
-- talk:  Co Facebook wie o kulturze: analiza mediów społecznościowych
+- talk:  "Co Facebook wie o kulturze: analiza mediów społecznościowych"
   event: Medialab Katowice
   href:  https://medialabkatowice.eu/wydarzenia/co-facebook-wie-o-kulturze-analiza-mediow-spolecznosciowych/
   place: Katowice (Poland)
