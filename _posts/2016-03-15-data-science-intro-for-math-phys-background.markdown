@@ -183,6 +183,7 @@ It does not mean that you know all - it just means that right now you have mathe
 * [Machine Learning at Coursera by Andrew Ng](https://www.coursera.org/learn/machine-learning)
 * [Dive into Machine Learning with Jupyter notebook, Python, and scikit-learn](http://hangtwenty.github.io/dive-into-machine-learning/)
 * [PyCon 2015 Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_pycon2015)
+* [G. James, D. Witten et al., An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
 
 If you need to get a real dataset suitable for working with a given machine learning algorithm, there is a wonderful collection:
 
