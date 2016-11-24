@@ -19,7 +19,7 @@ When meeting acquaintances, the typical conversation goes as follows:
 * me: _It's complicated: various places, various things, but finally I feel free!_
 * acq: _You mean, you are unemployed?_
 * me: _No, no! I have $ from it. Actually, very good $._
-* acq: _Oh, I see... [and an awkward silence]"_
+* acq: _Oh, I see... [and an awkward silence]_
 * me: _But it's legal!_
 
 I do data science freelancing. That is, I take contracts related to machine learning (predicting things, e.g. user growth of a company), data visualization (custom charts in D3.js), preparing and conducting trainings in data analysis (e.g. in [scikit-learn and Spark](http://workshops.deepsense.io/)), and other data expertise tasks (e.g. merging data from various source). It's rather a consulting-like service than being a code-monkey.

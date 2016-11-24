@@ -24,7 +24,7 @@ Talks I have found the most interesting:
   * anonymization by merging unique rows; sensitive information is culture-dependent
 * Łukasz Czarnecki, [Brand recognition in real-life photos using deep learning](http://www.slideshare.net/ukaszCzarnecki/brand-recognition-in-reallife-photos-using-deep-learning-lukasz-czarnecki-pydata-berlin-2016/)
   * if you use pre-trained convolutional neural network (like VGG_S), not that many samples are needed (~300 per class)
-* Maciej Gryka, Removing Soft Shadows with Hard Data ([research paper](http://www0.cs.ucl.ac.uk/staff/M.Gryka/download/learning-to-remove-soft-shadows.pdf)))
+* Maciej Gryka, Removing Soft Shadows with Hard Data ([research paper](http://www0.cs.ucl.ac.uk/staff/M.Gryka/download/learning-to-remove-soft-shadows.pdf))
   * custom Random Forest can do wonders, even for problems typically suitable for CNNs (vide [image colorization](http://richzhang.github.io/colorization/))
 * Julia Evans, [How to trick a neural network](http://jvns.ca/blog/2016/05/21/a-few-notes-from-my-pydata-berlin-keynote/)
   * a periodical reminder that learning by playing (and breaking) is the best way of learning
