@@ -167,10 +167,12 @@ Python is a much better general-purpose language (with pros and cons on not bein
 
 For Python, I would suggest installing it (Python 3) through [Anaconda](https://www.continuum.io/downloads), and using [Jupyter Notebook](http://jupyter.org/). Main packages are [NumPy](http://www.numpy.org/), [SciPy](http://www.scipy.org/) (numerics), [Pandas](http://pandas.pydata.org/) (like R dataframes), [matplotlib](http://matplotlib.org/) (plots, but not as nice as ggplot2) and [scikit-learn](http://scikit-learn.org/) (for machine learning). Learn to be comfortable with Python (installing packages, loading, saving and transforming data, etc) - links below may help:
 
+* [Hans Fangohr, Python for Computational Science and Engineering ](http://www.southampton.ac.uk/~fangohr/teaching/python/book.html)
 * [Overview of Python Visualization Tools](http://pbpython.com/visualization-tools-1.html)
 * [Pandas Visualization](http://pandas.pydata.org/pandas-docs/stable/visualization.html)
 * [Web Scraping - It’s Your Civic Duty](http://pbpython.com/web-scraping-mn-budget.html)
 * [Scipy Lecture Notes - One document to learn numerics, science, and data with Python](http://www.scipy-lectures.org/)
+* [Matplotlib tutorial - Nicolas P. Rougier](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)
 * [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
 
 
