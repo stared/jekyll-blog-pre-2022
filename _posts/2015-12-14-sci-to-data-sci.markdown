@@ -36,7 +36,7 @@ Right now, I love it! Here is why:
 * Data science is a rapidly growing field, with yesterday's challenges being today's industry standards (rather than yesterday's hopes being today's... hopes).
 * I have a lot of intellectual stimulation (the last time I had such is 8 years ago or so - when starting my undergraduate studies); partly because each project is different, partly because I am not confined to a subsubdiscipline.
 * No bureaucracy, it takes almost an instant from agreeing to starting a project.
-* I feel that the programing world is much more meritocratic than academia:
+* I feel that the programming world is much more meritocratic than academia:
   * Interviews are hard and technical, instead of looking at with whom I worked (i.e. recommendations).
   * I am being contracted because my particular skills are needed, regardless of other formal criteria.
   * Having a PhD is an impressive discussion-starter, but it's almost never required - and I consider it a good sign!
