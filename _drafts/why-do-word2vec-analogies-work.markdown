@@ -5,18 +5,22 @@ date:   2016-11-04 13:24:00 +0100
 author: Piotr Migdał
 tags:
   - machine-learning
+  - word2vec
 mathjax: true
-description: 'Some desc'
+description: 'king - man + women is queen; but why?'
 image: /imgs/word2vec_julia.jpg
 ---
 
 Words, vectors, analogies
+
+Alt title: how to change gender with a vector.
 
 ## Intro
 
 word2vec transforms words into vectors, so that words with similar meaning end up laying close to each other. Moreover, it allows us to use vector arithmetics to work with analogies, for example the famous `king - man + woman = queen`.
 
 I will try to explain how it works, with the special emphasis on the meaning of a vector difference, at the same time omitting as many technicalities as possible.
+
 
 ## Counts, coincidences and meaning
 
@@ -48,7 +52,7 @@ Often instead of working with conditional probabilities, we use the [pointwise m
 
 $$ PMI(a, b) = \log \left[ \frac{P(a,b)}{P(a)P(b)} \right] = \log \left[ \frac{P(a|b)}{P(a)} \right].$$
 
-Its direct interpretation is how much more likely we get a pair than if it were at random.
+Its direct interpretation is how much more likely we get a pair than if it were [at random](https://en.wikipedia.org/wiki/Independence_(probability_theory)).
 Logarithm makes it easier to work with [words appearing at frequencies](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/) of different orders of magnitude.
 I am in love with (see [TagOverflow](https://github.com/stared/tagoverflow#tagoverflow) and other co-occurrence graphs).
 
@@ -64,9 +68,10 @@ XXX Or maybe actually showing with left and right vectors, as it make some stuff
 
 At the first glance it may be strange that all words can be compressed to a space of much smaller dimensionality. But there are words that can be trivially interchanged (e.g. *John* to *Peter*) and there is a lot of structure in general (we will see a bit of it in the **Analogies** section).
 
-## Similarity
 
-The condition that *P(w|a)=P(w|b)* is equivalent to
+## Similarity and vector closeness
+
+The condition that $$P(w \vert a)=P(w \vert b)$$ is equivalent to
 
 $$ PMI(w, a) = PMI(w, b), $$
 
@@ -76,15 +81,40 @@ $$ \vec{v}_w \cdot \vec{v}_a = \vec{v} \cdot \vec{v}_b $$
 
 $$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b \right) = 0 $$
 
-If it needs to work for every $$ \vec{v}_w \cdot $$, then
+If it needs to work for every $$ \vec{v}_w $$, then
 
 $$ \vec{v}_a = \vec{v}_b. $$
 
 Of course, in every practical case we won't get an exact equality, just words being close to each other. But thanks to looking at the vectors, we can look for synonyms (or often: antonyms).
 
-## Analogies
+
+## Analogies and linear space
 
 What I find much more interesting is that words form a linear space. In particular, a zero vector represent a totally uncharacteristic word, occurring with every other word at the random chance level.
+
+If we want to make word analogies (*a is to b is as A is to B*), one may argue that
+
+$$ \frac{P(w|a)}{P(w|b)} = \frac{P(w|A)}{P(w|B)} $$
+
+for every word *w*. That is, if in a word *w* occurs twice as often in the context of *a* than in the context of *b*, the same relation should hold for *A* and *B*.
+
+For example, if we want to say *Germany is to Berlin as Poland is to Warsaw*, we expect
+
+
+If we express it as mutual information we get
+
+$$ \vec{v}_w \cdot \vec{v}_a - \vec{v}_w \cdot \vec{v}_b = \vec{v}_w \cdot \vec{v}_A - \vec{v}_w \cdot \vec{v}_B, $$
+
+which is the same as
+
+$$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b - \vec{v}_A + \vec{v}_B \right).$$
+
+Again, if we want it to hold for any word *w*, this vector difference needs to be zero.
+
+
+
+We can use analogies for meaning (e.g. changing gender with vectors), grammar (e.g. changing tenses) or other analogies (e.g. cities into their zip codes).
+
 
 
 
@@ -101,47 +131,55 @@ See:
 Analogies can be of various form - including cities and their zip codes. (XXX link XXX)
 
 
-## Difference
+## Difference and projections
 
-Test: ♂
+Difference of words, like
 
-## Things that do not make sense
+$$ \vec{v}_{woman} - \vec{v}_{man} $$
 
-* word1 + word2 (though, (word1 + word2)/2 does)
-* word1 - word2 (at least, not as a word)
+are not words by themselves.
+
+However, it is interesting to project a word in this axis.
+(or practical reasons, it seems that $$ \vec{v}_{she} - \vec{v}_{he} $$, as the word `man` has more meanings).
+
+But we can see that the projection
+
+$$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b \right)
+= \log\left[ P(w|a) \right] - \log\left[ P(w|b) \right]$$
+
+is exactly a relative occurrence of a word within different contexts.
+
+
+Bear in mind that word sum $$ \vec{v}_{woman} + \vec{v}_{man} $$ makes little sense. People use it (with some success) only as typically
+
 
 ## Technicalities
 
-* const * word
+All practical approaches
 
-Typically there are two sets of vectors - left and right.
-
-Word and context.
-
-PPMI - positive pointwise mutual information.
-
-Weighting.
-
-Different algorithms.
-
+* word2vec is not a single task or algorithm; popular ones are:
+  * Skip-Gram Negative-Sampling  (implicit compression of PMI)
+  * Skip-Gram Noise-Contrastive Training (implicit compression of conditional probability)
+  * GloVe (explicit compression of co-occurrences)
+* while *word* and *context* are essentially the same thing (both are words), due to
+* there are two sets of vectors (each word has two vectors).
+* as for any practical set lat of occurrences would give PMI $$-\infty$$, in most cases positive pointwise mutual information (PPMI) is being used.
+* we always tell analogies given this data, not ground truth; so it is easy to get stereotypes like `doctor - man + woman = nurse`.
 
 
+## I want to play!
 
-## Play with it!
 
-[link to notebook]
 
-Stay tuned -
+corpus - gensim
 
-## Outline
+scratch - TensorFlow
 
-* text was
-* words, pairs
-* different algorithms
-* https://hackpad.com/word2links-961ICHP0Lkl
+use - gensim, word2vec
 
 
 ## Why this entry
+
 
 2 week summer internship for Julia Bazińska,
 
@@ -170,5 +208,6 @@ See also my blog posts:
 * [Vector Representations of Words - TensorFlow Tutorial](https://www.tensorflow.org/versions/r0.11/tutorials/word2vec/index.html)
   * [Jupyter Notebook from Udacity Course](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/5_word2vec.ipynb)
 * [Distributional approaches to word meanings - Ling 236/Psych 236c, Stanford (Potts)](http://web.stanford.edu/class/linguist236/materials/ling236-handout-05-09-vsm.pdf)
+* [Word Spectrum](http://www.chrisharrison.net/index.php/Visualizations/WordSpectrum) and [Word Associations](http://www.chrisharrison.net/index.php/Visualizations/WordAssociations) - Visualizing Google's Bi-Gram Data by [Chris Harrison](http://www.chrisharrison.net/)
 
 ![](/imgs/word2vec_julia.jpg)
