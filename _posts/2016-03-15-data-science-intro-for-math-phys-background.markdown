@@ -116,6 +116,10 @@ If you get no technical questions, it may be a red flag.
 If you get only software engineering questions, it may be a sign that they want to hire a programmer, not - a data scientist (no matter what their job calling says);
 and given you background you want to be a Type A Data scientist (i.e. more a statistician than a regular programmer), according to [this taxonomy](https://www.quora.com/What-is-a-data-scientist-3/answer/Michael-Hochster).
 
+When they consider hiring you, this piece is crucial:
+
+* [Ten Rules for Negotiating a Job Offer](https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6#.rhwj57ckp)
+
 
 ## Programming languages
 
