@@ -118,7 +118,7 @@ and given you background you want to be a Type A Data scientist (i.e. more a sta
 
 When they consider hiring you, this piece is crucial:
 
-* [Ten Rules for Negotiating a Job Offer](https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6#.rhwj57ckp)
+* [Ten Rules for Negotiating a Job Offer - Haseeb Qureshi](https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6#.rhwj57ckp)
 
 
 ## Programming languages
