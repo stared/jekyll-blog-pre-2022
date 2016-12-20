@@ -14,6 +14,14 @@
   tags:   [game, physics]
   status: in progress (active!)
 
+- title:  "3DFlu - CENT, University of Warsaw"
+  desc:   Interactive exploration of hemagglutinin proteins of influenza virus type A.
+  href:   http://nucleus3d.cent.uw.edu.pl/influenza/
+  dateStart: 2015-07-27
+  dateEnd: 2015-07-27
+  tags:   [visualization]
+  status: done
+
 - title:  Ritu-Blah-Blau (Global Game Jam)
   desc:   Like posts, add friends and watch your step! PolyJam honourable mention for innovation.
   href:   http://globalgamejam.org/2016/games/ritu-blah-blau
