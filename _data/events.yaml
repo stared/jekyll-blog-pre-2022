@@ -1,9 +1,23 @@
+- talk:  Convolutional Neural Networks for Image Recognition
+  event: Polish Children's Fund - ICM
+  href:  https://gist.github.com/stared/70daf8e0334abf6e7527259e7221f568
+  place: Warsaw (Poland)
+  date:  2017-01-16
+  tags:  [workshop, kfnrd]
+
 - talk:  First steps in deep learning with Keras
   event: PyData Warsaw Meetup
   href:  https://www.meetup.com/PyData-Warsaw/events/233440464/
   place: Warsaw (Poland)
   date:  2017-01-12
   tags:  [talk, meetup]
+
+- talk:  "Trolley Game-Making New Year's Eve Hackathon/Party"
+  event: (drop me an email if you want to join!)
+  href:  https://www.facebook.com/events/347273838978731/
+  place: Warsaw (Poland)
+  date:  2016-12-31
+  tags:  [hackathon]
 
 - talk:  "Machine & deep learning for software engineers"
   event: Product Tech Stories Meetup
