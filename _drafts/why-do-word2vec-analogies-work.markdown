@@ -46,6 +46,13 @@ $$ P(w|a) = P(w|b) $$
 for every word *w*.
 In other words, if we have this equality, no matter if there is word *a* or *b*, all other words occur with the same frequency.
 
+Even simple word counts, compared by source, can give interesting results, e.g. that in lyrics of metal songs words (*cries*, *eternity* or *ashes* are popular, while words *particularly* or *approximately* are not, well, particularly common), see:
+
+* [Heavy Metal and Natural Language Processing - Part 1](http://www.degeneratestate.org/posts/2016/Apr/20/heavy-metal-and-natural-language-processing-part-1/)
+
+Looking at co-occurrences can provide much more information. For example, one of my projects, [TagOverflow](http://p.migdal.pl/tagoverflow/), gives insight into structure of programming, based only on the usage of [tags on Stack Overflow](http://stackoverflow.com/tags).
+It also tells that I am in love with pointwise mutual information, which brings us to the next point:
+
 
 ## Pointwise mutual information and compression
 
@@ -58,9 +65,6 @@ $$ PMI(a, b) = \log \left[ \frac{P(a,b)}{P(a)P(b)} \right] = \log \left[ \frac{P
 
 Its direct interpretation is how much more likely we get a pair than if it were [at random](https://en.wikipedia.org/wiki/Independence_(probability_theory)).
 Logarithm makes it easier to work with [words appearing at frequencies](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/) of different orders of magnitude.
-I am in love with (see [TagOverflow](https://github.com/stared/tagoverflow#tagoverflow) and other co-occurrence graphs).
-
-(Digression: [Heavy Metal and Natural Language Processing - Part 1](http://www.degeneratestate.org/posts/2016/Apr/20/heavy-metal-and-natural-language-processing-part-1/))
 
 Regardless if we see [cognition as compression](https://news.ycombinator.com/item?id=10954508), or consider it only a numerical trick, we can approximate *PMI* as a vector scalar product:
 
@@ -71,6 +75,8 @@ where $$\vec{v}_i$$ are vectors, typically of 50-300 dimensions.
 XXX Or maybe actually showing with left and right vectors, as it make some stuff simpler, and more fair, and with easier limit for dim=dictionary_size XXX
 
 At the first glance it may be strange that all words can be compressed to a space of much smaller dimensionality. But there are words that can be trivially interchanged (e.g. *John* to *Peter*) and there is a lot of structure in general (we will see a bit of it in the **Analogies** section).
+
+* [Matrix Factorization with TensorFlow - Katherine Bailey](http://katbailey.github.io/post/matrix-factorization-with-tensorflow/)
 
 
 ## Similarity and vector closeness
@@ -102,9 +108,10 @@ $$ \frac{P(w|a)}{P(w|b)} = \frac{P(w|A)}{P(w|B)} $$
 
 for every word *w*. That is, if in a word *w* occurs twice as often in the context of *a* than in the context of *b*, the same relation should hold for *A* and *B*.
 
-For example, if we want to say *Germany is to Berlin as Poland is to Warsaw*, we expect
+For example, if we want to say *dog is to puppy as cat is to kitten*, we expect
 
 
+How does it translate to work vectors?
 If we express it as mutual information we get
 
 $$ \vec{v}_w \cdot \vec{v}_a - \vec{v}_w \cdot \vec{v}_b = \vec{v}_w \cdot \vec{v}_A - \vec{v}_w \cdot \vec{v}_B, $$
@@ -116,6 +123,11 @@ $$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b - \vec{v}_A + \vec{v}_B \right) 
 Again, if we want it to hold for any word *w*, this vector difference needs to be zero.
 
 We can use analogies for meaning (e.g. changing gender with vectors), grammar (e.g. changing tenses) or other analogies (e.g. cities into their zip codes).
+
+It seems that analogies are not only a computational trick - we may actually think using them all the time, see:
+
+* George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011)
+* [Conceptual Metaphor Home Page by George Lakoff ](http://web.archive.org/web/20121015142744/http://cogsci.berkeley.edu/lakoff) (1994, webarchive)
 
 
 
@@ -144,7 +156,11 @@ Bear in mind that word sum $$ \vec{v}_{woman} + \vec{v}_{man} $$ makes little se
 > (joke)
 >
 > woman - man = female - male = she - he
+>
 > wo = fe = s
+
+* [Word Spectrum](http://www.chrisharrison.net/index.php/Visualizations/WordSpectrum) and [Word Associations](http://www.chrisharrison.net/index.php/Visualizations/WordAssociations) - Visualizing Google's Bi-Gram Data by [Chris Harrison](http://www.chrisharrison.net/)
+
 
 ## Technicalities
 
@@ -154,10 +170,12 @@ All practical approaches
   * Skip-Gram Negative-Sampling  (implicit compression of PMI)
   * Skip-Gram Noise-Contrastive Training (implicit compression of conditional probability)
   * GloVe (explicit compression of co-occurrences)
-* while *word* and *context* are essentially the same thing (both are words), due to
+* while *word* and *context* are essentially the same thing (both are words), they are being probed treated differently (to account for different word frequencies)
 * there are two sets of vectors (each word has two vectors).
-* as for any practical set lat of occurrences would give PMI $$-\infty$$, in most cases positive pointwise mutual information (PPMI) is being used.
+* as for any practical set lat of occurrences would give PMI $$-\infty$$, in most cases positive pointwise mutual information (PPMI) is being used,
+* often pre-precessing is needed,
 * we always tell analogies given this data, not ground truth; so it is easy to get stereotypes like `doctor - man + woman = nurse`.
+  * [Language necessarily contains human biases, and so will machines trained on language corpora](https://freedom-to-tinker.com/2016/08/24/language-necessarily-contains-human-biases-and-so-will-machines-trained-on-language-corpora/)
 
 
 ## I want to play!
@@ -171,6 +189,14 @@ scratch - TensorFlow
 use - google word2vec, Stanford GloVe
 
 or - use
+
+
+General reading:
+
+* [Distributional approaches to word meanings - Ling 236/Psych 236c, Stanford (Potts)](http://web.stanford.edu/class/linguist236/materials/ling236-handout-05-09-vsm.pdf)
+* Daniel Jurafsky, James H. Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (2015)
+  * [Chapter 15: Vector Semantics](https://web.stanford.edu/~jurafsky/slp3/15.pdf) (and [slides](https://web.stanford.edu/~jurafsky/slp3/slides/vector1.pdf))
+  * [Chapter 16: Semantics with Dense Vectors](https://web.stanford.edu/~jurafsky/slp3/16.pdf) (and [slides](https://web.stanford.edu/~jurafsky/slp3/slides/vector2.pdf))
 
 ## Why this entry
 
@@ -191,23 +217,20 @@ See also my blog posts:
 
 * [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/projects/glove/)
   * Jeffrey Pennington, Richard Socher, Christopher D. Manning, [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/pubs/glove.pdf) (2014)
-* Daniel Jurafsky, James H. Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (2015)
-  * [Chapter 15: Vector Semantics](https://web.stanford.edu/~jurafsky/slp3/15.pdf) (and [slides](https://web.stanford.edu/~jurafsky/slp3/slides/vector1.pdf))
-  * [Chapter 16: Semantics with Dense Vectors](https://web.stanford.edu/~jurafsky/slp3/16.pdf) (and [slides](https://web.stanford.edu/~jurafsky/slp3/slides/vector2.pdf))
+
 * [Five crazy abstractions my Deep Learning word2vec model just did](http://byterot.blogspot.com/2015/06/five-crazy-abstractions-my-deep-learning-word2doc-model-just-did-NLP-gensim.html)
-* George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011)
-* [Conceptual Metaphor Home Page by George Lakoff ](http://web.archive.org/web/20121015142744/http://cogsci.berkeley.edu/lakoff) (1994, webarchive)
-* [Language necessarily contains human biases, and so will machines trained on language corpora](https://freedom-to-tinker.com/2016/08/24/language-necessarily-contains-human-biases-and-so-will-machines-trained-on-language-corpora/)
+
+
 * [Improving Distributional Similarity with Lessons Learned from Word Embeddings](https://levyomer.wordpress.com/2015/03/30/improving-distributional-similarity-with-lessons-learned-from-word-embeddings/)
 * [Skipgram isn’t Matrix Factorisation](http://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/)
-* [Sense2vec with spaCy and Gensim](https://explosion.ai/blog/sense2vec-with-spacy)
+
 * [How does word2vec work? by Omer Levy](https://www.quora.com/How-does-word2vec-work)
 * [A Word is Worth a Thousand Vectors](http://multithreaded.stitchfix.com/blog/2015/03/11/word-is-worth-a-thousand-vectors/) by Chris Moody
 * [Making sense of word2vec](https://rare-technologies.com/making-sense-of-word2vec) by Radim Rehurek
 * [Vector Representations of Words - TensorFlow Tutorial](https://www.tensorflow.org/versions/r0.11/tutorials/word2vec/index.html)
   * [Jupyter Notebook from Udacity Course](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/5_word2vec.ipynb)
-* [Distributional approaches to word meanings - Ling 236/Psych 236c, Stanford (Potts)](http://web.stanford.edu/class/linguist236/materials/ling236-handout-05-09-vsm.pdf)
-* [Word Spectrum](http://www.chrisharrison.net/index.php/Visualizations/WordSpectrum) and [Word Associations](http://www.chrisharrison.net/index.php/Visualizations/WordAssociations) - Visualizing Google's Bi-Gram Data by [Chris Harrison](http://www.chrisharrison.net/)
-* [Matrix Factorization with Tensorflow - Katherine Bailey](http://katbailey.github.io/post/matrix-factorization-with-tensorflow/)
+
+
+
 
 ![](/imgs/word2vec_julia.jpg)
