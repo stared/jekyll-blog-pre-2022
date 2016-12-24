@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Why do word2vec analogies work?"
+title:  "king - man + women is queen; but why?"
 date:   2016-11-04 13:24:00 +0100
 author: Piotr Migdał
 tags:
   - machine-learning
   - word2vec
 mathjax: true
-description: 'king - man + women is queen; but why?'
+description: '...'
 image: /imgs/word2vec_julia.jpg
 ---
 
@@ -17,9 +17,13 @@ Alt title: how to change gender with a vector.
 
 ## Intro
 
-word2vec transforms words into vectors, so that words with similar meaning end up laying close to each other. Moreover, it allows us to use vector arithmetics to work with analogies, for example the famous `king - man + woman = queen`.
+word2vec is an algorithm that transforms words into vectors, so that words with similar meaning end up laying close to each other. Moreover, it allows us to use vector arithmetics to work with analogies, for example the famous `king - man + woman = queen`.
 
 I will try to explain how it works, with the special emphasis on the meaning of a vector difference, at the same time omitting as many technicalities as possible.
+
+If you would rather explore that read, here is an interactive exploration by Julia Bazińska (my student):
+
+* [XXX name](link)
 
 
 ## Counts, coincidences and meaning
@@ -33,8 +37,8 @@ What's a `roosety`? I would say that something like a squirrel, since two words 
 
 > a word is characterized by the company it keeps (John Rupert Firth)
 
-If we want to teach it to a computer, the simplest approach is making it look only at word pairs.
-Let *P(a|b)* be conditional probability that given a word *b* there is word *a* within a short distance (let's say - being spaced by no more that 2 words).
+If we want to teach it to a computer, the simplest, approximated approach is making it look only at word pairs.
+Let *P(a|b)* be conditional probability that given a word *b* there is  a word *a* within a short distance (let's say - being spaced by no more that 2 words).
 Then we claim that two words *a* and *b* are similar if
 
 $$ P(w|a) = P(w|b) $$
@@ -107,28 +111,12 @@ $$ \vec{v}_w \cdot \vec{v}_a - \vec{v}_w \cdot \vec{v}_b = \vec{v}_w \cdot \vec{
 
 which is the same as
 
-$$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b - \vec{v}_A + \vec{v}_B \right).$$
+$$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b - \vec{v}_A + \vec{v}_B \right) = 0.$$
 
 Again, if we want it to hold for any word *w*, this vector difference needs to be zero.
 
-
-
 We can use analogies for meaning (e.g. changing gender with vectors), grammar (e.g. changing tenses) or other analogies (e.g. cities into their zip codes).
 
-
-
-
-
-Sometimes we can get
-
-
-See:
-
-* GloVe
-* country - capital from
-* coming soon: ...
-
-Analogies can be of various form - including cities and their zip codes. (XXX link XXX)
 
 
 ## Difference and projections
@@ -153,6 +141,11 @@ is exactly a relative occurrence of a word within different contexts.
 Bear in mind that word sum $$ \vec{v}_{woman} + \vec{v}_{man} $$ makes little sense. People use it (with some success) only as typically
 
 
+> (joke)
+>
+> woman - man = female - male = she - he
+> wo = fe = s
+
 ## Technicalities
 
 All practical approaches
@@ -175,18 +168,24 @@ corpus - gensim
 
 scratch - TensorFlow
 
-use - gensim, word2vec
+use - google word2vec, Stanford GloVe
 
+or - use
 
 ## Why this entry
+
+
+2 week summer internship at DELab, University of Warsaw, supported by the Polish Children's Fund.
+
 
 
 2 week summer internship for Julia Bazińska,
 
 See also my blog posts:
 
-* [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) (on the Polish Children's Fund)
+* [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) (on the Polish Children's Fund) - at Scientia Crastina
 * [D3.js workshop at ICM for KFnrD](http://p.migdal.pl/2016/02/09/d3js-icm-kfnrd.html)
+
 
 ## References
 
@@ -209,5 +208,6 @@ See also my blog posts:
   * [Jupyter Notebook from Udacity Course](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/5_word2vec.ipynb)
 * [Distributional approaches to word meanings - Ling 236/Psych 236c, Stanford (Potts)](http://web.stanford.edu/class/linguist236/materials/ling236-handout-05-09-vsm.pdf)
 * [Word Spectrum](http://www.chrisharrison.net/index.php/Visualizations/WordSpectrum) and [Word Associations](http://www.chrisharrison.net/index.php/Visualizations/WordAssociations) - Visualizing Google's Bi-Gram Data by [Chris Harrison](http://www.chrisharrison.net/)
+* [Matrix Factorization with Tensorflow - Katherine Bailey](http://katbailey.github.io/post/matrix-factorization-with-tensorflow/)
 
 ![](/imgs/word2vec_julia.jpg)
