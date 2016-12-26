@@ -15,6 +15,8 @@ Words, vectors, analogies
 
 Alt title: how to change gender with a vector.
 
+> I love letter co-occurrence in the word `co-occurrence`.
+
 ## Intro
 
 word2vec is an algorithm that transforms words into vectors, so that words with similar meaning end up laying close to each other. Moreover, it allows us to use vector arithmetics to work with analogies, for example the famous `king - man + woman = queen`.
@@ -76,18 +78,27 @@ XXX Or maybe actually showing with left and right vectors, as it make some stuff
 
 At the first glance it may be strange that all words can be compressed to a space of much smaller dimensionality. But there are words that can be trivially interchanged (e.g. *John* to *Peter*) and there is a lot of structure in general (we will see a bit of it in the **Analogies** section).
 
+The fact that this compression is lossy may give it an advantage, as it can discover patterns rather than only memorize each pair:
+
+> The Compressors: View cognition as compression. Compressed sensing, approximate matrix factorization
+
+* from [The (n) Cultures of Machine Learning - HN discussion](https://news.ycombinator.com/item?id=10954508)
+
+For example, in recommendation systems converting rating of movies by each user to product of a vector is used to predict scores for yet unseen movies, see:
+
 * [Matrix Factorization with TensorFlow - Katherine Bailey](http://katbailey.github.io/post/matrix-factorization-with-tensorflow/)
 
 
 ## Similarity and vector closeness
 
+Let us start from the simple stuff.
 The condition that $$P(w \vert a)=P(w \vert b)$$ is equivalent to
 
 $$ PMI(w, a) = PMI(w, b), $$
 
 which (after expressing it with vectors) is
 
-$$ \vec{v}_w \cdot \vec{v}_a = \vec{v} \cdot \vec{v}_b $$
+$$ \vec{v}_w \cdot \vec{v}_a = \vec{v}_w \cdot \vec{v}_b $$
 
 $$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b \right) = 0 $$
 
@@ -97,10 +108,16 @@ $$ \vec{v}_a = \vec{v}_b. $$
 
 Of course, in every practical case we won't get an exact equality, just words being close to each other. But thanks to looking at the vectors, we can look for synonyms (or often: antonyms).
 
+What I find much more interesting is that words form a linear space. In particular, a zero vector represent a totally uncharacteristic word, occurring with every other word at the random chance level.
+
+It is one of possible reasons why for vector similarity people often use cosine distance, i.e.
+
+$$ \frac{\vec{v}_a \cdot \vec{v}_b}{\vert \vec{v}_a \vert \vert \vec{v}_b \vert}. $$
+
+That is, it puts emphasis the direction in which a given word co-occurs with other words, rather than the strength of this effect.
+
 
 ## Analogies and linear space
-
-What I find much more interesting is that words form a linear space. In particular, a zero vector represent a totally uncharacteristic word, occurring with every other word at the random chance level.
 
 If we want to make word analogies (*a is to b is as A is to B*), one may argue that
 
@@ -108,8 +125,17 @@ $$ \frac{P(w|a)}{P(w|b)} = \frac{P(w|A)}{P(w|B)} $$
 
 for every word *w*. That is, if in a word *w* occurs twice as often in the context of *a* than in the context of *b*, the same relation should hold for *A* and *B*.
 
-For example, if we want to say *dog is to puppy as cat is to kitten*, we expect
+For example, if we want to say *dog is to puppy as cat is to kitten*, we expect that if e.g. word `cute` co-occurs with both `dog` and `cat` (likely with different frequencies), then it co-occurs with `puppy` and `kitten` by the same factor (e.g. `2x`).
 
+This model implicitly assumes that conditional probabilities can be decomposed as a product, in a way:
+
+$$
+P(w\vert dog) = P(w\vert species=dog) P(w\vert age=adult) P(w\vert pet) \\
+P(w\vert puppy) = P(w\vert species=dog) P(w\vert age=cub) P(w\vert pet) \\
+P(w\vert cat) = P(w\vert species=cat) P(w\vert age=adult) P(w\vert pet) \\
+P(w\vert kitten) = P(w\vert species=cat) P(w\vert age=cub) P(w\vert pet) $$
+
+Stick in in the ratio too see that it works.
 
 How does it translate to work vectors?
 If we express it as mutual information we get
@@ -180,7 +206,10 @@ All practical approaches
 
 ## I want to play!
 
+If you want just to
 
+
+If you want to use word2vec on
 
 corpus - gensim
 
@@ -197,6 +226,7 @@ General reading:
 * Daniel Jurafsky, James H. Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) (2015)
   * [Chapter 15: Vector Semantics](https://web.stanford.edu/~jurafsky/slp3/15.pdf) (and [slides](https://web.stanford.edu/~jurafsky/slp3/slides/vector1.pdf))
   * [Chapter 16: Semantics with Dense Vectors](https://web.stanford.edu/~jurafsky/slp3/16.pdf) (and [slides](https://web.stanford.edu/~jurafsky/slp3/slides/vector2.pdf))
+
 
 ## Why this entry
 
