@@ -108,7 +108,7 @@ It is one of the reasons why for vector similarity people often use cosine dista
 
 $$ \frac{\vec{v}_a \cdot \vec{v}_b}{\vert \vec{v}_a \vert \vert \vec{v}_b \vert}. $$
 
-That is, it puts emphasis the direction in which a given word co-occurs with other words, rather than the strength of this effect.
+That is, it puts emphasis on the direction in which a given word co-occurs with other words, rather than the strength of this effect.
 
 
 ## Analogies and linear space
@@ -124,12 +124,16 @@ It appears it is true, with the factor of two favoring the cubs - compare [pairs
 By proposing rations for word analogies we implicitly assume that probabilities of words can be factorized with respect to different dimensions of a word. For the discussed case it would be:
 
 $$
-P(w\vert dog) = P(w\vert species=dog) P(w\vert age=adult) P(w\vert is\_a\_pet) \\
-P(w\vert puppy) = P(w\vert species=dog) P(w\vert age=cub) P(w\vert is\_a\_pet) \\
-P(w\vert cat) = P(w\vert species=cat) P(w\vert age=adult) P(w\vert is\_a\_pet) \\
-P(w\vert kitten) = P(w\vert species=cat) P(w\vert age=cub) P(w\vert is\_a\_pet) $$
+P(w\vert dog) = f(w\vert species=dog) \times f(w\vert age=adult) \times P(w\vert is\_a\_pet) \\
+P(w\vert puppy) = f(w\vert species=dog) \times f(w\vert age=cub) \times P(w\vert is\_a\_pet) \\
+P(w\vert cat) = f(w\vert species=cat) \times f(w\vert age=adult) \times P(w\vert is\_a\_pet) \\
+P(w\vert kitten) = f(w\vert species=cat) \times f(w\vert age=cub) \times P(w\vert is\_a\_pet) $$
 
-How does it translate to work vectors?
+So, in particular:
+
+$$ \frac{P(w|dog)}{P(w|puppy)} = \frac{f(w\vert age=adult)}{f(w\vert age=cub)} = \frac{P(w|cat)}{P(w|kitten)}. $$
+
+How does the equality of conditional probability ratios translate to the word vectors?
 If we express it as mutual information (again, *P(w)* and logarithms) we get
 
 $$ \vec{v}_w \cdot \vec{v}_a - \vec{v}_w \cdot \vec{v}_b = \vec{v}_w \cdot \vec{v}_A - \vec{v}_w \cdot \vec{v}_B, $$
@@ -141,7 +145,6 @@ $$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b - \vec{v}_A + \vec{v}_B \right) 
 Again, if we want it to hold for any word *w*, this vector difference needs to be zero.
 
 We can use analogies for meaning (e.g. changing gender with vectors), grammar (e.g. changing tenses) or other analogies (e.g. cities into their zip codes).
-
 It seems that analogies are not only a computational trick - we may actually think using them all the time, see:
 
 * George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011) (1980)
