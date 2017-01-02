@@ -10,7 +10,7 @@ mathjax: true
 description: >-
   Words, vectors and analogies - the linear space of word2vec. Or: how to change
   gender with a vector.
-image: /imgs/word2vec_julia.jpg
+image: /imgs/2016-12-30-queen-julia-vectors-facebook.jpg
 unlisted: true
 ---
 
@@ -24,6 +24,7 @@ If you would rather explore than read, here is an interactive exploration by my 
 
 * [Word2viz](https://lamyiowce.github.io/word2viz/) by Julia Bazińska using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (IN PROGRESS)
 
+![](/imgs/2016-12-30-queen-julia-vectors.jpg)
 
 ## Counts, coincidences and meaning
 
@@ -237,7 +238,3 @@ I had an motivation to learn more on the subject as I was tutoring Julia Bazińs
 ## Acknowledgements
 
 (Waiting for you!)
-
-
-
-![](/imgs/word2vec_julia.jpg)
