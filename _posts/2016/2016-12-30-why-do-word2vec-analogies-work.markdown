@@ -17,7 +17,7 @@ unlisted: true
 
 **word2vec** is an algorithm that transforms words into vectors, so that words with similar meaning end up laying close to each other. Moreover, it allows us to use vector arithmetics to work with analogies, for example the famous `king - man + woman = queen`.
 
-I will try to explain how it works, with the special emphasis on the meaning of a vector difference, at the same time omitting as many technicalities as possible.
+I will try to explain how it works, with special emphasis on the meaning of vector differences, at the same time omitting as many technicalities as possible.
 
 If you would rather explore than read, here is an interactive exploration by my student:
 
@@ -30,17 +30,17 @@ If you would rather explore than read, here is an interactive exploration by my 
 
 > I love letter co-occurrence in the word *co-occurrence*.
 
-Sometimes a seemingly naive technique gives powerful results. It turns that merely looking at word coincidences, while ignoring all grammar and context, can provide us insight into the word meaning.
+Sometimes a seemingly naive technique gives powerful results. It turns out that merely looking at word coincidences, while ignoring all grammar and context, can provide us insight into the meaning of a word.
 Consider this sentence:
 
-> a small, fluffy roosety climbed a tree
+> A small, fluffy roosety climbed a tree.
 
-What's a *roosety*? I would say that something like a squirrel, since two words can be easily interchanged. Such reasoning is called the [distributional hypothesis](https://en.wikipedia.org/wiki/Distributional_semantics) and summarized as:
+What's a *roosety*? I would say that something like a squirrel, since the two words can be easily interchanged. Such reasoning is called the [distributional hypothesis](https://en.wikipedia.org/wiki/Distributional_semantics) and can be summarized as:
 
 > a word is characterized by the company it keeps - [John Rupert Firth](https://en.wikipedia.org/wiki/John_Rupert_Firth)
 
 If we want to teach it to a computer, the simplest, approximated approach is making it look only at word pairs.
-Let *P(a|b)* be conditional probability that given a word *b* there is  a word *a* within a short distance (let's say - being spaced by no more that 2 words).
+Let *P(a|b)* be the conditional probability that given a word *b* there is a word *a* within a short distance (let's say - being spaced by no more that 2 words).
 Then we claim that two words *a* and *b* are similar if
 
 $$ P(w|a) = P(w|b) $$
@@ -51,7 +51,7 @@ In other words, if we have this equality, no matter if there is word *a* or *b*,
 Even simple word counts, compared by source, can give interesting results, e.g. that in lyrics of metal songs words (*cries*, *eternity* or *ashes* are popular, while words *particularly* or *approximately* are not, well, particularly common), see [Heavy Metal and Natural Language Processing](http://www.degeneratestate.org/posts/2016/Apr/20/heavy-metal-and-natural-language-processing-part-1/).
 
 Looking at co-occurrences can provide much more information. For example, one of my projects, [TagOverflow](http://p.migdal.pl/tagoverflow/), gives insight into structure of programming, based only on the usage of [tags on Stack Overflow](http://stackoverflow.com/tags).
-It also tells that I am in love with pointwise mutual information, which brings us to the next point.
+It also shows that I am in love with pointwise mutual information, which brings us to the next point.
 
 
 ## Pointwise mutual information and compression
@@ -66,7 +66,7 @@ Often instead of working with conditional probabilities, we use the [pointwise m
 $$ PMI(a, b) = \log \left[ \frac{P(a,b)}{P(a)P(b)} \right] = \log \left[ \frac{P(a|b)}{P(a)} \right].$$
 
 Its direct interpretation is how much more likely we get a pair than if it were [at random](https://en.wikipedia.org/wiki/Independence_(probability_theory)).
-Logarithm makes it easier to work with [words appearing at frequencies](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/) of different orders of magnitude.
+The logarithm makes it easier to work with [words appearing at frequencies](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/) of different orders of magnitude.
 We can approximate PMI as a scalar product:
 
 $$ PMI(a, b) = \vec{v}_a \cdot \vec{v}_b, $$
@@ -76,14 +76,14 @@ where $$\vec{v}_i$$ are vectors, typically of 50-300 dimensions.
 At the first glance it may be strange that all words can be compressed to a space of much smaller dimensionality. But there are words that can be trivially interchanged (e.g. *John* to *Peter*) and there is a lot of structure in general.
 
 The fact that this compression is lossy may give it an advantage, as it can discover patterns rather than only memorize each pair.
-For example, in recommendation systems converting rating of movies by each user to product of a vector is used to predict scores for yet unseen movies, see [Matrix Factorization with TensorFlow - Katherine Bailey](http://katbailey.github.io/post/matrix-factorization-with-tensorflow/).
+For example, in recommendation systems for movie ratings, each rating is approximated by a scalar product of two vectors - a movie's content and a user's preference. This is used to predict scores for as yet unseen movies, see [Matrix Factorization with TensorFlow - Katherine Bailey](http://katbailey.github.io/post/matrix-factorization-with-tensorflow/).
 
 
 ## Word similarity and vector closeness
 
 > Stock Market ≈ Thermometer - [Five crazy abstractions my word2vec model just did](http://byterot.blogspot.com/2015/06/five-crazy-abstractions-my-deep-learning-word2doc-model-just-did-NLP-gensim.html)
 
-Let us start from the simple stuff - showing word similarity in the vector space.
+Let us start with the simple stuff - showing word similarity in a vector space.
 The condition that $$P(w \vert a)=P(w \vert b)$$ is equivalent to
 
 $$ PMI(w, a) = PMI(w, b), $$
@@ -100,9 +100,9 @@ If it needs to work for every $$ \vec{v}_w $$, then
 $$ \vec{v}_a = \vec{v}_b. $$
 
 Of course, in every practical case we won't get an exact equality, just words being close to each other. Words close in this space are often synonyms (e.g. *happy* and *delighted*), antonyms (e.g. *good* and *evil*) or other easily interchangeable words (e.g. *yellow* and *blue*).
-In particular most of opposing ideas (e.g. *religion* and *atheism*) will have similar context. If you want to play with that, look at this [word2sense phrase search](https://demos.explosion.ai/sense2vec/?word=machine%20learning&sense=auto).
+In particular most of [opposing ideas](https://en.wikipedia.org/wiki/Horseshoe_theory) (e.g. *religion* and *atheism*) will have similar context. If you want to play with that, look at this [word2sense phrase search](https://demos.explosion.ai/sense2vec/?word=machine%20learning&sense=auto).
 
-What I find much more interesting is that words form a linear space. In particular, a zero vector represent a totally uncharacteristic word, occurring with every other word at the random chance level (as its scalar product is always zero, so does PMI with every word).
+What I find much more interesting is that words form a linear space. In particular, a zero vector represent a totally uncharacteristic word, occurring with every other word at the random chance level (as its scalar product with every word is zero, so is its PMI).
 
 It is one of the reasons why for vector similarity people often use cosine distance, i.e.
 
@@ -117,11 +117,11 @@ If we want to make word analogies (*a is to b is as A is to B*), one may argue t
 
 $$ \frac{P(w|a)}{P(w|b)} = \frac{P(w|A)}{P(w|B)} $$
 
-for every word *w*. That is, if in a word *w* occurs twice as often in the context of *a* than in the context of *b*, the same relation should hold for *A* and *B*.
+for every word *w*. That is, if a word *w* occurs twice as often in the context of *a* than in the context of *b*, the same relation should hold for *A* and *B*.
 For example, if we want to say *dog is to puppy as cat is to kitten*, we expect that if e.g. word *nice* co-occurs with both *dog* and *cat* (likely with different frequencies), then it co-occurs with *puppy* and *kitten* by the same factor.
 It appears it is true, with the factor of two favoring the cubs - compare [pairs](https://books.google.com/ngrams/graph?content=nice+cat%2Cnice+kitten%2Cnice+dog%2Cnice+puppy&year_start=1960&year_end=2008&corpus=0&smoothing=5&share=&direct_url=t1%3B%2Cnice%20cat%3B%2Cc0%3B.t1%3B%2Cnice%20kitten%3B%2Cc0%3B.t1%3B%2Cnice%20dog%3B%2Cc0%3B.t1%3B%2Cnice%20puppy%3B%2Cc0) to [words](https://books.google.com/ngrams/graph?content=cat%2Ckitten%2Cdog%2Cpuppy&year_start=1960&year_end=2008&corpus=0&smoothing=5&share=&direct_url=t1%3B%2Ccat%3B%2Cc0%3B.t1%3B%2Ckitten%3B%2Cc0%3B.t1%3B%2Cdog%3B%2Cc0%3B.t1%3B%2Cpuppy%3B%2Cc0) from [Google Books Ngram Viewer](https://books.google.com/ngrams) (while n-grams look only at adjacent words, they can be some sort of approximation).
 
-By proposing rations for word analogies we implicitly assume that probabilities of words can be factorized with respect to different dimensions of a word. For the discussed case it would be:
+By proposing ratios for word analogies we implicitly assume that the probabilities of words can be factorized with respect to different dimensions of a word. For the discussed case it would be:
 
 $$
 P(w\vert dog) = f(w\vert species=dog) \times f(w\vert age=adult) \times P(w\vert is\_a\_pet) \\
@@ -145,10 +145,10 @@ $$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b - \vec{v}_A + \vec{v}_B \right) 
 Again, if we want it to hold for any word *w*, this vector difference needs to be zero.
 
 We can use analogies for meaning (e.g. changing gender with vectors), grammar (e.g. changing tenses) or other analogies (e.g. cities into their zip codes).
-It seems that analogies are not only a computational trick - we may actually think using them all the time, see:
+It seems that analogies are not only a computational trick - we may actually use them to think all the time, see:
 
 * George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011) (1980)
-* [their list of conceptual metaphors in English (webarchive) ](http://web.archive.org/web/20080718021721/http://cogsci.berkeley.edu/lakoff/metaphors/), in particular look for *X is Up*, plotted below:
+* and [their list of conceptual metaphors in English (webarchive)](http://web.archive.org/web/20080718021721/http://cogsci.berkeley.edu/lakoff/metaphors/), in particular look for *X is Up*, plotted below:
 
 ![](/imgs/2016-12-30-word2viz-up-down-metaphors.png)
 
@@ -170,15 +170,15 @@ $$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b \right)
 
 is exactly a relative occurrence of a word within different contexts.
 
-Bear in mind that word sum $$ \vec{v}_{she} + \vec{v}_{he} $$ is not a vector either. People use it (with some success) as cosine distance is ignores absolute vector length. So, for gender neutrality use $$ (\vec{v}_{she} + \vec{v}_{he})/2 $$.
+Bear in mind that word sum $$ \vec{v}_{she} + \vec{v}_{he} $$ is not a vector either. People use it (with some success) as cosine distance ignores absolute vector length. So, for gender neutrality use $$ (\vec{v}_{she} + \vec{v}_{he})/2 $$.
 
-Just looking at the word co-locations can give interesting results, look at this artistic projects - [Word Spectrum](http://www.chrisharrison.net/index.php/Visualizations/WordSpectrum) and [Word Associations](http://www.chrisharrison.net/index.php/Visualizations/WordAssociations) from Visualizing Google's Bi-Gram Data by [Chris Harrison](http://www.chrisharrison.net/).
+Just looking at the word co-locations can give interesting results, look at these artistic projects - [Word Spectrum](http://www.chrisharrison.net/index.php/Visualizations/WordSpectrum) and [Word Associations](http://www.chrisharrison.net/index.php/Visualizations/WordAssociations) from Visualizing Google's Bi-Gram Data by [Chris Harrison](http://www.chrisharrison.net/).
 
 
 ## I want to play!
 
 If you want **explore**, there is [Word2viz](https://lamyiowce.github.io/word2viz/) by Julia Bazińska.
-You can choose between one of pre-defined plots, or create one from scratch (choosing words and projections).
+You can choose between one of several pre-defined plots, or create one from scratch (choosing words and projections).
 I've just realized that Google Research released a tool for that as well:
 [Open sourcing the Embedding Projector: a tool for visualizing high dimensional data - Google Research blog](https://research.googleblog.com/2016/12/open-sourcing-embedding-projector-tool.html) (and the actual live demo: [Embedding Projector](http://projector.tensorflow.org/)).
 
@@ -208,7 +208,7 @@ If you want to **learn** how it works, I recommend the following materials:
 
 ## Technicalities
 
-I tried to give some insight into algorithms transforming words into vectors. Every practical approach needs a bit more of tweaking. Here are a few clarifications:
+I tried to give some insight into algorithms transforming words into vectors. Every practical approach needs a bit more tweaking. Here are a few clarifications:
 
 * word2vec is not a single task or algorithm; popular ones are:
   * Skip-Gram Negative-Sampling (implicit compression of PMI),
@@ -216,9 +216,9 @@ I tried to give some insight into algorithms transforming words into vectors. Ev
   * GloVe (explicit compression of co-occurrences),
 * while *word* and *context* are essentially the same thing (both are words), they are being probed and treated differently (to account for different word frequencies),
 * there are two sets of vectors (each word has two vectors, one for word and the other - for context),
-* as for any practical dataset of occurrences would give PMI $$-\infty$$, in most cases positive pointwise mutual information (PPMI) is being used,
-* often pre-precessing is needed,
-* we always tell analogies given this data, not ground truth; so it is easy to get stereotypes like `doctor - man + woman = nurse`.
+* as any practical dataset of occurrences would contain PMI $$-\infty$$ for some pairs, in most cases positive pointwise mutual information (PPMI) is being used instead,
+* often pre-processing is needed,
+* all results are a function of the data we used to feed our algorithm, not objective truth; so it is easy to get stereotypes like `doctor - man + woman = nurse`.
 
 For further reading I recommend:
 
@@ -241,7 +241,7 @@ I got interested in word2vec and related techniques for my general interest in m
 I had an motivation to learn more on the subject as I was tutoring Julia Bazińska during a two-week summer internship at [DELab, University of Warsaw](http://www.delab.uw.edu.pl/), supported by the Polish Children's Fund. See also my blog posts:
 
 * [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) - on the Polish Children's Fund
-* [D3.js workshop at ICM for KFnrD](http://p.migdal.pl/2016/02/09/d3js-icm-kfnrd.html) - where it all started
+* [D3.js workshop at ICM for KFnrD](http://p.migdal.pl/2016/02/09/d3js-icm-kfnrd.html) in Jan 2016, where it all started
 
 
 ## Acknowledgements
