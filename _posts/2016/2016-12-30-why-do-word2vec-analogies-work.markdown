@@ -8,8 +8,7 @@ tags:
   - word2vec
 mathjax: true
 description: >-
-  Words, vectors and analogies - the linear space of word2vec. Or: how to change
-  gender with a vector.
+  Words, vectors, analogies and conceptual metaphors - the linear space of word2vec and GloVe. Or: how to change gender with a vector.
 image: /imgs/2016-12-30-queen-julia-vectors-facebook.jpg
 unlisted: true
 ---
@@ -22,20 +21,21 @@ I will try to explain how it works, with the special emphasis on the meaning of 
 
 If you would rather explore than read, here is an interactive exploration by my student:
 
-* [Word2viz](https://lamyiowce.github.io/word2viz/) by Julia Bazińska using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (IN PROGRESS)
+* [Word2viz (in progress)](https://lamyiowce.github.io/word2viz/) by Julia Bazińska using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (it takes 30MB to load - please be patient)
 
-![](/imgs/2016-12-30-queen-julia-vectors.jpg)
+![](/imgs/2016-12-30-word2viz-queen.png)
+
 
 ## Counts, coincidences and meaning
 
-> I love letter co-occurrence in the word `co-occurrence`.
+> I love letter co-occurrence in the word *co-occurrence*.
 
 Sometimes a seemingly naive technique gives powerful results. It turns that merely looking at word coincidences, while ignoring all grammar and context, can provide us insight into the word meaning.
 Consider this sentence:
 
 > a small, fluffy roosety climbed a tree
 
-What's a `roosety`? I would say that something like a squirrel, since two words can be easily interchanged. Such reasoning is called the [distributional hypothesis](https://en.wikipedia.org/wiki/Distributional_semantics) and summarized as:
+What's a *roosety*? I would say that something like a squirrel, since two words can be easily interchanged. Such reasoning is called the [distributional hypothesis](https://en.wikipedia.org/wiki/Distributional_semantics) and summarized as:
 
 > a word is characterized by the company it keeps - [John Rupert Firth](https://en.wikipedia.org/wiki/John_Rupert_Firth)
 
@@ -118,7 +118,7 @@ If we want to make word analogies (*a is to b is as A is to B*), one may argue t
 $$ \frac{P(w|a)}{P(w|b)} = \frac{P(w|A)}{P(w|B)} $$
 
 for every word *w*. That is, if in a word *w* occurs twice as often in the context of *a* than in the context of *b*, the same relation should hold for *A* and *B*.
-For example, if we want to say *dog is to puppy as cat is to kitten*, we expect that if e.g. word `nice` co-occurs with both `dog` and `cat` (likely with different frequencies), then it co-occurs with `puppy` and `kitten` by the same factor.
+For example, if we want to say *dog is to puppy as cat is to kitten*, we expect that if e.g. word *nice* co-occurs with both *dog* and *cat* (likely with different frequencies), then it co-occurs with *puppy* and *kitten* by the same factor.
 It appears it is true, with the factor of two favoring the cubs - compare [pairs](https://books.google.com/ngrams/graph?content=nice+cat%2Cnice+kitten%2Cnice+dog%2Cnice+puppy&year_start=1960&year_end=2008&corpus=0&smoothing=5&share=&direct_url=t1%3B%2Cnice%20cat%3B%2Cc0%3B.t1%3B%2Cnice%20kitten%3B%2Cc0%3B.t1%3B%2Cnice%20dog%3B%2Cc0%3B.t1%3B%2Cnice%20puppy%3B%2Cc0) to [words](https://books.google.com/ngrams/graph?content=cat%2Ckitten%2Cdog%2Cpuppy&year_start=1960&year_end=2008&corpus=0&smoothing=5&share=&direct_url=t1%3B%2Ccat%3B%2Cc0%3B.t1%3B%2Ckitten%3B%2Cc0%3B.t1%3B%2Cdog%3B%2Cc0%3B.t1%3B%2Cpuppy%3B%2Cc0) from [Google Books Ngram Viewer](https://books.google.com/ngrams) (while n-grams look only at adjacent words, they can be some sort of approximation).
 
 By proposing rations for word analogies we implicitly assume that probabilities of words can be factorized with respect to different dimensions of a word. For the discussed case it would be:
@@ -144,13 +144,15 @@ We can use analogies for meaning (e.g. changing gender with vectors), grammar (e
 
 It seems that analogies are not only a computational trick - we may actually think using them all the time, see:
 
-* George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011)
-* [Conceptual Metaphor Home Page by George Lakoff ](http://web.archive.org/web/20121015142744/http://cogsci.berkeley.edu/lakoff) (1994, webarchive)
+* George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011) (1980)
+* [their list of conceptual metaphors in English (webarchive) ](http://web.archive.org/web/20080718021721/http://cogsci.berkeley.edu/lakoff/metaphors/), in particular look for *X is Up*, plotted below:
+
+![](/imgs/2016-12-30-word2viz-up-down-metaphors.png)
 
 
 ## Difference and projections
 
-> `woman - man = female - male = she - he`, so `wo = fe = s` (joke)
+> `woman - man = female - male = she - he`, so `wo = fe = s` (a joke)
 
 Difference of words vectors, like
 
@@ -173,6 +175,7 @@ Just looking at the word co-locations can give interesting results, look at this
 ## I want to play!
 
 If you want **explore**, there is [Word2viz](https://lamyiowce.github.io/word2viz/) by Julia Bazińska.
+You can choose between one of pre-defined plots, or create one from scratch (choosing words and projections).
 I've just realized that Google Research released a tool for that as well:
 [Open sourcing the Embedding Projector: a tool for visualizing high dimensional data - Google Research blog](https://research.googleblog.com/2016/12/open-sourcing-embedding-projector-tool.html) (and the actual live demo: [Embedding Projector](http://projector.tensorflow.org/)).
 
@@ -195,17 +198,21 @@ If you want to **learn** how it works, I recommend the following materials:
   * Jeffrey Pennington, Richard Socher, Christopher D. Manning, [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/pubs/glove.pdf) (2014)
   * it's great, except for its claims for greatness, see: [GloVe vs word2vec](https://rare-technologies.com/making-sense-of-word2vec) by Radim Rehurek
 
+![](/imgs/2016-12-30-queen-julia-vectors.jpg)
+
+> Julia Bazińska, at the rooftop garden of the [Warsaw University Library](https://en.wikipedia.org/wiki/Warsaw_University_Library)
+
 
 ## Technicalities
 
 I tried to give some insight into algorithms transforming words into vectors. Every practical approach needs a bit more of tweaking. Here are a few clarifications:
 
 * word2vec is not a single task or algorithm; popular ones are:
-  * Skip-Gram Negative-Sampling  (implicit compression of PMI)
-  * Skip-Gram Noise-Contrastive Training (implicit compression of conditional probability)
-  * GloVe (explicit compression of co-occurrences)
-* while *word* and *context* are essentially the same thing (both are words), they are being probed treated differently (to account for different word frequencies)
-* there are two sets of vectors (each word has two vectors).
+  * Skip-Gram Negative-Sampling (implicit compression of PMI),
+  * Skip-Gram Noise-Contrastive Training (implicit compression of conditional probability),
+  * GloVe (explicit compression of co-occurrences),
+* while *word* and *context* are essentially the same thing (both are words), they are being probed and treated differently (to account for different word frequencies),
+* there are two sets of vectors (each word has two vectors, one for word and the other - for context),
 * as for any practical dataset of occurrences would give PMI $$-\infty$$, in most cases positive pointwise mutual information (PPMI) is being used,
 * often pre-precessing is needed,
 * we always tell analogies given this data, not ground truth; so it is easy to get stereotypes like `doctor - man + woman = nurse`.
@@ -213,11 +220,10 @@ I tried to give some insight into algorithms transforming words into vectors. Ev
 For further reading I recommend:
 
 * [How does word2vec work?](https://www.quora.com/How-does-word2vec-work) by Omer Levy
-* [Language bias and black sheep](http://nlpers.blogspot.ie/2016/06/language-bias-and-black-sheep.html)
-* [Language necessarily contains human biases, and so will machines trained on language corpora](https://freedom-to-tinker.com/2016/08/24/language-necessarily-contains-human-biases-and-so-will-machines-trained-on-language-corpora/)
-* [Improving Distributional Similarity with Lessons Learned from Word Embeddings](https://levyomer.wordpress.com/2015/03/30/improving-distributional-similarity-with-lessons-learned-from-word-embeddings/)
 * Omer Levy and Yoav Goldberg, [Neural Word Embeddings as Implicit Matrix Factorization](https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf), NIPS 2014
-* [Skipgram isn’t Matrix Factorisation](http://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/)
+* with a caveat: [Skipgram isn’t Matrix Factorisation](http://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/) by Benjamin Wilson
+* [Language bias and black sheep](http://nlpers.blogspot.ie/2016/06/language-bias-and-black-sheep.html)
+* [Language necessarily contains human biases, and so will machines trained on language corpora](https://freedom-to-tinker.com/2016/08/24/language-necessarily-contains-human-biases-and-so-will-machines-trained-on-language-corpora/) by Arvind Narayanan
 
 
 ## Some backstory
@@ -231,10 +237,10 @@ I got interested in word2vec and related techniques for my general interest in m
 
 I had an motivation to learn more on the subject as I was tutoring Julia Bazińska during a two-week summer internship at [DELab, University of Warsaw](http://www.delab.uw.edu.pl/), supported by the Polish Children's Fund. See also my blog posts:
 
-* [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) (on the Polish Children's Fund) - at Scientia Crastina
-* [D3.js workshop at ICM for KFnrD](http://p.migdal.pl/2016/02/09/d3js-icm-kfnrd.html)
+* [Helping exceptionally gifted children in Poland](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) - on the Polish Children's Fund
+* [D3.js workshop at ICM for KFnrD](http://p.migdal.pl/2016/02/09/d3js-icm-kfnrd.html) - where it all started
 
 
 ## Acknowledgements
 
-(Waiting for you!)
+(Waiting for you! :))
