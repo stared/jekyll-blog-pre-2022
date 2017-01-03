@@ -19,9 +19,9 @@ unlisted: true
 
 I will try to explain how it works, with special emphasis on the meaning of vector differences, at the same time omitting as many technicalities as possible.
 
-If you would rather explore than read, here is an interactive exploration by my student:
+If you would rather explore than read, here is an interactive exploration by my mentee Julia Bazińska, now a freshman of computer science at the University of Warsaw:
 
-* [Word2viz (in progress)](https://lamyiowce.github.io/word2viz/) by Julia Bazińska using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (it takes 30MB to load - please be patient)
+* [Word2viz (in progress)](https://lamyiowce.github.io/word2viz/) by using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (it takes 30MB to load - please be patient)
 
 ![](/imgs/2016-12-30-word2viz-queen.png)
 
@@ -170,7 +170,7 @@ $$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b \right)
 
 is exactly a relative occurrence of a word within different contexts.
 
-Bear in mind that word sum $$ \vec{v}_{she} + \vec{v}_{he} $$ is not a vector either. People use it (with some success) as cosine distance ignores absolute vector length. So, for gender neutrality use $$ (\vec{v}_{she} + \vec{v}_{he})/2 $$.
+Bear in mind that when we want to look at common aspects of a word it is more natural to average two vectors rather than take their sum. While people use it interchangeably, it only words because cosine distance ignores the absolute vector length. So, for a gender neutral pronoun use $$ (\vec{v}_{she} + \vec{v}_{he})/2 $$ rather than their sum.
 
 Just looking at the word co-locations can give interesting results, look at these artistic projects - [Word Spectrum](http://www.chrisharrison.net/index.php/Visualizations/WordSpectrum) and [Word Associations](http://www.chrisharrison.net/index.php/Visualizations/WordAssociations) from Visualizing Google's Bi-Gram Data by [Chris Harrison](http://www.chrisharrison.net/).
 
