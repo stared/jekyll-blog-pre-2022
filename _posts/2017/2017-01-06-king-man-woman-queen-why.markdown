@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "king - man + women is queen; but why?"
+title: "king - man + woman is queen; but why?"
 date: '2017-01-06 19:30 +0100'
 author: Piotr Migdał
 tags:
