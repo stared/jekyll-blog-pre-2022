@@ -13,4 +13,6 @@ image: /imgs/2016-12-30-queen-julia-vectors-facebook.jpg
 unlisted: true
 ---
 
-It was a draft. The current post is here: http://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html
+It was a draft.
+
+The current post is here: [p.migdal.pl/2017/01/06/king-man-woman-queen-why.html](http://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)
