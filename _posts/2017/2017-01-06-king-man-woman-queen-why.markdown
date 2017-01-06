@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "king - man + women is queen; but why?"
-date: '2016-12-30 21:00 +0100'
+date: '2017-01-06 19:30 +0100'
 author: Piotr Migdał
 tags:
   - machine-learning
@@ -9,8 +9,7 @@ tags:
 mathjax: true
 description: >-
   Words, vectors, analogies and conceptual metaphors - the linear space of word2vec and GloVe. Or: how to change gender with a vector.
-image: /imgs/2016-12-30-queen-julia-vectors-facebook.jpg
-unlisted: true
+image: /imgs/2017-01-06/queen-julia-vectors-facebook.jpg
 ---
 
 ## Intro
@@ -21,9 +20,9 @@ I will try to explain how it works, with special emphasis on the meaning of vect
 
 If you would rather explore than read, here is an interactive exploration by my mentee Julia Bazińska, now a freshman of computer science at the University of Warsaw:
 
-* [Word2viz (in progress)](https://lamyiowce.github.io/word2viz/) by using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (it takes 30MB to load - please be patient)
+* [Word2viz](https://lamyiowce.github.io/word2viz/) by using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (it takes 30MB to load - please be patient)
 
-[![](/imgs/2016-12-30-word2viz-queen.png)](https://lamyiowce.github.io/word2viz/)
+[![](/imgs/2017-01-06/word2viz-queen.png)](https://lamyiowce.github.io/word2viz/)
 
 
 ## Counts, coincidences and meaning
@@ -53,7 +52,7 @@ Even simple word counts, compared by source, can give interesting results, e.g. 
 Looking at co-occurrences can provide much more information. For example, one of my projects, [TagOverflow](http://p.migdal.pl/tagoverflow/), gives insight into structure of programming, based only on the usage of [tags on Stack Overflow](http://stackoverflow.com/tags).
 It also shows that I am in love with pointwise mutual information, which brings us to the next point.
 
-[![](/imgs/2016-12-30-word2viz-tagoverflow-english.png)](http://p.migdal.pl/tagoverflow/?site=english&size=32)
+[![](/imgs/2017-01-06/word2viz-tagoverflow-english.png)](http://p.migdal.pl/tagoverflow/?site=english&size=32)
 
 
 ## Pointwise mutual information and compression
@@ -153,7 +152,7 @@ It seems that analogies are not only a computational trick - we may actually use
 * George Lakoff, Mark Johnson, [Metaphors We Live By](https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011) (1980)
 * and [their list of conceptual metaphors in English (webarchive)](http://web.archive.org/web/20080718021721/http://cogsci.berkeley.edu/lakoff/metaphors/), in particular look for *X is Up*, plotted below:
 
-![](/imgs/2016-12-30-word2viz-up-down-metaphors.png)
+![](/imgs/2017-01-06/word2viz-up-down-metaphors.png)
 
 
 ## Difference and projections
@@ -204,7 +203,7 @@ If you want to **learn** how it works, I recommend the following materials:
   * Jeffrey Pennington, Richard Socher, Christopher D. Manning, [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/pubs/glove.pdf) (2014)
   * it's great, except for its claims for greatness, see: [GloVe vs word2vec](https://rare-technologies.com/making-sense-of-word2vec) by Radim Rehurek
 
-![](/imgs/2016-12-30-queen-julia-vectors.jpg)
+![](/imgs/2017-01-06/queen-julia-vectors.jpg)
 
 > Julia Bazińska, at the rooftop garden of the [Warsaw University Library](https://en.wikipedia.org/wiki/Warsaw_University_Library) - the building in which we worked
 
@@ -251,4 +250,4 @@ I had an motivation to learn more on the subject as I was tutoring Julia Bazińs
 
 ## Thanks
 
-This draft benefited from feedback from [Grzegorz Uriasz](https://github.com/grzegorz225/) (what's simple and what isn't), [Sarah Martin](http://goodsexlifestyle.com/) (readability and grammar remarks). I want to especially thank [Levy Omer](https://levyomer.wordpress.com/) for pointing to week points (and shady assumptions) of word vector arithmetics.
+This draft benefited from feedback from [Grzegorz Uriasz](https://github.com/grzegorz225/) (what's simple and what isn't), [Sarah Martin](http://goodsexlifestyle.com/) (readability and grammar remarks). I want to especially thank [Levy Omer](https://levyomer.wordpress.com/) for pointing to weak points (and shady assumptions) of word vector arithmetics.
