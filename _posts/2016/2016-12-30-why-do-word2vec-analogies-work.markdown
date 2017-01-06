@@ -23,7 +23,7 @@ If you would rather explore than read, here is an interactive exploration by my 
 
 * [Word2viz (in progress)](https://lamyiowce.github.io/word2viz/) by using [GloVe](http://nlp.stanford.edu/projects/glove/) pre-trained vectors (it takes 30MB to load - please be patient)
 
-![](/imgs/2016-12-30-word2viz-queen.png)
+[![](/imgs/2016-12-30-word2viz-queen.png)](https://lamyiowce.github.io/word2viz/)
 
 
 ## Counts, coincidences and meaning
@@ -52,6 +52,8 @@ Even simple word counts, compared by source, can give interesting results, e.g. 
 
 Looking at co-occurrences can provide much more information. For example, one of my projects, [TagOverflow](http://p.migdal.pl/tagoverflow/), gives insight into structure of programming, based only on the usage of [tags on Stack Overflow](http://stackoverflow.com/tags).
 It also shows that I am in love with pointwise mutual information, which brings us to the next point.
+
+[![](/imgs/2016-12-30-word2viz-tagoverflow-english.png)](http://p.migdal.pl/tagoverflow/?site=english&size=32)
 
 
 ## Pointwise mutual information and compression
@@ -117,7 +119,8 @@ If we want to make word analogies (*a is to b is as A is to B*), one may argue t
 
 $$ \frac{P(w|a)}{P(w|b)} = \frac{P(w|A)}{P(w|B)} $$
 
-for every word *w*. That is, if a word *w* occurs twice as often in the context of *a* than in the context of *b*, the same relation should hold for *A* and *B*.
+for every word *w*. Sure, it looks (and is!) a questionable assumption, but it is still the best thing we can do with conditional probability. I will not try defending this formulation - I will show its equivalent formulations.
+
 For example, if we want to say *dog is to puppy as cat is to kitten*, we expect that if e.g. word *nice* co-occurs with both *dog* and *cat* (likely with different frequencies), then it co-occurs with *puppy* and *kitten* by the same factor.
 It appears it is true, with the factor of two favoring the cubs - compare [pairs](https://books.google.com/ngrams/graph?content=nice+cat%2Cnice+kitten%2Cnice+dog%2Cnice+puppy&year_start=1960&year_end=2008&corpus=0&smoothing=5&share=&direct_url=t1%3B%2Cnice%20cat%3B%2Cc0%3B.t1%3B%2Cnice%20kitten%3B%2Cc0%3B.t1%3B%2Cnice%20dog%3B%2Cc0%3B.t1%3B%2Cnice%20puppy%3B%2Cc0) to [words](https://books.google.com/ngrams/graph?content=cat%2Ckitten%2Cdog%2Cpuppy&year_start=1960&year_end=2008&corpus=0&smoothing=5&share=&direct_url=t1%3B%2Ccat%3B%2Cc0%3B.t1%3B%2Ckitten%3B%2Cc0%3B.t1%3B%2Cdog%3B%2Cc0%3B.t1%3B%2Cpuppy%3B%2Cc0) from [Google Books Ngram Viewer](https://books.google.com/ngrams) (while n-grams look only at adjacent words, they can be some sort of approximation).
 
@@ -203,7 +206,7 @@ If you want to **learn** how it works, I recommend the following materials:
 
 ![](/imgs/2016-12-30-queen-julia-vectors.jpg)
 
-> Julia Bazińska, at the rooftop garden of the [Warsaw University Library](https://en.wikipedia.org/wiki/Warsaw_University_Library)
+> Julia Bazińska, at the rooftop garden of the [Warsaw University Library](https://en.wikipedia.org/wiki/Warsaw_University_Library) - the building in which we worked
 
 
 ## Technicalities
@@ -217,17 +220,19 @@ I tried to give some insight into algorithms transforming words into vectors. Ev
 * while *word* and *context* are essentially the same thing (both are words), they are being probed and treated differently (to account for different word frequencies),
 * there are two sets of vectors (each word has two vectors, one for word and the other - for context),
 * as any practical dataset of occurrences would contain PMI $$-\infty$$ for some pairs, in most cases positive pointwise mutual information (PPMI) is being used instead,
-* often pre-processing is needed,
+* often pre-processing is needed (e.g. to catch phrases like *machine learning* or to distinguish words with two separate meanings),
+* linear space of meaning is a disputed concept,
 * all results are a function of the data we used to feed our algorithm, not objective truth; so it is easy to get stereotypes like `doctor - man + woman = nurse`.
 
 For further reading I recommend:
 
 * [How does word2vec work?](https://www.quora.com/How-does-word2vec-work) by Omer Levy
-* Omer Levy and Yoav Goldberg, [Neural Word Embeddings as Implicit Matrix Factorization](https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf), NIPS 2014
+* Omer Levy, Yoav Goldberg, [Neural Word Embeddings as Implicit Matrix Factorization](https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf), NIPS 2014
 * with a caveat: [Skipgram isn’t Matrix Factorisation](http://building-babylon.net/2016/05/12/skipgram-isnt-matrix-factorisation/) by Benjamin Wilson
 * [Language bias and black sheep](http://nlpers.blogspot.ie/2016/06/language-bias-and-black-sheep.html)
 * [Language necessarily contains human biases, and so will machines trained on language corpora](https://freedom-to-tinker.com/2016/08/24/language-necessarily-contains-human-biases-and-so-will-machines-trained-on-language-corpora/) by Arvind Narayanan
-
+* [Word Embeddings: Explaining their properties](http://www.offconvex.org/2016/02/14/word-embeddings-2/) - on word analogies by Sanjeev Arora
+* Tal Linzen, [Issues in evaluating semantic spaces using word analogies](https://arxiv.org/abs/1606.07736), arXiv:1606.07736
 
 ## Some backstory
 
@@ -244,6 +249,6 @@ I had an motivation to learn more on the subject as I was tutoring Julia Bazińs
 * [D3.js workshop at ICM for KFnrD](http://p.migdal.pl/2016/02/09/d3js-icm-kfnrd.html) in Jan 2016, where it all started
 
 
-## Acknowledgements
+## Thanks
 
-(Waiting for you! :))
+This draft benefited from feedback from [Grzegorz Uriasz](https://github.com/grzegorz225/) (what's simple and what isn't), [Sarah Martin](http://goodsexlifestyle.com/) (readability and grammar remarks). I want to especially thank [Levy Omer](https://levyomer.wordpress.com/) for pointing to week points (and shady assumptions) of word vector arithmetics.
