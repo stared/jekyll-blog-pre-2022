@@ -172,7 +172,7 @@ $$ \vec{v}_w \cdot \left( \vec{v}_a - \vec{v}_b \right)
 
 is exactly a relative occurrence of a word within different contexts.
 
-Bear in mind that when we want to look at common aspects of a word it is more natural to average two vectors rather than take their sum. While people use it interchangeably, it only words because cosine distance ignores the absolute vector length. So, for a gender neutral pronoun use $$ (\vec{v}_{she} + \vec{v}_{he})/2 $$ rather than their sum.
+Bear in mind that when we want to look at common aspects of a word it is more natural to average two vectors rather than take their sum. While people use it interchangeably, it only works because cosine distance ignores the absolute vector length. So, for a gender neutral pronoun use $$ (\vec{v}_{she} + \vec{v}_{he})/2 $$ rather than their sum.
 
 Just looking at the word co-locations can give interesting results, look at these artistic projects - [Word Spectrum](http://www.chrisharrison.net/index.php/Visualizations/WordSpectrum) and [Word Associations](http://www.chrisharrison.net/index.php/Visualizations/WordAssociations) from Visualizing Google's Bi-Gram Data by [Chris Harrison](http://www.chrisharrison.net/).
 
