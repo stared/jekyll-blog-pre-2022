@@ -155,7 +155,7 @@ It seems that analogies are not only a computational trick - we may actually use
 ![](/imgs/2017-01-06/word2viz-up-down-metaphors.png)
 
 
-## Difference and projections
+## Differences and projections
 
 > `woman - man = female - male = she - he`, so `wo = fe = s` (a joke)
 
