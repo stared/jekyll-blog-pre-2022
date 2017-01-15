@@ -123,7 +123,7 @@ Since there is a lot of redundancy, I will describe only 1. (3. was similar) and
 
 I was positively surprised that all points were easy and enjoyable for the participants. There was a slight slowdown with the tensor product, but it wasn't a blocker.
 
-In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of preparation (0.) and more interesting parts (3. and 4.) it didn't go as well as the one of 2011 (one of my best educational experiences).
+In 2016, I covered only 0., 1. and 2., all on-site. Because of the lack of preparation (0.) and more interesting parts (3. and 4.) it didn't go as well as the one of 2011 (one of my best educational experiences ever!).
 
 ### Quantum cryptography and quantum information, ICFO (2011)
 
@@ -265,7 +265,7 @@ In 2016, there were points 0., 1. and 2., all on-site. Because of the lack of pr
 If you want to use any materials - feel free! And I would be even happier to hear that.
 If you have some other materials or references for an easy introduction you recommend - just send them.
 
-I consider writing a simple introduction to quantum mechanics, with interactive simulations (very likely with the Quantum Game engine). If you think it is a great idea, consider poking/teasing/tempting me. :)
+I am considering writing a simple introduction to quantum mechanics, with interactive simulations (very likely with the Quantum Game engine). If you think it is a great idea, consider poking/teasing/tempting me. :)
 
 I would like to thank [Michał Kotowski](http://www.math.toronto.edu/~michal/) for remarks on this blog post. And, of course, to everyone participating in my quantum mechanics workshops.
 
