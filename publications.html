@@ -1,0 +1,37 @@
+---
+layout: page
+title:  Publications
+permalink: /publications/
+order:  3
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Research publications</h1>
+  <ul class="event-list">
+  {% for publication in site.data.publications %}
+    <li>
+      <span class="post-meta">
+        {{ publication.authors }}
+      </span>
+      </br>
+      {% if publication.doi %}
+        <a href="https://doi.org/{{ publication.doi }}">{{ publication.title }}</a>
+      {% else %}
+        <a href="{{ publication.link }}">{{ publication.title }}</a>
+      {% endif %}
+      <span class="post-meta">
+        {{ publication.journal }}
+        ({{ publication.year }})
+        {% if publication.arXiv %}
+          <a href="https://arxiv.org/abs/{{ publication.arXiv }}">arXiv:{{ publication.arXiv }}</a>
+        {% endif %}
+        {% if publication.misc %}
+          {{ publication.misc | markdownify }}
+        {% endif %}
+      </span>
+    </li>
+  {% endfor %}
+  </ul>
+
+</div>
