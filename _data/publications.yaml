@@ -11,7 +11,7 @@
   link:    "https://arxiv.org/abs/1412.6796"
   year:    2014
   arXiv:   "1412.6796"
-  misc:    "supervisors: Maciej Lewenstein and Javi Rodriguez-Laguna; reviewers: Karol Życzkowski, Seth Lloyd"
+  misc:    "supervisors: Maciej Lewenstein and Javi Rodriguez-Laguna; reviewers: Karol Życzkowski, [Seth Lloyd](https://en.wikipedia.org/wiki/Seth_Lloyd)"
 
 - authors: P. Migdał, J. Rodríguez-Laguna, M. Oszmaniec, M. Lewenstein
   title:   "Multiphoton states related via linear optics"
@@ -104,4 +104,4 @@
   journal: "Phys. Rev. Lett. 98, 016601"
   year:    2007
   doi:     10.1103/PhysRevLett.98.016601
-  misc:    "as an [Research Science Institute](https://en.wikipedia.org/wiki/Research_Science_Institute) 2005 intern, MIT"
+  misc:    "as a [Research Science Institute](https://en.wikipedia.org/wiki/Research_Science_Institute) 2005 intern, MIT"
