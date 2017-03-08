@@ -223,6 +223,7 @@ Often you will need to install something, collaborate with others and do other t
   * [An Introductory SQL Tutorial: How to Write Simple Queries - Rachel Sprung](http://blog.hubspot.com/marketing/sql-tutorial-introduction)
   * [Learn SQL in stages - SQLZOO](http://sqlzoo.net/)
   * [Stack Exchange Data](https://data.stackexchange.com/) - see examples, write your own queries
+  * [Sams Teach Yourself SQL in 10 Minutes](http://forta.com/books/0672336073/) - a book, in my spirit of teaching SQL (from `SELECT *`, not `CREATE`)
 * working with REST APIs
   * e.g. [The Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro)
 * HTML (and JavaScript may be a plus)
