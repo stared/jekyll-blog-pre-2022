@@ -252,3 +252,12 @@ I had an motivation to learn more on the subject as I was tutoring Julia Bazińs
 ## Thanks
 
 This draft benefited from feedback from [Grzegorz Uriasz](https://github.com/grzegorz225/) (what's simple and what isn't), [Sarah Martin](http://goodsexlifestyle.com/) (readability and grammar remarks). I want to especially thank [Levy Omer](https://levyomer.wordpress.com/) for pointing to weak points (and shady assumptions) of word vector arithmetics.
+
+## EDIT
+
+It got some popularity, including ~40k views in the first day, and being tweeted by [the authors of GloVe at Stanford](https://twitter.com/stanfordnlp/status/818881718077661184) and [Kaggle](https://twitter.com/kaggle/status/819258895235424258).
+
+Though, what I like the most is to see how people interact with it:
+
+* [artistic-scientific impulsive-analytical](https://twitter.com/cesifoti/status/818672972743450624) by Cesar Hidalgo from MIT Media Lab
+* [good-evil unlawful-lawful and AD&D classes](http://imgur.com/3FzX81i) from HN comment thread :)
