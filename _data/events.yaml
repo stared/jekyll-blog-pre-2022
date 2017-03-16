@@ -1,9 +1,18 @@
 - talk:  A game needs no framework
   event: "Indie Game Dev Mini-Talks March"
   href:  https://www.meetup.com/Indie-Game-Developers-of-Silicon-Valley/events/237684873/
+  slides: https://speakerdeck.com/pmigdal/a-game-needs-to-framework
   place: "Mountain View (CA, USA)"
   date:  2017-03-15
   tags:  [talk, meetup]
+
+- talk:  Visualizing word coincidences
+  event: "Story, Character & Dialogue Visualization with D3"
+  href:  https://www.meetup.com/Bay-Area-d3-User-Group/events/237644015/
+  slides: https://speakerdeck.com/pmigdal/visualizing-word-coincidences
+  place: "Los Gatos (CA, USA)"
+  date:  2017-03-15
+  tags:  [flashtalk, meetup]
 
 - talk:  "mirt: a better response scaling than PCA"
   event: Why R?
