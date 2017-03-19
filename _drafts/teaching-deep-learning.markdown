@@ -4,34 +4,46 @@ title: "Teaching Deep Learning"
 date: "2017-03-04 15:00"
 ---
 
-I teach deep learning both for living (as a [deepsense.io instructor](http://workshops.deepsense.io/)) and for fun/mission [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) (this Jan we had a NSFL project).
+I teach deep learning both for living (as the main [deepsense.io instructor](http://workshops.deepsense.io/), with [great co-workers](http://blog.kaggle.com/2016/01/29/noaa-right-whale-recognition-winners-interview-1st-place-deepsense-io/)) and as part of my volunteering to [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) (this Jan we had a rather NSFL project).
+
+Whether you want to start learning deep learning for you career, or just want to have a nice adventure and get insight into machines before they take over, this post is for you.
 
 In this post I don't intent to teach neural networks, but to point to useful resources.
 
 To start your you need basics of Python syntax and very simple mathematics.
 I suggest starting with [Keras](https://keras.io/), a high-level neural network library in Python.
 
+
+## Before we start
+
+
+Also, it makes some webcomic strips obsolete:
+
 * [Neural Networks Demystified](http://lumiverse.io/series/neural-networks-demystified) - smooth introduction
 
 
 ## Examples
 
-Before you start learning, let's play in your browser:
+Do I need some SkyNet to run it? Actually not - it's a piece of software, as any other. And you can play with in even in your browser:
 
-* [TensorFlow Playground](http://playground.tensorflow.org/) for point separation
+* [TensorFlow Playground](http://playground.tensorflow.org/) for point separation, with a visual interface
 * [ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/) for digit and image recognition
-*
+* [Keras.js Demo](https://transcranial.github.io/keras-js/) - to visualize and use real networks in your browser (e.g. ResNet-50)
+
 
 ## Mathematics
 
 Deep learning (that is - neural networks with many layers) use very simple
 
-* vectors, matrices, multi-dimensional arrays
+XXX this with number of weights
+
+* vectors, matrices, multi-dimensional arrays,
 * addition, multiplication,
 * [convolutions](http://setosa.io/ev/image-kernels/) to extract and process local patterns,
 * activation functions: [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function), [tanh](https://www.wolframalpha.com/input/?i=tanh[x]), [ReLU](https://en.wikipedia.org/wiki/Rectifier_%28neural_networks%29) to add non-linearity,
 * [softmax](https://en.wikipedia.org/wiki/Softmax_function) to convert vectors into probabilities,
-* [log-loss (cross-entropy)](http://datascience.stackexchange.com/questions/9302/the-cross-entropy-error-function-in-neural-networks) to penalize wrong guesses in a smart way.
+* [log-loss (cross-entropy)](http://datascience.stackexchange.com/questions/9302/the-cross-entropy-error-function-in-neural-networks) to penalize wrong guesses in a smart way,
+* gradients and chain-rule (backpropagation) for minimizing error.
 
 If your background is in physics, mathematics, statistics or signal processing - most likely you already know more than enough.
 
@@ -40,12 +52,15 @@ If you last contact with mathematics was in high-school, don't worry. This mathe
 * [Deep Spreadsheets with ExcelNet](http://www.deepexcel.net/)
 
 
+* [Immersive Linear Algebra](http://immersivemath.com/ila/index.html) by J. Ström, K. Åström, and T. Akenine-Möller - a linear algebra book with fully interactive figures
+*  Part I: Applied Math and Machine Learning Basics: 2 Linear Algebra from [Deep Learning](http://www.deeplearningbook.org/)
+
 ## Frameworks
 
 The most popular deep learning frameworks use, or at least - support, Python.
 Some of [TensorFlow](https://www.tensorflow.org/), [Theano](http://deeplearning.net/software/theano/), [Torch](http://torch.ch/).
 
-Unlike
+Keras
 
 If you like philosophy of Python (brevity, readability, one preferred way to do things), Keras is for you.
 
@@ -64,33 +79,38 @@ and in a week were able to
 
 ## Dataset
 
-I recommend starting with [MNIST digit recognition dataset](http://yann.lecun.com/exdb/mnist/) (60k grayscale 28x28 images).
+I recommend starting with [MNIST digit recognition dataset](http://yann.lecun.com/exdb/mnist/) (60k grayscale 28x28 images), included in [keras.datasets](https://keras.io/datasets/).
 
 A more interesting dataset, and harder for classical machine learning algorithms, is [notMNIST](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html) (letters A-J from strange fonts). If you want to start with in, here is my [gist for notMNIST loading and logistic regression in Keras](https://gist.github.com/stared/70daf8e0334abf6e7527259e7221f568).
+
+A more advanced once, still at verge of using CPU is [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) (also in [keras.datasets](https://keras.io/datasets/)).
 
 
 ## Standing at the shoulders of giants
 
-
 Creating a new neural network has a lot in common with cooking -
+The most important cooking contest is ImageNet.
+
+
+For example, for image segmentation
 
 
 If tou
 
+
+
+
 * [How to train your Deep Neural Network](http://rishy.github.io/ml/2017/01/05/how-to-train-your-dnn/) - how many layers, parameters, etc
-
-## Machine Learning context
-
-
 
 
 ## Infrastructure
 
 For small problems, you can use your personal computer - even if it is a laptop and computations are on CPU.
 
-For medium problems, you might be still able to use PC, but
+For medium problems, you might be still able to use PC, but it requires much more patience and trade-offs.
 
 * [Keras with GPU on Amazon EC2 – a step-by-step instruction](https://medium.com/@mateuszsieniawski/keras-with-gpu-on-amazon-ec2-a-step-by-step-instruction-4f90364e49ac) by Mateusz Sieniawski, my mentee
+
 
 ## Links
 
@@ -101,7 +121,7 @@ For medium problems, you might be still able to use PC, but
 
 
 
-* [Ian Goodfellow and Yoshua Bengio and Aaron Courville, Deep Learning, An MIT Press book](http://www.deeplearningbook.org/) ([and just PDF](https://github.com/HFTrader/DeepLearningBook))
+* [Ian Goodfellow and Yoshua Bengio and Aaron Courville, Deep Learning, An MIT Press book](http://www.deeplearningbook.org/)
 
 * [CS231n: Convolutional Neural Networks for Visual Recognition by Andrej Karpathy](http://cs231n.github.io/) and [its videos](https://www.youtube.com/playlist?list=PLLvH2FwAQhnpj1WEB-jHmPuUeQ8mX-XXG)
 
@@ -109,6 +129,7 @@ For medium problems, you might be still able to use PC, but
 
 
 * [A Guide to Deep Learning by YN^2](http://yerevann.com/a-guide-to-deep-learning/)
+* [How to Start Learning Deep Learning](http://ofir.io/How-to-Start-Learning-Deep-Learning/)
 
 * [Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras](http://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/)
 * https://elitedatascience.com/keras-tutorial-deep-learning-in-python ?
@@ -117,9 +138,6 @@ https://pinboard.in/search/u:pmigdal?query=deep-learning
 
 
 
-### Examples
-
-* [Colorful Image Colorization](http://richzhang.github.io/colorization/)
 
 ### Keras add-ons
 
@@ -130,10 +148,16 @@ https://pinboard.in/search/u:pmigdal?query=deep-learning
 
 ## Further reading
 
+* General
+  * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy
+  * [How convolutional neural networks see the world - Keras Blog](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html)
+  * [What convolutional neural networks look at when they see nudity – Clarifai Blog](http://blog.clarifai.com/what-convolutional-neural-networks-see-at-when-they-see-nudity/) (NSFW)
+  * [Dreams, Drugs and ConvNets](https://speakerdeck.com/pmigdal/dreams-drugs-and-convnets) - my slides (NSFW)
+* Technical
+  * [Yes you should understand backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b) by Andrej Karpathy
+  * [Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch)](https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f#.oa2ljanet)
+* Staying up-to-data:
+  * [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) for news
 
-* [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy
-* [How convolutional neural networks see the world - Keras Blog](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html)
 
-* [Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch)](https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f#.oa2ljanet)
-
-[r/MachineLearning](https://www.reddit.com/r/MachineLearning/) for news
+[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Micheal Nielsen (yes, author of the Green Book)
