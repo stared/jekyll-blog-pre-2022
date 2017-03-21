@@ -114,12 +114,24 @@ For medium problems, you might be still able to use PC, but it requires much mor
 
 ## Links
 
-
-
+* [Linear algebra cheat sheet for deep learning](https://medium.com/towards-data-science/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c) by Brendan Fortuner
+* [Visualizing parts of Convolutional Neural Networks using Keras and Cats](https://hackernoon.com/visualizing-parts-of-convolutional-neural-networks-using-keras-and-cats-5cc01b214e59) by Erik Reppel
+* [Benchmarks for popular convolutional neural network models](https://github.com/jcjohnson/cnn-benchmarks) by Justin Johnson
 * [Image Kernels - Explained Visually](http://setosa.io/ev/image-kernels/) - on 2d convolutions
 * [Building a simple neural-network with Keras](https://github.com/wxs/keras-mnist-tutorial/blob/master/MNIST%20in%20Keras.ipynb)
-
-
+* [Learning curves of linear (logistic regression) vs non-linear models (random forest and deep learning)](https://github.com/szilard/benchm-ml/tree/master/x1-data-higgs) by Szilard Pafka
+* https://devblogs.nvidia.com/parallelforall/mocha-jl-deep-learning-julia/ - progress ()
+* size/performance:
+  * https://github.com/mrgloom/kaggle-dogs-vs-cats-solution
+  * [Neural Network Architectures](https://culurciello.github.io/tech/2016/06/04/nets.html) by
+Eugenio Culurciello
+* [Lab41 Reading Group: SqueezeNet](https://gab41.lab41.org/lab41-reading-group-squeezenet-9b9d1d754c75)
+* Further applications
+  * style transfer
+  * segmentation
+  * autoencoders
+* https://xkcd.com/1425/
+* http://www.economist.com/news/business/21695908-silicon-valley-fights-talent-universities-struggle-hold-their
 
 * [Ian Goodfellow and Yoshua Bengio and Aaron Courville, Deep Learning, An MIT Press book](http://www.deeplearningbook.org/)
 
@@ -145,6 +157,17 @@ https://pinboard.in/search/u:pmigdal?query=deep-learning
 * [keras.js](https://transcranial.github.io/keras-js/) - convert Keras models to JavaScript, runnable in a browser (simplest GPU support ever!)
 * [quiver](https://github.com/jakebian/quiver) - interactive ConvNet features visualization for Keras
 * [ASCII summary for sequential models](https://github.com/stared/keras-sequential-ascii) - I started developing :)
+
+## Common misconceptions
+
+### Better than other ML algorithms
+
+### Kernels need to be set manually
+
+### Why log-loss?
+
+
+
 
 ## Further reading
 
