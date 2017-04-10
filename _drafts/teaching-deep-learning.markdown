@@ -4,21 +4,25 @@ title: "Teaching Deep Learning"
 date: "2017-03-04 15:00"
 ---
 
-I teach deep learning both for living (as the main [deepsense.io instructor](http://workshops.deepsense.io/), with [great co-workers](http://blog.kaggle.com/2016/01/29/noaa-right-whale-recognition-winners-interview-1st-place-deepsense-io/)) and as part of my volunteering to [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) (this Jan we had a rather NSFL project).
+I teach deep learning both for living (as the main [deepsense.io instructor](http://workshops.deepsense.io/), with [great co-workers](http://blog.kaggle.com/2016/01/29/noaa-right-whale-recognition-winners-interview-1st-place-deepsense-io/)) and as part of my volunteering to [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) - with a 5-day project[^trypophobia].
 
-Whether you want to start learning deep learning for you career, or just want to have a nice adventure and get insight into machines before they take over, this post is for you.
+Whether you want to start learning deep learning for you career, or just want to have a nice adventure (and get insight into machines before they take over), this post is for you!
+I don't intent to teach neural networks, but to provide an overview and point to didactically useful resources.
 
-In this post I don't intent to teach neural networks, but to point to useful resources.
+Don't be afraid of neural networks - it is easy to start. My biggest regret is delaying
 
 To start your you need basics of Python syntax and very simple mathematics.
-I suggest starting with [Keras](https://keras.io/), a high-level neural network library in Python.
+I suggest starting with [Keras](https://keras.io/), a high-level neural network library in Python. If you are new to Python, take a look at [my introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html).
 
 
 ## Before we start
 
 
+
 Also, it makes some webcomic strips obsolete:
 
+
+* [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 * [Neural Networks Demystified](http://lumiverse.io/series/neural-networks-demystified) - smooth introduction
 
 
@@ -43,9 +47,9 @@ XXX this with number of weights
 * activation functions: [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function), [tanh](https://www.wolframalpha.com/input/?i=tanh[x]), [ReLU](https://en.wikipedia.org/wiki/Rectifier_%28neural_networks%29) to add non-linearity,
 * [softmax](https://en.wikipedia.org/wiki/Softmax_function) to convert vectors into probabilities,
 * [log-loss (cross-entropy)](http://datascience.stackexchange.com/questions/9302/the-cross-entropy-error-function-in-neural-networks) to penalize wrong guesses in a smart way,
-* gradients and chain-rule (backpropagation) for minimizing error.
+* gradients and chain-rule ([backpropagation](http://cs231n.github.io/optimization-2/)) for minimizing error.
 
-If your background is in physics, mathematics, statistics or signal processing - most likely you already know more than enough.
+If your background is in physics, mathematics, statistics or signal processing - most likely you already know more than enough to start.
 
 If you last contact with mathematics was in high-school, don't worry. This mathematics is simple to a point that a convolutional neural network for digit recognition can be implemented in a spreadsheet (with no macros):
 
@@ -60,9 +64,10 @@ If you last contact with mathematics was in high-school, don't worry. This mathe
 The most popular deep learning frameworks use, or at least - support, Python.
 Some of [TensorFlow](https://www.tensorflow.org/), [Theano](http://deeplearning.net/software/theano/), [Torch](http://torch.ch/).
 
+
 Keras
 
-If you like philosophy of Python (brevity, readability, one preferred way to do things), Keras is for you.
+If you like philosophy of Python (brevity, readability, one preferred way to do things), Keras is for you. Also, if you want to have a propaganda picture,
 
 
 Neural networks happen to be
@@ -77,9 +82,11 @@ and in a week were able to
 
 
 
-## Dataset
+## Datasets
 
 I recommend starting with [MNIST digit recognition dataset](http://yann.lecun.com/exdb/mnist/) (60k grayscale 28x28 images), included in [keras.datasets](https://keras.io/datasets/).
+
+> Indeed, I once even proposed that the toughest challenge facing AI workers is to answer the question: "What are the letters 'A' and 'I'? - [Douglas R. Hofstadter](https://web.stanford.edu/group/SHR/4-2/text/hofstadter.html) (1995)
 
 A more interesting dataset, and harder for classical machine learning algorithms, is [notMNIST](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html) (letters A-J from strange fonts). If you want to start with in, here is my [gist for notMNIST loading and logistic regression in Keras](https://gist.github.com/stared/70daf8e0334abf6e7527259e7221f568).
 
@@ -88,7 +95,7 @@ A more advanced once, still at verge of using CPU is [CIFAR-10 dataset](https://
 
 ## Standing at the shoulders of giants
 
-Creating a new neural network has a lot in common with cooking -
+Creating a new neural network has a lot in common with cooking - there are typical ingredients and recipes.
 The most important cooking contest is ImageNet.
 
 
@@ -97,8 +104,11 @@ For example, for image segmentation
 
 If tou
 
+* [keras.applications](https://keras.io/applications/): Xception, VGG16, VGG19, ResNet50, InceptionV3
 
+> Keras Applications are deep learning models that are made available alongside pre-trained weights. These models can be used for prediction, feature extraction, and fine-tuning.
 
+* [Which paper provides the best results on standard dataset X ?](http://rodrigob.github.io/are_we_there_yet/build/) - a ranking of methods for MNIST, CIFAR and a few other datasets
 
 * [How to train your Deep Neural Network](http://rishy.github.io/ml/2017/01/05/how-to-train-your-dnn/) - how many layers, parameters, etc
 
@@ -158,6 +168,7 @@ https://pinboard.in/search/u:pmigdal?query=deep-learning
 * [quiver](https://github.com/jakebian/quiver) - interactive ConvNet features visualization for Keras
 * [ASCII summary for sequential models](https://github.com/stared/keras-sequential-ascii) - I started developing :)
 
+
 ## Common misconceptions
 
 ### Better than other ML algorithms
@@ -165,6 +176,11 @@ https://pinboard.in/search/u:pmigdal?query=deep-learning
 ### Kernels need to be set manually
 
 ### Why log-loss?
+
+> If you're certain, you're certainly wrong, because nothing deserves certainty. — Bertrand Russell, Bertrand Russell Speaks His Mind (1960), p. 14.
+
+### Is network going to solve tasks at super-human level?
+
 
 
 
@@ -175,12 +191,18 @@ https://pinboard.in/search/u:pmigdal?query=deep-learning
   * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy
   * [How convolutional neural networks see the world - Keras Blog](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html)
   * [What convolutional neural networks look at when they see nudity – Clarifai Blog](http://blog.clarifai.com/what-convolutional-neural-networks-see-at-when-they-see-nudity/) (NSFW)
+  * [Convolutional neural networks for artistic style transfer](https://harishnarayanan.org/writing/artistic-style-transfer/) by Harish Nrayanan
   * [Dreams, Drugs and ConvNets](https://speakerdeck.com/pmigdal/dreams-drugs-and-convnets) - my slides (NSFW)
 * Technical
   * [Yes you should understand backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b) by Andrej Karpathy
   * [Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch)](https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f#.oa2ljanet)
 * Staying up-to-data:
   * [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) for news
-
+  * [distill.pub](http://distill.pub/) - an interactive, visual, open-access journal for machine learning research, with expository articles
 
 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Micheal Nielsen (yes, author of the Green Book)
+
+
+...or if you like to use neural networks with less code than Keras, the only option is [pigeons](https://www.youtube.com/watch?v=flzGjnJLyS0). Yes, seriously: [Pigeons spot cancer as well as human experts](http://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts).
+
+[^trypophobia]: This January during a 5-day workshop 6 high-school students participated in a rather NSFL project - constructing a neural network for detecting trypophobia triggers, see e.g. [grzegorz225/trypophobia-detector](https://github.com/grzegorz225/trypophobia-detector).  
