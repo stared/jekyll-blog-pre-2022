@@ -1,9 +1,16 @@
 - talk:  word2vec – jak maszyny widzą metafory?
   event: Sympozjum Neurolingwistyczne
-  href:  http://neuroling.pl/program/
+  href:  http://neuroling.pl/
   place: Warsaw (Poland)
   date:  2017-04-08
   tags:  [talk, conference]
+
+- talk:  word2vec, czyli zamiana słów na wektory
+  event: Reverse EngiNeering of sOcial Information pRocessing, Politechnika Warszawska
+  href:  http://fens.if.pw.edu.pl/renoir/prezentacje/
+  place: Warsaw (Poland)
+  date:  2017-03-29
+  tags:  [talk, seminar]
 
 - talk:  A game needs no framework
   event: "Indie Game Dev Mini-Talks March"
