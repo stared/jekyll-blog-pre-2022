@@ -4,15 +4,13 @@ title: "Teaching Deep Learning"
 date: "2017-03-04 15:00"
 ---
 
-I teach deep learning both for living (as the main [deepsense.io instructor](http://workshops.deepsense.io/), with [great co-workers](http://blog.kaggle.com/2016/01/29/noaa-right-whale-recognition-winners-interview-1st-place-deepsense-io/)) and as part of my volunteering to [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) - with a 5-day project[^trypophobia].
+I teach deep learning both for living (as the main [deepsense.io instructor](http://workshops.deepsense.io/), in a Kaggle-winning team[^deepsense]) and as part of my volunteering to [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) - with a 5-day project[^trypophobia].
 
-Whether you want to start learning deep learning for you career, or just want to have a nice adventure (and get insight into machines before they take over), this post is for you!
-I don't intent to teach neural networks, but to provide an overview and point to didactically useful resources.
+Whether you want to start learning deep learning for you career, or just want to have a nice adventure (and get insight into machines before they take over[^webcomics]), this post is for you! Its goal is not to teach neural networks, but to provide an overview and point to didactically useful resources.
 
-Don't be afraid of neural networks - it is easy to start. My biggest regret is delaying
+Don't be afraid of neural networks - it is easy to start! I fact, my biggest regret is delaying learning, because of their perceived difficulty.
 
-To start your you need basics of Python syntax and very simple mathematics.
-I suggest starting with [Keras](https://keras.io/), a high-level neural network library in Python. If you are new to Python, take a look at [my introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html).
+I suggest starting with [Keras](https://keras.io/), a high-level neural network library. To start your you need basics of Python syntax and very simple mathematics. If you are new to this language, take a look at [my introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html).
 
 
 ## Before we start
@@ -23,10 +21,7 @@ Also, it makes some webcomic strips obsolete:
 
 
 * [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
-* [Neural Networks Demystified](http://lumiverse.io/series/neural-networks-demystified) - smooth introduction
-
-
-## Examples
+* [Neural Networks Demystified](http://lumiverse.io/series/neural-networks-demystified) - a series of videos with a smooth introduction
 
 Do I need some SkyNet to run it? Actually not - it's a piece of software, as any other. And you can play with in even in your browser:
 
@@ -37,7 +32,7 @@ Do I need some SkyNet to run it? Actually not - it's a piece of software, as any
 
 ## Mathematics
 
-Deep learning (that is - neural networks with many layers) use very simple
+Deep learning (that is - neural networks with many layers) use very simple mathematical operations - just many of them.
 
 XXX this with number of weights
 
@@ -47,17 +42,20 @@ XXX this with number of weights
 * activation functions: [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function), [tanh](https://www.wolframalpha.com/input/?i=tanh[x]), [ReLU](https://en.wikipedia.org/wiki/Rectifier_%28neural_networks%29) to add non-linearity,
 * [softmax](https://en.wikipedia.org/wiki/Softmax_function) to convert vectors into probabilities,
 * [log-loss (cross-entropy)](http://datascience.stackexchange.com/questions/9302/the-cross-entropy-error-function-in-neural-networks) to penalize wrong guesses in a smart way,
-* gradients and chain-rule ([backpropagation](http://cs231n.github.io/optimization-2/)) for minimizing error.
+* gradients and chain-rule ([backpropagation](http://cs231n.github.io/optimization-2/)) for optimizing network parameters.
 
-If your background is in physics, mathematics, statistics or signal processing - most likely you already know more than enough to start.
+If your background is in physics, mathematics, statistics or signal processing - most likely you already know more than enough to start!
 
 If you last contact with mathematics was in high-school, don't worry. This mathematics is simple to a point that a convolutional neural network for digit recognition can be implemented in a spreadsheet (with no macros):
 
 * [Deep Spreadsheets with ExcelNet](http://www.deepexcel.net/)
 
+Basics of vector calculus is crucial not only for deep learning, but also many other machine learning techniques (e.g. in [word2vec I wrote about](p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)).
+To learn it I recommend starting from one of the following:
 
-* [Immersive Linear Algebra](http://immersivemath.com/ila/index.html) by J. Ström, K. Åström, and T. Akenine-Möller - a linear algebra book with fully interactive figures
+* J. Ström, K. Åström, and T. Akenine-Möller, [Immersive Linear Algebra](http://immersivemath.com/ila/index.html) - a linear algebra book with fully interactive figures
 *  Part I: Applied Math and Machine Learning Basics: 2 Linear Algebra from [Deep Learning](http://www.deeplearningbook.org/)
+
 
 ## Frameworks
 
@@ -67,7 +65,7 @@ Some of [TensorFlow](https://www.tensorflow.org/), [Theano](http://deeplearning.
 
 Keras
 
-If you like philosophy of Python (brevity, readability, one preferred way to do things), Keras is for you. Also, if you want to have a propaganda picture,
+If you like philosophy of Python (brevity, readability, one preferred way to do things), Keras is for you. Also, if you want to have a propaganda picture, there a possibly biased popularity ranking. XXX
 
 
 Neural networks happen to be
@@ -156,7 +154,7 @@ Eugenio Culurciello
 * [Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras](http://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/)
 * https://elitedatascience.com/keras-tutorial-deep-learning-in-python ?
 
-https://pinboard.in/search/u:pmigdal?query=deep-learning
+
 
 
 
@@ -174,6 +172,8 @@ https://pinboard.in/search/u:pmigdal?query=deep-learning
 ### Better than other ML algorithms
 
 ### Kernels need to be set manually
+
+### It's magic - it solves everything for you!
 
 ### Why log-loss?
 
@@ -199,10 +199,26 @@ https://pinboard.in/search/u:pmigdal?query=deep-learning
 * Staying up-to-data:
   * [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) for news
   * [distill.pub](http://distill.pub/) - an interactive, visual, open-access journal for machine learning research, with expository articles
+  * my links at [https://pinboard.in/u:pmigdal/t:deep-learning](pinboard.in/u:pmigdal/t:deep-learning)
+  * [twitter.com/fastml_extra](https://twitter.com/fastml_extra)
 
 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Micheal Nielsen (yes, author of the Green Book)
 
 
 ...or if you like to use neural networks with less code than Keras, the only option is [pigeons](https://www.youtube.com/watch?v=flzGjnJLyS0). Yes, seriously: [Pigeons spot cancer as well as human experts](http://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts).
 
-[^trypophobia]: This January during a 5-day workshop 6 high-school students participated in a rather NSFL project - constructing a neural network for detecting trypophobia triggers, see e.g. [grzegorz225/trypophobia-detector](https://github.com/grzegorz225/trypophobia-detector).  
+
+## Thanks
+
+I would like to thank... (you know, feedback is not only welcomed, but even might be appreciated here)
+
+
+## TO DO
+
+* Artur i kod
+* Weights?
+
+
+[^deepsense]: 1st place at [NOAA Right Whale Recognition](http://blog.kaggle.com/2016/01/29/noaa-right-whale-recognition-winners-interview-1st-place-deepsense-io/), now 4th place at XXX
+[^webcomics]: XXX - 2 from xkcd, 1 from PhD comics
+[^trypophobia]: This January during a 5-day workshop 6 high-school students participated in a rather NSFL project - constructing a neural network for detecting trypophobia triggers, see e.g. [grzegorz225/trypophobia-detector](https://github.com/grzegorz225/trypophobia-detector) and .  
