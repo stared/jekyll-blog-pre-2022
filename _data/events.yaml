@@ -1,3 +1,10 @@
+- talk:  (just an excited participant)
+  event: !!Con 2017
+  href:  http://bangbangcon.com/
+  place: New York (USA)
+  date:  2017-05-06
+  tags:  [conference]
+
 - talk:  "Neptune – one platform to rule them all: Manage and monitor your data science  experiments"
   event: Open Data Science Conference 2017 East
   href:  https://odsc.com/training/portfolio/neptune-one-platform-rule-manage-monitor-data-science-experiments
