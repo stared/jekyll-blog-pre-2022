@@ -6,7 +6,6 @@ author: Piotr Migdał
 tags:   [meta, jekyll]
 mathjax: true
 description: "Why Jekyll (and not Wordpress)? Markdown, GitHub, simplicity, LaTeX."  
-hn:     https://news.ycombinator.com/item?id=13346104
 ---
 
 ## Why a blog?
