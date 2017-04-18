@@ -1,7 +1,16 @@
 ---
-layout: "post"
-title: "Teaching Deep Learning"
-date: "2017-03-04 15:00"
+layout: post
+title: "Learning Deep Learning with Keras"
+date: '2017-04-18 19:30 +0100'
+author: Piotr Migdał
+tags:
+  - machine-learning
+  - deep-learning
+  - tutorial
+mathjax: true
+description: >-
+  Don't be afraid of artificial neural networks - it is easy to start! Here's overview and links to didactic materials.
+image: /imgs/2017-04-17-learning-deep-learning/deep_learning_meme_keras.png
 ---
 
 I teach deep learning both for living (as the main [deepsense.io instructor](http://workshops.deepsense.io/), in a Kaggle-winning team[^deepsense]) and as part of my volunteering to [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) with workshops for gifted high-school students[^trypophobia]. I want to share a few things I've learnt about teaching (and learning) deep learning.
@@ -88,6 +97,7 @@ Also, if you want to have a propaganda picture, there a possibly biased (or over
 
 ![](/imgs/2017-04-17-learning-deep-learning/deep_learning_framework_popularity_apr2017_fchollet.png)
 
+If you want to consult a different source, based on [arXiv](https://arxiv.org/) paper rather than GitHub activity, see [A Peek at Trends in Machine Learning](https://medium.com/@karpathy/a-peek-at-trends-in-machine-learning-ab8a1085a106) by Andrej Karpathy.
 Popularity is important - it means that if you want to search for a network architecture, googling for it (e.g. `unet keras`) is likely to return an example.
 Where to start learning it? Documentation on Keras is nice, and [its blog](https://blog.keras.io/) is a valuable resource. For a complete, interactive introduction to deep learning with Keras in [Jupyter Notebook](http://jupyter.org/), I really recommend:
 
@@ -138,23 +148,34 @@ You might be also interested in nicer progress bars with [keras-tqdm](https://gi
 
 ### TensorFlow
 
-If not Keras, then I recommend starting with
+If not Keras, then I recommend starting with TensorFlow.
+It is a bit more low-level and verbose, but makes it straightforward to optimize various multidimensional array (or, well, tensor) operations. A few good resources:
 
-XXX links missing? (accidentally deleted?)
+* the official [TensorFlow Tutorials](https://www.tensorflow.org/versions/master/tutorials/index.html) is very good
+* [TensorFlow Tutorial and Examples for beginners](https://github.com/aymericdamien/TensorFlow-Examples/) by Aymeric Damien (with Python 2.7)
+* [Simple tutorials using Google's TensorFlow Framework](https://github.com/nlintz/TensorFlow-Tutorials) by Nathan Lintz
+
+In any case, [TensorBoard](https://www.tensorflow.org/get_started/summaries_and_tensorboard) makes it easy to keep track of the training process. It can be [also used with Keras, via callbacks](http://stackoverflow.com/questions/42112260/how-do-i-use-the-tensorboard-callback-of-keras).
+
 
 ### Other
 
-At the same time, don't be afraid if you see some nice code in Torch or PyTorch.
+Theano is similar to TensorFlow, but a bit older and harder to start.
+For example, you need to manually write updates of variables. Typical neural network layers are not included, so one often uses libraries such as [Lasagne](https://lasagne.readthedocs.io/). If you look at a place to start, I like this introduction:
 
-[Theano Tutorial](http://www.marekrei.com/blog/theano-tutorial/) by Marek Rei
+* [Theano Tutorial](http://www.marekrei.com/blog/theano-tutorial/) by Marek Rei
+
+At the same time, if you see some nice code in Torch or PyTorch, don't be afraid to install and run it! Remember, frameworks are only tools.
 
 
 ## Datasets
 
-XXX In it not a drawback of machines - it is the feature of any learning.
-https://www.kaggle.com/benhamner/d/benhamner/nips-papers/popular-datasets-over-time/code
+Every machine learning problem needs data. You cannot just tell it *"detect if there is a cat in this picture"* and expect computer to tell you the answer. You need to *show* many instances of cats, and pictures not containing cats, and (hopefully) it will learn to generalize it other cases.
 
-(see also [A Peek at Trends in Machine Learning](https://medium.com/@karpathy/a-peek-at-trends-in-machine-learning-ab8a1085a106) by Andrej Karpathy)
+[Popular datasets](https://www.kaggle.com/benhamner/d/benhamner/nips-papers/popular-datasets-over-time/code) start with the MNIST, a classic dataset of handwritten digits.
+
+XXX In it not a drawback of machines - it is the feature of any learning.
+
 
 > Many good ideas will not work well on MNIST (e.g. batch norm). Inversely many bad ideas may work on MNIST and no transfer to real [computer vision]. - [François Chollet's tweet](https://twitter.com/fchollet/status/852594987527045120)
 
@@ -166,8 +187,10 @@ A more interesting dataset, and harder for classical machine learning algorithms
 
 A more advanced once, still at verge of using CPU is [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) (also in [keras.datasets](https://keras.io/datasets/)).
 
+See also:
 
 * [Which paper provides the best results on standard dataset X ?](http://rodrigob.github.io/are_we_there_yet/build/) - a ranking of methods for MNIST, CIFAR and a few other datasets
+
 
 
 ## Standing at the shoulders of giants
@@ -251,6 +274,8 @@ The easiest, and the cheapest, way to use a strong GPU is to rent a remote machi
   * [distill.pub](http://distill.pub/) - an interactive, visual, open-access journal for machine learning research, with expository articles
   * my links at [https://pinboard.in/u:pmigdal/t:deep-learning](pinboard.in/u:pmigdal/t:deep-learning)
   * [twitter.com/fastml_extra](https://twitter.com/fastml_extra)
+  * [GitXiv](http://www.gitxiv.com/) - arXiv + Github + Links + Discussion
+  * don't be afraid to read academic papers; some are well-written and insightful (if you own Kindle or another e-reader, I recommend [Dontprint](http://dontprint.net/))
 * Inspiration
   * U-Net
   * Autoencoder
