@@ -49,6 +49,7 @@ for every word *w*.
 In other words, if we have this equality, no matter if there is word *a* or *b*, all other words occur with the same frequency.
 
 Even simple word counts, compared by source, can give interesting results, e.g. that in lyrics of metal songs words (*cries*, *eternity* or *ashes* are popular, while words *particularly* or *approximately* are not, well, particularly common), see [Heavy Metal and Natural Language Processing](http://www.degeneratestate.org/posts/2016/Apr/20/heavy-metal-and-natural-language-processing-part-1/).
+See also [Gender Roles with Text Mining and N-grams](http://juliasilge.com/blog/Gender-Pronouns/) by Julia Silge.
 
 Looking at co-occurrences can provide much more information. For example, one of my projects, [TagOverflow](http://p.migdal.pl/tagoverflow/), gives insight into structure of programming, based only on the usage of [tags on Stack Overflow](http://stackoverflow.com/tags).
 It also shows that I am in love with pointwise mutual information, which brings us to the next point.
@@ -203,6 +204,7 @@ If you want to **learn** how it works, I recommend the following materials:
 * [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/projects/glove/) and paper
   * Jeffrey Pennington, Richard Socher, Christopher D. Manning, [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/pubs/glove.pdf) (2014)
   * it's great, except for its claims for greatness, see: [GloVe vs word2vec](https://rare-technologies.com/making-sense-of-word2vec) by Radim Rehurek
+* [On Chomsky and the Two Cultures of Statistical Learning](http://norvig.com/chomsky.html) by Peter Norvig
 
 ![](/imgs/2017-01-06/queen-julia-vectors.jpg)
 
