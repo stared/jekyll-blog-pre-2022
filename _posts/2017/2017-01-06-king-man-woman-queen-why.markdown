@@ -257,7 +257,7 @@ This draft benefited from feedback from [Grzegorz Uriasz](https://github.com/grz
 
 ## EDIT
 
-It got some popularity, including ~40k views in the first day, and being tweeted by [the authors of GloVe at Stanford](https://twitter.com/stanfordnlp/status/818881718077661184) and [Kaggle](https://twitter.com/kaggle/status/819258895235424258).
+It got some popularity, including ~20k views in the first day, and being tweeted by [the authors of GloVe at Stanford](https://twitter.com/stanfordnlp/status/818881718077661184) and [Kaggle](https://twitter.com/kaggle/status/819258895235424258).
 
 Though, what I like the most is to see how people interact with it:
 
