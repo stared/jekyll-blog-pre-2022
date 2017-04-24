@@ -39,10 +39,10 @@ Moreover, each few months I am mind-blown by something exceeding my expectations
 * [Plug & Play Generative Networks](http://www.evolvingai.org/ppgn) for photorealistic image generation
 * [Dermatologist-level classification of skin cancer](http://cs.stanford.edu/people/esteva/nature/)
 * [Image-to-Image Translation (pix2pix)](https://phillipi.github.io/pix2pix/) - sketch to photo
-* [Teaching Machines to Draw](https://research.googleblog.com/2017/04/teaching-machines-to-draw.html) sketches of cats, dogs and other
+* [Teaching Machines to Draw](https://research.googleblog.com/2017/04/teaching-machines-to-draw.html) sketches of cats, dogs etc
 
 You need to have the basic notion of machine learning - classification and validation. You can see my [machine learning section](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#statistics-and-machine-learning), or at least start with this beautiful tree-based [visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
-If you are curious what are the neural networks, take a loot at this series of videos with a smooth introduction:
+If you are curious what neural networks are, take a look at this series of videos for smooth introduction:
 
 * [Neural Networks Demystified](http://lumiverse.io/series/neural-networks-demystified)
 * [A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/) by J Alammar
@@ -51,9 +51,9 @@ These techniques are data-hungry. See a plot of [AUC score](https://stats.stacke
 
 ![Logistic Regression vs Random Forest vs Deep Learning on Higgs dataset ](/imgs/2017-04-17-learning-deep-learning/linear_random_forest_deep_learning_higgs_szilard.png)
 
-In general there is no guarantee that even with a lot of data deep learning does better than other techniques, for example tree-based such as random forest or [boosted trees](https://xgboost.readthedocs.io/en/latest/model.html).
+In general there is no guarantee that, even with a lot of data, deep learning does better than other techniques, for example tree-based such as random forest or [boosted trees](https://xgboost.readthedocs.io/en/latest/model.html).
 
-Do I need some [Skynet](https://en.wikipedia.org/wiki/Skynet_%28Terminator%29) to run it? Actually not - it's a piece of software, as any other. And you can play with in even in your browser:
+Do I need some [Skynet](https://en.wikipedia.org/wiki/Skynet_%28Terminator%29) to run it? Actually not - it's a piece of software, like any other. And you can even play with it in your browser:
 
 * [TensorFlow Playground](http://playground.tensorflow.org/) for point separation, with a visual interface
 * [ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/) for digit and image recognition
