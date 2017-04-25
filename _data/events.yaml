@@ -1,14 +1,14 @@
 - talk:  "deepsense.io booth"
   event: GPU Technology Conference 2017
   href:  http://www.gputechconf.com/
-  place: San Jose (USA)
+  place: San Jose, CA (USA)
   date:  2017-05-08
   tags:  [booth, conference]
 
 - talk:  an excited participant
   event: "!!Con 2017"
   href:  http://bangbangcon.com/
-  place: New York (USA)
+  place: New York, NY (USA)
   date:  2017-05-06
   tags:  [conference]
 
@@ -45,14 +45,14 @@
   event: "Story, Character & Dialogue Visualization with D3"
   href:  https://www.meetup.com/Bay-Area-d3-User-Group/events/237644015/
   slides: https://speakerdeck.com/pmigdal/visualizing-word-coincidences
-  place: "Los Gatos (CA, USA)"
+  place: "Los Gatos, CA (USA)"
   date:  2017-03-15
   tags:  [flashtalk, meetup]
 
 - talk:  "deepsense.io booth"
   event: "Strata + Hadoop World"
   href:  https://conferences.oreilly.com/strata/strata-ca
-  place: San Jose (USA)
+  place: San Jose, CA (USA)
   date:  2017-03-04
   tags:  [booth, conference]
 
