@@ -1,3 +1,10 @@
+- talk:  "deepsense.io booth"
+  event: GPU Technology Conference 2017
+  href:  http://www.gputechconf.com/
+  place: San Jose (USA)
+  date:  2017-05-08
+  tags:  [booth, conference]
+
 - talk:  an excited participant
   event: "!!Con 2017"
   href:  http://bangbangcon.com/
@@ -10,7 +17,7 @@
   href:  https://odsc.com/training/portfolio/neptune-one-platform-rule-manage-monitor-data-science-experiments
   place: Boston, MA (USA)
   date:  2017-05-03
-  tags:  [talk, conference]
+  tags:  [talk, booth, conference]
 
 - talk:  word2vec – jak maszyny widzą metafory?
   event: Sympozjum Neurolingwistyczne
@@ -41,6 +48,13 @@
   place: "Los Gatos (CA, USA)"
   date:  2017-03-15
   tags:  [flashtalk, meetup]
+
+- talk:  "deepsense.io booth"
+  event: "Strata + Hadoop World"
+  href:  https://conferences.oreilly.com/strata/strata-ca
+  place: San Jose (USA)
+  date:  2017-03-04
+  tags:  [booth, conference]
 
 - talk:  "mirt: a better response scaling than PCA"
   event: Why R?
