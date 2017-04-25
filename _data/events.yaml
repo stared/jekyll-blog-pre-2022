@@ -5,7 +5,7 @@
   date:  2017-05-06
   tags:  [conference]
 
-- talk:  "Neptune – one platform to rule them all: Manage and monitor your data science  experiments"
+- talk:  "Behind the scenes of training, managing and deploying machine learning models"
   event: Open Data Science Conference 2017 East
   href:  https://odsc.com/training/portfolio/neptune-one-platform-rule-manage-monitor-data-science-experiments
   place: Boston, MA (USA)
