@@ -70,12 +70,15 @@ Do I need some [Skynet](https://en.wikipedia.org/wiki/Skynet_%28Terminator%29) t
 * [ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/) for digit and image recognition
 * [Keras.js Demo](https://transcranial.github.io/keras-js/) - to visualize and use real networks in your browser (e.g. ResNet-50)
 
-XXX
+Or... if you want to use Keras in Python, see [this minimal example](https://github.com/stared/keras-mini-examples/blob/master/mnist_simple.ipynb) - just to get convinced you can use it on your own computer.
+
 
 ## Python and machine learning
 
 I mentioned basics Python and machine learning as a requirement.
 They are already covered in [my introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html) in [http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#python](Python) and [statistics and machine learning](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#statistics-and-machine-learning) sections, respectively.
+
+For Python, if you already have [Anaconda distribution](https://www.continuum.io/downloads) (covering most of data science packages), the only thing you need is to install [TensorFlow](https://www.tensorflow.org/install/) and [Keras](https://keras.io/#installation).
 
 When it comes to machine learning, you don't need to learn many techniques before jumping into deep learning. Though, later it would be a good practice to see if a given problem can be solved with much simpler methods. For example, [random forest](http://blog.yhat.com/posts/random-forests-in-python.html) is often a lockpick, working out-of-box for many problems. You need to understand why we need to train then test a classifier (to validate its predictive power). To get a gist of it start with this beautiful tree-based:
 
@@ -225,11 +228,12 @@ Still, I recommend starting with the [MNIST digit recognition dataset](http://ya
 
 > Indeed, I once even proposed that the toughest challenge facing AI workers is to answer the question: "What are the letters 'A' and 'I'? - [Douglas R. Hofstadter](https://web.stanford.edu/group/SHR/4-2/text/hofstadter.html) (1995)
 
-A more interesting dataset, and harder for classical machine learning algorithms, is [notMNIST](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html) (letters A-J from strange fonts). If you want to start with it, here is my [gist for notMNIST loading and logistic regression in Keras](https://gist.github.com/stared/70daf8e0334abf6e7527259e7221f568).
+A more interesting dataset, and harder for classical machine learning algorithms, is [notMNIST](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html) (letters A-J from strange fonts). If you want to start with it, here is my [code for notMNIST loading and logistic regression in Keras](https://github.com/stared/keras-mini-examples/blob/master/notMNIST_starter.ipynb).
 
 ### CIFAR
 
-If you want to play with image recognition, there is [CIFAR dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a dataset of 32x32 photos (also in [keras.datasets](https://keras.io/datasets/)). It comes in two versions: 10 simple classes (including cats, dogs, frogs and airplanes ) and 100 harder and more nuanced classes (including beaver, dolphin, otter, seal and whale). I strongly suggest starting with CIFAR-10, the simpler version.
+If you want to play with image recognition, there is [CIFAR dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a dataset of 32x32 photos (also in [keras.datasets](https://keras.io/datasets/)). It comes in two versions: 10 simple classes (including cats, dogs, frogs and airplanes ) and 100 harder and more nuanced classes (including beaver, dolphin, otter, seal and whale). I strongly suggest [starting with CIFAR-10](https://github.com/stared/keras-mini-examples/blob/master/cifar10_starter.ipynb), the simpler version.
+Beware, [more complicated networks may take quite some time](https://github.com/stared/keras-mini-examples/blob/master/cifar10_official_example.ipynb) (~12h on CPU my 7 year old Macbook Pro).
 
 
 ### More
