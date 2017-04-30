@@ -6,10 +6,10 @@ author: Piotr Migdał
 tags:
   - machine-learning
   - deep-learning
-  - tutorial
+  - overview
 mathjax: true
 description: >-
-  Don't be afraid of artificial neural networks - it is easy to start! An overview deep learning with links to didactic materials.
+  Don't be afraid of artificial neural networks - it is easy to start! An overview of deep learning with links to didactic materials.
 image: /imgs/2017-04-30-learning-deep-learning/deep_learning_meme_keras.png
 ---
 
