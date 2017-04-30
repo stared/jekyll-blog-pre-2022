@@ -45,7 +45,7 @@ In fact, every few months I am blown away by something exceeding my expectations
 * [Real-time Face Capture and Reenactment](https://www.youtube.com/watch?v=ohmajJTcpNk)
 * [Colorful Image Colorization](http://richzhang.github.io/colorization/)
 * [Plug & Play Generative Networks](http://www.evolvingai.org/ppgn) for photorealistic image generation
-* [Dermatologist-level classification of skin cancer](http://cs.stanford.edu/people/esteva/nature/) along in other medical diagnosis tools
+* [Dermatologist-level classification of skin cancer](http://cs.stanford.edu/people/esteva/nature/) along with other medical diagnostic tools
 * [Image-to-Image Translation (pix2pix)](https://phillipi.github.io/pix2pix/) - sketch to photo
 * [Teaching Machines to Draw](https://research.googleblog.com/2017/04/teaching-machines-to-draw.html) sketches of cats, dogs etc
 
@@ -76,11 +76,11 @@ Or... if you want to use Keras in Python, see [this minimal example](https://git
 ## Python and machine learning
 
 I mentioned basics Python and machine learning as a requirement.
-They are already covered in [my introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html) in [http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#python](Python) and [statistics and machine learning](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#statistics-and-machine-learning) sections, respectively.
+They are already covered in [my introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html) in [Python](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#python) and [statistics and machine learning](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#statistics-and-machine-learning) sections, respectively.
 
-For Python, if you already have [Anaconda distribution](https://www.continuum.io/downloads) (covering most of data science packages), the only thing you need is to install [TensorFlow](https://www.tensorflow.org/install/) and [Keras](https://keras.io/#installation).
+For Python, if you already have [Anaconda distribution](https://www.continuum.io/downloads) (covering most data science packages), the only thing you need is to install [TensorFlow](https://www.tensorflow.org/install/) and [Keras](https://keras.io/#installation).
 
-When it comes to machine learning, you don't need to learn many techniques before jumping into deep learning. Though, later it would be a good practice to see if a given problem can be solved with much simpler methods. For example, [random forest](http://blog.yhat.com/posts/random-forests-in-python.html) is often a lockpick, working out-of-box for many problems. You need to understand why we need to train then test a classifier (to validate its predictive power). To get a gist of it start with this beautiful tree-based:
+When it comes to machine learning, you don't need to learn many techniques before jumping into deep learning. Though, later it would be a good practice to see if a given problem can be solved with much simpler methods. For example, [random forest](http://blog.yhat.com/posts/random-forests-in-python.html) is often a lockpick, working out-of-the-box for many problems. You need to understand why we need to train and then test a classifier (to validate its predictive power). To get the gist of it, start with this beautiful tree-based animation:
 
 * [Visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) by Stephanie Yee and Tony Chu
 
