@@ -17,27 +17,20 @@ I teach deep learning both for a living (as the main [deepsense.io instructor](h
 
 Whether you want to start learning deep learning for you career, to have a nice adventure (e.g. with [detecting huggable objects](https://www.reddit.com/r/MachineLearning/comments/4casci/can_i_hug_that_i_trained_a_classifier_to_tell_you/)) or to get insight into machines before they take over[^webcomics], this post is for you! Its goal is not to teach neural networks by itself, but to provide an overview and to point to didactically useful resources.
 
-XXX https://medium.com/@stef/learning-by-hacking-24ee0961e80f ?
-
-
 ![Deep Learning Meme - What I actually do (Keras version)](/imgs/2017-04-17-learning-deep-learning/deep_learning_meme_keras.png)
 
 Don't be afraid of artificial neural networks - it is easy to start! In fact, my biggest regret is delaying learning it, because of the perceived difficulty.
 To start, all you need is really basic programming, very simple mathematics and knowledge of a few machine learning concepts.
+I will explain where to start with these requirements.
+
+In my opinion, the best way to start is from a high-level interactive approach (see also: [Quantum mechanics for high-school students](http://p.migdal.pl/2016/08/15/quantum-mechanics-for-high-school-students.html) and my [Quantum Game with Photons](http://quantumgame.io/)).
+For that reason, I suggest starting image recognition tasks with [Keras](https://keras.io/), a popular neural network library in Python.
+If you like to train neural networks with less code than in Keras, the only viable option is to [use pigeons](https://www.youtube.com/watch?v=flzGjnJLyS0). Yes, seriously: [pigeons spot cancer as well as human experts](http://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts)!
 
 
-I suggest starting image recognition tasks with [Keras](https://keras.io/), a popular neural network library in Python. If you are new to this language, you need to pick its basics - see the [section on Python](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#python) in my [introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html).
-If you like to use neural networks with less code than Keras, the only option is to [use pigeons](https://www.youtube.com/watch?v=flzGjnJLyS0). Yes, seriously: [pigeons spot cancer as well as human experts](http://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts)!
-
-
-
-
-XXX https://en.wikipedia.org/wiki/Logistic_regression
-
-## Before we start, let's talk... and play
+## What is deep learning and why is it cool?
 
 **Deep learning** is a name for **machine learning** techniques using many-layered artificial **neural networks**. Occasionally people use the term **artificial intelligence**, but unless you want to sound sci-fi, it is reserved for problems that are currently considered *"too hard for machines*" - a frontier that keeps moving rapidly.
-
 This is a field that exploded in the [last few years](https://devblogs.nvidia.com/parallelforall/mocha-jl-deep-learning-julia/), reaching human-level accuracy in visual recognition tasks (among many other tasks). Unlike quantum computing, or nuclear fusion - it is a technology that is being applied right now, not some possibility for the future.
 There is a rule of thumb:
 
@@ -56,7 +49,7 @@ In fact, every few months I am blown away by something exceeding my expectations
 * [Image-to-Image Translation (pix2pix)](https://phillipi.github.io/pix2pix/) - sketch to photo
 * [Teaching Machines to Draw](https://research.googleblog.com/2017/04/teaching-machines-to-draw.html) sketches of cats, dogs etc
 
-You need to have the basic notion of machine learning - classification and validation. You can see my [machine learning section](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#statistics-and-machine-learning), or at least start with this beautiful tree-based [visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
+It looks like some sorcery.
 If you are curious what neural networks are, take a look at this series of videos for a smooth introduction:
 
 * [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs) by Stephen Welch  - video series
@@ -68,11 +61,27 @@ These techniques are data-hungry. See a plot of [AUC score](https://stats.stacke
 
 In general there is no guarantee that, even with a lot of data, deep learning does better than other techniques, for example tree-based such as random forest or [boosted trees](https://xgboost.readthedocs.io/en/latest/model.html).
 
+
+## Let's play!
+
 Do I need some [Skynet](https://en.wikipedia.org/wiki/Skynet_%28Terminator%29) to run it? Actually not - it's a piece of software, like any other. And you can even play with it in your browser:
 
 * [TensorFlow Playground](http://playground.tensorflow.org/) for point separation, with a visual interface
 * [ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/) for digit and image recognition
 * [Keras.js Demo](https://transcranial.github.io/keras-js/) - to visualize and use real networks in your browser (e.g. ResNet-50)
+
+XXX
+
+## Python and machine learning
+
+I mentioned basics Python and machine learning as a requirement.
+They are already covered in [my introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html) in [http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#python](Python) and [statistics and machine learning](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#statistics-and-machine-learning) sections, respectively.
+
+When it comes to machine learning, you don't need to learn many techniques before jumping into deep learning. Though, later it would be a good practice to see if a given problem can be solved with much simpler methods. For example, [random forest](http://blog.yhat.com/posts/random-forests-in-python.html) is often a lockpick, working out-of-box for many problems. You need to understand why we need to train then test a classifier (to validate its predictive power). To get a gist of it start with this beautiful tree-based:
+
+* [Visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) by Stephanie Yee and Tony Chu
+
+Also, it is good to understand [logistic regression](https://en.wikipedia.org/wiki/Logistic_regression), which is a building block of almost any neural network for classification.
 
 
 ## Mathematics
@@ -88,7 +97,7 @@ Deep learning (that is - neural networks with many layers) uses mostly very simp
 * gradients and chain-rule ([backpropagation](http://cs231n.github.io/optimization-2/)) for optimizing network parameters,
 * stochastic gradient descent and its variants (e.g. [momentum](http://distill.pub/2017/momentum/)).
 
-If your background is in physics[^quantum], mathematics, statistics or signal processing - most likely you already know more than enough to start!
+If your background is in mathematics, statistics, physics[^quantum] or signal processing - most likely you already know more than enough to start!
 
 If your last contact with mathematics was in high-school, don't worry. Its mathematics is simple to the point that a convolutional neural network for digit recognition can be implemented in a spreadsheet (with no macros), see: [Deep Spreadsheets with ExcelNet](http://www.deepexcel.net/).
 It is only a proof-of-principle solution - not only inefficient, but also lacking the most crucial part - the ability to train new networks.
@@ -286,13 +295,17 @@ The easiest, and the cheapest, way to use a strong GPU is to rent a remote machi
 * [Running Jupyter notebooks on GPU on AWS: a starter guide](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html) by Francois Chollet
 
 
-## Further reading
+## Further learning
 
-I encourage you to interact with code. For example, notMNIST or CIFAR-10 can be great starting points. For learning how it works, this one is a masterpiece:
+I encourage you to interact with code.
+For example, notMNIST or CIFAR-10 can be great starting points.
+Sometimes the best start is to start with someone's else code and run it, then see what happens when you modify parameters.
+
+For learning how it works, this one is a masterpiece:
 
 * [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/) by Andrej Karpathy and the [lecture videos](https://www.youtube.com/playlist?list=PLLvH2FwAQhnpj1WEB-jHmPuUeQ8mX-XXG)
 
-When it comes to books, this one is wonderful, starting from introduction to mathematics and machine learning learning context (it even covers [log-loss and entropy](http://www.deeplearningbook.org/contents/prob.html) in a way I like!):
+When it comes to books, there is a wonderful one, starting from introduction to mathematics and machine learning learning context (it even covers [log-loss and entropy](http://www.deeplearningbook.org/contents/prob.html) in a way I like!):
 
 * [Deep Learning, An MIT Press book](http://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 
@@ -300,9 +313,11 @@ Alternatively, you can use (it may be good for an introduction with interactive 
 
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen
 
-### Other links
+### Other materials
 
-There are of various difficulty,
+There are many applications of deep learning (it's not only image recognition!).
+I collected some introductory materials to its various aspects (beware: they are of various difficulty).
+Don't try to read them all - I list them for *inspiration*, not *intimidation*!
 
 * General
   * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy
