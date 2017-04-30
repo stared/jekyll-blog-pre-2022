@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning Deep Learning with Keras
-date: '017-04-30 23:59 +0100'
+date: '2017-04-30 23:59 +0100'
 author: Piotr Migdał
 tags:
   - machine-learning
