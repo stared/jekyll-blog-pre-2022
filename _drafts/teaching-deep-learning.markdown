@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learning Deep Learning with Keras"
-date: '2017-04-18 19:30 +0100'
+date: '2017-04-30 23:59 +0100'
 author: Piotr Migdał
 tags:
   - machine-learning
@@ -10,14 +10,14 @@ tags:
 mathjax: true
 description: >-
   Don't be afraid of artificial neural networks - it is easy to start! An overview deep learning with links to didactic materials.
-image: /imgs/2017-04-17-learning-deep-learning/deep_learning_meme_keras.png
+image: /imgs/2017-04-30-learning-deep-learning/deep_learning_meme_keras.png
 ---
 
 I teach deep learning both for a living (as the main [deepsense.io instructor](http://workshops.deepsense.io/), in a Kaggle-winning team[^deepsense]) and as a part of my volunteering with the [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) giving workshops to gifted high-school students[^trypophobia]. I want to share a few things I've learnt about teaching (and learning) deep learning.
 
 Whether you want to start learning deep learning for you career, to have a nice adventure (e.g. with [detecting huggable objects](https://www.reddit.com/r/MachineLearning/comments/4casci/can_i_hug_that_i_trained_a_classifier_to_tell_you/)) or to get insight into machines before they take over[^webcomics], this post is for you! Its goal is not to teach neural networks by itself, but to provide an overview and to point to didactically useful resources.
 
-![Deep Learning Meme - What I actually do (Keras version)](/imgs/2017-04-17-learning-deep-learning/deep_learning_meme_keras.png)
+![Deep Learning Meme - What I actually do (Keras version)](/imgs/2017-04-30-learning-deep-learning/deep_learning_meme_keras.png)
 
 Don't be afraid of artificial neural networks - it is easy to start! In fact, my biggest regret is delaying learning it, because of the perceived difficulty.
 To start, all you need is really basic programming, very simple mathematics and knowledge of a few machine learning concepts.
@@ -57,7 +57,7 @@ If you are curious what neural networks are, take a look at this series of video
 
 These techniques are data-hungry. See a plot of [AUC score](https://stats.stackexchange.com/questions/132777/what-does-auc-stand-for-and-what-is-it) for [logistic regression, random forest and deep learning on Higgs dataset](https://github.com/szilard/benchm-ml/tree/master/x1-data-higgs) (data points are in millions):
 
-![Logistic Regression vs Random Forest vs Deep Learning on Higgs dataset ](/imgs/2017-04-17-learning-deep-learning/linear_random_forest_deep_learning_higgs_szilard.png)
+![Logistic Regression vs Random Forest vs Deep Learning on Higgs dataset ](/imgs/2017-04-30-learning-deep-learning/linear_random_forest_deep_learning_higgs_szilard.png)
 
 In general there is no guarantee that, even with a lot of data, deep learning does better than other techniques, for example tree-based such as random forest or [boosted trees](https://xgboost.readthedocs.io/en/latest/model.html).
 
@@ -105,7 +105,7 @@ If your background is in mathematics, statistics, physics[^quantum] or signal pr
 If your last contact with mathematics was in high-school, don't worry. Its mathematics is simple to the point that a convolutional neural network for digit recognition can be implemented in a spreadsheet (with no macros), see: [Deep Spreadsheets with ExcelNet](http://www.deepexcel.net/).
 It is only a proof-of-principle solution - not only inefficient, but also lacking the most crucial part - the ability to train new networks.
 
-The basics of vector calculus is crucial not only for deep learning, but also for many other machine learning techniques (e.g. in [word2vec I wrote about](p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)).
+The basics of vector calculus are crucial not only for deep learning, but also for many other machine learning techniques (e.g. in [word2vec I wrote about](p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)).
 To learn it, I recommend starting from one of the following:
 
 * J. Ström, K. Åström, and T. Akenine-Möller, [Immersive Linear Algebra](http://immersivemath.com/ila/index.html) - a linear algebra book with fully interactive figures
@@ -137,7 +137,7 @@ Also, if you want to have a propaganda picture, there is a possibly biased (or [
 
 * [The state of deep learning frameworks (from GitHub metrics), April 2017. - François Chollet (Keras creator)](https://twitter.com/fchollet/status/852194634470223873)
 
-![](/imgs/2017-04-17-learning-deep-learning/deep_learning_framework_popularity_apr2017_fchollet.png)
+![](/imgs/2017-04-30-learning-deep-learning/deep_learning_framework_popularity_apr2017_fchollet.png)
 
 If you want to consult a different source, based on arXiv papers rather than GitHub activity, see [A Peek at Trends in Machine Learning](https://medium.com/@karpathy/a-peek-at-trends-in-machine-learning-ab8a1085a106) by Andrej Karpathy.
 Popularity is important - it means that if you want to search for a network architecture, googling for it (e.g. `UNet Keras`) is likely to return an example.
@@ -255,14 +255,15 @@ Creating a new neural network has a lot in common with cooking - there are typic
 The most important cooking contest is [ImageNet Large Scale Visual Recognition Challenge](http://image-net.org/challenges/LSVRC/), with recognition of hundreds of classes from half a million dataset of photos.
 Look at these [Neural Network Architectures](https://culurciello.github.io/tech/2016/06/04/nets.html), typically using 224x224x3 input (chart by Eugenio Culurciello):
 
-![Deep Learning Architectures - a scatter plot of network sizes, performances and ops per run](/imgs/2017-04-17-learning-deep-learning/deep_learning_architectures_culurciello.png)
-Size represents the number of parameters (a lot!). It doesn't mention [SqueezeNet](https://gab41.lab41.org/lab41-reading-group-squeezenet-9b9d1d754c75) though, an architecture vastly reducing the number of parameters (e.g. 50x fewer).
+![Deep Learning Architectures - a scatter plot of network sizes, performances and ops per run](/imgs/2017-04-30-learning-deep-learning/deep_learning_architectures_culurciello.png)
 
-A few key networks for image classification can be readily loaded from [keras.applications](https://keras.io/applications/) module: Xception, VGG16, VGG19, ResNet50, InceptionV3. Some others are not as plug & play, but still easy to find online - yes, there is [SqueezeNet in Keras](https://github.com/rcmalli/keras-squeezenet).
+Circle size represents the number of parameters (a lot!). It doesn't mention [SqueezeNet](https://gab41.lab41.org/lab41-reading-group-squeezenet-9b9d1d754c75) though, an architecture vastly reducing the number of parameters (e.g. 50x fewer).
+
+A few key networks for image classification can be readily loaded from the [keras.applications](https://keras.io/applications/) module: Xception, VGG16, VGG19, ResNet50, InceptionV3. Some others are not as plug & play, but still easy to find online - yes, there is [SqueezeNet in Keras](https://github.com/rcmalli/keras-squeezenet).
 These networks serve two purposes:
 
-* give insight into useful building blocks and architectures
-* are great candidates for retraining (so called [transfer learning](http://cs231n.github.io/transfer-learning/)), when using architecture along with pre-trained weights).
+* they give insight into useful building blocks and architectures
+* they are great candidates for retraining (so called [transfer learning](http://cs231n.github.io/transfer-learning/)), when using architecture along with pre-trained weights)
 
 Some other important network architectures for images:
 
@@ -320,7 +321,7 @@ Alternatively, you can use (it may be good for an introduction with interactive 
 ### Other materials
 
 There are many applications of deep learning (it's not only image recognition!).
-I collected some introductory materials to its various aspects (beware: they are of various difficulty).
+I collected some introductory materials to cover its various aspects (beware: they are of various difficulty).
 Don't try to read them all - I list them for *inspiration*, not *intimidation*!
 
 * General
