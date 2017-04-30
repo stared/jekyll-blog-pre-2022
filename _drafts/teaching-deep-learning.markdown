@@ -9,7 +9,7 @@ tags:
   - tutorial
 mathjax: true
 description: >-
-  Don't be afraid of artificial neural networks - it is easy to start! Here's overview and links to didactic materials.
+  Don't be afraid of artificial neural networks - it is easy to start! An overview deep learning with links to didactic materials.
 image: /imgs/2017-04-17-learning-deep-learning/deep_learning_meme_keras.png
 ---
 
@@ -17,36 +17,49 @@ I teach deep learning both for a living (as the main [deepsense.io instructor](h
 
 Whether you want to start learning deep learning for you career, to have a nice adventure (e.g. with [detecting huggable objects](https://www.reddit.com/r/MachineLearning/comments/4casci/can_i_hug_that_i_trained_a_classifier_to_tell_you/)) or to get insight into machines before they take over[^webcomics], this post is for you! Its goal is not to teach neural networks by itself, but to provide an overview and to point to didactically useful resources.
 
+XXX https://medium.com/@stef/learning-by-hacking-24ee0961e80f ?
+
+
 ![Deep Learning Meme - What I actually do (Keras version)](/imgs/2017-04-17-learning-deep-learning/deep_learning_meme_keras.png)
 
-Don't be afraid of artificial neural networks - it is easy to start! In fact, my biggest regret is delaying learning it, because of the perceived difficulty. To start, all you need is really basic programming and very simple mathematics.
+Don't be afraid of artificial neural networks - it is easy to start! In fact, my biggest regret is delaying learning it, because of the perceived difficulty.
+To start, all you need is really basic programming, very simple mathematics and knowledge of a few machine learning concepts.
 
-XXX weak spot, change
 
-I suggest starting image recognition tasks with [Keras](https://keras.io/), a high-level neural network library in Python. If you are new to this language, you need to pick its basics - see the [section on Python](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#python) in my [introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html).
-If you like to use neural networks with less code than Keras, the only option is to [use pigeons](https://www.youtube.com/watch?v=flzGjnJLyS0). Yes, seriously: [Pigeons spot cancer as well as human experts](http://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts)!
+I suggest starting image recognition tasks with [Keras](https://keras.io/), a popular neural network library in Python. If you are new to this language, you need to pick its basics - see the [section on Python](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#python) in my [introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html).
+If you like to use neural networks with less code than Keras, the only option is to [use pigeons](https://www.youtube.com/watch?v=flzGjnJLyS0). Yes, seriously: [pigeons spot cancer as well as human experts](http://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts)!
 
+
+
+
+XXX https://en.wikipedia.org/wiki/Logistic_regression
 
 ## Before we start, let's talk... and play
 
-**Deep learning** is a name for **machine learning** techniques using many-layered artificial **neural networks**. Occasionally people use the term **artificial intelligence**, but unless you want to sound sci-fi, it is reserved for problems that are currently considered "too hard for machines" - a frontier that keeps moving rapidly.
+**Deep learning** is a name for **machine learning** techniques using many-layered artificial **neural networks**. Occasionally people use the term **artificial intelligence**, but unless you want to sound sci-fi, it is reserved for problems that are currently considered *"too hard for machines*" - a frontier that keeps moving rapidly.
 
-This is a field that exploded in the [last few years](https://devblogs.nvidia.com/parallelforall/mocha-jl-deep-learning-julia/), reaching human-level accuracy in visual recognition tasks. It's not a surprise that [companies like Google or Facebook are taking lead over the academia](http://www.economist.com/news/business/21695908-silicon-valley-fights-talent-universities-struggle-hold-their).
-Moreover, each few months I am mind-blown by something exceeding my expectations, e.g.:
+This is a field that exploded in the [last few years](https://devblogs.nvidia.com/parallelforall/mocha-jl-deep-learning-julia/), reaching human-level accuracy in visual recognition tasks (among many other tasks). Unlike quantum computing, or nuclear fusion - it is a technology that is being applied right now, not some possibility for the future.
+There is a rule of thumb:
+
+> Pretty much anything that a normal person can do in <1 sec, we can now automate with AI. - [Andrew Ng's tweet](https://twitter.com/andrewyng/status/788548053745569792)
+
+Some people go even further, [extrapolating that statement to experts](https://lukeoakdenrayner.wordpress.com/2017/04/24/the-end-of-human-doctors-understanding-medicine/).
+It's not a surprise that [companies like Google and Facebook at the cutting-edge of progress](http://www.economist.com/news/business/21695908-silicon-valley-fights-talent-universities-struggle-hold-their).
+In fact, every few months I am blown away by something exceeding my expectations, e.g.:
 
 * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)[^unreasonable] for generating fake Shakespeare, Wikipedia entries and LaTeX articles
 * [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) style transfer ([and for videos](https://www.youtube.com/watch?v=Khuj4ASldmU)!)
 * [Real-time Face Capture and Reenactment](https://www.youtube.com/watch?v=ohmajJTcpNk)
 * [Colorful Image Colorization](http://richzhang.github.io/colorization/)
 * [Plug & Play Generative Networks](http://www.evolvingai.org/ppgn) for photorealistic image generation
-* [Dermatologist-level classification of skin cancer](http://cs.stanford.edu/people/esteva/nature/)
+* [Dermatologist-level classification of skin cancer](http://cs.stanford.edu/people/esteva/nature/) along in other medical diagnosis tools
 * [Image-to-Image Translation (pix2pix)](https://phillipi.github.io/pix2pix/) - sketch to photo
 * [Teaching Machines to Draw](https://research.googleblog.com/2017/04/teaching-machines-to-draw.html) sketches of cats, dogs etc
 
 You need to have the basic notion of machine learning - classification and validation. You can see my [machine learning section](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#statistics-and-machine-learning), or at least start with this beautiful tree-based [visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
 If you are curious what neural networks are, take a look at this series of videos for a smooth introduction:
 
-* [Neural Networks Demystified](http://lumiverse.io/series/neural-networks-demystified)
+* [Neural Networks Demystified](https://www.youtube.com/watch?v=bxe2T-V8XRs) by Stephen Welch  - video series
 * [A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/) by J Alammar
 
 These techniques are data-hungry. See a plot of [AUC score](https://stats.stackexchange.com/questions/132777/what-does-auc-stand-for-and-what-is-it) for [logistic regression, random forest and deep learning on Higgs dataset](https://github.com/szilard/benchm-ml/tree/master/x1-data-higgs) (data points are in millions):
@@ -64,7 +77,7 @@ Do I need some [Skynet](https://en.wikipedia.org/wiki/Skynet_%28Terminator%29) t
 
 ## Mathematics
 
-Deep learning (that is - neural networks with many layers) uses very simple mathematical operations - just many of them. Here there are a few, which you can find in almost any network (look at this list, but don't get intimidated):
+Deep learning (that is - neural networks with many layers) uses mostly very simple mathematical operations - just many of them. Here there are a few, which you can find in almost any network (look at this list, but don't get intimidated):
 
 * vectors, matrices, multi-dimensional arrays,
 * addition, multiplication,
@@ -77,7 +90,7 @@ Deep learning (that is - neural networks with many layers) uses very simple math
 
 If your background is in physics[^quantum], mathematics, statistics or signal processing - most likely you already know more than enough to start!
 
-If your last contact with mathematics was in high-school, don't worry. Its mathematics is simple to a point that a convolutional neural network for digit recognition can be implemented in a spreadsheet (with no macros), see: [Deep Spreadsheets with ExcelNet](http://www.deepexcel.net/).
+If your last contact with mathematics was in high-school, don't worry. Its mathematics is simple to the point that a convolutional neural network for digit recognition can be implemented in a spreadsheet (with no macros), see: [Deep Spreadsheets with ExcelNet](http://www.deepexcel.net/).
 It is only a proof-of-principle solution - not only inefficient, but also lacking the most crucial part - the ability to train new networks.
 
 The basics of vector calculus is crucial not only for deep learning, but also for many other machine learning techniques (e.g. in [word2vec I wrote about](p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)).
@@ -90,7 +103,7 @@ To learn it, I recommend starting from one of the following:
 Since there are many references to [NumPy](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html), it may be useful to learn its basics:
 
 * [From Python to Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/) by Nicolas P. Rougier
-* [SciPy lecutres: The NumPy array object](http://www.scipy-lectures.org/intro/numpy/array_object.html)
+* [SciPy lectures: The NumPy array object](http://www.scipy-lectures.org/intro/numpy/array_object.html)
 
  At the same time - look back at the meme, at the *What mathematicians think I do* part. It's totally fine to start from a magically working code!
 
@@ -107,8 +120,8 @@ Bear in mind that core frameworks are multidimensional array expression compiler
 
 ### Keras
 
-If you like the [philosophy of Python](https://en.wikipedia.org/wiki/Zen_of_Python) (brevity, readability, one preferred way to do things), [Keras](https://keras.io/) is for you. It is a high-level library living on top of TensorFlow or Theano.
-Also, if you want to have a propaganda picture, there a possibly biased (or overfitted?) popularity ranking:
+If you like the [philosophy of Python](https://en.wikipedia.org/wiki/Zen_of_Python) (brevity, readability, one preferred way to do things), [Keras](https://keras.io/) is for you. It is a high-level library for neural networks, using TensorFlow or Theano as its backend.
+Also, if you want to have a propaganda picture, there is a possibly biased (or [overfitted](https://en.wikipedia.org/wiki/Overfitting)?) popularity ranking:
 
 * [The state of deep learning frameworks (from GitHub metrics), April 2017. - François Chollet (Keras creator)](https://twitter.com/fchollet/status/852194634470223873)
 
@@ -126,12 +139,8 @@ For shorter ones, try one of these:
 * [Deep learning for complete beginners: convolutional neural networks with Keras](https://cambridgespark.com/content/tutorials/convolutional-neural-networks-with-keras/index.html) by Petar Veličković
 * [Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras](http://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/) by Jason Brownlee (Theano tensor order)
 
-* XXX to add (not not to add):
-  * mine ready-to-use example in Keras
-  * with ASCII plots
-  * loading notMNIST
-
-There are a few add-ons to Keras, which are especially useful for learning it. I created [ASCII summary for sequential models](https://github.com/stared/keras-sequential-ascii) to show data flow inside networks, along with the number of parameters at each layer (in a nicer way than `model.summary()`):
+There are a few add-ons to Keras, which are especially useful for learning it. I created [ASCII summary for sequential models](https://github.com/stared/keras-sequential-ascii) to show data flow inside networks (in a nicer way than `model.summary()`).
+It shows layers, dimensions of data `(x, y, channels)` and number of free parameters (to be optimized). For example, for [a network for digit recognition](https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py) it might look like:
 
 ```
            OPERATION           DATA DIMENSIONS   WEIGHTS(N)   WEIGHTS(%)
@@ -211,11 +220,8 @@ A more interesting dataset, and harder for classical machine learning algorithms
 
 ### CIFAR
 
-If you are want to recognize actual photos, there is [CIFAR dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a dataset of 32x32 images (also in [keras.datasets](https://keras.io/datasets/)). It comes in two versions: 10 general classes (which I recommend to start with) and 100 more nuanced classes.
+If you want to play with image recognition, there is [CIFAR dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a dataset of 32x32 photos (also in [keras.datasets](https://keras.io/datasets/)). It comes in two versions: 10 simple classes (including cats, dogs, frogs and airplanes ) and 100 harder and more nuanced classes (including beaver, dolphin, otter, seal and whale). I strongly suggest starting with CIFAR-10, the simpler version.
 
-See also:
-
-* [Which paper provides the best results on standard dataset X?](http://rodrigob.github.io/are_we_there_yet/build/) - a ranking of methods for MNIST, CIFAR and a few other datasets
 
 ### More
 
@@ -230,16 +236,16 @@ Especially if data is scarce, there is no guarantee that a network will learn an
 Often, it's a combination of everything mentioned here.
 
 
-## Standing at the shoulders of giants
+## Standing on the shoulders of giants
 
-Creating a new neural network has a lot in common with cooking - there are typical ingredients (layers) and recipes (popular network architectures). The lasagne metaphor is unavoidable, as we already saw.
+Creating a new neural network has a lot in common with cooking - there are typical ingredients (layers) and recipes (popular network architectures).
 The most important cooking contest is [ImageNet Large Scale Visual Recognition Challenge](http://image-net.org/challenges/LSVRC/), with recognition of hundreds of classes from half a million dataset of photos.
 Look at these [Neural Network Architectures](https://culurciello.github.io/tech/2016/06/04/nets.html), typically using 224x224x3 input (chart by Eugenio Culurciello):
 
 ![Deep Learning Architectures - a scatter plot of network sizes, performances and ops per run](/imgs/2017-04-17-learning-deep-learning/deep_learning_architectures_culurciello.png)
 Size represents the number of parameters (a lot!). It doesn't mention [SqueezeNet](https://gab41.lab41.org/lab41-reading-group-squeezenet-9b9d1d754c75) though, an architecture vastly reducing the number of parameters (e.g. 50x fewer).
 
-A few key networks can be readily loaded from [keras.applications](https://keras.io/applications/) module: Xception, VGG16, VGG19, ResNet50, InceptionV3. Some others are not as plug & play, but still easy to find online - yes, there is [SqueezeNet in Keras](https://github.com/rcmalli/keras-squeezenet).
+A few key networks for image classification can be readily loaded from [keras.applications](https://keras.io/applications/) module: Xception, VGG16, VGG19, ResNet50, InceptionV3. Some others are not as plug & play, but still easy to find online - yes, there is [SqueezeNet in Keras](https://github.com/rcmalli/keras-squeezenet).
 These networks serve two purposes:
 
 * give insight into useful building blocks and architectures
@@ -292,16 +298,18 @@ When it comes to books, this one is wonderful, starting from introduction to mat
 
 Alternatively, you can use (it may be good for an introduction with interactive materials, but I've found the style a bit long-winded):
 
-* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Micheal Nielsen (yes, author of the Green Book)
+* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen
 
 ### Other links
+
+There are of various difficulty,
 
 * General
   * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy
   * [How convolutional neural networks see the world - Keras Blog](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html)
   * [What convolutional neural networks look at when they see nudity – Clarifai Blog](http://blog.clarifai.com/what-convolutional-neural-networks-see-at-when-they-see-nudity/) (NSFW)
   * [Convolutional neural networks for artistic style transfer](https://harishnarayanan.org/writing/artistic-style-transfer/) by Harish Nrayanan
-  * [Dreams, Drugs and ConvNets](https://speakerdeck.com/pmigdal/dreams-drugs-and-convnets) - my slides (NSFW)
+  * [Dreams, Drugs and ConvNets](https://speakerdeck.com/pmigdal/dreams-drugs-and-convnets) - my slides (NSFW); I am considering turning it into a longer post on machine learning vs human learning, based on common mistakes
 * Technical
   * [Yes you should understand backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b) by Andrej Karpathy
   * [Transfer Learning using Keras](https://medium.com/towards-data-science/transfer-learning-using-keras-d804b2e04ef8) by Prakash Vanapalli
@@ -316,7 +324,7 @@ Alternatively, you can use (it may be good for an introduction with interactive 
 * List of resources
   * [How to Start Learning Deep Learning](http://ofir.io/How-to-Start-Learning-Deep-Learning/) by Ofir Press
   * [A Guide to Deep Learning by YN^2](http://yerevann.com/a-guide-to-deep-learning/)
-* Staying up-to-data:
+* Staying up-to-date:
   * [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) Reddit channel covering most of new stuff
   * [distill.pub](http://distill.pub/) - an interactive, visual, open-access journal for machine learning research, with expository articles
   * my links at [https://pinboard.in/u:pmigdal/t:deep-learning](pinboard.in/u:pmigdal/t:deep-learning) - though, just saving, not an automatic recommendation
@@ -331,9 +339,9 @@ Alternatively, you can use (it may be good for an introduction with interactive 
 
 ## Thanks
 
-I would like to thank [Kasia Kulma](https://kkulma.github.io/), [Martina Pugliese](https://martinapugliese.github.io/), Paweł Subko and [Monika Pawłowska](http://greenelephant.pl/shiny/rowery/) for helpful feedback on the content and to [Sarah Martin](http://goodsexlifestyle.com/) for polishing my English.
+I would like to thank [Kasia Kulma](https://kkulma.github.io/), [Martina Pugliese](https://martinapugliese.github.io/), Paweł Subko, [Monika Pawłowska](http://greenelephant.pl/shiny/rowery/) and [Łukasz Kidziński](http://kidzinski.com/) for helpful feedback on the content and to [Sarah Martin](http://goodsexlifestyle.com/) for polishing my English.
 
-If you recommend a source that helped you with your adventure with deep learning - feel invited to contact me!
+If you recommend a source that helped you with your adventure with deep learning - feel invited to contact me! ([@pmigdal](https://twitter.com/pmigdal) for short links, an email for longer remarks.)
 
 The [deep learning meme](http://knowyourmeme.com/memes/what-people-think-i-do-what-i-really-do) is not mine - I've just I rewrote from Theano to Keras (with TensorFlow backend).
 
