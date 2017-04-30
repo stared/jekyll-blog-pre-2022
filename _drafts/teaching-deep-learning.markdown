@@ -21,13 +21,15 @@ Whether you want to start learning deep learning for you career, to have a nice 
 
 Don't be afraid of artificial neural networks - it is easy to start! In fact, my biggest regret is delaying learning it, because of the perceived difficulty. To start, all you need is really basic programming and very simple mathematics.
 
+XXX weak spot, change
+
 I suggest starting image recognition tasks with [Keras](https://keras.io/), a high-level neural network library in Python. If you are new to this language, you need to pick its basics - see the [section on Python](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#python) in my [introduction to data science](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html).
 If you like to use neural networks with less code than Keras, the only option is to [use pigeons](https://www.youtube.com/watch?v=flzGjnJLyS0). Yes, seriously: [Pigeons spot cancer as well as human experts](http://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts)!
 
 
 ## Before we start, let's talk... and play
 
-**Deep learning** is a name for **machine learning** techniques using many-layered artificial **neural networks**. Occasionally people use **artificial intelligence**, but unless you want to sound sci-fi, it is reserved for problems that are currently considered "too hard for machines" - a frontier that keeps moving rapidly.
+**Deep learning** is a name for **machine learning** techniques using many-layered artificial **neural networks**. Occasionally people use the term **artificial intelligence**, but unless you want to sound sci-fi, it is reserved for problems that are currently considered "too hard for machines" - a frontier that keeps moving rapidly.
 
 This is a field that exploded in the [last few years](https://devblogs.nvidia.com/parallelforall/mocha-jl-deep-learning-julia/), reaching human-level accuracy in visual recognition tasks. It's not a surprise that [companies like Google or Facebook are taking lead over the academia](http://www.economist.com/news/business/21695908-silicon-valley-fights-talent-universities-struggle-hold-their).
 Moreover, each few months I am mind-blown by something exceeding my expectations, e.g.:
@@ -42,7 +44,7 @@ Moreover, each few months I am mind-blown by something exceeding my expectations
 * [Teaching Machines to Draw](https://research.googleblog.com/2017/04/teaching-machines-to-draw.html) sketches of cats, dogs etc
 
 You need to have the basic notion of machine learning - classification and validation. You can see my [machine learning section](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html#statistics-and-machine-learning), or at least start with this beautiful tree-based [visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
-If you are curious what neural networks are, take a look at this series of videos for smooth introduction:
+If you are curious what neural networks are, take a look at this series of videos for a smooth introduction:
 
 * [Neural Networks Demystified](http://lumiverse.io/series/neural-networks-demystified)
 * [A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/) by J Alammar
@@ -62,7 +64,7 @@ Do I need some [Skynet](https://en.wikipedia.org/wiki/Skynet_%28Terminator%29) t
 
 ## Mathematics
 
-Deep learning (that is - neural networks with many layers) use very simple mathematical operations - just many of them. Here there are a few, which you can find in almost any network (look at this list, but don't get intimidated):
+Deep learning (that is - neural networks with many layers) uses very simple mathematical operations - just many of them. Here there are a few, which you can find in almost any network (look at this list, but don't get intimidated):
 
 * vectors, matrices, multi-dimensional arrays,
 * addition, multiplication,
@@ -282,7 +284,7 @@ The easiest, and the cheapest, way to use a strong GPU is to rent a remote machi
 
 I encourage you to interact with code. For example, notMNIST or CIFAR-10 can be great starting points. For learning how it works, this one is a masterpiece:
 
-* [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/) by Andrej Karpathy and [its videos](https://www.youtube.com/playlist?list=PLLvH2FwAQhnpj1WEB-jHmPuUeQ8mX-XXG)
+* [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/) by Andrej Karpathy and the [lecture videos](https://www.youtube.com/playlist?list=PLLvH2FwAQhnpj1WEB-jHmPuUeQ8mX-XXG)
 
 When it comes to books, this one is wonderful, starting from introduction to mathematics and machine learning learning context (it even covers [log-loss and entropy](http://www.deeplearningbook.org/contents/prob.html) in a way I like!):
 
@@ -329,8 +331,9 @@ Alternatively, you can use (it may be good for an introduction with interactive 
 
 ## Thanks
 
-I would like to thank [Sarah Martin](http://goodsexlifestyle.com/) for polishing my English, ...
-XXX (you know, feedback is not only welcomed, but even might be appreciated here) XXX
+I would like to thank [Kasia Kulma](https://kkulma.github.io/), [Martina Pugliese](https://martinapugliese.github.io/), Paweł Subko and [Monika Pawłowska](http://greenelephant.pl/shiny/rowery/) for helpful feedback on the content and to [Sarah Martin](http://goodsexlifestyle.com/) for polishing my English.
+
+If you recommend a source that helped you with your adventure with deep learning - feel invited to contact me!
 
 The [deep learning meme](http://knowyourmeme.com/memes/what-people-think-i-do-what-i-really-do) is not mine - I've just I rewrote from Theano to Keras (with TensorFlow backend).
 
