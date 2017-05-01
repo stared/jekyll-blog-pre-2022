@@ -24,7 +24,7 @@ To start, all you need is really basic programming, very simple mathematics and 
 I will explain where to start with these requirements.
 
 In my opinion, the best way to start is from a high-level interactive approach (see also: [Quantum mechanics for high-school students](http://p.migdal.pl/2016/08/15/quantum-mechanics-for-high-school-students.html) and my [Quantum Game with Photons](http://quantumgame.io/)).
-For that reason, I suggest starting image recognition tasks with [Keras](https://keras.io/), a popular neural network library in Python.
+For that reason, I suggest starting with image recognition tasks in [Keras](https://keras.io/), a popular neural network library in Python.
 If you like to train neural networks with less code than in Keras, the only viable option is to [use pigeons](https://www.youtube.com/watch?v=flzGjnJLyS0). Yes, seriously: [pigeons spot cancer as well as human experts](http://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts)!
 
 
@@ -117,7 +117,7 @@ Since there are many references to [NumPy](https://docs.scipy.org/doc/numpy-dev/
 * [From Python to Numpy](http://www.labri.fr/perso/nrougier/from-python-to-numpy/) by Nicolas P. Rougier
 * [SciPy lectures: The NumPy array object](http://www.scipy-lectures.org/intro/numpy/array_object.html)
 
- At the same time - look back at the meme, at the *What mathematicians think I do* part. It's totally fine to start from a magically working code!
+ At the same time - look back at the meme, at the *What mathematicians think I do* part. It's totally fine to start from a magically working code, treating neural network layers like LEGO blocks.
 
 
 ## Frameworks
@@ -149,10 +149,10 @@ For shorter ones, try one of these:
 
 * [Visualizing parts of Convolutional Neural Networks using Keras and Cats](https://hackernoon.com/visualizing-parts-of-convolutional-neural-networks-using-keras-and-cats-5cc01b214e59) by Erik Reppel
 * [Deep learning for complete beginners: convolutional neural networks with Keras](https://cambridgespark.com/content/tutorials/convolutional-neural-networks-with-keras/index.html) by Petar Veličković
-* [Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras](http://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/) by Jason Brownlee (Theano tensor order)
+* [Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras](http://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/) by Jason Brownlee (Theano tensor dimension order[^theano])
 
 There are a few add-ons to Keras, which are especially useful for learning it. I created [ASCII summary for sequential models](https://github.com/stared/keras-sequential-ascii) to show data flow inside networks (in a nicer way than `model.summary()`).
-It shows layers, dimensions of data `(x, y, channels)` and number of free parameters (to be optimized). For example, for [a network for digit recognition](https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py) it might look like:
+It shows layers, dimensions of data `(x, y, channels)` and the number of free parameters (to be optimized). For example, for [a network for digit recognition](https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py) it might look like:
 
 ```
            OPERATION           DATA DIMENSIONS   WEIGHTS(N)   WEIGHTS(%)
@@ -263,7 +263,7 @@ A few key networks for image classification can be readily loaded from the [kera
 These networks serve two purposes:
 
 * they give insight into useful building blocks and architectures
-* they are great candidates for retraining (so called [transfer learning](http://cs231n.github.io/transfer-learning/)), when using architecture along with pre-trained weights)
+* they are great candidates for retraining (so-called [transfer learning](http://cs231n.github.io/transfer-learning/)), when using architecture along with pre-trained weights)
 
 Some other important network architectures for images:
 
@@ -363,7 +363,7 @@ I would like to thank [Kasia Kulma](https://kkulma.github.io/), [Martina Puglies
 
 If you recommend a source that helped you with your adventure with deep learning - feel invited to contact me! ([@pmigdal](https://twitter.com/pmigdal) for short links, an email for longer remarks.)
 
-The [deep learning meme](http://knowyourmeme.com/memes/what-people-think-i-do-what-i-really-do) is not mine - I've just I rewrote from Theano to Keras (with TensorFlow backend).
+The [deep learning meme](http://knowyourmeme.com/photos/1244486-what-people-think-i-do-what-i-really-do) is not mine - I've just I rewrote from Theano to Keras (with TensorFlow backend).
 
 
 [^deepsense]: [NOAA Right Whale Recognition, Winners' Interview](http://blog.kaggle.com/2016/01/29/noaa-right-whale-recognition-winners-interview-1st-place-deepsense-io/) (1st place, Jan 2016), and a fresh one: [Deep learning for satellite imagery via image segmentation](https://deepsense.io/deep-learning-for-satellite-imagery-via-image-segmentation/) (4th place, Apr 2017).
@@ -371,3 +371,4 @@ The [deep learning meme](http://knowyourmeme.com/memes/what-people-think-i-do-wh
 [^trypophobia]: This January during a 5-day workshop 6 high-school students participated in a rather NSFL project - constructing a neural network for detecting trypophobia triggers, see e.g. [grzegorz225/trypophobia-detector](https://github.com/grzegorz225/trypophobia-detector) and [cytadela8/trypophobia_detector](https://github.com/cytadela8/trypophobia_detector/).
 [^unreasonable]: The title alludes to [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](http://www.dartmouth.edu/~matc/MathDrama/reading/Wigner.html) by Eugene Wigner (1960), one of my favourite texts in philosophy of science. Along with [More is Different](https://www.physics.ohio-state.edu/~jay/880/moreisdifferent.pdf) by PW Andreson (1972) and [Genesis and development of a scientific fact](https://www.amazon.com/Genesis-Development-Scientific-Ludwik-Fleck/dp/0226253252/) ([pdf here](http://www.evolocus.com/Textbooks/Fleck1979.pdf)) by Ludwik Fleck (1935).
 [^quantum]: If your background is in quantum information, the only thing you need to change is ℂ to ℝ. Just expect less tensor structure, but more convolutions.
+[^theano]: Is it only me, or does *Theano tensor dimension order* sound like some secret convent? Before you start searching how to join it: it is about the shape of multi-dimensional arrays: `(samples, channels, x, y)` rather than TensorFlow's `(samples, x, y, channels)`.
