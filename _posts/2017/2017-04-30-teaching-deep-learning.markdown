@@ -347,7 +347,7 @@ Don't try to read them all - I list them for *inspiration*, not *intimidation*!
 * Staying up-to-date:
   * [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) Reddit channel covering most of new stuff
   * [distill.pub](http://distill.pub/) - an interactive, visual, open-access journal for machine learning research, with expository articles
-  * my links at [https://pinboard.in/u:pmigdal/t:deep-learning](pinboard.in/u:pmigdal/t:deep-learning) - though, just saving, not an automatic recommendation
+  * my links at [pinboard.in/u:pmigdal/t:deep-learning](https://pinboard.in/u:pmigdal/t:deep-learning) - though, just saving, not an automatic recommendation
   * [@fastml_extra](https://twitter.com/fastml_extra) Twitter channel
   * [GitXiv](http://www.gitxiv.com/) for papers with code
   * don't be afraid to read academic papers; some are well-written and insightful (if you own Kindle or another e-reader, I recommend [Dontprint](http://dontprint.net/))
