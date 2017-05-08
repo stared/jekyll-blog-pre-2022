@@ -2,6 +2,7 @@
 layout: "post"
 title: "My impressions from PyData Berlin 2016"
 date: 2016-05-25 14:42 +0100
+author: Piotr Migdał
 tags:
   - data-science
   - python

@@ -2,6 +2,7 @@
 layout: "post"
 title: "Quantum mechanics for high-school students"
 date: 2016-08-15 18:30 +0100
+author: Piotr Migdał
 tags:
   - quantum
   - teaching
