@@ -10,7 +10,9 @@ mathjax: true
 description: >-
   Words, vectors, analogies and conceptual metaphors - the linear space of word2vec and GloVe. Or: how to change gender with a vector.
 image: /imgs/2017-01-06/queen-julia-vectors-facebook.jpg
-hn:    https://news.ycombinator.com/item?id=13346104
+extras:
+  - text: "Hacker News discussion thread with over 250 upvotes"
+    href: https://news.ycombinator.com/item?id=13346104
 ---
 
 ## Intro

@@ -26,10 +26,10 @@ comments: true
       also {{ page.external.status }} <a href="{{ page.external.href }}">{{ page.external.title }}</a>
       on {{ page.external.date | date: "%-d %b %Y" }}
       {% endif %}
-      {% if page.hn %}
+      {% for extra in page.extras %}
         </br>
-        see <a href="{{ page.hn }}">Hacker News discussion thread</a>
-      {% endif %}
+        see: <a href="{{ extra.href }}">{{ extra.text }}</a>
+      {% endfor %}
       {% if page.unlisted %}
         </br>
         an unlisted draft • an unlisted draft • an unlisted draft • an unlisted draft • an unlisted draft

@@ -11,6 +11,9 @@ description: >-
   Don't be afraid of artificial neural networks - it is easy to start! An
   overview of deep learning with links to didactic materials.
 image: /imgs/2017-04-30-learning-deep-learning/deep_learning_meme_keras.png
+extras:
+  - text: "tweet by François Chollet (the creator of Keras) with over 140 retweets"
+    href: https://twitter.com/fchollet/status/858840192261644292
 ---
 
 I teach deep learning both for a living (as the main [deepsense.io instructor](http://workshops.deepsense.io/), in a Kaggle-winning team[^deepsense]) and as a part of my volunteering with the [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) giving workshops to gifted high-school students[^trypophobia]. I want to share a few things I've learnt about teaching (and learning) deep learning.
