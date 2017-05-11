@@ -88,7 +88,7 @@ When it comes to machine learning, you don't need to learn many techniques befor
 * [Visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) by Stephanie Yee and Tony Chu
 
 Also, it is good to understand [logistic regression](https://en.wikipedia.org/wiki/Logistic_regression), which is a building block of almost any neural network for classification.
-We usually predict probabilities; to understand how to measure errors in your predictions, see:
+We usually predict probabilities; to understand how to measure error of your predictions, see:
 
 * [Kullback-Leibler Divergence Explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained) by Will Kurt.
 
