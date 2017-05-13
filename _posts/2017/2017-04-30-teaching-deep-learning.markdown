@@ -88,9 +88,6 @@ When it comes to machine learning, you don't need to learn many techniques befor
 * [Visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) by Stephanie Yee and Tony Chu
 
 Also, it is good to understand [logistic regression](https://en.wikipedia.org/wiki/Logistic_regression), which is a building block of almost any neural network for classification.
-We usually predict probabilities; to understand how to measure error of your predictions, see:
-
-* [Kullback-Leibler Divergence Explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained) by Will Kurt.
 
 
 ## Mathematics
@@ -102,7 +99,7 @@ Deep learning (that is - neural networks with many layers) uses mostly very simp
 * [convolutions](http://setosa.io/ev/image-kernels/) to extract and process local patterns,
 * activation functions: [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function), [tanh](https://www.wolframalpha.com/input/?i=tanh[x]) or [ReLU](https://en.wikipedia.org/wiki/Rectifier_%28neural_networks%29) to add non-linearity,
 * [softmax](https://en.wikipedia.org/wiki/Softmax_function) to convert vectors into probabilities,
-* [log-loss (cross-entropy)](http://datascience.stackexchange.com/questions/9302/the-cross-entropy-error-function-in-neural-networks) to penalize wrong guesses in a smart way,
+* [log-loss (cross-entropy)](http://datascience.stackexchange.com/questions/9302/the-cross-entropy-error-function-in-neural-networks) to penalize wrong guesses in a smart way (see also [Kullback-Leibler Divergence Explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)),
 * gradients and chain-rule ([backpropagation](http://cs231n.github.io/optimization-2/)) for optimizing network parameters,
 * stochastic gradient descent and its variants (e.g. [momentum](http://distill.pub/2017/momentum/)).
 
