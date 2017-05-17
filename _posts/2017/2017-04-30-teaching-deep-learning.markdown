@@ -14,6 +14,8 @@ image: /imgs/2017-04-30-learning-deep-learning/deep_learning_meme_keras.png
 extras:
   - text: "tweet by François Chollet (the creator of Keras) with over 140 retweets"
     href: https://twitter.com/fchollet/status/858840192261644292
+  - text: "Facebook post by Kaggle with over 200 shares"
+    href: "https://www.facebook.com/kaggle/photos/a.10150387148668464.377856.135534208463/10155346265978464/?type=3&theater"
 ---
 
 I teach deep learning both for a living (as the main [deepsense.io instructor](http://workshops.deepsense.io/), in a Kaggle-winning team[^deepsense]) and as a part of my volunteering with the [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) giving workshops to gifted high-school students[^trypophobia]. I want to share a few things I've learnt about teaching (and learning) deep learning.
