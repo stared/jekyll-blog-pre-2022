@@ -313,7 +313,7 @@ Sometimes the best start is to start with someone's else code and run it, then s
 
 For learning how it works, this one is a masterpiece:
 
-* [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/) by Andrej Karpathy and the [lecture videos](https://www.youtube.com/playlist?list=PLLvH2FwAQhnpj1WEB-jHmPuUeQ8mX-XXG)
+* [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/) by Andrej Karpathy and the [lecture videos](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)
 
 When it comes to books, there is a wonderful one, starting from introduction to mathematics and machine learning learning context (it even covers [log-loss and entropy](http://www.deeplearningbook.org/contents/prob.html) in a way I like!):
 
