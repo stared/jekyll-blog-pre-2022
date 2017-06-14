@@ -6,6 +6,14 @@
   tags:   [game, physics]
   status: in progress (active!)
 
+- title:  Science-based games
+  desc:   "A collaborative notepad with educational and science games."
+  href:   https://github.com/stared/science-based-games-list
+  dateStart: 2017-06-28
+  dateEnd:
+  tags:   [game, list]
+  status: in progress (active!)
+
 - title:  "3DFlu - CENT, University of Warsaw"
   desc:   Interactive exploration of hemagglutinin proteins of influenza virus type A.
   href:   http://nucleus3d.cent.uw.edu.pl/influenza/
