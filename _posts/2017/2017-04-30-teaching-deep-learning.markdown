@@ -35,8 +35,12 @@ If you like to train neural networks with less code than in Keras, the only viab
 
 ## What is deep learning and why is it cool?
 
-**Deep learning** is a name for **machine learning** techniques using many-layered artificial **neural networks**. Occasionally people use the term **artificial intelligence**, but unless you want to sound sci-fi, it is reserved for problems that are currently considered *"too hard for machines*" - a frontier that keeps moving rapidly.
-This is a field that exploded in the [last few years](https://devblogs.nvidia.com/parallelforall/mocha-jl-deep-learning-julia/), reaching human-level accuracy in visual recognition tasks (among many other tasks). Unlike quantum computing, or nuclear fusion - it is a technology that is being applied right now, not some possibility for the future.
+**Deep learning** is a name for **machine learning** techniques using many-layered artificial **neural networks**. Occasionally people use the term **artificial intelligence**, but unless you want to sound sci-fi, it is reserved for problems that are currently considered *"too hard for machines"* - a frontier that keeps moving rapidly.
+This is a field that exploded in the last few years, reaching human-level accuracy in visual recognition tasks (among many other tasks), see:
+
+* [Measuring the Progress of AI Research](https://www.eff.org/ai/metrics) by Electronic Frontier Foundation (2017)
+
+Unlike quantum computing, or nuclear fusion - it is a technology that is being applied right now, not some possibility for the future.
 There is a rule of thumb:
 
 > Pretty much anything that a normal person can do in <1 sec, we can now automate with AI. - [Andrew Ng's tweet](https://twitter.com/andrewyng/status/788548053745569792)
