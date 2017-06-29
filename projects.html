@@ -23,6 +23,9 @@ order:  1
       started: {{ project.dateStart | date: "%Y" }}
       •
       {{ project.status}}
+      {% if project.hn %}
+      • see <a href="{{ project.hn }}">HN discussion</a>
+      {% endif %}
       </span>
       </br>
       {{ project.desc }}

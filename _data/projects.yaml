@@ -5,6 +5,7 @@
   dateEnd:
   tags:   [game, physics]
   status: in progress (active!)
+  hn:     https://news.ycombinator.com/item?id=14432176
 
 - title:  Science-based games
   desc:   "A collaborative notepad with educational and science games."
@@ -13,6 +14,7 @@
   dateEnd:
   tags:   [game, list]
   status: in progress (active!)
+  hn:     https://news.ycombinator.com/item?id=14661813
 
 - title:  "3DFlu - CENT, University of Warsaw"
   desc:   Interactive exploration of hemagglutinin proteins of influenza virus type A.
@@ -69,6 +71,7 @@
   dateEnd:     2015-03-01
   tags:   [visualization]
   status: done
+  hn:     https://news.ycombinator.com/item?id=10243873
 
 - title:  Fellows and alumni of the Polish Children's Fund
   desc:   Map of Poland with locations and interests of KFnrD fellows.
