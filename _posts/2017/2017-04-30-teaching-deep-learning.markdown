@@ -212,12 +212,18 @@ In any case, [TensorBoard](https://www.tensorflow.org/get_started/summaries_and_
 
 ### Other
 
-Theano is similar to TensorFlow, but a bit older and harder to start.
+[Theano](http://deeplearning.net/software/theano/) is similar to TensorFlow, but a bit older and harder to start.
 For example, you need to manually write updates of variables. Typical neural network layers are not included, so one often uses libraries such as [Lasagne](https://lasagne.readthedocs.io/). If you're looking for a place to start, I like this introduction:
 
 * [Theano Tutorial](http://www.marekrei.com/blog/theano-tutorial/) by Marek Rei
 
 At the same time, if you see some nice code in Torch or PyTorch, don't be afraid to install and run it!
+
+**EDIT**: Right now (July 2017) If you want a low-level framework, [PyTorch](http://pytorch.org/) may be the best way to start.
+It combines relatively brief and readable code (almost like Keras) but at the same time gives low-level access to all features (actually, more than TensorFlow). Start here:
+
+* [PyTorch - Tutorials](http://pytorch.org/tutorials/)
+* [A repository showcasing examples of using PyTorch](https://github.com/pytorch/examples)
 
 
 ## Datasets
