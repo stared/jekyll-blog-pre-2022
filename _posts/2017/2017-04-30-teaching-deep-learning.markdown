@@ -219,7 +219,7 @@ For example, you need to manually write updates of variables. Typical neural net
 
 At the same time, if you see some nice code in Torch or PyTorch, don't be afraid to install and run it!
 
-**EDIT**: Right now (July 2017) If you want a low-level framework, [PyTorch](http://pytorch.org/) may be the best way to start.
+**EDIT** (July 2017): If you want a low-level framework, [PyTorch](http://pytorch.org/) may be the best way to start.
 It combines relatively brief and readable code (almost like Keras) but at the same time gives low-level access to all features (actually, more than TensorFlow). Start here:
 
 * [PyTorch - Tutorials](http://pytorch.org/tutorials/)
