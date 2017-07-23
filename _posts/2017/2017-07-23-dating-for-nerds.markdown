@@ -105,9 +105,9 @@ Dating is a social activity - so there should be no surprise that such problems 
 
 In short - being very picky and having a main focus other than mating makes dating hard. Winning a math competition is unlikely to make you much more sexually appealing. At the same time, overthinking and being a disembodied brain on a stick makes dating much harder.
 
-[![Einstein genius - ](/imgs/2017-07-23-dating-for-nerds-1/einstein_strip_genius_wulffmorgenthaler.gif)](http://web.archive.org/web/20120318003901/http://wulffmorgenthaler.com/strip/2010/04/02/)
+[![Einstein sex genius - WulffmorgentHaller webcomic strip ](/imgs/2017-07-23-dating-for-nerds-1/einstein_strip_genius_wulffmorgenthaler.gif)](http://web.archive.org/web/20120318003901/http://wulffmorgenthaler.com/strip/2010/04/02/)
 
-> used with permission
+> [used with permission](https://twitter.com/mikaelwulff/status/881894399185211394)
 
 Don’t get we wrong - witty humour and an extensive vocabulary may help a lot, as well as some possible side-effects (such as good social standing or popularity). Just - sheer brainpower is not enough.
 Your intellect makes some of tasks way easier, but one of the key [Smart Guy Productivity Pitfalls](http://bookofhook.blogspot.com/2013/03/smart-guy-productivity-pitfalls.html) is to use it in lieu of effort.
