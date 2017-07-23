@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dating for nerds (part 1): problem diagnosis"
-date: '2017-07-20 18:00 +0100'
+date: '2017-07-23 18:00 +0100'
 author: Piotr Migdał
 tags:
   - dating
