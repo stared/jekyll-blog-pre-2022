@@ -1,13 +1,18 @@
 ---
-layout: "post"
-title: "Dating for nerds"
-date: "2017-07-23 00:41"
+layout: post
+title: "Dating for nerds (part 1): problem diagnosis"
+date: '2017-07-20 18:00 +0100'
+author: Piotr Migdał
+tags:
+  - dating
+description: >-
+  Heterosexual male nerd dating problem - does it exist? What are the main pain points?
+image: /imgs/2017-07-23-dating-for-nerds-1/i_love_nerds_part.jpg
 ---
 
 # Dating for nerds (part 1): problem diagnosis
 
-
-[![xkcd: Creepy](imgs/xkcd_creepy.png)](https://xkcd.com/642/)
+[![xkcd: Creep](/imgs/2017-07-23-dating-for-nerds-1/xkcd_creepy.png)](https://xkcd.com/642/)
 
 * Are you introverted, shy or socially anxious?
 * Are human interactions a maze of unwritten rules, and is physical touch a minefield?
@@ -100,7 +105,9 @@ Dating is a social activity - so there should be no surprise that such problems 
 
 In short - being very picky and having a main focus other than mating makes dating hard. Winning a math competition is unlikely to make you much more sexually appealing. At the same time, overthinking and being a disembodied brain on a stick makes dating much harder.
 
-[![](imgs/einstein_strip_genius_wulffmorgenthaler.gif)](http://web.archive.org/web/20120318003901/http://wulffmorgenthaler.com/strip/2010/04/02/)
+[![Einstein genius - ](/imgs/2017-07-23-dating-for-nerds-1/einstein_strip_genius_wulffmorgenthaler.gif)](http://web.archive.org/web/20120318003901/http://wulffmorgenthaler.com/strip/2010/04/02/)
+
+> used with permission
 
 Don’t get we wrong - witty humour and an extensive vocabulary may help a lot, as well as some possible side-effects (such as good social standing or popularity). Just - sheer brainpower is not enough.
 Your intellect makes some of tasks way easier, but one of the key [Smart Guy Productivity Pitfalls](http://bookofhook.blogspot.com/2013/03/smart-guy-productivity-pitfalls.html) is to use it in lieu of effort.
@@ -162,6 +169,8 @@ Also, while in your workplace people may tolerate your ways, and turn a blind ey
 ### Girls who love nerds
 
 Yes, yes - whatever you were told, it’s not only jocks who attract women. Besides [insight into arcane things other people are not aware of](https://www.youtube.com/watch?v=JdUq2opPY-Q), and [reasonably good job prospects](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html), some girls are interested in the introverted, brainy type.
+
+![She loves nerds](/imgs/2017-07-23-dating-for-nerds-1/i_love_nerds_part.jpg)
 
 What’s crucial: you don’t need to appeal to all women, and there are well enough women interested in nerdy men. Some of them may be fellow nerds, some not, but still considering intellect, introversion and deep interests sexy (a key world: [sapiosexual](http://www.urbandictionary.com/define.php?term=sapiosexual)). For some others your nerdism might be not relevant at all (just one of many aspects of your personality). Most importantly - if you are into some girl for her interests and character, there is a fair chance that she may find you as fascinating.
 
