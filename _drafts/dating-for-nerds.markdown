@@ -1,298 +1,198 @@
 ---
 layout: "post"
 title: "Dating for nerds"
-date: "2016-12-29 00:41"
+date: "2017-07-23 00:41"
 ---
 
-# Dating for nerds
-
-> Go beyond carbon dating!
+# Dating for nerds (part 1): problem diagnosis
 
 
-## tl;dr
+[![xkcd: Creepy](imgs/xkcd_creepy.png)](https://xkcd.com/642/)
 
-(to write)
-* just talk to her
-* invite for a coffee
-* let her talk
-* smoothly increase the number of physical contact
-* in case of doubt: ask
-* read How to Win Friends and Influence People
+* Are you introverted, shy or socially anxious?
+* Are human interactions a maze of unwritten rules, and is physical touch a minefield?
+* Yet, you crave a romantic relationship with a girl of your dreams?
 
-And the worst thing that can happen:
+You are not alone. And most likely, with a little bit of work on yourself, you will get a happy dating, sex and love life!
+I want to help you with this series of articles on dating for (male, hetero) nerds (or: geeks, programmers, introverted intellectuals).
 
-* the only conversation option will be to take a quest to kill a dragon; you really don't want to harm this endangered species
-* caffeine overdosing; ending with a heart attack after seeing a bill from an overpriced coffee chain
-* she will accidentally mention being in a secret werewolf conspiracy ("let's be fiends")
-
-This blog post bases on a premise:
-
-> She is a person.
-
-And perhaps a more shocking one:
-
-> You are a person too.
-
+Before we go to the more juicy parts, let’s diagnose the problem.
 
 ## Intro
 
-I am not sure if I want to publish pieces of dating advice on my semi-professional blog. It is a more soft, opinionated and personal matter, inadvertently revealing my secrets and vulnerabilities. Though, if it is true that *"data science is the sexiest job of the 21st century"*, maybe technical issues and dating are not that far apart.
+### Personal disclaimer
 
-Also, to be clear: I don't claim to be "good at dating", whatever that means. But I see the profound change from something being frustrating to a field where I feel well.
-And I would like to share some lessons I've learned in the process, often the hard way.
+I am not sure if I want to publish pieces of dating advice on my semi-professional blog. It is a soft, opinionated and personal matter, inadvertently revealing my secrets and vulnerabilities. Though, if it is true that *"data science is the sexiest job of the 21st century"*, maybe machine learning and dating are not that far apart. ;)
 
-While my frustration with dating (or rather: not dating) gave me a lot of pain, it also prompted me to put a lot of effort in developing social skills in general.
+Also, to be clear: I don’t claim to be *"good at dating"*[^suckless], whatever that means. But I see the profound change from something being frustrating to a field where I feel well. And I would like to share some lessons I’ve learned in the process, often the hard way. While my problems with dating (or rather: not dating) gave me a lot of pain, they also prompted me to put a lot of effort into developing social skills in general.
 
-There is no shortage of Internet dating advice. Yet, there weren't many thing I found illuminating. Nerds have special needs, special skills and things which may work differently (honesty, emotions, spontaneousity) - a general advice may not cut it.
+Sure, there is no shortage of Internet dating advice. Yet, there weren’t many thing I found illuminating (I link to ones that were). Nerds have special needs, special skills and things which may work differently (honesty, emotions, touch, spontaneity, expectations of partners) - general advice rarely cuts it.
+Some great minds consider this problem notoriously hard:
 
+> How to help all the young male nerds I meet who suffer from [the dating] problem, in a way that passes feminist muster, and that triggers the world’s sympathy rather than outrage[?]
+>
+> I believe that, just as there are shy, nerdy men, there are also shy, nerdy women, who likewise suffer from feeling unwanted, sexually invisible, or ashamed to express their desires.
+>
+> - [What I believe by Scott Aaronson](http://www.scottaaronson.com/blog/?p=2119), a wider context in [Untitled by Scott Alexander ](http://slatestarcodex.com/2015/01/01/untitled/)
 
-## Audience
+But well, *fortune favours the bold*. :)
+I spiked it with numerous references, so even if you fine with dating, you may find a few interesting links (I am [an unabashed link hoarder](https://pinboard.in/u:pmigdal)).
 
-My target audience is myself at 15-25 (the sooner the better). It would have saved me so much emotional pain, feeling of loneliness, rejection and isolation[^osamotnienie].
-Still, I will try to write from a more general perspective, so that it may be actually useful for a wider audience than my younger self (who would probably never read this)[^alchemist].
+### Who's that for?
 
-This text is addressed to heterosexual nerds ([not necessary white, though](https://www.youtube.com/watch?v=N9qYF9DZPdw)).
-Some things may work for male-nonnerds or female-nerds[^nerdowka] (I have little idea how it works for LBTG+). Nerds come in all sizes and shapes, so what was important for me may be irrelevant (or harmful) for you.
-(As always, before taking this advice consult you doctor, rabbi, PhD advisor, reptilian overlord.)
+This text is addressed to **heterosexual male nerds**. Ideally I would send it to my younger self[^alchemist] (say, 15-25yo - the sooner the better), so as to be spared a lot of unnecessary emotional pain, feelings of loneliness, rejection and isolation. But, well, I actually want to help people, so it is wiser to think about a wider (not-empty!) audience.
 
-At least, I spiked it with numerous references, so even if you fine with dating, you may find a few interesting links.
+A lot of this content might be useful for other groups (gender, sexual orientation, level of nerdiness). If you are not in the *"main target"*, yet find it useful - I am really interested in your feedback! Conversely, each person is different, so what was important for me may be irrelevant (or even harmful) for you[^consult].
 
-A large portion of information is on approaching people in general, or advancing any relationship (surprisingly many things I learnt from dating are crucial for my business networking skills).
+Dating is not easy for anyone. Most people struggle with it at some point, not only nerds. And it’s fine to be nervous. At the same time the bar is not so high - all you need is to get a bit of understanding of yourself, you body, other people and dating dynamics. By putting in some conscious effort you will get ahead of most men!
 
-While I use word *nerd* a lot, it's not about self-identification.
+A large portion of this information is on approaching people in general, or advancing any relationship - surprisingly many things I learnt from dating are crucial for my networking skills (which, as a semi-freelancer, I use a lot). Job interviews have similar dynamics - just instead of getting laid you want to land a job (you need to *interest them in you* rather than express your neediness).
 
+The topic **dating** may sound ambiguous - is it about looking for casual sex or the search for the love of your life? What I’ve found the most problematic is the transition from platonic contact to a romantic or sexual relationship, which works the same way regardless of relationship type or goal. Typically the most defining moment is the first committed French kiss. Most of advice here will be focused how to get to this moment.
 
-If you are the recipient side of nerd's (however clumsy) courtship, I hope that you will learn a bit about his POV and be able to help him (whether it means taking command or turning him down in a clear but graceful way).
-
-
-## It is not about
-
-* Picking up as many girls as possible.
-* Appealing to any girl.
-* A motivational talk (I won't invent anything better than this [mongoose fending off lions](https://www.youtube.com/watch?v=1TPn1-SJqVM); still, scaring off every interested female is not the thing you want to do).
-* A magical trick (like [s/wand/wang](http://www.bash.org/?111338)).
-* A zero-sum game.
+Also, if you are on the recipient side of a nerd’s (however clumsy) courtship, I hope that you will learn a bit about his POV and be able to help him (whether it means taking command or turning him down in a clear but graceful way). And pointing them to this blog post (ideally: not in a passive-aggressive way) would be great! :)
 
 
-## Context
+### It is not about
 
-### The nerd condition
+Before I proceed to it, let me lower your expectation. So, this text is not about:
 
-I am a (very) local guru in the geek vs nerd division.
-I advise consulting:
+* **Appealing to any girl**. If picking up as many girls as possible is your goal, there are better sources. Here I will focus on approaching girls you are genuinely interested in.
+* **A motivational talk**. I won’t invent anything better than this [mongoose fending off lions](https://www.youtube.com/watch?v=1TPn1-SJqVM); still, scaring off every interested female is not the thing you want to do.
+* **A magical trick** (like [s/wand/wang](http://www.bash.org/?111338)). It might be that there will be a single piece of advice that will remove a crucial blockade. But most growth is a step-by-step process, taking time and during which you need to get out of your comfort zone.
+* **A zero-sum game mindset**. Unfortunately a lot of mainstream dating advice uses a competition or conflict metaphor, where one side (whether a man or a woman) advances at the cost of the other. Here I want to focus on things that are mutually beneficial.
+* **How to maintain a relationship**. While it is a crucial topic, it is a very different activity than getting into one. However, these links may be helpful:
+  * [13 Questions to Ask Before Getting Married](https://www.nytimes.com/interactive/2016/03/23/fashion/weddings/marriage-questions.html) by Eleanor Stanford
+  * [I polled 1,500 people about their best relationship advice — and everyone said the same thing](http://www.businessinsider.com/i-polled-1500-people-about-their-best-relationship-advice-and-the-same-themes-came-up-over-and-over-2016-12) by Mark Manson
+
+
+## Nerds
+
+### Who is a nerd?
+
+> A geek is a nerd with a non-zero chance of having sex - Staszek Krawczyk
+
+While I use the word **nerd** a lot, it’s not about self-identification (here is a very stereotypical case in [White & Nerdy by "Weird Al" Yankovic](https://www.youtube.com/watch?v=N9qYF9DZPdw)). You don’t need to have your favourite equation, or a comic book! Note that for the sake of this text, I use nerd and geek interchangeably.
+
+If you are highly intellectual, socially awkward person, you are likely to benefit from this blog post series. Just reading this blog post beyond the 140 character baseline is a good indicator that you may like its content. All book worms, and blog worms, are welcome!
+
+In short, nerds are typically defined as having combination of intelligence, obsession and social awkwardness (as covered in [this classic Venn diagram](https://www.buzzfeed.com/scott/nerd-venn-diagram)).
+If you really want to dive into this topic:
 
 * [Geeks vs Nerds - Geek Studies](http://web.archive.org/web/20110829164446/http://www.geekstudies.org/2007/06/geeks-vs-nerds) by Jason Tocci (his [PhD thesis on this topic](http://repository.upenn.edu/edissertations/953/)) and links therein
-* [On “Geek” Versus “Nerd”](https://slackprop.wordpress.com/2013/06/03/on-geek-versus-nerd/) by Burr Settles
+* [On “Geek” Versus “Nerd”](https://slackprop.wordpress.com/2013/06/03/on-geek-versus-nerd/) by Burr Settles, with a data-driven approach (using [word co-occurrences I posted about](http://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)).
+* [Autistic traits, science and the nerd stereotype](http://crastina.se/autistic-traits-science-and-the-nerd-stereotype/) by me
 
-If you are highly intellectual, socially awkward person, you qualify.
-Also, if you are actually reading this blog post, you qualify.
-(Well, and it is a longish article, full of references, on a topic you wouldn't like to share in the office.)
-Nerds may get it harder with interpersonal skills and their social position, see:
+
+### Social and sex life of nerds
+
+> Alan Turing: They only beat me up because I'm smarter than they are.  
+> Christopher Morcom: No, they beat you up because you're different.  
+> - [The Imitation Game 2014 film](https://en.wikiquote.org/wiki/The_Imitation_Game)
+
+Social life may not be fun, especially during childhood and adolescence - with severity ranging from being an outsider, to being totally excluded or actively bullied. Nerds may get it harder with interpersonal skills and their social rank, see:
 
 * [Why Nerds are Unpopular](http://www.paulgraham.com/nerds.html) by Paul Graham (2003)
-* [Autistic traits, science and the nerd sterotype](http://crastina.se/autistic-traits-science-and-the-nerd-stereotype/) by me
 
-Dating is a social activity - so there should be no surprise that problems with social activity may make it hard to date. But they are not the only thing complicating the stuff:
+Dating is a social activity - so there should be no surprise that such problems may make it hard to date. On top of being different, there are nerd-specific issues, covered in:
 
 * [Why Being Smart Won't Get You Laid](http://www.alternet.org/story/129887/why_being_smart_won't_get_you_laid) by Alex Benzer (2008)
 
-In short - being very picky and having other main focus than mating makes dating hard.
-It seems that data support it:
+In short - being very picky and having a main focus other than mating makes dating hard. Winning a math competition is unlikely to make you much more sexually appealing. At the same time, overthinking and being a disembodied brain on a stick makes dating much harder.
+
+[![](imgs/einstein_strip_genius_wulffmorgenthaler.gif)](http://web.archive.org/web/20120318003901/http://wulffmorgenthaler.com/strip/2010/04/02/)
+
+Don’t get we wrong - witty humour and an extensive vocabulary may help a lot, as well as some possible side-effects (such as good social standing or popularity). Just - sheer brainpower is not enough.
+Your intellect makes some of tasks way easier, but one of the key [Smart Guy Productivity Pitfalls](http://bookofhook.blogspot.com/2013/03/smart-guy-productivity-pitfalls.html) is to use it in lieu of effort.
+For dating it may be even more treacherous - here you are not at a big advantage to start with. It seems that data support it:
 
 * [Intercourse and Intelligence](http://www.gnxp.com/blog/2007/04/intercourse-and-intelligence.php) by Jason Malloy (2007)
 
-It mentions some really scary statistics like (though, it is at best `2*` data, according to the [Sex by Numbers](https://www.amazon.com/Sex-Numbers-Statistics-Behaviour-Wellcome-ebook/dp/B00NG3OJUK/) credibility scale):
+Note that the maximum is around average. So, it may be not because of being smart, but - different.
+It mentions some really scary statistics like:
 
 > By the age of 19, 80% of US males and 75% of women have lost their virginity, and 87% of college students have had sex. But this number appears to be much lower at elite (i.e. more intelligent) colleges. According to [the article](http://web.archive.org/web/20060905085008/http://counterpoint.mit.edu/archives/Counterpoint_V21_I3_2001_Nov.pdf), only 56% of Princeton undergraduates have had intercourse. At Harvard 59% of the undergraduates are non-virgins, and at MIT, only a slight majority, 51%, have had intercourse. Further, only 65% of MIT graduate students have had sex.
+
+(Though, to be fair, it is at best `2*` data, according to the [Sex by Numbers](https://www.amazon.com/Sex-Numbers-Statistics-Behaviour-Wellcome-ebook/dp/B00NG3OJUK/) credibility scale.)
+
+So, if you are a virgin, you are still in a good company!
+If you are barely not a virgin, you may be ahead of this intellectual cohort.
+
+
+### Main issues
 
 From my anecdata, the main pain points are:
 
 * **poor social skills** - most of dating is in the extra-intellectual sphere, about reading cues, knowing cultural expectations and attracting (not: persuading) people
-* **poor body language** - sex is fundamentally about body - being a brain on a stick won't let you far
-* **unfavourable gender ratios** - many nerdy places (like math/phys/cs departments) don't have many girls; regardless of the reason, if you stick only to them, it can by an uphill battle
+* **poor body language** - sex is fundamentally about the body - being a brain on a stick won't get you far
+* **poor hygiene** - greasy hair, dirty clothes or (worst of all) bad breath can be instant turn-offs (good news: once you are aware of it, it’s super easy to fix it)
+* **unfavourable gender ratios** - many nerdy places (like math/phys/cs departments) don’t have many girls; regardless of the reason, if you stick only to them, it will be an uphill battle
 * **overthinking** - there are no perfect people; and initial impressions of a person may be not enough for predicting future possibilities
-* **talking not doing** - one common trap is that once you find a fascinating girl, you keep talking but don't do anything in sexual direction
-* **being misread** - a lot of your actions may be consider rude, malicious or cold; for example, [prosopagnosia](http://web.archive.org/web/20080704154655/http://www.prosopagnosia.com/main/stones/index.asp) may be read as ignoring people, saying raw thoughts can be seen as an insult, etc
-* **having niche interests** - mainstream interests can attract a wider spectrum of people; while some of it is a challenge you will face, you don't want to make your absorption spectrum a Dirac delta (particle physics offer many dating analogies: *Even if you cannot increase you absorption cross section, you can increase your flux.*)
-* **facts over emotions** - correcting someone's errors in casual conversation and delivering truth in their raw form is a thing nerds excel at; for a nerd a constructive criticism is the highest praise, for everyone else it is an insult.
+* **talking not doing** - one common trap is that once you find a fascinating girl, you keep talking but don’t do anything in a sexual direction; procrastination can freeze any project... and romantic pursuit
+* **being misread** - a lot of your actions may be considered rude, malicious or cold; for example, being in your thoughts can be seen as ignoring people, being honest - as trying to overtake power, etc.
+* **having niche interests** - mainstream interests can attract a wider spectrum of people
+* **facts over emotions** - correcting someone’s errors in casual conversation and delivering truth in its raw, insensitive form is rarely beneficial for dating
+* **intellectually intimidating** - knowledge of arcane subjects might be as much attracting as intimidating; often I was talk that she was afraid to say something dump, afraid I won't her serious if she does not know [insert a technical topic here], etc.
+* **being afraid of being a creep** - many shy guys are afraid that revealing their love, or lust, will result in ostracism (it may be a result of being bullied in the past, social anxiety or already feeling like an outsider)
 
-I will go how to address these points.
+I will go how to address these points, often starting from underlying causes.
 
-A large portion of culture is directed the non-nerds (let me invent a word: *neurotypicalonormative*): extroverted, with automatic ability to pick social cues and non-verbal messages, not-doubting.
 
-> The fundamental cause of the trouble is that in the modern world the stupid are cocksure while the intelligent are full of doubt.
-> - Bertrand Russell
+### Evil nerds
 
-> XXX Aaronson's quotation? XXX
+People will misinterpret and misattribute your actions and attitudes a lot. However, it does not absolve you of responsibility for checking if what you do is fine! Nerds are not immune to most vices, and there are some that they excel at.
 
+> You are probably going to be a very successful computer person. But you're going to go through life thinking that girls don't like you because you're a nerd. And I want you to know, from the bottom of my heart, that that won't be true. It'll be because you're an asshole. - [The Social Network 2010 film](https://en.wikiquote.org/wiki/The_Social_Network)
 
-### Nerd superpowers
+The whole [opening scene from The Social Network movie](https://www.youtube.com/watch?v=IlXwTxpC6u0) may make one cringe - it is a beautifully depiction of a smart, obsessed and arrogant nerd. It’s not only a misunderstanding - it’s constant ignoring and judging his date.
 
-Don't cry, being a nerd is not only a challenge. Besides [insight into arcane things other people are not aware of](https://www.youtube.com/watch?v=JdUq2opPY-Q), and [reasonably good job prospects](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html), some girls are interested in the brainy type.
+Even if you are (or were) underprivileged socially it does not automatically make you a good person. Being bullied does not guarantee you won’t turn into bully, vide this cynical twist of [The Ugly Duckling](http://www.smbc-comics.com/comic/2010-05-23) comic strip by [SMBC](http://www.smbc-comics.com/). What’s worse is when it goes beyond being unpleasant to being violent:
 
-What's crucial: you don't need to appeal to all women (*different strokes for different folks*). Some of them may be fellow nerds, some - not, but still, considering intellect, introversion and deep interests sexy.
+> The men who sexually trespass against me are nearly always men who are unhappy or at a difficult point in their life. They are nearly always men who experience social isolation more generally. They are also nearly always men not actively dating any other women.  
+> - [How Extreme Need Leads to Male Entitlement](https://medium.com/@emmalindsay/how-extreme-need-leads-to-male-entitlement-e758241305c9) by Emma Lindsay
 
-One friend of mine wanted to write *Why do neurotypical girls fancy nerdy boys?*, on her romantic interests. When I asked her why, she said:
+She, as a clearly nerdy woman, talks about her violators with a great deal of compassion, understanding and insight. To make it clear - no amount of suffering you received gives you a pass to harm innocent people. Through the reminder of this blog post series I make a strong assumption that you are committed to treat others with care, and not taking and unfair advantage, regardless of the circumstances.
 
-> I find genuine, intense interests and a lot of curiosity very attractive.
+Sure, nerds my come as insensitive, uncaring and rude, even if their intentions are good, see [INTP = asshole?](http://maylin22.blogspot.com/2013/12/intp-asshole.html).
+Often it is an unfair judgement - based on comparison with their *"obvious"* cultural norms. However, **I am a nerd** is not a get out of a jail card, and if anything - [will cause more ostracism than compassion](http://slatestarcodex.com/2015/01/01/untitled/).
 
-(I love nerds - Magda Kuś photo)
+Also, while in your workplace people may tolerate your ways, and turn a blind eye to your *"difficult character"* if you are an expert, the same thing won’t work in relationships. While nerds are in some demand, it’s nowhere near to programmers in the workforce.
 
-While being different may gave your bulling in primary school, now it may be an advantage - you stand out!
 
-Also, particular interests may make it easier to find a very non-random girl - by meeting her through a network of like-minded friends, or an a specialistic event.
+### Girls who love nerds
 
+Yes, yes - whatever you were told, it’s not only jocks who attract women. Besides [insight into arcane things other people are not aware of](https://www.youtube.com/watch?v=JdUq2opPY-Q), and [reasonably good job prospects](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html), some girls are interested in the introverted, brainy type.
 
-### Randomness of human interactions
+What’s crucial: you don’t need to appeal to all women, and there are well enough women interested in nerdy men. Some of them may be fellow nerds, some not, but still considering intellect, introversion and deep interests sexy (a key world: [sapiosexual](http://www.urbandictionary.com/define.php?term=sapiosexual)). For some others your nerdism might be not relevant at all (just one of many aspects of your personality). Most importantly - if you are into some girl for her interests and character, there is a fair chance that she may find you as fascinating.
 
-There are no methods which work always or for everyone, every time.
+While still I have a soft spot for nerdesses, I no longer restrict to this circle. Dating non-nerds is not like dating outside of your religion… or species. OK, maybe it is a bit, but still - it may be worth it. While some differences may be tricky, some other may be very much complementary (vide this [Nerd shopping xkcd strip](https://xkcd.com/309/)).
 
-It's not a mathematical problem, where (even if insanely difficult) there is a perfect solution. It's not a computer program, which works each time the same way. It's not a RPG game, where someone could give you a hint, in the light of:
+One friend of mine wanted to write *"Why do neurotypical girls fancy nerdy boys?"*, on her romantic interests. When I asked her why, she said:
 
-> Talk with her: 1 3 3 2 4, then bring her a screwdriver, talk 3 1 1 2 and you are in her bed!
+> I find genuine, intense interests and a lot of curiosity very attractive. - MS
 
-Maybe she flirts with you just because its her way of interacting with all people.
-Maybe she doesn't talk much because she had a stressful day.
-Maybe you did something clever, but it intimidated her.
-Maybe you do something stupid, but she finds it funny.
+While being different may have resulted in bullying in primary school, now it may be an advantage - you stand out! Also, particular interests may make it easier to find a very non-random girl - by meeting her through a network of like-minded friends, or at a specialistic event.
 
-While it helps a lot to pay attention to sign that she may be interested, agonizing over it is likely to result in overfitting - focusing on random things that are mere coincidences.
+> The best dating website? [Meetup.com](https://www.meetup.com/)! - Sarah Martin
 
-In social relations there are not sure solutions. It's all about increasing odds.
-Think about a salesman, who want to sell a product - some people want to buy it no matter what, some won't, but many people are undecided, and it will all depend on the salesman's approach (also: if they go back to him to buy more, or feel scammed).
+When it comes to attractiveness, [The Mathematics Of Beauty - How you can use your flaws to your advantage](https://theblog.okcupid.com/the-mathematics-of-beauty-51bd25ae9a75#.30bygoppk) from the [OkCupid](https://www.okcupid.com/) blog shows that it is better to be very attractive to some (and non-attractive to others) rather than just ‘OK’ to everyone. While it talks about physical beauty, I would bet that a similar effect for other aspects.
 
-The same thing about dating - in some cases the girl is not interested and no amount of dating skills would change that. In some - she is interested and proactive, and you don't need much skills at all. But the uncertain zone is a big place - and here your skills matter a lot.
 
-Also, you don't interact with an average girl. Even if there are things that on the average differ by gender (and can be nice initial guesses!), you will always interact with a particular girl.
+## Ending
 
+I would like to especially thank to [Sarah Martin](https://sexcoachsarah.com/) and [Marcin Kotowski](https://www.math.toronto.edu/~marcin/).
 
-### Psychology 101
+In the next episode:
 
-Homo sapiens sapiens are a fascinating species, with complex social structures.
-Their courtship rituals are rich and culture-dependent.
-It is fascinating to read about their psychology... and as an earthbound alien, who go stranded here, you better learn it well!
+* Introverted dating in the extroverted world
+* Asperger syndrome and autism spectrum
+* Embodiment
+* Human interactions are a bit unpredictable - deal with it
+* How to make other people want you, rather than being needy
 
-(As a side note: Why do we need formal classes for mathematics, but it is assumed that we magically pick social skills on our own? I would rather do it the opposite way.)
+And in the meantime, one more funny link: [Casually Explained: Finding The One](https://www.youtube.com/watch?v=TgHtp16pXfg). ;)
 
-For general psychology, I read and benefited from
 
-* [R. Gerrig, P. Zimbardo, Psychology and Life](https://www.amazon.com/Psychology-Life-16th-Richard-Gerrig/dp/020533511X).
-
-though, I guess many other general psychology would do the job.
-But what is more crucial, and which is by far the most important link in the whole blog post, is
-
-* [Dale Carnegie, How to Win Friends and Influence People (1936)](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People)
-
-as it exactly covers the soft approach nerds struggle with.
-What I like is the main premise that every person want to feel important (no matter if it is a janitor, or a world-class author) and if you make her/him feel saw in a genuine way, it will do wonders for your contact.
-While this book is not about dating, it captures fundamental of this soft human interactions.
-
-For a shorter read, take a look at:
-
-* [17 Psychological Tricks To Make People Like You Immediately](http://www.iflscience.com/brain/17-psychological-tricks-to-make-people-like-you-immediately/all/), with an emphasis on:
-  * **smile** - I mean, modify your facial expression; show you emotions (and interest)!
-  * **casually touch them*** - this one is crucial, but also should be done gradually, with care; and even before: maintain some eye contact!
-  * **tell them a secret** - to make them feel special, trusted... and actually learn something private about you
-  * **let them talk about themselves** - for every person the favourite topic is themselves; and there is common issue with nerds in a passionate monologue.
-
-
-
-### It is harder for boys than girls
-
-You may get impression that dating is harder boys than girls - for one it's a chore, and for the the second - it's a choice. Well, the data is unfortunately on your side, see the chart *relationship status fraction vs age* from:
-
-* [Data Science of the Facebook World ](http://blog.stephenwolfram.com/2013/04/data-science-of-the-facebook-world/) (2013),
-
-which seems to be a direct consequence that women often date older men
-
-* [OK Cupid Data on Sex, Desirability, and Age](https://thesocietypages.org/socimages/2015/07/03/ok-cupid-data-on-sex-desirability-and-age/) by Lisa Wade (2015).
-
-The good news is that while it sucks before for men <25yo, the situation is reversed afterwards. So, (a bit of) time is on your side!
-
-Additionally, from my personal experience (sadly, I don't have data for that) - women with age and experience learn what they want and don't want to do. It makes it easier for nerds, as there is more proactivity on their side, and much less uncertainty, games (e.g. if she says she don't want any sex before marriage she likely means that).
-
-You may say that at least when it comes to sex it is easier for girls:
-
-> For men getting sex is a chore, for women getting sex is a choice.
-
-As in most cases getting *any* sex by a girl is trivial, compared to the effort required by a boy.
-So, is it cool? Not necessarily.
-While for some men it may be the
-
-> Sex is like pizza - even when it is bad, it is still pretty good.
-
-it's rarely the case for woman. Good sex requires safety, care and effort. (If you want to get a single marker - for a male it is usually trivial to experience an orgasm during each intercourse; rarely for a female)
-
-And even if a women is up for *one night stand*, she rarely wants to be treated as an object, as *a piece of meat*. A men using her only as a means for his pleasure will rarely put effort into pleasing her.
-
-Additionally, if there are many eyes looking at a bar, or many Tinder messages, it is harder to find genuinely interested guys (who may be shy) among the crowd of false-positives.
-Is she is rather interested in *one life stand*, it gets even trickier.
-
-
-### Girl's perspective
-
-First, for most your problems there are similar or analogue - what gives you an idea that she has it easier to find someone with similar interests, or to overcome shyness?
-
-Second, there is much more social pressure on the way she behaves. Parts are related to putting value on girls chastity. But it seems that the highest burden is from (often unrealistic) expectations related to the beauty standards. In the worst case she may feel that her whole dating prospects are reduced to her looks, see this drawing:
-
-* [It's not only looks](http://66.media.tumblr.com/7050d427d3d58a7e0c6d86e4436ffb35/tumblr_oad6r4kAcr1sxo1gdo1_1280.jpg) by [Patrizia Comino](http://patriziacomino.tumblr.com/)
-
-Third, she has many legitimate concerns related to her safety:
-
-* getting **pregnant** - all health burden is on her, and most of the social one (even if you take the full responsibility, which she might doubt),
-* contracting an **STI** - while it happens to men, for women risks are higher - both of transmission and consequences; they are less reckless, when it comes to the risks,
-* attracting a **stalker** or any other way of maintaining contact with her against her will,
-* getting **raped** - by you, your drunk friend, some stranger on her way home; sadly roughly 20% of women fall victims (XXX check and link XXX).
-
-When it comes to physical violence:
-
-* [Almost all men are stronger than almost all women - r/dataisbeutiful](https://www.reddit.com/r/dataisbeautiful/comments/4vcxd0/almost_all_men_are_stronger_than_almost_all_women/)
-
-and women know that. Even if you never use force, they know that you could.
-Even if you know you would never hurt her, make sure to make her feel safe.
-Make sure you respect her wishes (especially *noes*; with *yeses* usually there is less friction) and that she can safely express them; and that you won't try to circumvent it.
-
-* [Tea Consent](https://www.youtube.com/watch?v=oQbei5JGiT8)
-
-What really helps is if you know her though a network of friends, and there are people she trusts that can vouch for you.
-
-
-### Interests
-
-(What I wanted to write here?)
-
-### Everyone is a weirdo
-
-One of the key lessons I've learnt from having flatmates is that everyone is a weirdo.
-(Which turns out to be important in business.)
-
-If she behaves strangely, it
-
-
-### Gender differences
-
-Or: *Let's be friends... with benefits*
-
-
-The traditional ways to deal with that is to say that men and women cannot be friends.
-
-http://www.laddertheory.com/yesvirginia.htm
-
-What's the problem with having friends you are sexually attracted to?
-
-(bi velociraptor stuff?)
-
-()
-
-
-(This great reddit thread!)
-
-* [Is There Anything Good About Men? by Roy F. Baumeister](http://www.denisdutton.com/baumeister.htm)
-
-
-
-If you like this text I would be grateful for supporting Web Archive.
-
-^osamotnienie: *osamotnie*
-^alchemist: Ted Chaing
-^nerdowka: I love word *nerdówka* (pl).
+[^suckless]: I cringe each time when I imagine people experienced my awkward courtship. So to clarify: I just suck less than I used to.
+[^alchemist]: Most likely I will never be in position to teach my younger self in that matters, unlike in Ted Chiang, The Merchant and the Alchemist's Gate, [pdf](https://pkubbs.net/attach/boards/ScienceFiction/M.1209705460.A/Ted_Chiang.pdf)
+[^consult]: As always, before taking this advice consult you doctor, rabbi, PhD advisor or reptilian overlord.
