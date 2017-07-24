@@ -142,7 +142,7 @@ From my anecdata, the main pain points are:
 * **being misread** - a lot of your actions may be considered rude, malicious or cold; for example, being in your thoughts can be seen as ignoring people, being honest - as trying to overtake power, etc.
 * **having niche interests** - mainstream interests can attract a wider spectrum of people
 * **facts over emotions** - correcting someone’s errors in casual conversation and delivering truth in its raw, insensitive form is rarely beneficial for dating
-* **intellectually intimidating** - knowledge of arcane subjects might be as much attracting as intimidating; often I was talk that she was afraid to say something dumb, afraid I won't her serious if she does not know [insert a technical topic here], etc.
+* **intellectually intimidating** - knowledge of arcane subjects might be as much attracting as intimidating; often I was told that she was afraid to say something dumb, afraid I won't her serious if she does not know [insert a technical topic here], etc.
 * **being afraid of being a creep** - many shy guys are afraid that revealing their love, or lust, will result in ostracism (it may be a result of being bullied in the past, social anxiety or already feeling like an outsider)
 
 I will go how to address these points, often starting from underlying causes.
