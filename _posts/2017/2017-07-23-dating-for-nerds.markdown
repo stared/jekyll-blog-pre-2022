@@ -112,7 +112,7 @@ In short - being very picky and having a main focus other than mating makes dati
 
 > [used with permission](https://twitter.com/mikaelwulff/status/881894399185211394)
 
-Don’t get we wrong - witty humour and an extensive vocabulary may help a lot, as well as some possible side-effects (such as good social standing or popularity). Just - sheer brainpower is not enough.
+Don’t get me wrong - witty humour and an extensive vocabulary may help a lot, as well as some possible side-effects (such as good social standing or popularity). Just - sheer brainpower is not enough.
 Your intellect makes some of tasks way easier, but one of the key [Smart Guy Productivity Pitfalls](http://bookofhook.blogspot.com/2013/03/smart-guy-productivity-pitfalls.html) is to use it in lieu of effort.
 For dating it may be even more treacherous - here you are not at a big advantage to start with. It seems that data support it:
 
