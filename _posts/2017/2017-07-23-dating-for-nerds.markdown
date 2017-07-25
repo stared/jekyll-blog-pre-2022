@@ -161,7 +161,7 @@ Even if you are (or were) underprivileged socially it does not automatically mak
 > The men who sexually trespass against me are nearly always men who are unhappy or at a difficult point in their life. They are nearly always men who experience social isolation more generally. They are also nearly always men not actively dating any other women.  
 > - [How Extreme Need Leads to Male Entitlement](https://medium.com/@emmalindsay/how-extreme-need-leads-to-male-entitlement-e758241305c9) by Emma Lindsay
 
-She, as a clearly nerdy woman, talks about her violators with a great deal of compassion, understanding and insight. To make it clear - no amount of suffering you received gives you a pass to harm innocent people. Through the reminder of this blog post series I make a strong assumption that you are committed to treat others with care, and not taking and unfair advantage, regardless of the circumstances.
+She, as a clearly nerdy woman, talks about her violators with a great deal of compassion, understanding and insight. To make it clear - no amount of suffering you received gives you a pass to harm innocent people. Through the reminder of this blog post series I make a strong assumption that you are committed to treat others with care, and not taking an unfair advantage, regardless of the circumstances.
 
 Sure, nerds my come as insensitive, uncaring and rude, even if their intentions are good, see [INTP = asshole?](http://maylin22.blogspot.com/2013/12/intp-asshole.html).
 Often it is an unfair judgement - based on comparison with their *"obvious"* cultural norms. However, **I am a nerd** is not a get out of a jail card, and if anything - [will cause more ostracism than compassion](http://slatestarcodex.com/2015/01/01/untitled/).
