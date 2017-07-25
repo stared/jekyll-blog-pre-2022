@@ -8,9 +8,9 @@ tags:
 description: >-
   Heterosexual male nerd dating problem - does it exist? What are the main pain points?
 image: /imgs/2017-07-23-dating-for-nerds-1/i_love_nerds_part.jpg
-extras:
-  - text: "Hacker News discussion thread"
-    href: https://news.ycombinator.com/item?id=14834641
+#extras:
+#  - text: "Hacker News discussion thread" # only 28 upvotes
+#    href: https://news.ycombinator.com/item?id=14834641
 ---
 
 # Dating for nerds (part 1): problem diagnosis
