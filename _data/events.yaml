@@ -1,13 +1,13 @@
 - talk:  Fundamentals of database technologies
   event: Imperial College Business School
-  href:  https://www.imperial.ac.uk/business-school/
+  href:  "https://www.imperial.ac.uk/business-school/"
   place: "London (UK)"
   date:  2017-10-12
   tags:  [course]
 
 - talk:  Detecting trypophobia triggers with deep learning
   event: "Brainhack - Aspects of Neuroscience"
-  href:  https://brainhackwarsaw.github.io/
+  href:  "https://brainhackwarsaw.github.io/"
   place: "Warsaw (Poland)"
   date:  2017-11-18
   tags:  [hackathon, mentoring]
