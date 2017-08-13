@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '!!con or doing inclusivity well'
-date: '2017-08-14 01:24'
+date: '2017-08-14 01:24 +0100'
 author: Piotr Migdał
 tags:
   - event
