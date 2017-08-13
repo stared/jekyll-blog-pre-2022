@@ -87,6 +87,8 @@ One of key problems I find in supposedly meritocratic communities is that there 
 It means that this kind of meritocracy is often steeped with typical a-meritocratic tribalism (knowledge of trivia, some kind of local religion, getting in-jokes). Moreover, even in its naked form, meritocracy (understood as judging people by their skills) depends on how we measure skill and our *subjective opinion* of what to value. It is not necessarily the same thing as providing a fertile and welcoming environment for growth.
 A lot of new things stem for unexpected ideas, atypical combinations of skills, and questions often asked by novices with fresh minds.
 
+* [There are no projects like side projects](http://crastina.se/theres-no-projects-like-side-projects/) by me
+
 Sure, for job openings with very concrete tasks it's reasonable to expect some well-defined skills. Things are different for conferences, which are all about dissemination of knowledge, exchange, cross-pollination of ideas, and serendipitous meetings.
 
 ![Games - !!con](/imgs/2017-08-14-bangbangcon-inclusivity/games.jpg)
@@ -96,7 +98,7 @@ Here, even though I was never a Recurse Center participant, I never felt like an
 
 ## Overall impression
 
-Overall, despite sleep deprivation, I felt really stimulated, with a huge motivational boost (I would have dived back into [Quantum Game](http://quantumgame.io/) development, if it weren't for the next conference) and I met stunningly interesting people. One person showed me her blog... then I realized that I had posted [their last article on SVMs](https://generalabstractnonsense.com/2017/03/A-quick-look-at-Support-Vector-Machines/) on Reddit. (There should be a word for meeting people and later realizing that I use their project, read their post, etc.) With another person - we turned out to be meta-collaborators.
+Overall, despite sleep deprivation, I felt really stimulated, with a huge motivational boost (I would have dived back into [Quantum Game](http://quantumgame.io/) development, if it weren't for the next conference) and I met stunningly interesting people. One person showed me her blog... then I realized that I had posted [their last article on SVMs](https://generalabstractnonsense.com/2017/03/A-quick-look-at-Support-Vector-Machines/) on Reddit. (There should be a word for meeting people and later realizing that I use their project, read their post, etc.) With another person - we turned out to be meta-collaborators. And I got inspired by the idea of [using deep learning for creating game graphics](http://katieamazing.com/blog/2016/12/15/art-generation-style-transfer).
 
 And now I have some tingling sensation pushing me to (co-)organize something new (in data science? in game dev?). My other duties hope it will fade away, but you know... ;)
 
