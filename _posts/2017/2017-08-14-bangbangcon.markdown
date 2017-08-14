@@ -11,7 +11,7 @@ description: >-
 image: /imgs/2017-08-14-bangbangcon-inclusivity/diy-badges.jpg
 ---
 
-Widespread uproar about the Googler's memo[^google] gave me the impulse to make a small email excavation and write about an awesome experience of inclusivity I experienced at one conference.
+Widespread uproar about the Googler's memo[^google] gave me the impulse to make a small email excavation and write about an awesome experience of inclusivity I had at one conference.
 Crucial components were:
 
 * inclusive-inclusivity (i.e. reasonable accommodation for many traits)
@@ -20,7 +20,7 @@ Crucial components were:
 > Like in the best geek camps in my life I could feel myself and express it without fear of being judged. Though, it it was way more open for geeks, nerds, queer folk, neurotypicals and all other good-willed and curious creatures.
 
 A few months ago I participated in [!!con](http://bangbangcon.com/) (6-7 May 2017, New York), a bottom-up conference based on 10 min talks on any topic related to programming (or: [experiencing computing viscerally](http://composition.al/blog/2016/08/31/experiencing-computing-viscerally-my-pg-podcast-interview-about-bangbangcon/).
-It was organized by [Recurse Center (formerly: Hacker School)](https://www.recurse.com/) alumni, including its most prolific blogger, [Julia Evans](https://jvns.ca/). There were about [30 talks](http://bangbangcon.com/speakers.html) and 200 participants. Ticket disappeared 14 min after opening registration. And for my taste there wasn't single bad talk.
+It was organized by [Recurse Center (formerly: Hacker School)](https://www.recurse.com/) alumni, including its most prolific blogger, [Julia Evans](https://jvns.ca/). There were about [30 talks](http://bangbangcon.com/speakers.html) and 200 participants. Ticket disappeared 14 min after opening registration. And for my taste there wasn't single bad talk and ~50% were awesome.
 
 I went there exactly between [Open Data Science Conference](https://www.odsc.com/training/portfolio/neptune-one-platform-rule-manage-monitor-data-science-experiments) in Boston and [GPU Technology Conference](http://www.gputechconf.com/) in San Jose. It was a stretch, but totally worth it!
 
