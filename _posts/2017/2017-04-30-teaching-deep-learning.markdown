@@ -16,6 +16,11 @@ extras:
     href: https://twitter.com/fchollet/status/858840192261644292
   - text: "Facebook post by Kaggle with over 200 shares"
     href: "https://www.facebook.com/kaggle/photos/a.10150387148668464.377856.135534208463/10155346265978464/?type=3&theater"
+external:
+  title: First Steps of Learning Deep Learning: Image Classification in Keras
+  href: http://www.kdnuggets.com/2017/08/first-steps-learning-deep-learning-image-classification-keras.html
+  status: reprinted to KDnuggets
+  date: 2017-08-16 09:30 +0800
 ---
 
 I teach deep learning both for a living (as the main [deepsense.io instructor](http://workshops.deepsense.io/), in a Kaggle-winning team[^deepsense]) and as a part of my volunteering with the [Polish Children's Fund](http://crastina.se/gifted-children-in-poland-by-piotr-migdal/) giving workshops to gifted high-school students[^trypophobia]. I want to share a few things I've learnt about teaching (and learning) deep learning.
