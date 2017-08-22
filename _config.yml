@@ -23,6 +23,7 @@ usernames:
 
 # Build settings
 markdown: kramdown
+timezone: "+0100"
 
 # Defaults
 defaults:
