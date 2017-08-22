@@ -132,7 +132,7 @@ or at least some kind of a big, big con. But after paying money, it turned out t
 
 ### Rejection letter
 
-Posted with Erty Seidohl's permission:
+By the [@bangbangcon organizers](https://twitter.com/hausdorff_space/status/897841199901319168), posted with permission:
 
 > Hello,  
 >  
