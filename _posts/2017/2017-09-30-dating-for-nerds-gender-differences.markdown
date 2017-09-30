@@ -6,18 +6,14 @@ author: Piotr Migdał
 tags:
   - dating
 description: >-
-  Yet, for dating averages matter a lot, and change the overall dynamics. This part of dating for nerds series is focused on the differences between genders that may affect dating.
+  This part of dating for nerds series is focused on the differences between genders that may affect dating: social expectations, safety, choosiness, taking initiative.
 image: /imgs/2017-09-30-dating-for-nerds-gender-differences/dating_looks_poetry_patrizia_comino.jpg
-
 layout: "post"
-
 date: "2017-09-30 09:42"
 ---
 
 
 A typical metaphor for dating is a hunt, or a competitive game. It shouldn’t be! A much more fruitful metaphor is a collaborative project - you may bring different skills and have different priorities, but work on a common goal. Conversely, if you treat your dates as adversaries, they are likely to reciprocate the same way.
-
-[![](/imgs/2017-09-30-dating-for-nerds-gender-differences/gaussian_outrage.jpg)](https://twitter.com/sentientist/status/894959693822558209)
 
 Hetero-dating is not a symmetric activity. Sure, `#notAllMen` and `#notAllWomen`, as for most traits variance within a group is much higher than variance between groups[^averages].
 
@@ -32,6 +28,11 @@ In most cases the differences are small (though, overblown by popular psychology
 * [Gender differences in sexuality: A meta-analysis](http://dx.doi.org/10.1037/0033-2909.114.1.29) by Mary Beth Oliver and Janet Shibley Hyde (1993), [pdf here](http://emilkirkegaard.dk/en/wp-content/uploads/Gender-differences-in-sexuality-A-meta-analysis.pdf).
 
 Still, it is crucial to be aware of some of different motivations and preferences.
+
+[![](/imgs/2017-09-30-dating-for-nerds-gender-differences/gaussian_outrage.jpg)](https://twitter.com/sentientist/status/894959693822558209)
+
+> * [A handy graphic for understanding outrage at statements about average differences between groups](https://twitter.com/sentientist/status/894959693822558209) by Diana S. Fleischman‏
+
 
 ## It is harder for boys than girls
 
@@ -72,7 +73,7 @@ One crucial point, regardless of the type of relationship, is her safety. She ha
 * contracting an **STI** - while it happens to men, for women the risk is higher - both of transmission and of consequences; also: they tend to be less reckless when it comes to their health,
 * attracting a **stalker** or any other person who may attempt to maintain contact with her against her will,
 * getting **raped** - by you, your drunk friend, some stranger on her way home; sadly, [roughly 15% of women fall victim](https://www.rainn.org/statistics/scope-problem).
-*
+
 What really helps is if you know her through a network of friends, and there are people she trusts that can vouch for you. When it comes to physical violence - [almost all men are stronger than almost all women](https://www.reddit.com/r/dataisbeautiful/comments/4vcxd0/almost_all_men_are_stronger_than_almost_all_women/) and women know that. Even if you never use force, they know that you could. Even if you know you would never hurt her, you must help her feel safe.
 
 Popular culture harms us not only with unreasonable visions of romance (see [Disney Has Ruined Modern Romance](https://www.theodysseyonline.com/honest-look-modern-romance)), but it also spreads really bad examples:
@@ -108,8 +109,7 @@ If you are interested in a given women, you shouldn’t be afraid to show it to 
 
 The attractive part of confidence is not about being a jerk, who never admits to being wrong. It’s about calm and warm comfort. And it’s true not only for humans: [Think You Know What “Alpha Male” Means? These Wolves Will Prove You Wrong](https://www.rd.com/advice/relationships/alpha-male-wolves/).
 
-
-# Casual sex
+## Casual sex
 
 You may say that at least when it comes to sex it is easier for women:
 
@@ -140,6 +140,7 @@ There is a stereotype that women do not like sex, and use it as a bargaining chi
 Some general hints are here:
 
 * [18 signs you’re having sex with a decent person](http://metro.co.uk/2017/06/17/18-signs-youre-having-sex-with-a-decent-person-6715364/) by Ellen Scott
+
 
 ## Gender ratios
 
@@ -221,7 +222,7 @@ Also, bisexual women often shine some light how these differences manifest in da
 
 ## Taking initiative
 
-In many social contexts, it is expected that a man is going to take initiative (ask out, ask to kiss, etc). Even if she is interested, she may expect you to move things forward. If you don’t, she may assume that you are not interested in her at all. It is a pretty strong gender difference, and if you miss this one - well, you will pass on most of the women interested in you. (No, life is not a romantic comedy, in which it’s often the girl who asks the cute-but-shy boy out.)
+In many social contexts, it is expected that a man is going to take initiative (ask out, ask to kiss, etc). Even if she is interested, she may expect you to move things forward. If you don’t, she may assume that you are not interested in her at all. It is a pretty strong gender difference, and if you miss this one - well, you will pass on most the women interested in you. (No, life is not a romantic comedy, in which it’s often the girl who asks the cute-but-shy boy out.)
 
 * [Cupid on Trial: A 4-month Online Dating Experiment Using 10 Fictional Singletons](http://jonmillward.com/blog/attraction-dating/cupid-on-trial-a-4-month-online-dating-experiment/)
 * [Men on Tinder Explain Why They Swipe Right on Literally Everyone](https://broadly.vice.com/en_us/article/men-who-swipe-right-to-everyone-on-tinder-explain-themselves) by Sirin Kale or [How Tinder “Feedback Loop” Forces Men and Women into Extreme Strategies](https://www.technologyreview.com/s/601909/how-tinder-feedback-loop-forces-men-and-women-into-extreme-strategies/)
@@ -275,11 +276,11 @@ Another common socialization is pressure to perform (at work, in bed, everywhere
 
 There is a widespread mindset of competition among men, ideally centered around objective measures like numbers (salary, number of sex partners etc) and avoiding subjective measures of fulfillment. There is a proverbial example:
 
-* [Perceived Average and Ideal Penis Size](https://www.dred.com/uk/does-size-matter/) (yes, most of men think their own device is too short)
+* [Perceived Average and Ideal Penis Size](https://www.dred.com/uk/does-size-matter/) (yes, most men think their own device is too short)
 
 Don’t fall into that trap, as it is unlikely to make you more happy. At the same time, especially when it comes to your sex life, you will compare yourself against unreasonable exaggerations and brags.
 
-Writing about sex makes me feel like I’m either humble-bragging or pandering. There’s no inbetween. - [Why We (Men) Don’t Write About Our Sex Lives](http://verysmartbrothas.com/why-we-men-dont-write-about-our-sex-lives/) by Damon Young
+> Writing about sex makes me feel like I’m either humble-bragging or pandering. There’s no inbetween. - [Why We (Men) Don’t Write About Our Sex Lives](http://verysmartbrothas.com/why-we-men-dont-write-about-our-sex-lives/) by Damon Young
 
 Why does it matter (for dating, not only - well-being or making society better)? The key thing is to be open to experiences. Treating every *“I didn’t have sex”* as a failure is going to result in a lot of frustration, often for no good reason. Maybe you had a wonderful conversation, or some blissful cuddling. Don’t ruin it by setting your goals too narrow. Appreciate the time with her, and don’t turn dating into an array of checkboxes or a score count. Even worse, if you are driven to have sex mostly to score, it won’t be respectful of her:
 
@@ -295,9 +296,9 @@ But in the process of getting know her better and better, sticking to the gender
 
 ## Closing remarks
 
-I am really grateful to [Sarah Martin](https://sexcoachsarah.com/) for all inspiring conversations. This post also benefited from remarks by Maria Łepkowska and Michał Kaftanowicz.
+I am really grateful to [Sarah Martin](https://sexcoachsarah.com/) for all inspiring conversations. This post also benefited from remarks by [Maria Łepkowska](https://www.instagram.com/malpanka/) and Michał Kaftanowicz.
 
 I know I promised to write about social skills first. Yet, it has proved to be a way more challenging topic than gender differences. The next one will be either
 
-* *dating for aspies* or
+* *social skills for aspies* or
 * nice guys, friend zone and rejections.  
