@@ -11,7 +11,7 @@ image: /imgs/2017-09-30-dating-for-nerds-gender-differences/dating_looks_poetry_
 layout: "post"
 date: "2017-09-30 09:42"
 extras:
-  - text: "Hacker News discussion - see here"
+  - text: "Hacker News discussion - it's on the front page now! :)"
     href: https://news.ycombinator.com/item?id=15372552
 ---
 
