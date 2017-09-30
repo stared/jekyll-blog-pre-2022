@@ -194,13 +194,15 @@ When it comes to attractiveness, [The Mathematics Of Beauty - How you can use yo
 
 I would like to especially thank to [Sarah Martin](https://sexcoachsarah.com/) and [Marcin Kotowski](https://www.math.toronto.edu/~marcin/).
 
-In the next episode:
+In the next episodes:
 
-* Introverted dating in the extroverted world
-* Asperger syndrome and autism spectrum
-* Embodiment
-* Human interactions are a bit unpredictable - deal with it
-* How to make other people want you, rather than being needy
+* [Dating for nerds (part 2): gender differences](http://p.migdal.pl/2017/09/30/dating-for-nerds-gender-differences.html)
+* Dating for nerds (part 3): social skills
+  * Introverted dating in the extroverted world
+  * Asperger syndrome and autism spectrum
+  * Embodiment
+  * Human interactions are a bit unpredictable - deal with it
+  * How to make other people want you, rather than being needy
 
 And in the meantime, one more funny link: [Casually Explained: Finding The One](https://www.youtube.com/watch?v=TgHtp16pXfg). ;)
 
