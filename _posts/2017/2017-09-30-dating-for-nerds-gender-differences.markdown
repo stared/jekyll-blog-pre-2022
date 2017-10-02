@@ -11,7 +11,7 @@ image: /imgs/2017-09-30-dating-for-nerds-gender-differences/dating_looks_poetry_
 layout: "post"
 date: "2017-09-30 09:42"
 extras:
-  - text: "Hacker News discussion - it's on the front page now! :)"
+  - text: "was even on Hacker News (but got flagged)"
     href: https://news.ycombinator.com/item?id=15372552
 ---
 
@@ -111,6 +111,7 @@ If you are interested in a given women, you shouldn’t be afraid to show it to 
 
 The attractive part of confidence is not about being a jerk, who never admits to being wrong. It’s about calm and warm comfort. And it’s true not only for humans: [Think You Know What “Alpha Male” Means? These Wolves Will Prove You Wrong](https://www.rd.com/advice/relationships/alpha-male-wolves/).
 
+
 ## Casual sex
 
 You may say that at least when it comes to sex it is easier for women:
@@ -150,13 +151,11 @@ Many places in which we spend our time have an uneven gender ratio - be it workp
 
 You are likely to spend time in places with a gender imbalance in (questionable) favor of your gender. See [Most Female and Male Occupations Since 1950](http://flowingdata.com/2017/09/11/most-female-and-male-occupations-since-1950/) by Nathan Yay:
 
-![](/imgs/2017-09-30-dating-for-nerds-gender-differences/gender_occupations_flowingdata.png)
+[![](/imgs/2017-09-30-dating-for-nerds-gender-differences/gender_occupations_flowingdata.png)]((http://flowingdata.com/2017/09/11/most-female-and-male-occupations-since-1950/))
 
 It also happens the other way - many liberal arts and humanities departments lack men. One of my friends complained about a party she attended:
 
 > Adrianna: the only heterosexual male was the host’s cat
-
-[^averages]: You spend your evenings with people, not - averages. Unless you are a stats nerd.
 
 If you are confined within such environments even small deviations from an even ratio change the dating dynamics [Dating Scene from The Difference Between Living in New York and San Francisco](http://thecooperreview.com/difference-between-living-in-new-york-and-san-francisco/). The supply and demand mechanics can lead to serious effects [Sex and the single black woman - The Economist](http://www.economist.com/node/15867956).
 
@@ -302,3 +301,6 @@ I know I promised to write about social skills first. Yet, it has proved to be a
 
 * *social skills for aspies* or
 * nice guys, friend zone and rejections.  
+
+
+[^averages]: You spend your evenings with people, not - averages. Unless you are a stats nerd.
