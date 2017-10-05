@@ -295,7 +295,7 @@ But in the process of getting know her better and better, sticking to the gender
 
 ## Closing remarks
 
-I am really grateful to [Sarah Martin](https://sexcoachsarah.com/) for all inspiring conversations. This post also benefited from remarks by [Maria Łepkowska](https://www.instagram.com/malpanka/) and Michał Kaftanowicz.
+I am really grateful to [Sarah Martin](https://sexcoachsarah.com/) for all inspiring conversations. This post also benefited from remarks by [Maria Łepkowska](https://www.instagram.com/malpanka/) and [Michał Kaftanowicz](http://kaftanowicz.com/).
 
 I know I promised to write about social skills first. Yet, it has proved to be a way more challenging topic than gender differences. The next one will be either
 
