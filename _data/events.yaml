@@ -1,3 +1,10 @@
+- talk:  Teaching Machine Learning
+  event: PyData Warsaw Conference
+  href:  "https://odsc.com/training/portfolio/behind-scenes-training-managing-deploying-models"
+  place: "Warsaw (Poland)"
+  date:  2017-10-19
+  tags:  [talk, conference]
+
 - talk:  Behind the scenes of training, managing and deploying models
   event: Open Data Science Conference
   href:  "https://odsc.com/training/portfolio/behind-scenes-training-managing-deploying-models"
