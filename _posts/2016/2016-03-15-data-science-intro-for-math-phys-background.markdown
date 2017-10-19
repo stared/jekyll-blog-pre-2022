@@ -325,11 +325,11 @@ Since you are in maths, it may be possible for you to make a shortcut and get in
 
 This blog post started as emails, and went through a stage of an extract of emails (shared on Google Docs). It took me way more time than I expected to present it in the current form.
 
-There are many people who helped me with this post, at its various stages (starting from asking me questions!). But I would like to especially thank to: Adam Goliński, Sebastian Jaszczur, Kasia Kulma and [Robert Bogucki](http://deepsense.io/author/robert-bogucki/) for their remarks on the final version.
+There are many people who helped me with this post, at its various stages (starting from asking me questions!). But I would like to especially thank to: Adam Goliński, Sebastian Jaszczur, Kasia Kulma and Robert Bogucki for their remarks on the final version.
 
 I would love to hear your feedback! Did you find it useful? Or maybe you would recommend another learning strategy? Or additional links?
 
-Or maybe your company needs a data science training? I would be happy to provide it! See [workshops.deepsense.io](http://workshops.deepsense.io/) for the menu (and we are happy to make custom workshops) and fill the form or contact me directly!
+Or maybe your company needs a data science training? I would be happy to provide it! See [http://deepsense.ai](http://deepsense.ai/) for the menu (and we are happy to make custom workshops) and fill the form or contact me directly!
 
 
 [^1]: For instance, if you don't have a quantitative background, you need to focus on it (and it may be the hardest part). Since it was not my path, I can't help.
