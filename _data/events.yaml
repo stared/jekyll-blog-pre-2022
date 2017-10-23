@@ -1,6 +1,7 @@
 - talk:  Teaching Machine Learning
   event: PyData Warsaw Conference
-  href:  "https://odsc.com/training/portfolio/behind-scenes-training-managing-deploying-models"
+  href:  https://pydata.org/warsaw2017/
+  slides: https://speakerdeck.com/pmigdal/teaching-machine-learning
   place: "Warsaw (Poland)"
   date:  2017-10-19
   tags:  [talk, conference]
