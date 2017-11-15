@@ -87,7 +87,7 @@ The biggest thanks is for all speakers - it is them who make a conference a grea
 * [Katharine Jarmul](https://twitter.com/kjam) (author of [Data Wrangling with Python](http://shop.oreilly.com/product/0636920032861.do) book)
 * [Cameron Davidson-Pilon](https://github.com/CamDavidsonPilon) (author of [Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) book and lifelines package)
 
-Special thanks to the **program committee**: Dominik Batorski, Łukasz Czarnecki, Maciej Jaśkowski, Rafał Małanij, Piotr Migdał, Mateusz Opala, Piotr Szwed and the **organizing committee**: Filip Danieluk, Klaudia Gębala, Marta Krysa, Marianna Krzewińska, Rafał Małanij, Małgorzata Parfieniuk, Sujatha Ramshanker.
+Special thanks to the **program committee**: Dominik Batorski, Michalina Boguszewska, Łukasz Czarnecki, Maciej Jaśkowski, Rafał Małanij, Piotr Migdał, Mateusz Opala, Piotr Szwed and the **organizing committee**: Filip Danieluk, Klaudia Gębala, Marta Krysa, Marianna Krzewińska, Rafał Małanij, Małgorzata Parfieniuk, Sujatha Ramshanker.
 
 
 ## Talks, once again :)
