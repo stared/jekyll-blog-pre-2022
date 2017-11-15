@@ -52,7 +52,7 @@ This is a piece of information for prospective conference organizers.
 After booking a venue and persuading sponsors that we will get many attendees, it is stressful to see only a handful os sign ups.
 Don't worry - many people book things just before the deadline!
 
-![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/checkins_pdwc17.png)
+![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/signups_pdwc17.png)
 
 For more on this subject, see:
 
@@ -62,9 +62,9 @@ If you are curious about the ticket types, here they are:
 
 ![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/tickets_pdwc17.png)
 
-Also, there is data for sign ups. Though, it comes with a disclaimer that some people may have come in earlier, and formally signed up later.
+Also, there is data for check ins (91% of those who signed up). Though, it comes with a disclaimer that some people may have come in earlier, and formally checked in later.
 
-![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/signups_pdwc17.png)
+![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/checkins_pdwc17.png)
 
 
 ### T-Shirt
