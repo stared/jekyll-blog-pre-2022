@@ -73,7 +73,7 @@ As any respectable conference, we had T-shirts. The sizes were:
 
 ![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/tshirts_pdwc17.png)
 
-My girlfriend wrote [Death to the Conference T-Shirt](https://medium.com/@SexCoachSarah/death-to-the-conference-t-shirt-2438b24589d0). Yet, she liked this one. The top tip is to select a t-shirt in the correct size for you, and when in doubt, aim for a smaller size. Plus, in this case they were nice and clean, with a beautiful conference logo designed by Magdalena Grodzińska.
+My girlfriend wrote [Death to the Conference T-Shirt](https://medium.com/@SexCoachSarah/death-to-the-conference-t-shirt-2438b24589d0). Yet, she liked this one. The top tip is to select a T-shirt in the correct size for you, and when in doubt, aim for a smaller size. Plus, in this case they were nice and clean, with a beautiful conference logo designed by Magdalena Grodzińska.
 
 
 ## Thanks
