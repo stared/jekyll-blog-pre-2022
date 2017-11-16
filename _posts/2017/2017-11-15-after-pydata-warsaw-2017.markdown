@@ -49,7 +49,7 @@ While it was an international event by all means, 80% participants were from Pol
 ### Sign up and check in times
 
 This is a piece of information for prospective conference organizers.
-After booking a venue and persuading sponsors that we will get many attendees, it is stressful to see only a handful os sign ups.
+After booking a venue and persuading sponsors that we will get many attendees, it is stressful to see only a handful of sign ups.
 Don't worry - many people book things just before the deadline!
 
 ![](/imgs/2017-11-15-after-pydatwa-warsaw-2017/signups_pdwc17.png)
