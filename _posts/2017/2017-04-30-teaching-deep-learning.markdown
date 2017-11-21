@@ -256,6 +256,8 @@ A more interesting dataset, and harder for classical machine learning algorithms
 If you want to play with image recognition, there is [CIFAR dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a dataset of 32x32 photos (also in [keras.datasets](https://keras.io/datasets/)). It comes in two versions: 10 simple classes (including cats, dogs, frogs and airplanes ) and 100 harder and more nuanced classes (including beaver, dolphin, otter, seal and whale). I strongly suggest [starting with CIFAR-10](https://github.com/stared/keras-mini-examples/blob/master/cifar10_starter.ipynb), the simpler version.
 Beware, [more complicated networks may take quite some time](https://github.com/stared/keras-mini-examples/blob/master/cifar10_official_example.ipynb) (~12h on CPU my 7 year old Macbook Pro).
 
+**EDIT** (Nov 2017): If you are interested in practial exercises, I wrote [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/).
+
 
 ### More
 
