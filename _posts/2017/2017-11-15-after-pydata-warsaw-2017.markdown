@@ -56,6 +56,7 @@ Don't worry - many people book things just before the deadline!
 
 For more on this subject, see:
 
+* Valentina Alfi, Giorgio Parisi & Luciano Pietronero, [Conference registration: how people react to a deadline](https://doi.org/10.1038/nphys761), Nature Physics 3, 746 (2007)
 * Tomasz Durakiewicz, [A universal law of procrastination](https://doi.org/10.1063/PT.3.3064), Physics Today 69, 2, 11 (2016)
 
 If you are curious about the ticket types, here they are:
