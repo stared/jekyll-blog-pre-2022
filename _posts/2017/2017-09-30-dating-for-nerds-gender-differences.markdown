@@ -292,6 +292,10 @@ At last, not least - with all that said above, you will be dating a particular g
 
 But in the process of getting know her better and better, sticking to the gender average will make less and less sense. And if you wish to know something, just ask them. :)
 
+## Extra links (added later)
+
+* [Turn-ons by gender chart](https://twitter.com/dalequark/status/854539323496116224) (with a clear dominance-submission gender split) from [Kink Is More Popular Than You Think](https://theblog.okcupid.com/bdsm-is-more-popular-than-you-think-890de1c634f1) by Dale Markowitz
+* [The Words Men and Women Use When They Write About Love](https://www.nytimes.com/interactive/2017/11/07/upshot/modern-love-what-we-write-when-we-write-about-love.html) - an interactive exploration
 
 ## Closing remarks
 
