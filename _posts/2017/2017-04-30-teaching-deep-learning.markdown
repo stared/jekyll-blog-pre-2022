@@ -16,6 +16,8 @@ extras:
     href: https://twitter.com/fchollet/status/858840192261644292
   - text: "Facebook post by Kaggle with over 200 shares"
     href: "https://www.facebook.com/kaggle/photos/a.10150387148668464.377856.135534208463/10155346265978464/?type=3&theater"
+  - text: Hacker News front page (right now!)
+    href: https://news.ycombinator.com/item?id=15999578
 external:
   title: "First Steps of Learning Deep Learning: Image Classification in Keras"
   href: http://www.kdnuggets.com/2017/08/first-steps-learning-deep-learning-image-classification-keras.html
@@ -322,6 +324,8 @@ The easiest, and the cheapest, way to use a strong GPU is to rent a remote machi
 * [Keras with GPU on Amazon EC2 – a step-by-step instruction](https://medium.com/@mateuszsieniawski/keras-with-gpu-on-amazon-ec2-a-step-by-step-instruction-4f90364e49ac) by Mateusz Sieniawski, my mentee
 * [Running Jupyter notebooks on GPU on AWS: a starter guide](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html) by Francois Chollet
 
+**EDIT** (Dec 2017): For a hassle-free GPU support for deep learning I recommend [Neptune: Machine Learning Lab](https://neptune.ml/).
+
 
 ## Further learning
 
@@ -340,6 +344,9 @@ When it comes to books, there is a wonderful one, starting from introduction to 
 Alternatively, you can use (it may be good for an introduction with interactive materials, but I've found the style a bit long-winded):
 
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen
+
+**EDIT** (Dec 2017): For a very practical introduction to deep learning with Keras, I recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python) by François Chollet.
+
 
 ### Other materials
 
@@ -376,7 +383,6 @@ Don't try to read them all - I list them for *inspiration*, not *intimidation*!
   * don't be afraid to read academic papers; some are well-written and insightful (if you own Kindle or another e-reader, I recommend [Dontprint](http://dontprint.net/))
 * Data (usually from challenges)
   * [Kaggle](https://www.kaggle.com/)
-  * [AF Classification from a short single lead ECG recording: the PhysioNet/Computing in Cardiology Challenge 2017](https://www.physionet.org/challenge/2017/)
   * [iNaturalist 2017 Competition](https://github.com/visipedia/inat_comp) (675k images with 5k species), vide [Mushroom AI](https://twitter.com/mushroomaibot)
 
 
