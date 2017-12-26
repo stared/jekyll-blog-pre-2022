@@ -16,7 +16,7 @@ extras:
     href: https://twitter.com/fchollet/status/858840192261644292
   - text: "Facebook post by Kaggle with over 200 shares"
     href: "https://www.facebook.com/kaggle/photos/a.10150387148668464.377856.135534208463/10155346265978464/?type=3&theater"
-  - text: Hacker News front page (right now!)
+  - text: Hacker News front page
     href: https://news.ycombinator.com/item?id=15999578
 external:
   title: "First Steps of Learning Deep Learning: Image Classification in Keras"
