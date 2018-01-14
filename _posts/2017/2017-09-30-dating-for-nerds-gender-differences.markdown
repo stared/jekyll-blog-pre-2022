@@ -17,7 +17,7 @@ extras:
 
 A typical metaphor for dating is a hunt, or a competitive game. It shouldn’t be! A much more fruitful metaphor is a collaborative project - you may bring different skills and have different priorities, but work on a common goal. Conversely, if you treat your dates as adversaries, they are likely to reciprocate the same way.
 
-Hetero-dating is not a symmetric activity. Sure, `#notAllMen` and `#notAllWomen`, as for most traits variance within a group is much higher than variance between groups[^averages].
+Hetero-dating is not a symmetric activity. Sure, `#notAllMen` and `#notAllWomen`, as for most traits variance within a group is much higher than the variance between groups[^averages].
 
 > * talk: In conversation men try to impress their partners, women - get valuable social information.
 > * MS: And Migdał does both.
@@ -56,7 +56,7 @@ Additionally, from my personal experience - women with age and experience have l
 
 First, for most your problems there are similar or analogous ones on women’s side - what gives you the idea that it’s easier for her to find someone with similar interests, or to overcome shyness?
 
-Second, there is a lot social pressure on the way she behaves. Some of this is related to the value placed on women’s modesty (i.e. *“she shouldn’t be too easy”*). But it seems that the largest burden is from (often unrealistic) expectations related to beauty standards. In the worst case, she may feel that her dating prospects are entirely dependent her looks.
+Second, there is a lot of social pressure on the way she behaves. Some of this is related to the value placed on women’s modesty (i.e. *“she shouldn’t be too easy”*). But it seems that the largest burden is from (often unrealistic) expectations related to beauty standards. In the worst case, she may feel that her dating prospects are entirely dependent her looks.
 
 ![](/imgs/2017-09-30-dating-for-nerds-gender-differences/dating_looks_poetry_patrizia_comino.jpg)
 
@@ -87,7 +87,7 @@ Make sure you respect her wishes (especially *noes*; with *yeses* usually there 
 * [Tea Consent - animation](https://www.youtube.com/watch?v=oQbei5JGiT8)
 * [Consent - a webstrip](http://www.ohjoysextoy.com/consent/)
 
-In my experience, women didn’t have the slightest reservation with saying a firm *"no"* if they were totally not interested (I am not particularly muscular or threatening looking; I never dated a girl when I was her superior, etc). At the same time, I only discovered afterwards that sometimes she said *"yes"* because she was afraid of losing me. Things related to consent are not only related to physical safety, but also emotional safety. And fundamentally this isn’t a fixed checklist, but genuine care that you partner is having as enjoyable an experience as you.
+In my experience, women didn’t have the slightest reservation with saying a firm *"no"* if they were totally not interested (I am not particularly muscular or threatening looking; I never dated a girl when I was her superior, etc). At the same time, I only discovered afterwards that sometimes she said *"yes"* because she was afraid of losing me. Things related to consent are not only related to physical safety, but also emotional safety. And fundamentally this isn’t a fixed checklist, but genuine care that your partner is having as enjoyable an experience as you.
 
 When it comes to safety from sexually transmitted infections (and unintended pregnancy), it’s also your business. A great reading is found below:
 
@@ -97,7 +97,7 @@ He presents a very reasonable summary of practices and risks of infection (both 
 
 > If you’re sexually active, get tested regularly. Have open conversations with your sexual partners about this stuff: “Have you been tested? Are you on birth control?” Yes, it’s awkward. But yes, it’s always worth it.
 
-Importantly, while women are more concerned about safety on average, occasionally you will meet a women less cautious than you. Even if it is her conscious choice to take risks (rather than a lack of knowledge, or impaired judgement due to alcohol or buzzing hormones), don’t lower your own standards! It’s better to pass on an otherwise good opportunity than to be dealing with its consequences for life.
+Importantly, while women are more concerned about safety on average, occasionally you will meet a woman less cautious than you. Even if it is her conscious choice to take risks (rather than a lack of knowledge, or impaired judgement due to alcohol or buzzing hormones), don’t lower your own standards! It’s better to pass on an otherwise good opportunity than to be dealing with its consequences for life.
 
 ## Confidence
 
@@ -105,7 +105,7 @@ Confidence seems to as important to male attractiveness as beauty to female. To 
 
 * [Nerdy Boys, Fat Girls, and Access to Sex](https://medium.com/@SexCoachSarah/nerdy-boys-fat-girls-and-access-to-sex-a4893f13a61a) by Sarah Martin
 
-The entire book [Models: Attract Women Through Honesty](https://www.amazon.com/Models-Attract-Women-Through-Honesty-ebook/dp/B005EOTH24) by Mark Manson (my very favourite in the dating genre!) is pretty much centered on how to be confident and make this visible. The crucial point is about being non-needy. That is, being comfortable with who you are rather that relying too much on external validation.
+The entire book [Models: Attract Women Through Honesty](https://www.amazon.com/Models-Attract-Women-Through-Honesty-ebook/dp/B005EOTH24) by Mark Manson (my very favourite in the dating genre!) is pretty much centered on how to be confident and make this visible. The crucial point is about being non-needy. That is, being comfortable with who you are rather than relying too much on external validation.
 
 If you are interested in a given women, you shouldn’t be afraid to show it to her. A lot of behaviors considered creepy are centered around concealing sexual intentions. At the same time, if she turns you down you should be fine with that. Sure, it’s not what you dreamed of, but at the same time - being needy and having her decision affect your self-worth is unsexy.
 
@@ -124,7 +124,7 @@ And in most cases, getting any sex as a woman is trivial, compared to the effort
 
 it’s rarely the case for women. Good sex requires safety, care and effort. (If you want to look at a single criterion - for a male it is usually easy to experience an orgasm during each intercourse; rarely is this the case for a female.)
 
-And even if a woman is up for one night stand, most likely she doesn’t want to be treated as an object. A man using her only as a means for his pleasure will rarely put effort into pleasing her. He may not even treat her as an individual, rather that a woman (which many women find off-putting, even at the subconscious level).
+And even if a woman is up for one-night stand, most likely she doesn’t want to be treated as an object. A man using her only as a means for his pleasure will rarely put effort into pleasing her. He may not even treat her as an individual, rather than a woman (which many women find off-putting, even at the subconscious level).
 
 ![](/imgs/2017-09-30-dating-for-nerds-gender-differences/casual_sex_regret.png)
 
@@ -167,7 +167,7 @@ Additionally, in such men-abundant environments it can be harder to get involved
 
 * [Paradox of Choice](https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice) - a TED talk by Barry Schwartz
 
-Also - you won’t learn how to interact with women. In male-dominated environments a few women may be not representative of their gender, and furthermore - may be altering their behaviour to fit the environment.
+Also - you won’t learn how to interact with women. In male-dominated environments, a few women may be not representative of their gender, and furthermore - may be altering their behaviour to fit the environment.
 
 
 ## Females are more choosy
@@ -175,13 +175,13 @@ Also - you won’t learn how to interact with women. In male-dominated environme
 > There is no Valley of the Dolls.
 There is no party you can walk into where strange women will just throw themselves on you. - [Nonmonogamy for Men: The Big Picture](https://freaksexual.com/2009/11/05/nonmonogamy-for-men-the-big-picture)
 
-We are not some ideal creation. We are byproduct of evolution. A strain of medium-size tree-climbing mammals, who just recently started moving on two legs, and went bald. Understanding our drives and instincts (both ones we want to act upon and ones we really want to inhibit) is crucial.
+We are not some ideal creation. We are a byproduct of evolution. A strain of medium-size tree-climbing mammals, who just recently started moving on two legs, and went bald. Understanding our drives and instincts (both ones we want to act upon and ones we really want to inhibit) is crucial.
 
-Of course, there are many problems with differences being reinforced by culture (via social norms, religion, adverts, etc) which tends to reinforce stereotypes often leaving nerds of both genders in a no-man’s land (no pun intended!).
+Of course, there are many problems with differences being reinforced by culture (via social norms, religion, adverts, etc) which tends to reinforce stereotypes often leaving nerds of both genders in a no man’s land (no pun intended!).
 
 Moreover, in practice it won’t matter if a given gender role expectation is based on biology, upbringing, or current social norms (and any systems biologist will tell you that it is impossible to make a clear-cut divide between these). This blog post is about your personal actions, rather than delving into an ideal society.
 
-Because while the average number of children by men and women is the same (it has to be), variance isn’t. It promotes a lot of risk-taking activity in men, both their boon and doom (and the rest of society’s), see:
+Because while the average number of children by men and women is the same (it has to be), the variance isn’t. It promotes a lot of risk-taking activity in men, both their boon and doom (and the rest of society’s), see:
 
 * [Is There Anything Good About Men?](http://www.denisdutton.com/baumeister.htm) by Roy F. Baumeister
 
@@ -195,11 +195,11 @@ With respect to risk-taking, testosterone changes a lot:
 
 E.g. males in their 20s are almost 4x more likely to die than females, mostly due to accidents. See [mortality in Poland in 1950 and 2013, by age and gender](https://plot.ly/~PiotrMigdal/33/mortality-in-poland-in-1950-and-2013-by-age-and-gender/) by me. To get a more fine-grained analysis, [this chart shows how you will probably die, and it’s changed a lot in 100 years](http://www.brisbanetimes.com.au/national/health/this-chart-shows-how-you-will-probably-die-and-its-changed-a-lot-in-100-years-20160509-gopmgh.html) by Inga Ting.
 
-There are plenty of men interested in having one partner for life, and women interested in casual sex. Yet, there is an imbalance (otherwise we would have 1:1 ratio of male and female sex workers). Why? Homo sapiens females are likely to be more choosy, when it comes to selecting their partners. You don’t need to dig too deep to learn about these phenomena, just see these Wikipedia pages: [Mate choice](https://en.wikipedia.org/wiki/Mate_choice), [Parental investment: Sexual selection](https://en.wikipedia.org/wiki/Parental_investment#Sexual_selection) and [Bateman’s principle](https://en.wikipedia.org/wiki/Bateman%27s_principle). Another way of saying this is that women (on average) have higher standards. One practical remarks is that:
+There are plenty of men interested in having one partner for life, and women interested in casual sex. Yet, there is an imbalance (otherwise we would have 1:1 ratio of male and female sex workers). Why? Homo sapiens females are likely to be more choosy when it comes to selecting their partners. You don’t need to dig too deep to learn about these phenomena, just see these Wikipedia pages: [Mate choice](https://en.wikipedia.org/wiki/Mate_choice), [Parental investment: Sexual selection](https://en.wikipedia.org/wiki/Parental_investment#Sexual_selection) and [Bateman’s principle](https://en.wikipedia.org/wiki/Bateman%27s_principle). Another way of saying this is that women (on average) have higher standards. One practical remark is that:
 
 * [Men Are More Likely to Be Sexually Attracted to Their Opposite-Sex Friends](http://nymag.com/scienceofus/2016/10/men-are-more-likely-to-be-sexually-attracted-to-friends.html) by Drake Baer
 
-So yes, there is some asymmetry to deal with. This is the balance of valuing friendship and support vs sexual gratification. No matter the closeness of you friendship, it doesn’t imply any sexual interest on her side (the friendzone deserves a separate chapter). Though, it is easy to see how one could arrive at this interpretation:
+So yes, there is some asymmetry to deal with. This is the balance of valuing friendship and support vs sexual gratification. No matter the closeness of your friendship, it doesn’t imply any sexual interest on her side (the friendzone deserves a separate chapter). Though, it is easy to see how one could arrive at this interpretation:
 
 * [Yes Virginia, they all want to bang you - Ladder Theory](http://www.laddertheory.com/yesvirginia.htm) (NOT an endorsement)
 
@@ -232,7 +232,7 @@ It has happened to me that a woman asked me out, asked for a kiss, or asked for 
 
 Often when I ask female friends how they move things forward they say that it always happens naturally, with no effort needed. Yet, having organized a bunch of conferences, I know that if things flow seamlessly, someone else is putting in a lot of effort in making it seem so.
 
-For example, quite a few years ago I naively thought that with a friend, who is an outspoken feminist, it would work differently. I was waiting for 1:1 reciprocity when making the first moves. So, after making some moves from my side, I waited for her steps. And… things didn’t progress. A week later, I was talked with her closest friend in a party. He was a bit drunk, and in the oversharing mode told me what she had told about the meeting:
+For example, quite a few years ago I naively thought that with a friend, who is an outspoken feminist, it would work differently. I was waiting for 1:1 reciprocity when making the first moves. So, after making some moves from my side, I waited for her steps. And… things didn’t progress. A week later, I talked with her closest friend in a party. He was a bit drunk, and in the oversharing mode told me what she had told about the meeting:
 
 > MA: Oh, intellectuals. It’s wonderful to talk with them, but when it’s time to make a move, they are clueless.
 
@@ -261,7 +261,7 @@ Yet, well, it is how it works. Even if it is your least favorite part, it is wor
 
 ## Toxic masculinity
 
-A lot of pressure goes into men not showing emotions that may reveal their weaknesses, with the biggest emphasis on not crying (with sole exception of the death of immediate family members).
+A lot of pressure goes into men not showing emotions that may reveal their weaknesses, with the biggest emphasis on not crying (with the sole exception of the death of immediate family members).
 
 > Men won’t tell me how they feel because they are taught to be ashamed of their feelings (and, by the way, lust is a feeling.) - [Emma Lindsay](https://medium.com/@emmalindsay/why-does-dating-men-make-me-feel-like-shit-12c25e539021)
 
@@ -269,7 +269,7 @@ Additionally, in the Western culture male touch is often restricted to sexuality
 
 * [How a Lack of Touch is Destroying Men](http://upliftconnect.com/how-lack-touch-destroying-men/) by Mark Greene
 
-Another common socialization is pressure to perform (at work, in bed, everywhere). All of these phenomena may contribute to the fact that in almost all countries men take their own lives by much higher margin than do women (by a factor of 5x).
+Another common socialization is pressure to perform (at work, in bed, everywhere). All of these phenomena may contribute to the fact that in almost all countries men take their own lives by a much higher margin than do women (by a factor of 5x).
 
 * [Infographics: male suicide in the UK](https://mosaicscience.com/extra/infographics-male-suicide-uk) by Will Storr and Paulo Estriga
 
@@ -277,18 +277,18 @@ There is a widespread mindset of competition among men, ideally centered around 
 
 * [Perceived Average and Ideal Penis Size](https://www.dred.com/uk/does-size-matter/) (yes, most men think their own device is too short)
 
-Don’t fall into that trap, as it is unlikely to make you more happy. At the same time, especially when it comes to your sex life, you will compare yourself against unreasonable exaggerations and brags.
+Don’t fall into that trap, as it is unlikely to make you happier. At the same time, especially when it comes to your sex life, you will compare yourself against unreasonable exaggerations and brags.
 
-> Writing about sex makes me feel like I’m either humble-bragging or pandering. There’s no inbetween. - [Why We (Men) Don’t Write About Our Sex Lives](http://verysmartbrothas.com/why-we-men-dont-write-about-our-sex-lives/) by Damon Young
+> Writing about sex makes me feel like I’m either humble-bragging or pandering. There’s no in-between. - [Why We (Men) Don’t Write About Our Sex Lives](http://verysmartbrothas.com/why-we-men-dont-write-about-our-sex-lives/) by Damon Young
 
-Why does it matter (for dating, not only - well-being or making society better)? The key thing is to be open to experiences. Treating every *“I didn’t have sex”* as a failure is going to result in a lot of frustration, often for no good reason. Maybe you had a wonderful conversation, or some blissful cuddling. Don’t ruin it by setting your goals too narrow. Appreciate the time with her, and don’t turn dating into an array of checkboxes or a score count. Even worse, if you are driven to have sex mostly to score, it won’t be respectful of her:
+Why does it matter (for dating, not only - well-being or making society better)? The key thing is to be open to experiences. Treating every *“I didn’t have sex”* as a failure is going to result in a lot of frustration, often for no good reason. Maybe you had a wonderful conversation or some blissful cuddling. Don’t ruin it by setting your goals too narrow. Appreciate the time with her, and don’t turn dating into an array of checkboxes or a score count. Even worse, if you are driven to have sex mostly to score, it won’t be respectful of her:
 
 * [Two simple things I wish someone told me as a teenage boy - a webstrip](http://thewireless.co.nz/articles/the-pencilsword-no-i-in-sex)
 
 
 ## Individual
 
-At last, not least - with all that said above, you will be dating a particular girl, not an average girl (or in the worst case: *“an abstract concept of a girl”*). Sure, for your very initial educated guesses it is beneficial know in which areas she is likely to have different preferences or priorities. Perhaps the most important thing is that she is likely to have more broad (and less focused) needs and interests.
+At last, not least - with all that said above, you will be dating a particular girl, not an average girl (or in the worst case: *“an abstract concept of a girl”*). Sure, for your very initial educated guesses it is beneficial to know in which areas she is likely to have different preferences or priorities. Perhaps the most important thing is that she is likely to have more broad (and less focused) needs and interests.
 
 But in the process of getting know her better and better, sticking to the gender average will make less and less sense. And if you wish to know something, just ask them. :)
 

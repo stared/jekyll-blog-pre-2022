@@ -34,7 +34,7 @@ I am not sure if I want to publish pieces of dating advice on my semi-profession
 
 Also, to be clear: I don’t claim to be *"good at dating"*[^suckless], whatever that means. But I see the profound change from something being frustrating to a field where I feel well. And I would like to share some lessons I’ve learned in the process, often the hard way. While my problems with dating (or rather: not dating) gave me a lot of pain, they also prompted me to put a lot of effort into developing social skills in general.
 
-Sure, there is no shortage of Internet dating advice. Yet, there weren’t many thing I found illuminating (I link to ones that were). Nerds have special needs, special skills and things which may work differently (honesty, emotions, touch, spontaneity, expectations of partners) - general advice rarely cuts it.
+Sure, there is no shortage of Internet dating advice. Yet, there weren’t many things I found illuminating (I link to ones that were). Nerds have special needs, special skills and things which may work differently (honesty, emotions, touch, spontaneity, expectations of partners) - general advice rarely cuts it.
 Some great minds consider this problem notoriously hard:
 
 > How to help all the young male nerds I meet who suffer from [the dating] problem, in a way that passes feminist muster, and that triggers the world’s sympathy rather than outrage[?]
@@ -48,11 +48,11 @@ I spiked it with numerous references, so even if you fine with dating, you may f
 
 ### Who's that for?
 
-This text is addressed to **heterosexual male nerds**. Ideally I would send it to my younger self[^alchemist] (say, 15-25yo - the sooner the better), so as to be spared a lot of unnecessary emotional pain, feelings of loneliness, rejection and isolation. But, well, I actually want to help people, so it is wiser to think about a wider (not-empty!) audience.
+This text is addressed to **heterosexual male nerds**. Ideally, I would send it to my younger self[^alchemist] (say, 15-25yo - the sooner the better), so as to be spared a lot of unnecessary emotional pain, feelings of loneliness, rejection and isolation. But, well, I actually want to help people, so it is wiser to think about a wider (not-empty!) audience.
 
 A lot of this content might be useful for other groups (gender, sexual orientation, level of nerdiness). If you are not in the *"main target"*, yet find it useful - I am really interested in your feedback! Conversely, each person is different, so what was important for me may be irrelevant (or even harmful) for you[^consult].
 
-Dating is not easy for anyone. Most people struggle with it at some point, not only nerds. And it’s fine to be nervous. At the same time the bar is not so high - all you need is to get a bit of understanding of yourself, you body, other people and dating dynamics. By putting in some conscious effort you will get ahead of most men!
+Dating is not easy for anyone. Most people struggle with it at some point, not only nerds. And it’s fine to be nervous. At the same time, the bar is not so high - all you need is to get a bit of understanding of yourself, your body, other people and dating dynamics. By putting in some conscious effort you will get ahead of most men!
 
 A large portion of this information is on approaching people in general, or advancing any relationship - surprisingly many things I learnt from dating are crucial for my networking skills (which, as a semi-freelancer, I use a lot). Job interviews have similar dynamics - just instead of getting laid you want to land a job (you need to *interest them in you* rather than express your neediness).
 
@@ -67,8 +67,8 @@ Before I proceed to it, let me lower your expectation. So, this text is not abou
 
 * **Appealing to any girl**. If picking up as many girls as possible is your goal, there are better sources. Here I will focus on approaching girls you are genuinely interested in.
 * **A motivational talk**. I won’t invent anything better than this [mongoose fending off lions](https://www.youtube.com/watch?v=1TPn1-SJqVM); still, scaring off every interested female is not the thing you want to do.
-* **A magical trick** (like [s/wand/wang](http://www.bash.org/?111338)). It might be that there will be a single piece of advice that will remove a crucial blockade. But most growth is a step-by-step process, taking time and during which you need to get out of your comfort zone.
-* **A zero-sum game mindset**. Unfortunately a lot of mainstream dating advice uses a competition or conflict metaphor, where one side (whether a man or a woman) advances at the cost of the other. Here I want to focus on things that are mutually beneficial.
+* **A magical trick** (like [s/wand/wang/](http://www.bash.org/?111338)). It might be that there will be a single piece of advice that will remove a crucial blockade. But most growth is a step-by-step process, taking time and during which you need to get out of your comfort zone.
+* **A zero-sum game mindset**. Unfortunately, a lot of mainstream dating advice uses a competition or conflict metaphor, where one side (whether a man or a woman) advances at the cost of the other. Here I want to focus on things that are mutually beneficial.
 * **How to maintain a relationship**. While it is a crucial topic, it is a very different activity than getting into one. However, these links may be helpful:
   * [13 Questions to Ask Before Getting Married](https://www.nytimes.com/interactive/2016/03/23/fashion/weddings/marriage-questions.html) by Eleanor Stanford
   * [I polled 1,500 people about their best relationship advice — and everyone said the same thing](http://www.businessinsider.com/i-polled-1500-people-about-their-best-relationship-advice-and-the-same-themes-came-up-over-and-over-2016-12) by Mark Manson
@@ -80,11 +80,11 @@ Before I proceed to it, let me lower your expectation. So, this text is not abou
 
 > A geek is a nerd with a non-zero chance of having sex - Staszek Krawczyk
 
-While I use the word **nerd** a lot, it’s not about self-identification (here is a very stereotypical case in [White & Nerdy by "Weird Al" Yankovic](https://www.youtube.com/watch?v=N9qYF9DZPdw)). You don’t need to have your favourite equation, or a comic book! Note that for the sake of this text, I use nerd and geek interchangeably.
+While I use the word **nerd** a lot, it’s not about self-identification (here is a very stereotypical case in [White & Nerdy by "Weird Al" Yankovic](https://www.youtube.com/watch?v=N9qYF9DZPdw)). You don’t need to have your favourite equation or a comic book! Note that for the sake of this text, I use nerd and geek interchangeably.
 
-If you are highly intellectual, socially awkward person, you are likely to benefit from this blog post series. Just reading this blog post beyond the 140 character baseline is a good indicator that you may like its content. All book worms, and blog worms, are welcome!
+If you are highly intellectual, socially awkward person, you are likely to benefit from this blog post series. Just reading this blog post beyond the 140 character baseline is a good indicator that you may like its content. All bookworms, and blogworms, are welcome!
 
-In short, nerds are typically defined as having combination of intelligence, obsession and social awkwardness (as covered in [this classic Venn diagram](https://www.buzzfeed.com/scott/nerd-venn-diagram)).
+In short, nerds are typically defined as having a combination of intelligence, obsession and social awkwardness (as covered in [this classic Venn diagram](https://www.buzzfeed.com/scott/nerd-venn-diagram)).
 If you really want to dive into this topic:
 
 * [Geeks vs Nerds - Geek Studies](http://web.archive.org/web/20110829164446/http://www.geekstudies.org/2007/06/geeks-vs-nerds) by Jason Tocci (his [PhD thesis on this topic](http://repository.upenn.edu/edissertations/953/)) and links therein
@@ -98,7 +98,7 @@ If you really want to dive into this topic:
 > Christopher Morcom: No, they beat you up because you're different.  
 > - [The Imitation Game 2014 film](https://en.wikiquote.org/wiki/The_Imitation_Game)
 
-Social life may not be fun, especially during childhood and adolescence - with severity ranging from being an outsider, to being totally excluded or actively bullied. Nerds may get it harder with interpersonal skills and their social rank, see:
+Social life may not be fun, especially during childhood and adolescence - with severity ranging from being an outsider to being totally excluded or actively bullied. Nerds may get it harder with interpersonal skills and their social rank, see:
 
 * [Why Nerds are Unpopular](http://www.paulgraham.com/nerds.html) by Paul Graham (2003)
 
@@ -154,16 +154,16 @@ People will misinterpret and misattribute your actions and attitudes a lot. Howe
 
 > You are probably going to be a very successful computer person. But you're going to go through life thinking that girls don't like you because you're a nerd. And I want you to know, from the bottom of my heart, that that won't be true. It'll be because you're an asshole. - [The Social Network 2010 film](https://en.wikiquote.org/wiki/The_Social_Network)
 
-The whole [opening scene from The Social Network movie](https://www.youtube.com/watch?v=IlXwTxpC6u0) may make one cringe - it is a beautifully depiction of a smart, obsessed and arrogant nerd. It’s not only a misunderstanding - it’s constant ignoring and judging his date.
+The whole [opening scene from The Social Network movie](https://www.youtube.com/watch?v=IlXwTxpC6u0) may make one cringe - it is a beautiful depiction of a smart, obsessed and arrogant nerd. It’s not only a misunderstanding - it’s constant ignoring and judging his date.
 
-Even if you are (or were) underprivileged socially it does not automatically make you a good person. Being bullied does not guarantee you won’t turn into bully, vide this cynical twist of [The Ugly Duckling](http://www.smbc-comics.com/comic/2010-05-23) comic strip by [SMBC](http://www.smbc-comics.com/). What’s worse is when it goes beyond being unpleasant to being violent:
+Even if you are (or were) underprivileged socially it does not automatically make you a good person. Being bullied does not guarantee you won’t turn into a bully, vide this cynical twist of [The Ugly Duckling](http://www.smbc-comics.com/comic/2010-05-23) comic strip by [SMBC](http://www.smbc-comics.com/). What’s worse is when it goes beyond being unpleasant to being violent:
 
 > The men who sexually trespass against me are nearly always men who are unhappy or at a difficult point in their life. They are nearly always men who experience social isolation more generally. They are also nearly always men not actively dating any other women.  
 > - [How Extreme Need Leads to Male Entitlement](https://medium.com/@emmalindsay/how-extreme-need-leads-to-male-entitlement-e758241305c9) by Emma Lindsay
 
-She, as a clearly nerdy woman, talks about her violators with a great deal of compassion, understanding and insight. To make it clear - no amount of suffering you received gives you a pass to harm innocent people. Through the reminder of this blog post series I make a strong assumption that you are committed to treat others with care, and not taking an unfair advantage, regardless of the circumstances.
+She, as a clearly nerdy woman, talks about her violators with a great deal of compassion, understanding and insight. To make it clear - no amount of suffering you received gives you a pass to harm innocent people. Through the remainder of this blog post series I make a strong assumption that you are committed to treating others with care, and not taking an unfair advantage, regardless of the circumstances.
 
-Sure, nerds my come as insensitive, uncaring and rude, even if their intentions are good, see [INTP = asshole?](http://maylin22.blogspot.com/2013/12/intp-asshole.html).
+Sure, nerds may come as insensitive, uncaring and rude, even if their intentions are good, see [INTP = asshole?](http://maylin22.blogspot.com/2013/12/intp-asshole.html).
 Often it is an unfair judgement - based on comparison with their *"obvious"* cultural norms. However, **I am a nerd** is not a get out of a jail card, and if anything - [will cause more ostracism than compassion](http://slatestarcodex.com/2015/01/01/untitled/).
 
 Also, while in your workplace people may tolerate your ways, and turn a blind eye to your *"difficult character"* if you are an expert, the same thing won’t work in relationships. While nerds are in some demand, it’s nowhere near to programmers in the workforce.
@@ -175,7 +175,7 @@ Yes, yes - whatever you were told, it’s not only jocks who attract women. Besi
 
 ![She loves nerds](/imgs/2017-07-23-dating-for-nerds-1/i_love_nerds_part.jpg)
 
-What’s crucial: you don’t need to appeal to all women, and there are well enough women interested in nerdy men. Some of them may be fellow nerds, some not, but still considering intellect, introversion and deep interests sexy (a key world: [sapiosexual](http://www.urbandictionary.com/define.php?term=sapiosexual)). For some others your nerdism might be not relevant at all (just one of many aspects of your personality). Most importantly - if you are into some girl for her interests and character, there is a fair chance that she may find you as fascinating.
+What’s crucial: you don’t need to appeal to all women, and there are well enough women interested in nerdy men. Some of them may be fellow nerds, some not, but still considering intellect, introversion and deep interests sexy (a key word: [sapiosexual](http://www.urbandictionary.com/define.php?term=sapiosexual)). For some others your nerdism might be not relevant at all (just one of many aspects of your personality). Most importantly - if you are into some girl for her interests and character, there is a fair chance that she may find you as fascinating.
 
 While still I have a soft spot for nerdesses, I no longer restrict to this circle. Dating non-nerds is not like dating outside of your religion… or species. OK, maybe it is a bit, but still - it may be worth it. While some differences may be tricky, some other may be very much complementary (vide this [Nerd shopping xkcd strip](https://xkcd.com/309/)).
 
