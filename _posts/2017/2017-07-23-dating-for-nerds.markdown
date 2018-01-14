@@ -136,6 +136,7 @@ From my anecdata, the main pain points are:
 * **poor social skills** - most of dating is in the extra-intellectual sphere, about reading cues, knowing cultural expectations and attracting (not: persuading) people
 * **poor body language** - sex is fundamentally about the body - being a brain on a stick won't get you far
 * **poor hygiene** - greasy hair, dirty clothes or (worst of all) bad breath can be instant turn-offs (good news: once you are aware of it, it’s super easy to fix it)
+* **careless clothing** - no need to become a fashion expert - even t-shirts are fine; just make sure they are fit and new (not: washed-out, gray which used to be black, oversized, free promo wear!)
 * **unfavourable gender ratios** - many nerdy places (like math/phys/cs departments) don’t have many girls; regardless of the reason, if you stick only to them, it will be an uphill battle
 * **overthinking** - there are no perfect people; and initial impressions of a person may be not enough for predicting future possibilities
 * **talking not doing** - one common trap is that once you find a fascinating girl, you keep talking but don’t do anything in a sexual direction; procrastination can freeze any project... and romantic pursuit

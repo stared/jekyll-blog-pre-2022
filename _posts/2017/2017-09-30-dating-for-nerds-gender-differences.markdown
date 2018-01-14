@@ -209,6 +209,8 @@ The traditional ways to deal with that is to say that (hetero)men and women cann
 
 ![Bisexuals with no friends - Philosoraptor Meme](/imgs/2017-09-30-dating-for-nerds-gender-differences/bisexuals_no_friends_philosoraptor_meme.jpg)
 
+> Spoiler: bi folks (and even pansexuals) are not attracted to everyone.
+
 
 ## For the skeptical
 
