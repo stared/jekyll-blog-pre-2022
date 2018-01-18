@@ -123,7 +123,7 @@ It mentions some really scary statistics like:
 
 > By the age of 19, 80% of US males and 75% of women have lost their virginity, and 87% of college students have had sex. But this number appears to be much lower at elite (i.e. more intelligent) colleges. According to [the article](http://web.archive.org/web/20060905085008/http://counterpoint.mit.edu/archives/Counterpoint_V21_I3_2001_Nov.pdf), only 56% of Princeton undergraduates have had intercourse. At Harvard 59% of the undergraduates are non-virgins, and at MIT, only a slight majority, 51%, have had intercourse. Further, only 65% of MIT graduate students have had sex.
 
-(Though, to be fair, it is at best `2*` data, according to the [Sex by Numbers](https://www.amazon.com/Sex-Numbers-Statistics-Behaviour-Wellcome-ebook/dp/B00NG3OJUK/) credibility scale.)
+Though, to be fair, it is at best `2*` data, according to the [Sex by Numbers](https://www.amazon.com/Sex-Numbers-Statistics-Behaviour-Wellcome-ebook/dp/B00NG3OJUK/) credibility scale. See also [Relationships: The First Time… - Flowing Data](http://flowingdata.com/2017/02/23/the-first-time/).
 
 So, if you are a virgin, you are still in a good company!
 If you are barely not a virgin, you may be ahead of this intellectual cohort.
