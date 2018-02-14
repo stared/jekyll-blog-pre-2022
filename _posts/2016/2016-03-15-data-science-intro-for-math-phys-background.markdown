@@ -62,7 +62,7 @@ Or even look at [this tweet](https://twitter.com/JennyBryan/status/6888667229803
 
 If you want to learn more about what is data science, look at the following links:
 
-* [The State of Data Science - RJMetrics Report](https://rjmetrics.com/resources/reports/the-state-of-data-science/) - especially plots *top 20 skills of a data scientist* and *top 20 backgrounds of data scientists*; corollary: you don't have to know everything
+* [The State of Data Science and Machine Learning - Kaggle 2017 Survey](https://www.kaggle.com/surveys/2017)
 * [Doing Data Science at Twitter - Robert Chang](https://medium.com/@rchang/my-two-year-journey-as-a-data-scientist-at-twitter-f0c13298aee6)
 * [Advice and insights from 25 amazing data scientists](http://www.thedatasciencehandbook.com/) - interviews with practitioners holding various positions, having various backgrounds
 
@@ -259,6 +259,8 @@ So, once again, be sure to get a [GitHub](https://github.com) account (for hosti
 And don’t be afraid to put premature code: if it is not good yet then no-one will notice (or care) anyway.
 Also, some people like writing about problems they have just learnt (e.g. [How gzip uses Huffman coding - Julia Evans](http://jvns.ca/blog/2015/02/22/how-gzip-uses-huffman-coding/)). If it is your thing - just do it (see [my post on Jekyll]({{site.url}}/2015/12/02/first-post.html))!
 
+EDIT (Feb 2018): If you want to play with data [Kaggle Datasets](http://kaggle.com/datasets) are a wonderful place to start.
+
 
 ## Data science boot camps
 
@@ -314,11 +316,14 @@ And if you have a question, a good place to ask (and search for answers) is:
 Since you are in maths, it may be possible for you to make a shortcut and get into advanced topics. Here is a random list of starting points I consider interesting:
 
 * [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization)
-* [A Word is Worth a Thousand Vectors - Chris Moody](http://multithreaded.stitchfix.com/blog/2015/03/11/word-is-worth-a-thousand-vectors/)
-* [Sense2vec with spaCy and Gensim - Matthew Honnibal](https://spacy.io/blog/sense2vec-with-spacy)
 * [Probabilistic Programming & Bayesian Methods for Hackers - Cam Davidson-Pilon](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
 * [The Unreasonable Effectiveness of Recurrent Neural Networks - Andrej Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-* [TensorFlow Tutorials](https://www.tensorflow.org/versions/master/tutorials/index.html) - an introduction to neural networks and deep learning
+
+EDIT (Feb 2018) - some of my new introductions:
+
+* [king - man + woman is queen; but why?](http://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)
+* [Learning Deep Learning with Keras](http://p.migdal.pl/2017/04/30/teaching-deep-learning.html)
+* [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/)
 
 
 ## About
