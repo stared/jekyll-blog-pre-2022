@@ -1,3 +1,18 @@
+- talk:  "What neural networks can (and cannot yet) do?"
+  event: infoShare
+  href:  https://infoshare.pl
+  place: "Gdańsk (Poland)"
+  date:  2018-05-23
+  tags:  [invited-talk, conference]
+
+- talk:  Ktoś nie ma racji w internecie
+  event: "Edukaton - bo pół prawdy to całe kłamstwo"
+  href:  https://edukaton.com/#hackathon
+  slides: https://edukaton.github.io/druzyna-pierscienia-mobiusa/
+  place: "Warsaw (Poland)"
+  date:  2018-02-16
+  tags:  [project, hackathon]
+
 - talk:  Teaching Machine Learning
   event: PyData Warsaw Conference
   href:  https://pydata.org/warsaw2017/
