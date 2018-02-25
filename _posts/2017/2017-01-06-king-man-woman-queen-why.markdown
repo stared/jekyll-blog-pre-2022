@@ -237,6 +237,7 @@ For further reading I recommend:
 * [Language necessarily contains human biases, and so will machines trained on language corpora](https://freedom-to-tinker.com/2016/08/24/language-necessarily-contains-human-biases-and-so-will-machines-trained-on-language-corpora/) by Arvind Narayanan
 * [Word Embeddings: Explaining their properties](http://www.offconvex.org/2016/02/14/word-embeddings-2/) - on word analogies by Sanjeev Arora
 * Tal Linzen, [Issues in evaluating semantic spaces using word analogies](https://arxiv.org/abs/1606.07736), arXiv:1606.07736
+* **EDIT** (Feb 2018): Alex Gittens, Dimitris Achlioptas, Michael W. Mahoney, [Skip-Gram – Zipf + Uniform = Vector Additivity](http://www.aclweb.org/anthology/P/P17/P17-1007.pdf)
 
 ## Some backstory
 
