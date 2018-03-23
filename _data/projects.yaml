@@ -1,10 +1,18 @@
+- title:  livelossplot
+  desc:   Live training loss plot in Jupyter Notebook for Keras, PyTorch and other frameworks.
+  href:   https://github.com/stared/livelossplot
+  dateStart: 2018-03-18
+  dateEnd:
+  tags:   [python, deep-learning, pip-installable]
+  status: in progress (active!)
+
 - title:  Quantum Game
   desc:   Play with photons, superposition and entanglement. With true quantum mechanics underneath.
   href:   http://quantumgame.io/
   dateStart: 2014-07-20
   dateEnd:
   tags:   [game, physics]
-  status: in progress (active!)
+  status: kind of hibernated
   hn:     https://news.ycombinator.com/item?id=14432176
 
 - title:  Science-based games
@@ -13,7 +21,7 @@
   dateStart: 2017-06-28
   dateEnd:
   tags:   [game, list]
-  status: in progress (active!)
+  status: kind of hibernated
   hn:     https://news.ycombinator.com/item?id=14661813
 
 - title:  "3DFlu - CENT, University of Warsaw"
