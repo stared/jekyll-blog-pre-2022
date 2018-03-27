@@ -124,8 +124,8 @@ It is only a proof-of-principle solution - not only inefficient, but also lackin
 The basics of vector calculus are crucial not only for deep learning, but also for many other machine learning techniques (e.g. in [word2vec I wrote about](p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)).
 To learn it, I recommend starting from one of the following:
 
+* [Getting started with linear algebra for deep learning](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-Introduction/) by Hadrien Jean (an intro to [Linear Algebra](http://www.deeplearningbook.org/contents/linear_algebra.html) from the [Deep Learning](http://www.deeplearningbook.org/))
 * J. Ström, K. Åström, and T. Akenine-Möller, [Immersive Linear Algebra](http://immersivemath.com/ila/index.html) - a linear algebra book with fully interactive figures
-*  Applied Math and Machine Learning Basics: [Linear Algebra](http://www.deeplearningbook.org/contents/linear_algebra.html) from the [Deep Learning](http://www.deeplearningbook.org/) book
 * [Linear algebra cheat sheet for deep learning](https://medium.com/towards-data-science/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c) by Brendan Fortuner
 
 Since there are many references to [NumPy](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html), it may be useful to learn its basics:
