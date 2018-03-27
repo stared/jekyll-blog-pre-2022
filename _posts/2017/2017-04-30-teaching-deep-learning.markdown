@@ -203,6 +203,8 @@ It shows layers, dimensions of data `(x, y, channels)` and the number of free pa
 You might be also interested in nicer progress bars with [keras-tqdm](https://github.com/bstriner/keras-tqdm), exploration of activations at each layer with [quiver](https://github.com/keplr-io/quiver), checking attention maps with [keras-vis](https://github.com/raghakot/keras-vis) or converting Keras models to JavaScript, runnable in a browser with [Keras.js](https://transcranial.github.io/keras-js/).
 Speaking of languages, there is also [R interface to Keras](https://rstudio.github.io/keras/).
 
+**EDIT** (March 2018): Also, I wrote [livelossplot](https://github.com/stared/livelossplot/) - a live training loss plot in Jupyter Notebook (for Keras, PyTorch and other frameworks).
+
 
 ### TensorFlow
 
