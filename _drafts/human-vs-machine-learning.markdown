@@ -4,6 +4,8 @@ title: "Human vs Machine Learning"
 date: "2017-12-26 12:30"
 ---
 
+Alternative title: Human overfitting: exams, nipples and conspiracy theories
+
 When I give an introduction to machine learning, I often start with the classic Iris dataset, printed on paper, and ask participants to draw division lines. Some people draw straight lines, while others  
 
 [picture?]
@@ -153,5 +155,6 @@ They can work by compressing, creating redundancy, or transforming problems into
   * https://imgur.com/gallery/a6feg5X (with many)
   * http://www.myconfinedspace.com/2015/10/05/information-vs-knowledge-vs-conspiracy-theory/
 * maybe to read https://www.reddit.com/r/MachineLearning/comments/7nt2sw/d_null_space_of_a_statistical_classifier/
+* https://arxiv.org/pdf/1801.00631.pdf - on why does
 
 ###

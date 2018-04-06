@@ -12,6 +12,9 @@ date: "2017-12-28 12:09"
 
 ## Networking
 
+* post with barabasi's like
+* https://twitter.com/amyngyn/status/959517497299906560
+
 ## Price estimation
 
 ## Productivity
