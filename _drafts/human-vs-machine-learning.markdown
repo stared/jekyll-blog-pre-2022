@@ -113,6 +113,10 @@ Yet
 Usually they don't take account for coincidences (i.e. noise) - every single event has some meaning and need to be fitted into the narrative.
 
 
+### Tricks and hacks
+
+
+
 ## When it is not a problem
 
 ### When overfitting is acceptable
@@ -153,5 +157,15 @@ They can work by compressing, creating redundancy, or transforming problems into
   * https://imgur.com/gallery/a6feg5X (with many)
   * http://www.myconfinedspace.com/2015/10/05/information-vs-knowledge-vs-conspiracy-theory/
 * maybe to read https://www.reddit.com/r/MachineLearning/comments/7nt2sw/d_null_space_of_a_statistical_classifier/
+
+neuroinspirations:
+
+* https://deepmind.com/blog/understanding-deep-learning-through-neuron-deletion/
+* http://yosinski.com/deepvis
+* https://datascience.stackexchange.com/questions/12851/how-do-you-visualize-neural-network-architectures
+* https://github.com/mlajtos/moniel and discussions there: https://github.com/mlajtos/moniel/issues/13
+
+Confusion matrix:
+* https://ml4a.github.io/demos/confusion_cifar_convnet/
 
 ###
