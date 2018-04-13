@@ -268,7 +268,7 @@ It’s totally fine to learn things on your own. But doing on a boot camp may be
 
 * [BIG DIVE](http://www.bigdive.eu/) - *Development, Visualization and Data Science*
   * [BIG DIVE, czyli o dawaniu nura w dane](http://smarterpoland.pl/index.php/2013/05/big-dive-czyli-o-nurkowaniu-w-danych/) (in Polish) - I participated in the 1st edition!
-  * [Big Dive review - alkamid](http://alkamid.com/big-dive-review-1/)
+  * [Big Dive review - alkamid](http://web.archive.org/web/20171004191246/http://alkamid.com/big-dive-review-1/)
 * [Insight Data Science Fellows Program](http://insightdatascience.com/) - *an intensive seven week post-doctoral training fellowship bridging the gap between academia and data science*
 * [S2DS London](http://www.s2ds.org/) - *Science to Data Science summer school*
 * [Recurse Center (aka Hacker School)](https://www.recurse.com/) - *a free, self-directed, educational retreat for people who want to get better at programming, whether they've been coding for three decades or three months*
