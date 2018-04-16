@@ -160,6 +160,7 @@ They can work by compressing, creating redundancy, or transforming problems into
   * http://www.myconfinedspace.com/2015/10/05/information-vs-knowledge-vs-conspiracy-theory/
 * maybe to read https://www.reddit.com/r/MachineLearning/comments/7nt2sw/d_null_space_of_a_statistical_classifier/
 * https://arxiv.org/pdf/1801.00631.pdf - on why does
+* bias-variance and discrimination
 
 neuroinspirations:
 
@@ -167,8 +168,17 @@ neuroinspirations:
 * http://yosinski.com/deepvis
 * https://datascience.stackexchange.com/questions/12851/how-do-you-visualize-neural-network-architectures
 * https://github.com/mlajtos/moniel and discussions there: https://github.com/mlajtos/moniel/issues/13
+* http://www.sciencemag.org/news/2018/04/could-artificial-intelligence-get-depressed-and-have-hallucinations?utm_source=sciencemagazine&utm_medium=facebook-text&utm_campaign=aidepression-18840
 
 Confusion matrix:
 * https://ml4a.github.io/demos/confusion_cifar_convnet/
 
-###
+
+### Binary fallacy
+
+Good vs evil, utilitarism and softmax
+
+* Differentiability!
+* Always some uncertainty
+* Centrism as a starting point
+* "Vector fallacy"
