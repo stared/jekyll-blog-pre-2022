@@ -5,6 +5,20 @@
   date:  2018-05-23
   tags:  [invited-talk, conference]
 
+- talk:  "Introduction to Deep Learning"
+  event: ICFO Theory Lectures
+  href:  https://www.icfo.eu/
+  place: "Castelldefels (Spain)"
+  date:  2018-04-25
+  tags:  [talk]
+
+- talk:  "Quantum Game with Photons in your Browser"
+  event: ICFO Theory Lectures
+  href:  https://www.icfo.eu/
+  place: "Castelldefels (Spain)"
+  date:  2018-04-24
+  tags:  [talk]
+
 - talk:  Ktoś nie ma racji w internecie
   event: "Edukaton - bo pół prawdy to całe kłamstwo"
   href:  https://edukaton.com/#hackathon
