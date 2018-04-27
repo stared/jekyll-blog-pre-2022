@@ -12,6 +12,13 @@
   date:  2018-05-23
   tags:  [invited-talk, conference]
 
+- talk:  "Konwolucyjne sieci neuronowe"
+  event: Obóz wielodyscyplinarny KFnrD
+  href:  http://fundusz.org/2018/04/wkrotce-oboz-w-serocku/
+  place: "Serock (Poland)"
+  date:  2018-05-03
+  tags:  [workshop,gifted-education]
+
 - talk:  "Introduction to Deep Learning"
   event: ICFO Theory Lectures
   href:  "https://www.icfo.es/calendar2?event=3948"
