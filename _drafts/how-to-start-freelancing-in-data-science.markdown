@@ -60,14 +60,6 @@ http://nathanbarry.com/marco-polo/
 > When I was a child my mother said to me, 'If you are a soldier, you will become a general. If you are a monk, you will become the Pope.' Instead, I was a painter, and became Picasso. - [Pablo Picasso](https://en.wikiquote.org/wiki/Pablo_Picasso)
 
 
-
-## Networking
-
-* post with barabasi's like
-* https://twitter.com/amyngyn/status/959517497299906560
-
-Networking (and this post)
-
 ## Price estimation
 
 In freelancing you need to negotiate your price from project to project. Some love it, most not.
@@ -90,19 +82,22 @@ As a freelancer your billable hours do not cover:
 * sick leave,
 * holidays,
 * accounting,
-* marketing,
+* marketing (writing blog posts, speaking at conferences),
 * speaking at conferences,
 * developing long-term skills,
 * meeting with potential clients.
 
 The crucial part is to estimate your billable hours per month.
 
+For every other stuff you should bill. If you client
 
 
 
 ## Time
 
-Often time estimation is more important that negotiating the right price. Even if you make
+
+
+Often time estimation is more important that negotiating the right price. Even if on paper,
 
 Projects based on data are tricky - what if there is not enough data, or data is way to noisy, to be useful.
 
@@ -124,16 +119,41 @@ Mortality tab?
 
 In an ideal world every project goes perfectly.
 
+
+
 With fucking up.  
 
 
 ## What is free in freelancing?
 
-In freelancing boundary between work and life is blurry. Especially when you are
+In freelancing boundary between work and life is blurry.
 
-* Paid
+ Especially when you are really passionate about what
+
+* Commercial projects
 * Marketing
 * Volunteering
 
+
+Remember,
+
+Marketing are activities which
+
+
+A few times I got asked to provide some service for free "for the sake of future colla"
+
+## Dealing with friends
+
+
+
+
+## Networking
+
+* post with barabasi's like
+* https://twitter.com/amyngyn/status/959517497299906560
+
+
+
 * Witcher poster
 * https://toggl.com/blog/freelancing-problems-dinosaurs/
+* https://twitter.com/roaringsoftly/status/990046712030023681

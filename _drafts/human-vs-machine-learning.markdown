@@ -40,6 +40,8 @@ Below,
 * too much memorization,
 * extrapolation from too sparse data.
 
+
+
 I will discussed both "active" cases, and ones frozen in the culture.
 
 ## Examples of overfitting
@@ -51,14 +53,15 @@ You are a student learning for a difficult exam. Would you rather:
 * revise note, re-read textb
 * study exam questions.
 
-
 In the worst case, if you memorize answers (question 1-A, 2-C, 3-A, 4-D, ...) it will works extremely well for the same exam set, but your accuracy will drop to guess-by chance level for a different question set (or even: a different order of answers).
+
+Even in a typical
 
 
 ### Memorization
 
 
-
+We would have saved him
 
 I medical
 
@@ -71,7 +74,7 @@ To a point that I made a bet with a friend, on the lethal dose of potassium ions
 
 ### Gender discrimination
 
-One of hallmarks of overfitting are two high weights given to a certain trait. To fight it, we use regularization. Depending on your statistical philosophy, it is a penalty, or a Bayesian prior.
+One of hallmarks of overfitting are too high weights given to a certain trait. To fight it, we use regularization. Depending on your statistical philosophy, it is a penalty, or a Bayesian prior.
 
 
 
@@ -102,13 +105,17 @@ Sure, it may me benef
 
 ### Superstitions
 
-Most cultures and religions believe in some supersitions.
+Most cultures and religions believe in some superstitions.
 Yet
 
 
 
 
 ### Conspiracy theories
+
+Sometimes there
+
+https://xkcd.com/1725/
 
 
 
@@ -161,6 +168,7 @@ They can work by compressing, creating redundancy, or transforming problems into
 * maybe to read https://www.reddit.com/r/MachineLearning/comments/7nt2sw/d_null_space_of_a_statistical_classifier/
 * https://arxiv.org/pdf/1801.00631.pdf - on why does
 * bias-variance and discrimination
+* https://datascience.stackexchange.com/questions/61/why-is-overfitting-bad-in-machine-learning/ including xkcd strip
 
 neuroinspirations:
 
@@ -173,6 +181,9 @@ neuroinspirations:
 Confusion matrix:
 * https://ml4a.github.io/demos/confusion_cifar_convnet/
 
+Also to write about:
+
+* Drugs, dreams and ConvNets
 
 ### Binary fallacy
 
