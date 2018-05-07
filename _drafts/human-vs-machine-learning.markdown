@@ -6,7 +6,7 @@ date: "2017-12-26 12:30"
 
 Alternative title: Human overfitting: exams, nipples and conspiracy theories
 
-When I give an introduction to machine learning, I often start with the classic Iris dataset, printed on paper, and ask participants to draw division lines. Some people draw straight lines, while others  
+When I give an introduction to machine learning, I often start with the [classic Iris dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set), printed on paper, and ask participants to draw division lines. Some people draw straight lines, while others  
 
 [picture?]
 
@@ -14,12 +14,17 @@ While each particular machine learning algorithm comes with its own artifacts an
 
 If fact, there are limitations of any learning process, machine or human alike.
 
+
 ## What is overfitting?
 
+When we learn, we may  
 
-Overfitting is a problem when
+
+Overfitting is a problem when a machine learning model performs
 
 
+
+http://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html
 
 * [Machine Learning Crash Course: Part 4 - The Bias-Variance Dilemma](https://ml.berkeley.edu/blog/2017/07/13/tutorial-4/) by Daniel Geng and Shannon Shih
 * https://www.analyticsvidhya.com/blog/2014/10/introduction-k-neighbours-algorithm-clustering/ (maybe)
@@ -40,17 +45,18 @@ Below,
 * too much memorization,
 * extrapolation from too sparse data.
 
-
-
 I will discussed both "active" cases, and ones frozen in the culture.
 
 ## Examples of overfitting
+
+To much memorization.
+
 
 ### Exams
 
 You are a student learning for a difficult exam. Would you rather:
 
-* revise note, re-read textb
+* revise note, re-read text,
 * study exam questions.
 
 In the worst case, if you memorize answers (question 1-A, 2-C, 3-A, 4-D, ...) it will works extremely well for the same exam set, but your accuracy will drop to guess-by chance level for a different question set (or even: a different order of answers).
@@ -109,6 +115,14 @@ Most cultures and religions believe in some superstitions.
 Yet
 
 
+Don't
+
+For example, don't take
+
+
+[Monday’s medical myth: you can’t mix antibiotics with alcohol](https://theconversation.com/mondays-medical-myth-you-cant-mix-antibiotics-with-alcohol-4407)
+[Can I drink alcohol while taking antibiotics?](https://www.nhs.uk/chq/pages/871.aspx) - NHS
+
 
 
 ### Conspiracy theories
@@ -122,7 +136,10 @@ https://xkcd.com/1725/
 Usually they don't take account for coincidences (i.e. noise) - every single event has some meaning and need to be fitted into the narrative.
 
 
-### Tricks and hacks
+### Cherry-picking models
+
+* [Spurious correlations](http://www.tylervigen.com/spurious-correlations)
+
 
 
 
@@ -137,6 +154,12 @@ The prime example is compression - when we don't need our results to generalize.
 [Mnemonic](https://en.wikipedia.org/wiki/Mnemonic), or memory techniques, can help learning languages, formuleae, phone numbers, etc.
 They can work by compressing, creating redundancy, or transforming problems into ones that are easier to memorize.
 
+### Tricks and hacks
+
+
+### Physics
+
+
 
 ### When underfitting is desirable
 
@@ -146,7 +169,19 @@ They can work by compressing, creating redundancy, or transforming problems into
 
 
 
-## TODO, etc
+## Ending
+
+
+
+See also:
+
+* [What's a real-world example of “overfitting”?](https://stats.stackexchange.com/questions/128616/whats-a-real-world-example-of-overfitting) - Cross Validated
+
+
+Can you think of other examples of overfitting?
+
+
+# TODO, etc
 
 ### To mention
 
