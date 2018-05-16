@@ -47,7 +47,7 @@ This is a field that exploded in the last few years, reaching human-level accura
 
 * [Measuring the Progress of AI Research](https://www.eff.org/ai/metrics) by Electronic Frontier Foundation (2017)
 
-Unlike quantum computing, or nuclear fusion - it is a technology that is being applied right now, not some possibility for the future.
+Unlike quantum computing, or fusion power - it is a technology that is being applied right now, not some possibility for the future.
 There is a rule of thumb:
 
 > Pretty much anything that a normal person can do in <1 sec, we can now automate with AI. - [Andrew Ng's tweet](https://twitter.com/andrewyng/status/788548053745569792)
@@ -260,7 +260,7 @@ A more interesting dataset, and harder for classical machine learning algorithms
 If you want to play with image recognition, there is [CIFAR dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a dataset of 32x32 photos (also in [keras.datasets](https://keras.io/datasets/)). It comes in two versions: 10 simple classes (including cats, dogs, frogs and airplanes ) and 100 harder and more nuanced classes (including beaver, dolphin, otter, seal and whale). I strongly suggest [starting with CIFAR-10](https://github.com/stared/keras-mini-examples/blob/master/cifar10_starter.ipynb), the simpler version.
 Beware, [more complicated networks may take quite some time](https://github.com/stared/keras-mini-examples/blob/master/cifar10_official_example.ipynb) (~12h on CPU my 7 year old Macbook Pro).
 
-**EDIT** (Nov 2017): If you are interested in practial exercises, I wrote [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/).
+**EDIT** (Nov 2017): If you are interested in practical exercises, I wrote [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/).
 
 
 ### More
@@ -275,6 +275,7 @@ Especially if data is scarce, there is no guarantee that a network will learn an
 
 Often, it's a combination of everything mentioned here.
 
+**EDIT** (May 2018): Were to look for suitable datasets? [Kaggle Datasets](https://www.kaggle.com/datasets) is a place to start (along with some [Kaggle Competitions](https://www.kaggle.com/competitions)).
 
 ## Standing on the shoulders of giants
 
@@ -384,9 +385,6 @@ Don't try to read them all - I list them for *inspiration*, not *intimidation*!
   * [GitXiv](http://www.gitxiv.com/) for papers with code
   * don't be afraid to read academic papers; some are well-written and insightful (if you own Kindle or another e-reader, I recommend [Dontprint](http://dontprint.net/))
 * Data (usually from challenges)
-  * [Kaggle](https://www.kaggle.com/)
-  * [iNaturalist 2017 Competition](https://github.com/visipedia/inat_comp) (675k images with 5k species), vide [Mushroom AI](https://twitter.com/mushroomaibot)
-
 
 ## Thanks
 
@@ -394,7 +392,7 @@ I would like to thank [Kasia Kulma](https://kkulma.github.io/), [Martina Puglies
 
 If you recommend a source that helped you with your adventure with deep learning - feel invited to contact me! ([@pmigdal](https://twitter.com/pmigdal) for short links, an email for longer remarks.)
 
-The [deep learning meme](http://knowyourmeme.com/photos/1244486-what-people-think-i-do-what-i-really-do) is not mine - I've just I rewrote from Theano to Keras (with TensorFlow backend).
+The [deep learning meme](http://knowyourmeme.com/photos/1244486-what-people-think-i-do-what-i-really-do) is not mine - I just rewrote it from Theano to Keras (with TensorFlow backend).
 
 
 [^deepsense]: [NOAA Right Whale Recognition, Winners' Interview](http://blog.kaggle.com/2016/01/29/noaa-right-whale-recognition-winners-interview-1st-place-deepsense-io/) (1st place, Jan 2016), and a fresh one: [Deep learning for satellite imagery via image segmentation](https://blog.deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/) (4th place, Apr 2017).
