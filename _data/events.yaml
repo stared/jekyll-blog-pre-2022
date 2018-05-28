@@ -12,6 +12,14 @@
   date:  2018-06-20
   tags:  [talk, conference]
 
+- talk:  "Skarby muzeum"
+  event: "HackArt - Hackathon Mu­zeum Na­ro­do­we w War­sza­wie"
+  href:  https://hackathon.mnw.art.pl/
+  slides: https://github.com/stared/hackart-you-in-artwork/
+  place: "Warsaw (Poland)"
+  date:  2018-05-26
+  tags:  [hackathon, winner]
+
 - talk:  "What neural networks can (and cannot yet) do?"
   event: infoShare
   href:  https://infoshare.pl

@@ -6,7 +6,7 @@
   tags:   [python, deep-learning, pip-installable]
   status: in progress (active!)
 
-- title:  Quantum Game
+- title:  Quantum Game with Photons
   desc:   Play with photons, superposition and entanglement. With true quantum mechanics underneath.
   href:   http://quantumgame.io/
   dateStart: 2014-07-20
