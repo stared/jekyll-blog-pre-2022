@@ -1,3 +1,10 @@
+- talk:  "Learning neural networks within Jupyter Notebook"
+  event: "PiterPy #5"
+  href:  https://piterpy.com/en
+  place: "St. Petersburg (Russia)"
+  date:  2018-11-02
+  tags:  [invited-talk, conference]
+
 - talk:  "Simple diagrams of convoluted neural networks"
   event: PyData Berlin 2018
   href:  https://pydata.org/berlin2018/schedule/presentation/30/
