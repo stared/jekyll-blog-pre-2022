@@ -12,11 +12,25 @@
   date:  2018-07-08
   tags:  [talk, conference]
 
+- talk:  "Networking - sztuka tkania sieci kontaktów"
+  event: Zjazd Przyjaciół i Absolwentów KFnrD 2018
+  href:    http://absolwenci-funduszu.org/zjazd/
+  place: "Warsaw (Poland)"
+  date:  2018-07-01
+  tags:  [workshop, alumni-meeting]
+
 - talk:  "Visualizing neural networks"
   event: 2nd Crastina IRL Unconference
   href:  http://crastina.se/
   place: "Eskilstuna (Sweden)"
   date:  2018-06-20
+  tags:  [talk, conference]
+
+- talk:  "Dreams, drugs and ConvNets"
+  event: "Polski AI meetup - PLAI #2"
+  href:  https://www.facebook.com/events/1829164653780868/
+  place: "Kraków (Poland)"
+  date:  2018-06-03
   tags:  [talk, conference]
 
 - talk:  "Skarby muzeum"
