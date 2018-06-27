@@ -1,3 +1,9 @@
+- title: "Don’t learn TensorFlow! Start with Keras or PyTorch instead"
+  at:    deepsense.ai blog
+  href:  https://deepsense.ai/dont-learn-tensorflow-start-with-keras-or-pytorch-instead/
+  date:  2018-06-27
+  tags:  [external-post]
+
 - title: "Starting deep learning hands-on: image classification on CIFAR-10"
   at:    deepsense.ai blog
   href:  https://blog.deepsense.ai/deep-learning-hands-on-image-classification/
