@@ -139,6 +139,11 @@ tl;dr: both are good choices. Pick one you prefer for any reason; two really goo
 
 I mean, there are use cases when one is better than the other. But in the majority of tasks both are fine. And well (some may disagree), but they are tools, not religions (no need of fighting, not need of using exclusively one).
 
+**EDIT** (Jun 2018):
+
+* [Python eats away at R: Top Software for Analytics, Data Science, Machine Learning in 2018: Trends and Analysis](https://www.kdnuggets.com/2018/05/poll-tools-analytics-data-science-machine-learning-results.html)
+* In *What language would you recommend new data scientists learn first?* from [2017 Kaggle survey](What language would you recommend new data scientists learn first?) - Python wins with R
+
 I won't point to a general tutorials - there are tons of it and personal preferences vary (MOOCs, interactive courses, websites, textbooks, ...) and I tried to link only to things I recommend myself.
 When I provide links - it is usually web materials rather than classical books. And it is for a reason:
 
