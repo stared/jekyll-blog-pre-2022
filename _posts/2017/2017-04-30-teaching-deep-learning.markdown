@@ -234,6 +234,7 @@ It combines relatively brief and readable code (almost like Keras) but at the sa
 * [PyTorch - Tutorials](http://pytorch.org/tutorials/)
 * [A repository showcasing examples of using PyTorch](https://github.com/pytorch/examples)
 
+**EDIT** (June 2018): In [Keras or PyTorch as your first deep learning framework](https://deepsense.ai/keras-or-pytorch/) I discuss pros and cons of starting learning deep learning with each of them. 
 
 ## Datasets
 
