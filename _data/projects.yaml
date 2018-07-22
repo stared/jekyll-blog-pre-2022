@@ -1,3 +1,11 @@
+- title:  Interactive Machine Learning List
+  desc:   A collaborative list of interactive Machine Learning, Deep Learning and Stats websites
+  href:   https://p.migdal.pl/interactive-machine-learning-list/
+  dateStart: 2018-05-27
+  dateEnd:
+  tags:   [machine-learning, deep-learning, list]
+  status: in progress (active!)
+
 - title:  livelossplot
   desc:   Live training loss plot in Jupyter Notebook for Keras, PyTorch and other frameworks.
   href:   https://github.com/stared/livelossplot
