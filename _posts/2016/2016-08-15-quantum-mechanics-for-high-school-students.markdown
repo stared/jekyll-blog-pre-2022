@@ -236,6 +236,7 @@ In 2016, I covered only 0., 1. and 2., all on-site. Because of the lack of prepa
 * Python (in [Jupyter Notebook](http://jupyter.readthedocs.io)) for calculations and plots
   * see my blog entry: [Data science intro for math/phys background ](http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html) and the paragraph on Python
   * see [Qubism in QuTiP](http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/blob/master/examples/example-qubism-and-schmidt-plots.ipynb) and in general [QuTiP: Quantum Toolbox in Python](http://qutip.org/)
+* EDIT: See also [Science-based games - a collaborative list](https://github.com/stared/science-based-games-list)
 
 ### Websites
 
