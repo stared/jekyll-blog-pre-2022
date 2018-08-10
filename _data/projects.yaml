@@ -1,3 +1,11 @@
+- title:  In Browser AI
+  desc:   A community sharing knowledge how to bring deep learning demos of your research papers, commercial or side projects to the browsers.
+  href:   https://inbrowser.ai/
+  dateStart: 2018-08-08
+  dateEnd:
+  tags:   [deep-learning, javascript, community]
+  status: in progress (active!)
+
 - title:  Interactive Machine Learning List
   desc:   A collaborative list of interactive Machine Learning, Deep Learning and Stats websites
   href:   https://p.migdal.pl/interactive-machine-learning-list/
