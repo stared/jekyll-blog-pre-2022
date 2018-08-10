@@ -1,9 +1,44 @@
+- talk:  Programme committee
+  event: PyData Warsaw Conference 2018
+  href:  https://pydata.org/warsaw2018/
+  place: "Warsaw (Poland)"
+  date:  2018-11-19
+  tags:  [organizer]
+
+- talk:  "Train in Python, run in JavaScript."
+  event: "code::dive 2018"
+  href:  http://codedive.pl/
+  place: "Wrocław (Poland)"
+  date:  2018-11-07
+  tags:  [invited-talk]
+
 - talk:  "Learning neural networks within Jupyter Notebook"
   event: "PiterPy #5"
   href:  https://piterpy.com/en
   place: "St. Petersburg (Russia)"
   date:  2018-11-02
   tags:  [invited-talk, conference]
+
+- talk:  "Bohater przemian"
+  event: "Festiwal Przemiany - Centrum Nauki Kopernik"
+  href:  http://www.kopernik.org.pl/projekty-specjalne/festiwal-przemiany/festiwal-przemiany-2018/bohaterowie-przemian/
+  place: "Warsaw (Poland)"
+  date:  2018-09-13
+  tags:  [mentor]
+
+- talk:  "Sztuczne sieci neuronowe w... przeglądarce internetowej"
+  event: "Fire Talk - Google Campus"
+  href:  ""
+  place: "Warsaw (Poland)"
+  date:  2018-09-23
+  tags:  [talk]
+
+- talk:  "Deep learning - interactive examples"
+  event: "Machine learning for creative AI - Media Lab Berlin"
+  href:  https://www.media.mit.edu/events/mlberlin-signalandnoise/
+  place: "Berlin (Germany)"
+  date:  2018-08-15
+  tags:  [mentor, talk]
 
 - talk:  "Simple diagrams of convoluted neural networks"
   event: PyData Berlin 2018
