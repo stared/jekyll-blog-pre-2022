@@ -159,6 +159,12 @@ It also happens the other way - many liberal arts and humanities departments lac
 
 If you are confined within such environments even small deviations from an even ratio change the dating dynamics [Dating Scene from The Difference Between Living in New York and San Francisco](http://thecooperreview.com/difference-between-living-in-new-york-and-san-francisco/). The supply and demand mechanics can lead to serious effects [Sex and the single black woman - The Economist](http://www.economist.com/node/15867956).
 
+See also:
+
+* [The New, Interactive Singles Map](http://jonathansoma.com/singles/) by Jonathan Soma, and:
+  - [The SF Bay Area, where the streets are paved with single young men](http://visualizing.nyc/bay-area-zip-codes-singles-map/)
+  - [Ladies, there are men in NYC! (but not where you’re looking](http://visualizing.nyc/nyc-zip-codes-singles-map/)
+
 More skewed environments may make it almost impossible to date. But there is one more subtle yet important thing - heavily masculinized places may result in a culture that’s not optimal for women.
 
 * [The odds are good - PhDcomics](http://phdcomics.com/comics/archive.php?comicid=8)
