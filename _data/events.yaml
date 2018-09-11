@@ -19,6 +19,13 @@
   date:  2018-11-02
   tags:  [invited-talk, conference]
 
+- talk:  "Artificial neural networks in your browser"
+  event: "Science: Polish Perspectives 2018 Berlin"
+  href:  https://poloniumfoundation.org/sppberlin2018
+  place: "Berlin (Germany)"
+  date:  2018-10-12
+  tags:  [talk, conference]
+
 - talk:  "Bohater przemian"
   event: "Festiwal Przemiany - Centrum Nauki Kopernik"
   href:  http://www.kopernik.org.pl/projekty-specjalne/festiwal-przemiany/festiwal-przemiany-2018/bohaterowie-przemian/

@@ -6,6 +6,15 @@
   tags:   [deep-learning, javascript, community]
   status: in progress (active!)
 
+- title:  Weltschmerz by age
+  desc:   "I am X years old and... [Google autocomplete]"
+  href:   https://p.migdal.pl/weltschmerz/
+  dateStart: 2015-01-25
+  dateEnd:   2018-08-23
+  tags:   [fun, javascript]
+  status: done
+  hn:     https://news.ycombinator.com/item?id=17826188
+
 - title:  Interactive Machine Learning List
   desc:   A collaborative list of interactive Machine Learning, Deep Learning and Stats websites
   href:   https://p.migdal.pl/interactive-machine-learning-list/
