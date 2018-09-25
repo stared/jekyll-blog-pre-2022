@@ -3,14 +3,14 @@
   href:  https://pydata.org/warsaw2018/
   place: "Warsaw (Poland)"
   date:  2018-11-19
-  tags:  [organizer]
+  tags:  [organizer, conference]
 
 - talk:  "Train in Python, run in JavaScript."
   event: "code::dive 2018"
   href:  http://codedive.pl/
   place: "Wrocław (Poland)"
   date:  2018-11-07
-  tags:  [invited-talk]
+  tags:  [invited-talk, conference]
 
 - talk:  "Learning neural networks within Jupyter Notebook"
   event: "PiterPy #5"
@@ -18,6 +18,13 @@
   place: "St. Petersburg (Russia)"
   date:  2018-11-02
   tags:  [invited-talk, conference]
+
+- talk:  "Mentoring"
+  event: "Hackathon - Nowa strona danych"
+  href:  http://hackathon.gov.pl/
+  place: "Warsaw (Poland)"
+  date:  2018-10-27
+  tags:  [mentor, hackathon]
 
 - talk:  "Artificial neural networks in your browser"
   event: "Science: Polish Perspectives 2018 Berlin"
