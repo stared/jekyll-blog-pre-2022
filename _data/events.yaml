@@ -40,6 +40,13 @@
   date:  2018-10-12
   tags:  [talk, conference]
 
+- talk:  "Keras vs. PyTorch - Alien vs. Predator recognition with transfer learning"
+  event: "deepsense.ai webinar"
+  href:  https://www.crowdcast.io/e/KerasVersusPyTorch/register
+  place: "online"
+  date:  2018-10-10
+  tags:  [webinar]
+
 - talk:  "Bohater przemian"
   event: "Festiwal Przemiany - Centrum Nauki Kopernik"
   href:  http://www.kopernik.org.pl/projekty-specjalne/festiwal-przemiany/festiwal-przemiany-2018/bohaterowie-przemian/
