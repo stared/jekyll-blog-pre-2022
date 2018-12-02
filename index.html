@@ -4,7 +4,30 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Posts (a few external)</h1>
+
+  <p>More in the <a href="/articles/">Articles</a> tab.</p>
+
+  <ul class="post-list">
+  {% assign articles_sorted = site.data.articles | sort: "date" | limit:5 %}
+  {% for article in articles_sorted reversed %}
+    <li>
+      <span class="post-meta">
+        {{ article.date | date: "%-d %b %Y" }}
+        •
+      </span>
+      <a href="{{ article.href }}">{{ article.title }}</a>
+      <span class="post-meta">
+        @ {{ article.at }}
+        {% if article.hn %}
+        • see <a href="{{ article.hn }}">HN discussion</a>
+        {% endif %}
+      </span>
+    </li>
+  {% endfor %}
+  </ul>
+
+  <h1 class="page-heading">Posts (here)</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
