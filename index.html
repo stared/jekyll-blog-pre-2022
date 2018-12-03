@@ -7,19 +7,17 @@ layout: default
   <h1 class="page-heading">Posts (a few external)</h1>
 
   <ul class="post-list">
-  {% assign articles_sorted = site.data.articles | sort: "date" %}
-  {% for article in articles_sorted reversed limit:5 %}
+  {% assign articles_sorted = site.data.articles | sort: "date" | reverse %}
+  {% for article in articles_sorted limit:5 %}
     <li>
-      <span class="post-meta">
-        {{ article.date | date: "%-d %b %Y" }}
-        •
-      </span>
       <a href="{{ article.href }}">{{ article.title }}</a>
       <span class="post-meta">
         @ {{ article.at }}
         {% if article.hn %}
         • see <a href="{{ article.hn }}">HN discussion</a>
         {% endif %}
+        •
+        {{ article.date | date: "%-d %b %Y" }}
       </span>
     </li>
   {% endfor %}
