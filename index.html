@@ -6,11 +6,9 @@ layout: default
 
   <h1 class="page-heading">Posts (a few external)</h1>
 
-  <p>More in the <a href="/articles/">Articles</a> tab.</p>
-
   <ul class="post-list">
-  {% assign articles_sorted = site.data.articles | sort: "date" | limit:5 %}
-  {% for article in articles_sorted reversed %}
+  {% assign articles_sorted = site.data.articles | sort: "date" %}
+  {% for article in articles_sorted reversed limit:5 %}
     <li>
       <span class="post-meta">
         {{ article.date | date: "%-d %b %Y" }}
@@ -26,6 +24,8 @@ layout: default
     </li>
   {% endfor %}
   </ul>
+
+  <p>More in the <a href="/articles/">Articles</a> tab.</p>
 
   <h1 class="page-heading">Posts (here)</h1>
 
