@@ -16,7 +16,8 @@
   date:  2018-08-29
   tags:  [external-post]
 
-- title: "Don’t learn TensorFlow! Start with Keras or PyTorch instead"
+- title: Keras or PyTorch as your first deep learning framework
+  old_title: "Don’t learn TensorFlow! Start with Keras or PyTorch instead"
   at:    deepsense.ai blog
   href:  https://deepsense.ai/keras-or-pytorch/
   date:  2018-06-27
