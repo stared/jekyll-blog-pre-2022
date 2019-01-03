@@ -5,6 +5,14 @@
   date:  2019-02-16
   tags:  [talk, conference]
 
+- talk:
+"Sztuczne sieci neuronowe – luźna inspiracja biologiczna"
+  event: "Koło Naukowe Neuroinformatyki UW"
+  href:  https://www.facebook.com/events/573113103151399/
+  place: "Warsaw (Poland)"
+  date:  2019-01-08
+  tags:  [talk]
+
 - talk:  Organizer
   event: "Visualizing machine learning: minihackathon "
   href:  https://www.facebook.com/events/620761215026103/
