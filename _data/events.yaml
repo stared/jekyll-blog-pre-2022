@@ -1,3 +1,17 @@
+- talk:  "Zanurzamy w R^n - słowa i twarze"
+  event: LIX Szkoła Matematyki Poglądowej
+  href:  https://smp.uph.edu.pl/131-ogolne/855-59smp
+  place: "Wola Ducka  (Poland)"
+  date:  2019-02-16
+  tags:  [talk, conference]
+
+- talk:  Organizer
+  event: "Visualizing machine learning: minihackathon "
+  href:  https://www.facebook.com/events/620761215026103/
+  place: "Warsaw (Poland)"
+  date:  2018-12-30
+  tags:  [organizer, hackathon]
+
 - talk:  Programme committee
   event: PyData Warsaw Conference 2018
   href:  https://pydata.org/warsaw2018/
