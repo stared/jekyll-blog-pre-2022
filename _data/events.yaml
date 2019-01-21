@@ -1,9 +1,30 @@
+- talk:  "Deep Frankenstein: dissecting and sewing artificial neural networks"
+  event: Brainhack Warsaw 2019
+  href:  https://brainhackwarsaw.github.io/
+  place: "Warsaw (Poland)"
+  date:  2019-03-01
+  tags:  [workshop]
+
 - talk:  "Zanurzamy w R^n - słowa i twarze"
   event: LIX Szkoła Matematyki Poglądowej
   href:  https://smp.uph.edu.pl/131-ogolne/855-59smp
   place: "Wola Ducka  (Poland)"
   date:  2019-02-16
   tags:  [talk, conference]
+
+- talk:  "Organizer"
+  event: "Visualizing Machine Learning 2: minihackathon"
+  href:  https://www.facebook.com/events/590742014719590/
+  place: "Warsaw (Poland)"
+  date:  2019-03-01
+  tags:  [hackathon, organizer]
+
+- talk:  "Deep learning for neuroscientists (in PyTorch)"
+  event: Studenckie Koło Neuroinformatyki
+  href:  ""
+  place: "Warsaw (Poland)"
+  date:  2019-01-19
+  tags:  [workshop]
 
 - talk:  "Sztuczne sieci neuronowe – luźna inspiracja biologiczna"
   event: "Koło Naukowe Neuroinformatyki UW"
