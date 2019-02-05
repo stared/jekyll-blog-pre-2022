@@ -8,9 +8,16 @@
 - talk:  "Zanurzamy w R^n - słowa i twarze"
   event: LIX Szkoła Matematyki Poglądowej
   href:  https://smp.uph.edu.pl/131-ogolne/855-59smp
-  place: "Wola Ducka  (Poland)"
+  place: "Wola Ducka (Poland)"
   date:  2019-02-16
   tags:  [talk, conference]
+
+- talk:  "Detecting trypophobia trypophobia triggers"
+  event: Theoretical Foundations of Machine Learning
+  href:  http://tfml.gmum.net/
+  place: "Kraków (Poland)"
+  date:  2019-02-11
+  tags:  [poster, conference]
 
 - talk:  "Organizer"
   event: "Visualizing Machine Learning 2: minihackathon"
