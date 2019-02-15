@@ -1,9 +1,23 @@
+- talk:  "Narysuj klasyfikator + tworzymy sieć neuronową do piesków"
+  event: "Sobota Naukowców"
+  href:  https://lo5.bielsko.pl/
+  place: "Bielsko-Biała (Poland)"
+  date:  2019-03-16
+  tags:  [workshop]
+
 - talk:  "Deep Frankenstein: dissecting and sewing artificial neural networks"
   event: Brainhack Warsaw 2019
   href:  https://brainhackwarsaw.github.io/
   place: "Warsaw (Poland)"
   date:  2019-03-01
   tags:  [workshop]
+
+- talk:  "Neuroinformatyka i uczenie maszynowe"
+  event: "1. Odczyty Czwartkowe KFnrD"
+  href:  https://www.facebook.com/events/1207329269429773/
+  place: "Warsaw (Poland)"
+  date:  2019-02-28
+  tags:  [talk]
 
 - talk:  "Zanurzamy w R^n - słowa i twarze"
   event: LIX Szkoła Matematyki Poglądowej
@@ -12,7 +26,7 @@
   date:  2019-02-16
   tags:  [talk, conference]
 
-- talk:  "Detecting trypophobia trypophobia triggers"
+- talk:  "Modeling response to trypophobia triggers with intermediate layers of ImageNet networks"
   event: Theoretical Foundations of Machine Learning
   href:  http://tfml.gmum.net/
   place: "Kraków (Poland)"
