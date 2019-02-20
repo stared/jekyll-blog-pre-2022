@@ -5,12 +5,19 @@
   date:  2019-03-16
   tags:  [workshop]
 
+- talk:  "Livelossplot - and other tools to visualize machine learning"
+  event: "PyData Warsaw #18: Data Science, Deep & Machine Learning"
+  href:  https://www.meetup.com/PyData-Warsaw/events/257706297/
+  place: "Bielsko-Biała (Poland)"
+  date:  2019-03-04
+  tags:  [talk, meetup]
+
 - talk:  "Deep Frankenstein: dissecting and sewing artificial neural networks"
   event: Brainhack Warsaw 2019
   href:  https://brainhackwarsaw.github.io/
   place: "Warsaw (Poland)"
   date:  2019-03-01
-  tags:  [workshop]
+  tags:  [workshop, hackathon]
 
 - talk:  "Neuroinformatyka i uczenie maszynowe"
   event: "1. Odczyty Czwartkowe KFnrD"
