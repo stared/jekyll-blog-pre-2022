@@ -107,7 +107,7 @@ Confidence seems to as important to male attractiveness as beauty to female. To 
 
 The entire book [Models: Attract Women Through Honesty](https://www.amazon.com/Models-Attract-Women-Through-Honesty-ebook/dp/B005EOTH24) by Mark Manson (my very favourite in the dating genre!) is pretty much centered on how to be confident and make this visible. The crucial point is about being non-needy. That is, being comfortable with who you are rather than relying too much on external validation.
 
-If you are interested in a given women, you shouldn’t be afraid to show it to her. A lot of behaviors considered creepy are centered around concealing sexual intentions. At the same time, if she turns you down you should be fine with that. Sure, it’s not what you dreamed of, but at the same time - being needy and having her decision affect your self-worth is unsexy.
+If you are interested in a given woman, you shouldn’t be afraid to show it to her. A lot of behaviors considered creepy are centered around concealing sexual intentions. At the same time, if she turns you down you should be fine with that. Sure, it’s not what you dreamed of, but at the same time - being needy and having her decision affect your self-worth is unsexy.
 
 The attractive part of confidence is not about being a jerk, who never admits to being wrong. It’s about calm and warm comfort. And it’s true not only for humans: [Think You Know What “Alpha Male” Means? These Wolves Will Prove You Wrong](https://www.rd.com/advice/relationships/alpha-male-wolves/).
 
@@ -118,7 +118,9 @@ You may say that at least when it comes to sex it is easier for women:
 
 > For men getting sex is a chore, for women getting sex is a choice
 
-And in most cases, getting any sex as a woman is trivial, compared to the effort required of a man. So, is it cool? Not necessarily. While for some men it may be that:
+[![](/imgs/2017-09-30-dating-for-nerds-gender-differences/casual_sex_yes_baranowski_hecht_2014.png)](https://skeptics.stackexchange.com/questions/43508/)
+
+And in most cases, [getting any sex as a woman is trivial, compared to the effort required of a man](https://skeptics.stackexchange.com/questions/43508/are-men-more-likely-than-women-to-accept-an-offer-for-casual-sex). So, is it cool? Not necessarily. While for some men it may be that:
 
 > Sex is like pizza - even when it is bad, it is still pretty good.
 
@@ -147,7 +149,7 @@ Some general hints are here:
 
 ## Gender ratios
 
-Many places in which we spend our time have an uneven gender ratio - be it workplaces, departments at a university, special interest groups, anything. It can happen for various reasons - from founder’s effect through different interests (especially on the line [things vs people](http://slatestarcodex.com/2017/08/07/contra-grant-on-exaggerated-differences/)) to outright discrimination.
+Many places in which we spend our time have an uneven gender ratio - be it workplaces, departments at a university, special interest groups, anything. It can happen for various reasons - from the founder’s effect through different interests (especially on the line [things vs people](http://slatestarcodex.com/2017/08/07/contra-grant-on-exaggerated-differences/)) to outright discrimination.
 
 You are likely to spend time in places with a gender imbalance in (questionable) favor of your gender. See [Most Female and Male Occupations Since 1950](http://flowingdata.com/2017/09/11/most-female-and-male-occupations-since-1950/) by Nathan Yay:
 
@@ -252,7 +254,7 @@ For many nerdy men this “taking initiative” looks particularly challenging, 
 
 * the lack of typical “male” confidence,
 * not knowing how to approach (given social norms, situational context),
-* not discerning sexual interest from platonic * friendship and vice versa (social cue blindness),
+* not discerning sexual interest from platonic friendship and vice versa (social cue blindness),
 * responsive desire (e.g. many women are aroused only in some context).
 
 Why does it happen? Except, of course, for cultural expectations (which may be very high).
@@ -306,6 +308,7 @@ But in the process of getting know her better and better, sticking to the gender
 * [The Words Men and Women Use When They Write About Love](https://www.nytimes.com/interactive/2017/11/07/upshot/modern-love-what-we-write-when-we-write-about-love.html) - an interactive exploration
 * Clarisse Thorn, [Confessions of a Pickup Artist Chaser](https://www.amazon.com/Confessions-Pickup-Artist-Chaser-Interviews-ebook/dp/B007I5HRQU) - a book dissecting dating, written by a nerdy, sex-positive feminist
 * [Why Do We Demonize Men Who Are Honest About Their Sexual Desires?](https://goodmenproject.com/sex-relationships/why-do-we-demonize-men-who-are-honest-about-their-sexual-needs/) and [Why Are Men Expected to Make the First Move?](https://goodmenproject.com/featured-content/why-are-men-expected-to-make-the-first-move-in-sex-and-relationships/) by her
+* [Why Don't Women Ask Men Out on First Dates?](https://www.psychologytoday.com/us/blog/the-how-and-why-sex-differences/201104/why-dont-women-ask-men-out-first-dates) by Michael Mills in Psychology Today
 
 
 ## Closing remarks
