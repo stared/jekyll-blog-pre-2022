@@ -1,10 +1,26 @@
+- title:  "Which Machine Learning algorithm are you?"
+  desc:   "Drawing classifiers - a didactiv project. In vue.js. With Kasia Kańska."
+  href:   https://github.com/stared/which-ml-are-you
+  dateStart: 2018-12-30
+  dateEnd:
+  tags:   [deep-learning, javascript]
+  status: in progress (active!)
+
+- title:  "Thinking in Tensors, Writing in PyTorch"
+  desc:   A hands-on deep learning introduction, from pieces. In Jupyter Notebooks.
+  href:   https://github.com/stared/thinking-in-tensors-writing-in-pytorch
+  dateStart: 2018-12-23
+  dateEnd:
+  tags:   [deep-learning, pytorch, course]
+  status: in progress (active!)
+
 - title:  In Browser AI
   desc:   A community sharing knowledge how to bring deep learning demos of your research papers, commercial or side projects to the browsers.
   href:   https://inbrowser.ai/
   dateStart: 2018-08-08
-  dateEnd:
+  dateEnd: 2018-11-01
   tags:   [deep-learning, javascript, community]
-  status: in progress (active!)
+  status: sort of frozen
 
 - title:  Weltschmerz by age
   desc:   "I am X years old and... [Google autocomplete]"
@@ -21,7 +37,7 @@
   dateStart: 2018-05-27
   dateEnd:
   tags:   [machine-learning, deep-learning, list]
-  status: in progress (active!)
+  status: done
 
 - title:  livelossplot
   desc:   Live training loss plot in Jupyter Notebook for Keras, PyTorch and other frameworks.
