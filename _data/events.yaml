@@ -1,3 +1,17 @@
+- talk:  "Understanding LSTM and GRU in PyTorch"
+  event: "AI & NLP Workshop Day 2019"
+  href:  https://nlpday.pl/
+  place: "Warsaw (Poland)"
+  date:  2019-05-31
+  tags:  [workshop]
+
+- talk:  "Organizer"
+  event: "Visualizing Machine Learning 3: cowork/minihackathon"
+  href:  https://www.facebook.com/events/613580375730848/
+  place: "Warsaw (Poland)"
+  date:  2019-04-06
+  tags:  [workshop, hackathon]
+
 - talk:  "Draw a classifier - an interactive game"
   event: "warsaw.ai meetup"
   href:  https://warsaw.ai/
