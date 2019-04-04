@@ -5,6 +5,13 @@
   date:  2019-05-31
   tags:  [workshop]
 
+- talk:  Data visualization mentor
+  event: "HowMeData - Hackathon GUS"
+  href:  http://hackathon.stat.gov.pl/
+  place: "Warsaw (Poland)"
+  date:  2019-04-12
+  tags:  [hackathon, mentor]
+
 - talk:  "Organizer"
   event: "Visualizing Machine Learning 3: cowork/minihackathon"
   href:  https://www.facebook.com/events/613580375730848/
