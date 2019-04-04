@@ -1,3 +1,11 @@
+- title:  Gossiping Commons
+  desc:   "Don't tell alike and no author please licenses."
+  href:   https://gossipingcommons.org/
+  dateStart: 2019-04-02
+  dateEnd:
+  tags:   [open-source, humor]
+  status: in progress (active!)
+
 - title:  "Which Machine Learning algorithm are you?"
   desc:   "Drawing classifiers - a didactiv project. In vue.js. With Kasia Kańska."
   href:   https://github.com/stared/which-ml-are-you
@@ -46,6 +54,14 @@
   dateEnd:
   tags:   [python, deep-learning, pip-installable]
   status: in progress (active!)
+
+- title:  "Trypophobia Image Detector - Browser Plugin using Deep Learning"
+  desc:   A deep learning project by Artur Puzio and Grzegorz Uriasz made as part of an internship at deepsense.ai sponsored by The Polish Children's Fund and supervised by Piotr Migdał.
+  href:   https://github.com/cytadela8/trypophobia
+  dateStart: 2017-09-03
+  dateEnd:   2017-12-05
+  tags:   [deep-learning, cognitive-science]
+  status: kind of hibernated
 
 - title:  Quantum Game with Photons
   desc:   Play with photons, superposition and entanglement. With true quantum mechanics underneath.
