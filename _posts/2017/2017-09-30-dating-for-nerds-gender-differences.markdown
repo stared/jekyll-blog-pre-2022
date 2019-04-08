@@ -41,8 +41,9 @@ Still, it is crucial to be aware of some of different motivations and preference
 You may get the impression that dating is harder boys than girls. Well, the data is unfortunately on your side, see:
 
 * relationship status vs age from [Data Science of the Facebook World](http://blog.stephenwolfram.com/2013/04/data-science-of-the-facebook-world/) (2013),
+* [Explaining Sex Rate Changes](http://www.overcomingbias.com/2019/03/explaining-sex-rate-changes.html) by Robin Hanson
 
-which seems to be a direct consequence that women often date older men:
+It seems to be a direct consequence that women often date older men:
 
 * [OK Cupid Data on Sex, Desirability, and Age](https://thesocietypages.org/socimages/2015/07/03/ok-cupid-data-on-sex-desirability-and-age/) by Lisa Wade
 * [What’s the Deal With the Age Gap in Relationships?](https://theblog.okcupid.com/undressed-whats-the-deal-with-the-age-gap-in-relationships-3143a2ca5178) - Dale Markowitz at OKCupid blog
@@ -193,7 +194,7 @@ Because while the average number of children by men and women is the same (it ha
 
 * [Is There Anything Good About Men?](http://www.denisdutton.com/baumeister.htm) by Roy F. Baumeister
 
-It happens at a very physiological level, see:
+It happens also at a very physiological level, see:
 
 * [Milk composition differs based on a baby’s sex and a mother’s wealth](https://www.scientificamerican.com/article/boys-and-girls-may-get-different-breast-milk/) by Marissa Fessenden at Scientific American
 
@@ -211,7 +212,7 @@ So yes, there is some asymmetry to deal with. This is the balance of valuing fri
 
 * [Yes Virginia, they all want to bang you - Ladder Theory](http://www.laddertheory.com/yesvirginia.htm) (NOT an endorsement)
 
-Beware - places dominated by frustrated, cynical men are rarely good places for healthy growth. While these 3 points are essentially correct, the conclusions are harmful. If you are interested in women only for sex, I guarantee that you will have a shallow and unfulfilling life.
+Beware - places dominated by frustrated, cynical men are rarely good places for healthy growth. While these 3 points are essentially correct, the conclusions are harmful. If you are interested in women only for sex, I guarantee that you will have a shallow and unfulfilling life. Vide [The Infernal Inner Lives of Incels](https://www.playboy.com/read/the-infernal-inner-lives-of-incels-1).
 
 The traditional ways to deal with that is to say that (hetero)men and women cannot be friends. What’s the problem with having friends you find attractive? (Hint: no, you don’t need to hit on everyone you find attractive.)
 
@@ -237,6 +238,7 @@ In many social contexts, it is expected that a man is going to take initiative (
 
 * [Cupid on Trial: A 4-month Online Dating Experiment Using 10 Fictional Singletons](http://jonmillward.com/blog/attraction-dating/cupid-on-trial-a-4-month-online-dating-experiment/)
 * [Men on Tinder Explain Why They Swipe Right on Literally Everyone](https://broadly.vice.com/en_us/article/men-who-swipe-right-to-everyone-on-tinder-explain-themselves) by Sirin Kale or [How Tinder “Feedback Loop” Forces Men and Women into Extreme Strategies](https://www.technologyreview.com/s/601909/how-tinder-feedback-loop-forces-men-and-women-into-extreme-strategies/)
+* [Tinder Experiments II: Guys, unless you are really hot you are probably better off not wasting your time on Tinder — a quantitative socio-economic study](https://medium.com/@worstonlinedater/tinder-experiments-ii-guys-unless-you-are-really-hot-you-are-probably-better-off-not-wasting-your-2ddf370a6e9a)
 
 It has happened to me that a woman asked me out, asked for a kiss, or asked for sexual activity. It was awesome and I appreciated it a lot.
 
