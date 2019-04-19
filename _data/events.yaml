@@ -1,3 +1,10 @@
+- talk:  "Participant"
+  event: Eastern European Machine Learning Summer School
+  href:  https://www.eeml.eu/
+  place: "Bucharest (Romania)"
+  date:  2019-07-01
+  tags:  [participant]
+
 - talk:  "Understanding LSTM and GRU in PyTorch"
   event: "AI & NLP Workshop Day 2019"
   href:  https://nlpday.pl/
