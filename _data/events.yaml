@@ -12,6 +12,20 @@
   date:  2019-05-31
   tags:  [workshop]
 
+- talk:  "Visualizing machine learning - from confusion matrices to a game"
+  event: "PyConLT'19"
+  href:  https://www.pycon.lt/
+  place: "Vilnius (Lithuania)"
+  date:  2019-05-25
+  tags:  [talk]
+
+- talk:  "Organizer"
+  event: "Visualizing Machine Learning 4: cowork/minihackathon"
+  href:  https://www.facebook.com/events/2387500048148404/
+  place: "Warsaw (Poland)"
+  date:  2019-05-11
+  tags:  [workshop, hackathon, organizer]
+
 - talk:  Data visualization mentor
   event: "HowMeData - Hackathon GUS"
   href:  http://hackathon.stat.gov.pl/
