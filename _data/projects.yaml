@@ -31,6 +31,14 @@
   tags:   [deep-learning, pytorch, course]
   status: in progress (active!)
 
+- title:  "Map of Polish Composers"
+  desc:   "D3.js programing for a Culture.pl project with Kordian Klecha."
+  href:   http://mapofcomposers.pl/en/
+  dateStart: 2018-05-15
+  dateEnd:  2018-12-27
+  tags:   [d3js]
+  status: done
+
 - title:  In Browser AI
   desc:   A community sharing knowledge how to bring deep learning demos of your research papers, commercial or side projects to the browsers.
   href:   https://inbrowser.ai/
