@@ -12,6 +12,13 @@
   date:  2019-06-15
   tags:  [hackathon, mentor]
 
+- talk:  "Wizualizujemy uczenie maszynowe: pakiet livelossplot oraz interaktywna gra"
+  event: "AI Katowice - Jedyny taki meetup na Śląsku!"
+  href:  https://www.facebook.com/events/691539734598838/
+  place: "Katowice (Poland)"
+  date:  2019-06-06
+  tags:  [talk, meetup]
+
 - talk:  "Understanding LSTM and GRU in PyTorch"
   event: "AI & NLP Workshop Day 2019"
   href:  https://nlpday.pl/
