@@ -73,7 +73,7 @@ Learning about deep learning made me think that it is not deep learning doing ma
 
 ![](/imgs/2019-07-15-human-machine-learning-motivation/pigeon_classifier_excelnet.jpg)
 
-> From flesh to machines: pigeon learn to detect cancer tissue from images ([video](https://www.youtube.com/watch?v=flzGjnJLyS0), [paper summary](https://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts)) or MNIST recognition using (deep!) spreadsheets: [www.excel.net](https://www.excel.net/).
+> From flesh to machines: pigeon learn to detect cancer tissue from images ([video](https://www.youtube.com/watch?v=flzGjnJLyS0), [paper summary](https://www.sciencemag.org/news/2015/11/pigeons-spot-cancer-well-human-experts)) or [MNIST recognition using spreadsheets](http://www.deepexcel.net/), without any macros.
 
 Don’t take me wrong: mastering deep learning is hard and takes time (as of any specialized activity). But if you want to start playing with that, and you know Python, you can write your first network today, vide:
 
