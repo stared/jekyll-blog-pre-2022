@@ -7,7 +7,7 @@ tags:
   - deep-learning
   - cognition
 description: >-
-  To err is human... and machine, alike. Overfitting, adversarial examples, optical illusions, hallucination, Freudian slips, etc.
+  To err is human... and machine, alike. Overfitting, adversarial examples, optical illusions, hallucinations, Freudian slips, etc.
 image: /imgs/2019-07-15-human-machine-learning-motivation/pigeon_classifier_excelnet.jpg
 ---
 
