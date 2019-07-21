@@ -16,6 +16,7 @@ In the last 2.5 years all of my contracts were because someone contacted me. The
 * discovering me due to my GitHub projects and blog posts.
 
 Getting to that point is tricky. It took me about 1 year.
+I had an edge, because I went from physics to data science just before
 
 
 ## Can I freelance?
@@ -53,6 +54,9 @@ You need to be your own pushy asshole boss, and your lazy employe at the same ti
 http://nathanbarry.com/marco-polo/
 
 
+Blog posts
+https://twitter.com/pgbovine/status/1019978795862769665
+
 ## Being unique
 
 
@@ -86,6 +90,8 @@ As a freelancer your billable hours do not cover:
 * speaking at conferences,
 * developing long-term skills,
 * meeting with potential clients.
+
+Unless you
 
 The crucial part is to estimate your billable hours per month.
 
@@ -140,19 +146,22 @@ Remember,
 Marketing are activities which
 
 
-A few times I got asked to provide some service for free "for the sake of future colla"
+A few times I got asked to provide some service for free "for the sake of future collaboration".
+
+Also, if
 
 ## Dealing with friends
 
 
 
+* my post to: https://www.reddit.com/r/MachineLearning/comments/8thxsv/d_machine_learning_massively_undersold_on/
 
 ## Networking
 
 * post with barabasi's like
 * https://twitter.com/amyngyn/status/959517497299906560
 
-
+* https://www.facebook.com/VoiceOfKendall/photos/a.2076518855914050/2233623290203605/?type=3&theater
 
 * Witcher poster
 * https://toggl.com/blog/freelancing-problems-dinosaurs/
