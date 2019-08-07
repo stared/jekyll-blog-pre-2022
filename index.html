@@ -10,7 +10,7 @@ layout: default
 
   <ul class="post-list">
   {% assign articles_sorted = site.data.articles | sort: "date" | reverse %}
-  {% for article in articles_sorted limit:5 %}
+  {% for article in articles_sorted limit:10 %}
     <li>
       <a href="{{ article.href }}">{{ article.title }}</a>
       <span class="post-meta">
