@@ -10,13 +10,13 @@
 - title:  Gossiping Commons
   desc:   "Don't tell alike and no author please licenses."
   href:   https://gossipingcommons.org/
-  dateStart: 2019-04-02
-  dateEnd:
+  dateStart: 2019-04-01
+  dateEnd: 2019-04-02
   tags:   [open-source, humor]
-  status: in progress (active!)
+  status: done
 
 - title:  "Which Machine Learning algorithm are you?"
-  desc:   "Drawing classifiers - a didactiv project. In vue.js. With Kasia Kańska."
+  desc:   "Drawing classifiers - a didactic project. In Vue.js. With Kasia Kańska."
   href:   https://github.com/stared/which-ml-are-you
   dateStart: 2018-12-30
   dateEnd:
