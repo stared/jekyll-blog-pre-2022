@@ -1,3 +1,17 @@
+- talk:  "Qiskit Hackathon"
+  event: "Centre for Quantum Technologies, NUS"
+  href:  https://www.eventbrite.sg/e/qiskit-hackathon-singapore-registration-72911980697
+  place: "Singapore"
+  date:  2019-10-04
+  tags:  [participant]
+
+- talk:  "Quantum Game with Photons and other science-based video games"
+  event: "Centre for Quantum Technologies, NUS"
+  href:  https://www.quantumlah.org/events/upcomingevents.php
+  place: "Singapore"
+  date:  2019-09-24
+  tags:  [talk]
+
 - talk:  "Participant"
   event: Eastern European Machine Learning Summer School
   href:  https://www.eeml.eu/
