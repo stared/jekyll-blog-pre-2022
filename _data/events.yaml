@@ -1,3 +1,10 @@
+- talk:  "ConvNets in-depth, layer by layer, in PyTorch"
+  event: "MLinPL Conference"
+  href:  https://conference.mlinpl.org/
+  place: "Warsaw (Poland)"
+  date:  2019-11-25
+  tags:  [workshop, conferece]
+
 - talk:  "Qiskit Hackathon"
   event: "Centre for Quantum Technologies, NUS"
   href:  https://www.eventbrite.sg/e/qiskit-hackathon-singapore-registration-72911980697
