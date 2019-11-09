@@ -1,3 +1,10 @@
+- talk:  "Quantum Game 2"
+  event: "Quantum Garage by Garage of Complexity & Quantum Cosmos Lab"
+  href:  https://www.facebook.com/events/420079255357231/
+  place: "Kraków (Poland)"
+  date:  2019-12-13
+  tags:  [talk, conferece]
+
 - talk:  "ConvNets in-depth, layer by layer, in PyTorch"
   event: "MLinPL Conference"
   href:  https://conference.mlinpl.org/
