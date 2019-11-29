@@ -1,3 +1,19 @@
+- title:  Quantum Game 2
+  desc:   "At Centre for Quantum Technologies. A puzzle game with photons, two photons. With Klem Jankiewicz, Philippe Cochin, Chiara Decaroli et al."
+  href:   https://github.com/stared/quantum-game-2
+  dateStart: 2019-08-26
+  dateEnd:
+  tags:   [javascript, quantum, game]
+  status: in progress (active!)
+
+- title:  Quantum Tensors JS
+  desc:   "TypeScript package for sparse tensor operations on complex numbers. With Philippe Cochin."
+  href:   https://github.com/stared/quantum-tensors
+  dateStart: 2019-09-01
+  dateEnd:
+  tags:   [javascript, quantum, tensor, npm]
+  status: in progress (active!)
+
 - title:  Tree of Reddit Sex Life
   desc:   "D3.js hierarchy visualization of the Reddit 'NSFW ImageNet'"
   href:   https://observablehq.com/@stared/tree-of-reddit-sex-life
