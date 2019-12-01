@@ -155,7 +155,7 @@ People will misinterpret and misattribute your actions and attitudes a lot. Howe
 
 > You are probably going to be a very successful computer person. But you're going to go through life thinking that girls don't like you because you're a nerd. And I want you to know, from the bottom of my heart, that that won't be true. It'll be because you're an asshole. - [The Social Network 2010 film](https://en.wikiquote.org/wiki/The_Social_Network)
 
-The whole [opening scene from The Social Network movie](https://www.youtube.com/watch?v=IlXwTxpC6u0) may make one cringe - it is a beautiful depiction of a smart, obsessed and arrogant nerd. It’s not only a misunderstanding - it’s constant ignoring and judging his date.
+The whole [opening scene from The Social Network movie](https://www.youtube.com/watch?v=yfe2fe4aovY) may make one cringe - it is a beautiful depiction of a smart, obsessed and arrogant nerd. It’s not only a misunderstanding - it’s constant ignoring and judging his date.
 
 Even if you are (or were) underprivileged socially it does not automatically make you a good person. Being bullied does not guarantee you won’t turn into a bully, vide this cynical twist of [The Ugly Duckling](http://www.smbc-comics.com/comic/2010-05-23) comic strip by [SMBC](http://www.smbc-comics.com/). What’s worse is when it goes beyond being unpleasant to being violent:
 
@@ -188,7 +188,7 @@ While being different may have resulted in bullying in primary school, now it ma
 
 > The best dating website? [Meetup.com](https://www.meetup.com/)! - Sarah Martin
 
-When it comes to attractiveness, [The Mathematics Of Beauty - How you can use your flaws to your advantage](https://theblog.okcupid.com/the-mathematics-of-beauty-51bd25ae9a75#.30bygoppk) from the [OkCupid](https://www.okcupid.com/) blog shows that it is better to be very attractive to some (and non-attractive to others) rather than just ‘OK’ to everyone. While it talks about physical beauty, I would bet that a similar effect for other aspects.
+When it comes to attractiveness, [The Mathematics Of Beauty - How you can use your flaws to your advantage](https://www.gwern.net/docs/psychology/okcupid/themathematicsofbeauty.html) from the [former OkCupid blog](https://www.reddit.com/r/gwern/comments/aapn1l/okcupid_blog_archives/) shows that it is better to be very attractive to some (and non-attractive to others) rather than just ‘OK’ to everyone. While it talks about physical beauty, I would bet that a similar effect for other aspects.
 
 
 ## Ending

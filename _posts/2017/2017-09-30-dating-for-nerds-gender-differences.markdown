@@ -306,7 +306,7 @@ But in the process of getting know her better and better, sticking to the gender
 
 ## Extra links (added later)
 
-* [Turn-ons by gender chart](https://twitter.com/dalequark/status/854539323496116224) (with a clear dominance-submission gender split) from [Kink Is More Popular Than You Think](https://theblog.okcupid.com/bdsm-is-more-popular-than-you-think-890de1c634f1) by Dale Markowitz
+* [Turn-ons by gender chart](https://twitter.com/dalequark/status/854539323496116224) (with a clear dominance-submission gender split) by Dale Markowitz
 * [The Words Men and Women Use When They Write About Love](https://www.nytimes.com/interactive/2017/11/07/upshot/modern-love-what-we-write-when-we-write-about-love.html) - an interactive exploration
 * Clarisse Thorn, [Confessions of a Pickup Artist Chaser](https://www.amazon.com/Confessions-Pickup-Artist-Chaser-Interviews-ebook/dp/B007I5HRQU) - a book dissecting dating, written by a nerdy, sex-positive feminist
 * [Why Do We Demonize Men Who Are Honest About Their Sexual Desires?](https://goodmenproject.com/sex-relationships/why-do-we-demonize-men-who-are-honest-about-their-sexual-needs/) and [Why Are Men Expected to Make the First Move?](https://goodmenproject.com/featured-content/why-are-men-expected-to-make-the-first-move-in-sex-and-relationships/) by her
