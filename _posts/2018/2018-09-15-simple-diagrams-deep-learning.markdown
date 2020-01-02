@@ -163,13 +163,9 @@ Take note that this time nodes denote tensors, whereas arrows represent operatio
 The task of creating clear diagrams get slightly more complicated when we want to use more complex building blocks. If we want to reproduce the network, we need to know its details:
 
 - Number of channels
-
 - Convolutions per MaxPool
-
 - Number of MaxPools
-
 - Batch normalization or dropout
-
 - Activation functions (ReLU? before or after Batch Norm?)
 
 As a great example of condensing this level of detail into a diagram, see the diagram below:
@@ -259,19 +255,14 @@ It sounds awesome! Though, it is a bit more verbose than NetScope (with activati
 A few other tools that may be useful or inspiring:
 
 - [NN-SVG: LeNet- and AlexNet-style diagrams](http://alexlenail.me/NN-SVG/LeNet.html)
-
 - [Visualizing CNN architectures side by side with MXNet](http://josephpcohen.com/w/visualizing-cnn-architectures-side-by-side-with-mxnet/)
-
 - [TensorSpace.js](https://tensorspace.org/) — an in-browser 3D visualizations of channels (stunning but hardly useful)
-
 - [HiddenLayer](https://github.com/waleedka/hiddenlayer/) — diagrams with ONNX & Graphviz in Jupyter Notebook for TensorFlow, Keras and PyTorch
-
 - [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet) — LaTeX code for drawing convolutional neural networks
 
 And a few threads:
 
 - [What tools are good for drawing neural network architecture diagrams? — Quora](https://www.quora.com/What-tools-are-good-for-drawing-neural-network-architecture-diagrams)
-
 - [How do you visualize neural network architectures? — Data Science Stack Exchange](https://datascience.stackexchange.com/questions/12851/how-do-you-visualize-neural-network-architectures)
 
 # Conclusion and call for action
@@ -279,15 +270,10 @@ And a few threads:
 We saw quite a few examples of neural network visualization, shedding light on the following trade-offs:
 
 - **data viz **vs** data art** (useful vs beautiful)
-
 - **explicit **vs** implicit** (should I show ReLU all the time? But what about tensor dimensions?)
-
 - **shallow vs hierarchical**
-
 - **static** (works well in publications) vs **interactive** (provides more information)
-
 - **specific** vs **general** (does it work for a reasonably broad family of neural networks?)
-
 - **data flow direction** (top to bottom, bottom to top, or left to right; hint: [please don’t draw bottom-to-top](https://www.reddit.com/r/MachineLearning/comments/6j28t9/d_why_do_people_draw_neural_networks_upside_down/))
 
 Each of those topics is probably worth a Masters thesis, and all combined — a PhD (especially with a meticulous study of how people do visualize and what are the abstractions.)
@@ -295,9 +281,7 @@ Each of those topics is probably worth a Masters thesis, and all combined — a 
 I think there is a big opportunity in creating a standard neural network visualization tool, as common for neural network architectures as matplotlib is for charts. It remains a challenge at the intersection of deep learning and data visualization. The tool should be useful and general enough, to become a standard for:
 
 - tutorials in neural networks
-
 - academic publications
-
 - showing network architecture to collaborators
 
 If we want to make it interactive, JavaScript is a must. Be it D3.js, Vue.js, React or any other tech. That way, it is not only easy to make it interactive, but also system agnostic. Take [Bokeh](https://bokeh.pydata.org/) as an example — being useful within a Jupyter Notebook, but also — as a standalone website.
