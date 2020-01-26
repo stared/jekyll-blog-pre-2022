@@ -1,3 +1,10 @@
+- talk:  "Quantum Game with Photons: Tensors in TypeScript, Visualized"
+  event: "FOSDEM'20 Quantum Computing devroom"
+  href:  https://fosdem.org/2020/schedule/track/quantum_computing/
+  place: "Brussels (Belgium)"
+  date:  2020-02-01
+  tags:  [talk, conferece]
+
 - talk:  "Quantum Game 2"
   event: "Quantum Garage by Garage of Complexity & Quantum Cosmos Lab"
   href:  https://www.facebook.com/events/420079255357231/
