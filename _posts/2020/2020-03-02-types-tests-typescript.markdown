@@ -37,7 +37,7 @@ In other words: being smart won’t make you automatically a good software engin
 
 Last autumn, I got invited to the Centre for Quantum Technologies at the National University of Singapore to lead the creation of [Quantum Game with Photons 2](https://github.com/Quantum-Game/). It is a bigger project, with a few people on board (with various skillsets), so things that would work for solo coding won’t fly there. And I learned a lot, by trial and error.
 
-I got quite a few insights from things most software engineers take for granted: **types** and **tests**. If you are a fellow (ex-)scientist, have ADHD (I do) or for any other reason find yourself too impatient, or smart, to set types and write tests. Think of them as gifts for your future self!
+I got quite a few insights from things most software engineers take for granted: **types** and **tests**. If you are a fellow (ex-)scientist, have ADHD (I do) or for any other reason find yourself too impatient, or smart, to set types and write tests: this post is for you!
 
 In this post I will discuss:
 
@@ -137,7 +137,7 @@ By reducing ways to write something, it reduces the number of unnecessary choice
 
 Moreover, it makes it much easier to collaborate. No more inconsistencies because one uses **tabs** and the other — **spaces**. Or different name conventions. Even if you verbally decide to use **two spaces**, it takes some cognitive power to self-police oneself… with no guarantee.
 
-[ESLint](https://eslint.org/) can be configured in various ways, to be laid back or strictly pedantic. There are many plugins with settings for particular languages and frameworks (such as TypeScript, Vue, etc) and styles (I recommend [Airbnb style JavaScript style guide](https://github.com/airbnb/javascript/) and[ Airbnb TypeScript](https://www.npmjs.com/package/eslint-config-airbnb-typescript)).
+[ESLint](https://eslint.org/) can be configured in various ways, to be laid back or strictly pedantic. There are many plugins with settings for particular languages and frameworks (such as TypeScript, Vue, etc) and styles (I recommend [Airbnb style JavaScript style guide](https://github.com/airbnb/javascript/) and [Airbnb TypeScript](https://www.npmjs.com/package/eslint-config-airbnb-typescript)).
 
 > Beautiful is better than ugly.
 
@@ -243,7 +243,7 @@ I don’t believe I would manage to do the same things without types and tests.
 
 A few takeaways:
 
-- Types and tests save you from stupid mistakes.
+- Types and tests save you from stupid mistakes; thesea re gifts for your future self!
 - Use ESLint and configure it to be your strict, but fair, friend.
 - Think of tests as a permanent console.
 - Types: It is not only about checks. It is also about code readability.
