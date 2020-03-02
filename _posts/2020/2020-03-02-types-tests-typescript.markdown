@@ -8,7 +8,7 @@ tags:
   - typescript
   - tests
 description: >-
-  On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspirations from Zen of Python).
+  On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspirations from the Zen of Python).
 image: /imgs/2020-03-02-types-tests-typescript/jest_test_repl.png
 extras:
   - text: "on Hacker News"
@@ -20,7 +20,7 @@ external:
   date: 2020-03-02 11:16 +0100
 ---
 
-*On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspiration from Zen of Python)*
+*On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspirations from the Zen of Python)*
 
 It is fun to write fast without constraints, and run code in a flash. That is why I fell in love with Python and the Jupyter Notebook environment, a great tool for prototyping and interacting with data. However, interactive notebooks fall short when you want to write bigger, maintainable code. See the [What’s wrong with computational notebooks?](http://web.eecs.utk.edu/~azh/blog/notebookpainpoints.html) survey:
 
@@ -75,7 +75,7 @@ Types give built-in testing — that a given function takes arguments of particu
 So, let’s start with few lines of [Zen of Python](https://www.python.org/dev/peps/pep-0020/):
 
 > Explicit is better than implicit.
-
+> 
 > In the face of ambiguity, refuse the temptation to guess.
 
 ---
@@ -100,7 +100,7 @@ Good comments do clarify code. [TSDoc](https://github.com/microsoft/tsdoc) is a 
 If we are clueless about what to write in the description, it may be a sign of a more fundamental problem:
 
 > If the implementation is hard to explain, it's a bad idea.
-
+> 
 > If the implementation is easy to explain, it may be a good idea.
 
 Additionally, it is possible to create the whole documentations with [TypeDoc](https://github.com/TypeStrong/typedoc), see [Operator for Quantum Tensors](https://quantum-game.github.io/quantum-tensors/classes/_operator_.operator.html).
@@ -130,7 +130,7 @@ The first two are a no-brainer. It may be debatable what is “risky”, but we 
 
 [![](/imgs/2020-03-02-types-tests-typescript/opressive-silence-if-assignment.jpeg)](http://oppressive-silence.com/comic/oh-no-the-robot)
 
-SOurce: [oppressive-silence.com/comic/oh-no-the-robots](http://oppressive-silence.com/comic/oh-no-the-robots). Using [no-cond-assign](https://eslint.org/docs/rules/no-cond-assign) would have saved their lives. 
+Source: [oppressive-silence.com/comic/oh-no-the-robots](http://oppressive-silence.com/comic/oh-no-the-robots). Using [no-cond-assign](https://eslint.org/docs/rules/no-cond-assign) would have saved their lives. 
 
 The standardization is less obvious. Personally, I like setting the linter to be as strict as possible, going in line with a controversial piece of wisdom from the Zen of Python:
 
