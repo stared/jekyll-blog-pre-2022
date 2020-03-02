@@ -10,6 +10,11 @@ tags:
 description: >-
   On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspiration from Zen of Python).
 image: /imgs/2020-03-02-types-tests-typescript/jest_test_repl.png
+external:
+  title: "same title"
+  href: https://medium.com/quantum-photons/how-i-learned-to-stop-worrying-and-love-the-types-tests-b6b5ee5e8ede
+  status: also at Quantum Tensors Medium
+  date: 2020-03-02 11:16 +0100
 ---
 
 *On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspiration from Zen of Python)*
