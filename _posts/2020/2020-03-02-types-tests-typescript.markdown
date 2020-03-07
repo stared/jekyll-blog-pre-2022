@@ -10,9 +10,6 @@ tags:
 description: >-
   On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspirations from the Zen of Python).
 image: /imgs/2020-03-02-types-tests-typescript/jest_test_repl.png
-extras:
-  - text: "on Hacker News"
-    href: https://news.ycombinator.com/item?id=22464304
 external:
   title: "How I Learned to Stop Worrying and Love the Types & Tests"
   href: https://medium.com/quantum-photons/how-i-learned-to-stop-worrying-and-love-the-types-tests-b6b5ee5e8ede
@@ -62,9 +59,9 @@ In Python, when trying to do a dubious operation, you get an error pretty soon. 
 
 `function add(a, b) { return +(a + b) }`
 
-And then try to `add(2,2)` and `add('2', 2)`. In both cases, you get a number… but, is it the same one?
+And then try to `add(2,2)` and `add('2', 2)`. In both cases, you get a number… but, is it the same one? Sure, this case is trivial. But what if this function were much more complicated, had a few arguments (in non-obvious order), and its input arguments came from different functions (from modules or packages you don't maintain)?
 
-But even in Python, the error happens in the runtime. Why not see it coming while writing code? In TypeScript, with a few keystrokes, we can set:
+Even in Python, the error happens in the runtime. Why not see it coming while writing code? In TypeScript, with a few keystrokes, we can set:
 
 ![](/imgs/2020-03-02-types-tests-typescript/typescript_add.png)
 
@@ -72,7 +69,7 @@ I found that the overhead to use types in TypeScript is minimal (if any). When w
 
 Types give built-in testing — that a given function takes arguments of particular types. However, they also help greatly with the code readability. When seeing `changeVolume(volume: number)` you don’t need to guess if `id` is a number, string, boolean, `Volume` object, or Cthulhu-knows-what.
 
-So, let’s start with few lines of [Zen of Python](https://www.python.org/dev/peps/pep-0020/):
+So, let’s start with a few lines of [Zen of Python](https://www.python.org/dev/peps/pep-0020/):
 
 > Explicit is better than implicit.
 > 
@@ -89,7 +86,7 @@ Still, for me, TS is a day and night difference with JavaScript.
 * [Is TypeScript worth it? - LogRocket Blog](https://blog.logrocket.com/is-typescript-worth-it/)
 
 
-# TSDocs
+# TSDoc
 
 Good comments do clarify code. [TSDoc](https://github.com/microsoft/tsdoc) is a way of writing TypeScript comments where they’re linked to a particular function, class or method (like[ Python docstrings](https://www.python.org/dev/peps/pep-0257/)).
 
@@ -226,10 +223,15 @@ Conversely, if the code works passes, but does not work locally, there is a fair
 
 ---
 
-And the gamification part! Writing tests for all functions is boring… unless I get some score for that, as visible feedback. With[ Codecov](https://codecov.io/gh/Quantum-Game/quantum-tensors/) it is easy to make jest & Travis CI generate one more thing:
+And the gamification part! Writing tests for all functions is boring… unless I get some score for that, as visible feedback. With [Codecov](https://codecov.io/gh/Quantum-Game/quantum-tensors/) it is easy to make jest & Travis CI generate one more thing:
 
 ![[https://codecov.io/gh/Quantum-Game/quantum-tensors/](https://codecov.io/gh/Quantum-Game/quantum-tensors/)](/imgs/2020-03-02-types-tests-typescript/codecov.png)
 
+
+### Further reading:
+
+* [A first impression of GitHub Actions CI/CD](https://www.eficode.com/blog/github-actions)
+* [Migrating from TravisCI to Github Actions](https://bravelab.io/blog/migrating-from-travisci-to-github-actions-1/)
 
 # Ending notes
 
