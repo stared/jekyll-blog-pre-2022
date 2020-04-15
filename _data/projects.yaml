@@ -1,6 +1,14 @@
+- title:  bra-ket-vue
+  desc:   "A Vue-based visualization of quantum states and operations. With Klem Jankiewicz."
+  href:   https://github.com/Quantum-Game/bra-ket-vue
+  dateStart: 2020-01-19
+  dateEnd: 2020-04-15
+  tags:   [javascript, quantum, game]
+  status: released
+
 - title:  Quantum Game 2
   desc:   "At Centre for Quantum Technologies. A puzzle game with photons, two photons. With Klem Jankiewicz, Philippe Cochin, Chiara Decaroli et al."
-  href:   https://github.com/stared/quantum-game-2
+  href:   https://github.com/Quantum-Game/quantum-game-2
   dateStart: 2019-08-26
   dateEnd:
   tags:   [javascript, quantum, game]
@@ -8,7 +16,7 @@
 
 - title:  Quantum Tensors JS
   desc:   "TypeScript package for sparse tensor operations on complex numbers. With Philippe Cochin."
-  href:   https://github.com/stared/quantum-tensors
+  href:   https://github.com/Quantum-Game/quantum-tensors
   dateStart: 2019-09-01
   dateEnd:
   tags:   [javascript, quantum, tensor, npm]
