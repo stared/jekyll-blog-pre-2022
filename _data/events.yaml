@@ -1,3 +1,18 @@
+- talk:  "Let's Play Quantum Games"
+  event: "SGInnovate (with IBM and CQT-NUS)"
+  href:  https://www.sginnovate.com/events/let%E2%80%99s-play-quantum-games-online-event
+  place: "online"
+  date:  2020-04-28
+  tags:  [talk, webinar]
+
+- talk:  "Quantum Game with Photons: Tensors in TypeScript, Visualized"
+  event: "Warsaw Quantum Computing Group"
+  href:  https://www.youtube.com/watch?v=P3kHy9mqHnM
+  place: "online"
+  date:  2020-03-23
+  tags:  [talk, webinar]
+  slideS: https://www.youtube.com/watch?v=P3kHy9mqHnM
+
 - talk:  "Quantum Game with Photons: Tensors in TypeScript, Visualized"
   event: "FOSDEM'20 Quantum Computing devroom"
   href:  https://fosdem.org/2020/schedule/track/quantum_computing/
