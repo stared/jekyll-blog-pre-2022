@@ -1,3 +1,11 @@
+- authors: P. Woźnicki, M. Kuźba, P. Migdał
+  title:   "Modelling response to trypophobia trigger using intermediate layers of ImageNet networks"
+  journal: "extended abstract submitted to Eastern European Machine Learning 2019"
+  link:    "https://arxiv.org/abs/2002.08490"
+  year:    2020
+  arXiv:   "2002.08490"
+  misc:    "mentored a [Brainhack Warsaw 2017](https://brainhackwarsaw2017.github.io/) project"
+
 - authors: G. Mazzocco, M. Lazniewski, P. Migdał, T. Szczepińska, J.P. Radomski, D. Plewczynski
   title:   "3DFlu: database of sequence and structural variability of the influenza hemagglutinin at population scale"
   journal: "Database, 2016, 1–6"
