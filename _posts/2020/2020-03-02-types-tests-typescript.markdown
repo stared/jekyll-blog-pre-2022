@@ -10,9 +10,6 @@ tags:
 description: >-
   On TypeScript, ESlint, jest, TSDoc, Travis-CI, and VSCode (with inspirations from the Zen of Python).
 image: /imgs/2020-03-02-types-tests-typescript/jest_test_repl.png
-extras:
-  - text: "on Hacker News"
-    href: https://news.ycombinator.com/item?id=22513205
 external:
   title: "How I Learned to Stop Worrying and Love the Types & Tests"
   href: https://medium.com/quantum-photons/how-i-learned-to-stop-worrying-and-love-the-types-tests-b6b5ee5e8ede
