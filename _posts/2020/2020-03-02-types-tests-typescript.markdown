@@ -248,7 +248,7 @@ I don’t believe I would manage to do the same things without types and tests.
 
 A few takeaways:
 
-- Types and tests save you from stupid mistakes; thesea re gifts for your future self!
+- Types and tests save you from stupid mistakes, and are gifts for your future self!
 - Use ESLint and configure it to be your strict, but fair, friend.
 - Think of tests as a permanent console.
 - Types: It is not only about checks. It is also about code readability.
