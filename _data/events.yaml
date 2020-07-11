@@ -1,16 +1,23 @@
+- talk:  "Deep Learning in GameDev and Arts"
+  event: "AI & NLP Day"
+  href:  https://www.nlpday.pl/
+  place: "online"
+  date:  2020-09-28
+  tags:  [talk, conference]
+
 - talk:  "Exploring unsupervised image segmentation results"
   event: "W3C Workshop on Web and Machine Learning"
   href:  https://www.w3.org/2020/06/machine-learning-workshop/
   place: "online"
   date:  2020-09-01
-  tags:  [talk, online]
+  tags:  [talk, conference]
 
 - talk:  "Matrices and tensors, labelled and visualized"
   event: "PiterPy Online"
   href:  https://piterpy.com/en
   place: "online"
   date:  2020-08-06
-  tags:  [talk, online]
+  tags:  [talk, conference]
 
 - talk:  "Let's Play Quantum Games"
   event: "SGInnovate (with IBM and CQT-NUS)"
