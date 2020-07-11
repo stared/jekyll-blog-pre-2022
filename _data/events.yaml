@@ -1,3 +1,17 @@
+- talk:  "Exploring unsupervised image segmentation results"
+  event: "W3C Workshop on Web and Machine Learning"
+  href:  https://www.w3.org/2020/06/machine-learning-workshop/
+  place: "online"
+  date:  2020-09-01
+  tags:  [talk, online]
+
+- talk:  "Matrices and tensors, labelled and visualized"
+  event: "PiterPy Online"
+  href:  https://piterpy.com/en
+  place: "online"
+  date:  2020-08-06
+  tags:  [talk, online]
+
 - talk:  "Let's Play Quantum Games"
   event: "SGInnovate (with IBM and CQT-NUS)"
   href:  https://www.sginnovate.com/events/let%E2%80%99s-play-quantum-games-online-event
