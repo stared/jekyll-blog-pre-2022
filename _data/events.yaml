@@ -12,6 +12,13 @@
   date:  2020-09-07
   tags:  [talk, conference]
 
+- talk:  "BraKetVue: Vue.js + TypeScript for quantum state visualization"
+  event: "NYC Quantum Computing Meetup"
+  href:  https://www.meetup.com/New-York-Quantum-Computing-Meetup/events/271943801/
+  place: "online"
+  date:  2020-08-1
+  tags:  [talk, meetup]1
+
 - talk:  "Matrices and tensors, labelled and visualized"
   event: "PiterPy Online"
   href:  https://piterpy.com/en
