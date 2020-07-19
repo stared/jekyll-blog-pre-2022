@@ -16,8 +16,8 @@
   event: "NYC Quantum Computing Meetup"
   href:  https://www.meetup.com/New-York-Quantum-Computing-Meetup/events/271943801/
   place: "online"
-  date:  2020-08-1
-  tags:  [talk, meetup]1
+  date:  2020-08-11
+  tags:  [talk, meetup]
 
 - talk:  "Matrices and tensors, labelled and visualized"
   event: "PiterPy Online"
