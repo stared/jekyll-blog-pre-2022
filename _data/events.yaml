@@ -12,12 +12,20 @@
   date:  2020-09-07
   tags:  [talk, conference]
 
+- talk:  "Deep Learning w PyTorch do klasyfikacji obrazu"
+  event: "Letnia Szkoła Neuronauki"
+  href:  https://www.facebook.com/events/915070502332458
+  place: "online"
+  date:  2020-09-09
+  tags:  [workshop]
+
 - talk:  "BraKetVue: Vue.js + TypeScript for quantum state visualization"
   event: "NYC Quantum Computing Meetup"
   href:  https://www.meetup.com/New-York-Quantum-Computing-Meetup/events/271943801/
   place: "online"
   date:  2020-08-11
   tags:  [talk, meetup]
+  slides: http://p.migdal.pl/nyc-qc-braketvue/#/
 
 - talk:  "Matrices and tensors, labelled and visualized"
   event: "PiterPy Online"
@@ -25,6 +33,7 @@
   place: "online"
   date:  2020-08-06
   tags:  [talk, conference]
+  slides: https://p.migdal.pl/piterpy-matrix
 
 - talk:  "Let's Play Quantum Games"
   event: "SGInnovate (with IBM and CQT-NUS)"
@@ -39,7 +48,7 @@
   place: "online"
   date:  2020-03-23
   tags:  [talk, webinar]
-  slideS: https://www.youtube.com/watch?v=P3kHy9mqHnM
+  slides: https://www.youtube.com/watch?v=P3kHy9mqHnM
 
 - talk:  "Quantum Game with Photons: Tensors in TypeScript, Visualized"
   event: "FOSDEM'20 Quantum Computing devroom"
