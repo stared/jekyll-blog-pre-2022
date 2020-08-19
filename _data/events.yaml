@@ -8,8 +8,9 @@
 - talk:  "Exploring unsupervised image segmentation results"
   event: "W3C Workshop on Web and Machine Learning"
   href:  https://www.w3.org/2020/06/machine-learning-workshop/
+  slides: https://www.w3.org/2020/06/machine-learning-workshop/talks/exploring_unsupervised_image_segmentation_results.htmlli
   place: "online"
-  date:  2020-09-07
+  date:  2020-09-16
   tags:  [talk, conference]
 
 - talk:  "Deep Learning w PyTorch do klasyfikacji obrazu"
