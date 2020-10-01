@@ -5,6 +5,20 @@
   date:  2020-10-26
   tags:  [talk, conference]
 
+- talk:  "Quantum Game"
+  event: "Digital Cultures / Best of Poland: Games"
+  href:  https://digitalcultures.pl/en/programme/best-of-poland-games
+  place: "online"
+  date:  2020-10-19
+  tags:  [exhibition, art]
+
+- talk:  "Competition board"
+  event: "Digital Ars - AI-generated art competition"
+  href:  https://festiwalcyfryzacji.pl/digital-ars
+  place: "online"
+  date:  2020-10-01
+  tags:  [competition, board]
+
 - talk:  "Exploring unsupervised image segmentation results"
   event: "W3C Workshop on Web and Machine Learning"
   href:  https://www.w3.org/2020/06/machine-learning-workshop/
