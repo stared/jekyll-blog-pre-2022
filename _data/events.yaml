@@ -1,3 +1,18 @@
+- talk:  "Unsupervised image segmentation trained on a single image"
+  event: "ML in PL Virtual Event 2020"
+  href:  https://virtual-event.mlinpl.org/
+  place: "online"
+  date:  2020-12-18
+  tags:  [poster, conference]
+
+- talk:  "Virtual Optical Table & Visualizing Quantum States and Operators"
+  event: "Oxford Quantum Information Society"
+  href:  https://www.youtube.com/channel/UCF7L_C-rp9U344nyaEDPYRw
+  place: "online"
+  date:  2020-11-12
+  tags:  [talk, seminar]
+  slides: https://www.youtube.com/watch?v=7o_uY-3IMRI
+
 - talk:  "Deep Learning in GameDev and Arts"
   event: "AI & NLP Day"
   href:  https://www.nlpday.pl/
