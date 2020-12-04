@@ -4,6 +4,13 @@
   place: "online"
   date:  2020-12-18
   tags:  [poster, conference]
+  
+- talk:  "Piotr Migdał‬ - Quantum Game and other science-based games"
+  event: "QOYUN'2020 - Let's talk quantum games"
+  href:  https://www.qturkey.org/qgame
+  place: "online"
+  date:  2020-12-12
+  tags:  [talk, hackathon]
 
 - talk:  "Virtual Optical Table & Visualizing Quantum States and Operators"
   event: "Oxford Quantum Information Society"
