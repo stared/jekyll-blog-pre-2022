@@ -1,3 +1,18 @@
+- talk:  "Quantum Game - making quantum fun"
+  event: "Cuarentena Cuántica by SCJMx"
+  href:  https://virtual-event.mlinpl.org/
+  place: "online"
+  date:  2021-01-27
+  tags:  [talk]
+
+- talk:  "Quantum Game – LEGO-like interface to simulate quantum optics in your browser"
+  event: "IEEE Quantum Education Workshop"
+  href:  https://ed.quantum.ieee.org/january-2021-workshop/
+  place: "online"
+  date:  2021-01-27
+  tags:  [talk]
+  slides: https://ed.quantum.ieee.org/flytrap/
+
 - talk:  "Unsupervised image segmentation trained on a single image"
   event: "ML in PL Virtual Event 2020"
   href:  https://virtual-event.mlinpl.org/
