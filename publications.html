@@ -1,41 +1,43 @@
 ---
 layout: page
-title:  Publications
+title: Publications
 permalink: /publications/
-order:  3
+order: 3
 ---
 
 <div class="home">
 
-  My list of a academic publications (quantum optics & information, complex systems, mathematical psychology). See also <a href="https://scholar.google.pl/citations?user=JUwBsPAAAAAJ">my Google Scholar profile</a> and <a href="http://arxiv.org/a/migdal_p_1.html">arXiv account</a>.
+  My list of a academic publications (quantum optics & information, complex systems, mathematical psychology). See also
+  <a href="https://scholar.google.pl/citations?user=JUwBsPAAAAAJ">my Google Scholar profile</a> and <a
+    href="http://arxiv.org/a/migdal_p_1.html">arXiv account</a>.
   <br><br>
-  
+
   <h1 class="page-heading">Research publications</h1>
 
   <ul class="event-list">
-  {% for publication in site.data.publications %}
+    {% for publication in site.data.publications %}
     <li>
       <span class="post-meta">
         {{ publication.authors }}
       </span>
       </br>
       {% if publication.doi %}
-        <a href="https://doi.org/{{ publication.doi }}">{{ publication.title }}</a>
+      <a href="https://doi.org/{{ publication.doi }}">{{ publication.title }}</a>
       {% else %}
-        <a href="{{ publication.link }}">{{ publication.title }}</a>
+      <a href="{{ publication.link }}">{{ publication.title }}</a>
       {% endif %}
       <span class="post-meta">
         {{ publication.journal }}
         ({{ publication.year }})
         {% if publication.arXiv %}
-          <a href="https://arxiv.org/abs/{{ publication.arXiv }}">arXiv:{{ publication.arXiv }}</a>
+        <a href="https://arxiv.org/abs/{{ publication.arXiv }}">arXiv:{{ publication.arXiv }}</a>
         {% endif %}
         {% if publication.misc %}
-          {{ publication.misc | markdownify }}
+        {{ publication.misc | markdownify }}
         {% endif %}
       </span>
     </li>
-  {% endfor %}
+    {% endfor %}
   </ul>
 
 </div>

@@ -4,13 +4,13 @@ layout: default
 
 <div class="home">
 
-  <p><i>I am an AI consultant.<br>I teach people to teach machines.</i><p>
+  <p><i>I am an AI consultant.<br>I teach people to teach machines.</i>
 
   <h1 class="page-heading">Posts (a few external)</h1>
 
   <ul class="post-list">
-  {% assign articles_sorted = site.data.articles | sort: "date" | reverse %}
-  {% for article in articles_sorted limit:10 %}
+    {% assign articles_sorted = site.data.articles | sort: "date" | reverse %}
+    {% for article in articles_sorted limit:10 %}
     <li>
       <a href="{{ article.href }}">{{ article.title }}</a>
       <span class="post-meta">
@@ -22,7 +22,7 @@ layout: default
         {{ article.date | date: "%-d %b %Y" }}
       </span>
     </li>
-  {% endfor %}
+    {% endfor %}
   </ul>
 
   <p>More in the <a href="/articles/">Articles</a> tab.</p>
@@ -31,27 +31,29 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% unless post.unlisted %}
-        <li>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <span class="post-meta">
-            •
-            {% for tag in post.tags %}
-              <span>[{{ tag }}]</span>
-            {% endfor %}
-            •
-            {{ post.date | date: "%-d %b %Y" }}
-          </span>
-        </li>
-      {% endunless %}
+    {% unless post.unlisted %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="post-meta">
+        •
+        {% for tag in post.tags %}
+        <span>[{{ tag }}]</span>
+        {% endfor %}
+        •
+        {{ post.date | date: "%-d %b %Y" }}
+      </span>
+    </li>
+    {% endunless %}
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> or <a href="http://quantumgame.us9.list-manage.com/subscribe?u=5e3bdb13b61924c4b0ec92fba&id=6c72ded7d2">via email (MailChimp)</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | prepend: site.baseurl }}">via RSS</a> or <a
+      href="http://quantumgame.us9.list-manage.com/subscribe?u=5e3bdb13b61924c4b0ec92fba&id=6c72ded7d2">via email
+      (MailChimp)</a></p>
 
   <h1 class="page-heading">My talks and workshops (upcoming and recent)</h1>
   <ul class="event-list">
-  {% for event in site.data.events %}
+    {% for event in site.data.events %}
     {% capture nowunix %}{{site.time | date: '%s' | minus: 1209600}}{% endcapture %}
     {% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
     {% if eventtime >= nowunix %}
@@ -62,18 +64,18 @@ layout: default
         {{ event.place}}
         •
         {% for tag in event.tags %}
-          <span>[{{ tag }}]</span>
+        <span>[{{ tag }}]</span>
         {% endfor %}
       </span>
       <br>
       <a class="post-link" href="{{ event.href }}">{{ event.talk }}</a>
       {% if event.slides %}
-        (<a href="{{ event.slides }}">slides</a>!)
+      (<a href="{{ event.slides }}">slides</a>!)
       {% endif %}
       <span class="post-meta">@ {{ event.event }}</span>
     </li>
     {% endif %}
-  {% endfor %}
+    {% endfor %}
   </ul>
 
 </div>

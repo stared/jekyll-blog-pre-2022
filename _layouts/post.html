@@ -4,7 +4,7 @@ comments: true
 ---
 
 {% if page.mathjax %}
-  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 
 
@@ -13,13 +13,15 @@ comments: true
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y"
+        }}</time>
       {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author
+          }}</span></span>
       {% endif %}
       •
       {% for tag in page.tags %}
-        <span>[{{ tag }}]</span>
+      <span>[{{ tag }}]</span>
       {% endfor %}
       {% if page.external %}
       </br>
@@ -27,12 +29,12 @@ comments: true
       on {{ page.external.date | date: "%-d %b %Y" }}
       {% endif %}
       {% for extra in page.extras %}
-        </br>
-        see: <a href="{{ extra.href }}">{{ extra.text }}</a>
+      </br>
+      see: <a href="{{ extra.href }}">{{ extra.text }}</a>
       {% endfor %}
       {% if page.unlisted %}
-        </br>
-        an unlisted draft • an unlisted draft • an unlisted draft • an unlisted draft • an unlisted draft
+      </br>
+      an unlisted draft • an unlisted draft • an unlisted draft • an unlisted draft • an unlisted draft
       {% endif %}
     </p>
   </header>
@@ -42,11 +44,11 @@ comments: true
   </div>
 
   {% if page.social %}
-    {% include post-social-media.html %}
+  {% include post-social-media.html %}
   {% endif %}
 
   {% if page.comments %}
-    {% include disqus-comments.html %}
+  {% include disqus-comments.html %}
   {% endif %}
 
   {% include anchors.html %}
