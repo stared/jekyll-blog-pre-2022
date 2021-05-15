@@ -9,8 +9,9 @@
 title: Piotr Migdał - blog
 email: pmigdal@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Piotr Migdał - a data science freelancer, with PhD in quantum physics; based in Warsaw, Poland.
-  Active in gifted education, developing a Quantum Game.
+  Piotr Migdał - founder of Quantum Flytrap, previously - a deep learning consultant. PhD in quantum physics.
+  Based in Warsaw, Poland.
+  Active in gifted education, writing about stuff, and developing side projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://p.migdal.pl" # the base hostname & protocol for your site
 usernames:

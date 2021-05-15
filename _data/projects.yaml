@@ -1,3 +1,11 @@
+- title:  Quantum Flytrap
+  desc:   "An accessible user interface for quantum computing, with real-time feedback."
+  href:   https://quantumflytrap.com
+  dateStart: 2019-11-27
+  dateEnd:
+  tags:   [startup, quantum]
+  status: my time and heart is here
+
 - title:  bra-ket-vue
   desc:   "A Vue-based visualization of quantum states and operations. With Klem Jankiewicz."
   href:   https://github.com/Quantum-Game/bra-ket-vue
@@ -12,7 +20,7 @@
   dateStart: 2019-08-26
   dateEnd:
   tags:   [javascript, quantum, game]
-  status: in progress (active!)
+  status: evolved into Quantum Flytrap
 
 - title:  Quantum Tensors JS
   desc:   "TypeScript package for sparse tensor operations on complex numbers. With Philippe Cochin."
@@ -20,7 +28,7 @@
   dateStart: 2019-09-01
   dateEnd:
   tags:   [javascript, quantum, tensor, npm]
-  status: in progress (active!)
+  status: sort of complete
 
 - title:  Tree of Reddit Sex Life
   desc:   "D3.js hierarchy visualization of the Reddit 'NSFW ImageNet'"
@@ -45,7 +53,7 @@
   dateStart: 2018-12-30
   dateEnd:
   tags:   [deep-learning, javascript]
-  status: in progress (active!)
+  status: as it is
 
 - title:  "Thinking in Tensors, Writing in PyTorch"
   desc:   A hands-on deep learning introduction, from pieces. In Jupyter Notebooks.
@@ -53,7 +61,7 @@
   dateStart: 2018-12-23
   dateEnd:
   tags:   [deep-learning, pytorch, course]
-  status: in progress (active!)
+  status: as it is
 
 - title:  "Map of Polish Composers"
   desc:   "D3.js programing for a Culture.pl project with Kordian Klecha."
@@ -70,7 +78,7 @@
   dateStart: 2018-08-08
   dateEnd: 2018-11-01
   tags:   [deep-learning, javascript, community]
-  status: sort of frozen
+  status: frozen
 
 - title:  Weltschmerz by age
   desc:   "I am X years old and... [Google autocomplete]"
