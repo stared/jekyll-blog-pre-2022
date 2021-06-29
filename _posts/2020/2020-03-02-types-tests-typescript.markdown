@@ -67,7 +67,7 @@ Even in Python, the error happens in the runtime. Why not see it coming while wr
 
 I found that the overhead to use types in TypeScript is minimal (if any). When writing a new class, method or function, very often it is faster. Sure, I need to specify types of input and output. But then I get speedup due to autocompletion, hints, and linting if for any reason I make a mistake.
 
-Types give built-in testing — that a given function takes arguments of particular types. However, they also help greatly with the code readability. When seeing `changeVolume(volume: number)` you don’t need to guess if `id` is a number, string, boolean, `Volume` object, or Cthulhu-knows-what.
+Types give built-in testing — that a given function takes arguments of particular types. However, they also help greatly with the code readability. When seeing `changeVolume(volume: number)` you don’t need to guess if `volume` is a number, string, boolean, `Volume` object, or Cthulhu-knows-what.
 
 So, let’s start with a few lines of [Zen of Python](https://www.python.org/dev/peps/pep-0020/):
 
