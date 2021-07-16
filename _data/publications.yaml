@@ -1,3 +1,10 @@
+- authors: P. Migdał, B. Olechno, B. Podgórski
+  title:   "Level generation and style enhancement -- deep learning for game development overview"
+  journal: "submitted to the 52nd International Simulation and Gaming Association (ISAGA) Conference 2021"
+  link:    "https://arxiv.org/abs/2107.07397"
+  year:    2021
+  arXiv:   "2107.07397"
+
 - authors: P. Woźnicki, M. Kuźba, P. Migdał
   title:   "Modelling response to trypophobia trigger using intermediate layers of ImageNet networks"
   journal: "extended abstract submitted to Eastern European Machine Learning 2019"
@@ -82,6 +89,7 @@
 
 - authors: P. Migdał
   title:   "A mathematical model of the Mafia game"
+  link:    "https://arxiv.org/abs/1009.1031"
   journal: "eternal preprint"
   year:    2010
   arXiv:   "1009.1031"
