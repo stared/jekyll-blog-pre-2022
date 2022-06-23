@@ -1,9 +1,10 @@
 - authors: Piotr Migdał, Klementyna Jankiewicz, Paweł Grabarz, Chiara Decaroli, Philippe Cochin
   title:   "Visualizing quantum mechanics in an interactive simulation - Virtual Lab by Quantum Flytrap"
-  journal: "submitted to SPIE Optical Engineering Special Section"
+  journal: "Optical Engineering 61(8), 081808"
   link:    "https://arxiv.org/abs/2203.13300"
   year:    2022
   arXiv:   "2203.13300"
+  doi:     "10.1117/1.OE.61.8.081808"
 
 - authors: Zeki C. Seskir, Piotr Migdał, Carrie Weidner, Aditya Anupam, Nicky Case, Noah Davis, Chiara Decaroli, İlke Ercan, Caterina Foti, Paweł Gora, Klementyna Jankiewicz, Brian R. La Cour, Jorge Yago Malo, Azad Naeemi, Laurentiu Nita, Nassim Parvin, Fabio Scafirimuto, Jacob F. Sherson, Elif Surer, James Wootton, Lia Yeh, Olga Zabello, Marilù Chiofalo
   title:   "Quantum Games and Interactive Tools for Quantum Technologies Outreach and Education: A Review and Experiences from the Field"
