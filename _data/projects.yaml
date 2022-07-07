@@ -6,6 +6,15 @@
   tags:   [startup, quantum]
   status: my time and heart is here
 
+- title:  Virtual Lab by Quantum Flytrap
+  desc:   "An interactive simulation and visualization of quantum mechanics."
+  href:   https://lab.quantumflytrap.com
+  dateStart: 2019-08-26
+  dateEnd: 2022-02-23
+  tags:   [rust, typescript, quantum, simulation]
+  hn:     https://news.ycombinator.com/item?id=31968280
+  status: released
+
 - title:  bra-ket-vue
   desc:   "A Vue-based visualization of quantum states and operations. With Klem Jankiewicz."
   href:   https://github.com/Quantum-Game/bra-ket-vue
@@ -18,7 +27,7 @@
   desc:   "At Centre for Quantum Technologies. A puzzle game with photons, two photons. With Klem Jankiewicz, Philippe Cochin, Chiara Decaroli et al."
   href:   https://github.com/Quantum-Game/quantum-game-2
   dateStart: 2019-08-26
-  dateEnd:
+  dateEnd: 2020-10-28
   tags:   [javascript, quantum, game]
   status: evolved into Quantum Flytrap
 
