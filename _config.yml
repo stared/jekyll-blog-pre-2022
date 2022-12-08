@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Based in Warsaw, Poland.
   Active in gifted education, writing about stuff, and developing side projects.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://p.migdal.pl" # the base hostname & protocol for your site
+url: "https://p.migdal.pl/jekyll-blog-pre-2022" # the base hostname & protocol for your site
 usernames:
   twitter: pmigdal
   github:  stared
